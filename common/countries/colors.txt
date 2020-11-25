@@ -831,8 +831,8 @@ WAL = {
 	color_ui = rgb { 124 125 184 }
 }
 SCO = {
-	color = rgb { 36 132 247 }
-	color_ui = rgb { 47 172 255 }
+	color = rgb { 157 163 223 }
+	color_ui = rgb { 157 163 223 }
 }
 QUE = {
 	color = rgb { 20 47 128 }
