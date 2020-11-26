@@ -210,5 +210,5 @@ set_popularities = {
 	anarchism = 0
 }
 add_ideas = {
-  DNZ_Schrödinger's_city
+  DNZ_Schrodinger's_city
 }

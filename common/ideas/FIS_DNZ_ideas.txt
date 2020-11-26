@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		DNZ_Schrödinger's_city = {
+		DNZ_Schrodinger's_city = {
 			#picture =
 			
 			modifier = {
