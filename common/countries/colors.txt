@@ -22,6 +22,10 @@ PSY = {
 	color = rgb { 0 120 191 }
 	color_ui = rgb { 0 120 191 }
 }
+TRM = {
+	color = rgb { 163 163 163 }
+	color_ui = rgb { 163 163 163 }
+}
 #reload countrycolors
 ISR = {
 	color = rgb { 15 123 217 }
