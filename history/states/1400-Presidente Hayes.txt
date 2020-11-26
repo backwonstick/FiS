@@ -8,7 +8,7 @@ state={
 			14516 1
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 7
 
 		}
 		add_core_of = PAR
@@ -23,7 +23,7 @@ state={
 	provinces={
 		2195 2209 10973 14516 14518 
 	}
-	manpower=57217
-	buildings_max_level_factor=1.000
-	state_category=pastoral
+	manpower=557217
+	buildings_max_level_factor=8.000
+	state_category=city
 }

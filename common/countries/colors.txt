@@ -22,10 +22,12 @@ PSY = {
 	color = rgb { 0 120 191 }
 	color_ui = rgb { 0 120 191 }
 }
+
 TRM = {
 	color = rgb { 163 163 163 }
 	color_ui = rgb { 163 163 163 }
 }
+
 #reload countrycolors
 ISR = {
 	color = rgb { 15 123 217 }
@@ -835,8 +837,8 @@ WAL = {
 	color_ui = rgb { 124 125 184 }
 }
 SCO = {
-	color = rgb { 36 132 247 }
-	color_ui = rgb { 47 172 255 }
+	color = rgb { 157 163 223 }
+	color_ui = rgb { 157 163 223 }
 }
 QUE = {
 	color = rgb { 20 47 128 }
