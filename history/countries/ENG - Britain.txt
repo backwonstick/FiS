@@ -304,18 +304,6 @@
 	#######################
 	# Generals
 	#######################
-	create_corps_commander = {
-		name = "레나 '트레이서' 옥스턴"
-		picture = "Portrait_Tracer.tga"
-		desc = "ENG_TRACER_GENERAL_DESC"
-		traits = { brilliant_strategist invader commando reckless infantry_officer }
-		skill = 5
-		attack_skill = 5
-		defense_skill = 3
-		planning_skill = 3
-		logistics_skill = 4
-	}
-
 	create_field_marshal = {
 		name = "Alan Brooke"
 		picture = "M_Alan_Brooke.tga"
