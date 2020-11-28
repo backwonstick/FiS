@@ -18,7 +18,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Erwin Schrodinger"
+	name = "Erwin Schrödinger"
 	desc = "POLITICS_SCHRODINGER_DESC"
 	picture = "gfx/leaders/DNZ/portrait/Erwin_Schrodinger.tga"
 	expire = "1989.1.1"
@@ -29,7 +29,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Erwin Schrodinger"
+	name = "Erwin Schrödinger"
 	desc = "POLITICS_SCHRODINGER_DESC"
 	picture = "gfx/leaders/DNZ/portrait/Erwin_Schrodinger.tga"
 	expire = "1989.1.1"
@@ -40,7 +40,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Erwin Schrodinger"
+	name = "Erwin Schrödinger"
 	desc = "POLITICS_SCHRODINGER_DESC"
 	picture = "gfx/leaders/DNZ/portrait/Erwin_Schrodinger.tga"
 	expire = "1989.1.1"
@@ -51,7 +51,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Erwin Schrodinger"
+	name = "Erwin Schrödinger"
 	desc = "POLITICS_SCHRODINGER_DESC"
 	picture = "gfx/leaders/DNZ/portrait/Erwin_Schrodinger.tga"
 	expire = "1989.1.1"
@@ -62,7 +62,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Erwin Schrodinger"
+	name = "Erwin Schrödinger"
 	desc = "POLITICS_SCHRODINGER_DESC"
 	picture = "gfx/leaders/DNZ/portrait/Erwin_Schrodinger.tga"
 	expire = "1989.1.1"
@@ -73,7 +73,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Erwin Schrodinger"
+	name = "Erwin Schrödinger"
 	desc = "POLITICS_SCHRODINGER_DESC"
 	picture = "gfx/leaders/DNZ/portrait/Erwin_Schrodinger.tga"
 	expire = "1989.1.1"
@@ -84,7 +84,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Erwin Schrodinger"
+	name = "Erwin Schrödinger"
 	desc = "POLITICS_SCHRODINGER_DESC"
 	picture = "gfx/leaders/DNZ/portrait/Erwin_Schrodinger.tga"
 	expire = "1989.1.1"
@@ -95,7 +95,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Erwin Schrodinger"
+	name = "Erwin Schrödinger"
 	desc = "POLITICS_SCHRODINGER_DESC"
 	picture = "gfx/leaders/DNZ/portrait/Erwin_Schrodinger.tga"
 	expire = "1989.1.1"
@@ -106,7 +106,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Erwin Schrodinger"
+	name = "Erwin Schrödinger"
 	desc = "POLITICS_SCHRODINGER_DESC"
 	picture = "gfx/leaders/DNZ/portrait/Erwin_Schrodinger.tga"
 	expire = "1989.1.1"
@@ -117,7 +117,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Erwin Schrodinger"
+	name = "Erwin Schrödinger"
 	desc = "POLITICS_SCHRODINGER_DESC"
 	picture = "gfx/leaders/DNZ/portrait/Erwin_Schrodinger.tga"
 	expire = "1989.1.1"
@@ -128,7 +128,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Erwin Schrodinger"
+	name = "Erwin Schrödinger"
 	desc = "POLITICS_SCHRODINGER_DESC"
 	picture = "gfx/leaders/DNZ/portrait/Erwin_Schrodinger.tga"
 	expire = "1989.1.1"
@@ -139,7 +139,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Erwin Schrodinger"
+	name = "Erwin Schrödinger"
 	desc = "POLITICS_SCHRODINGER_DESC"
 	picture = "gfx/leaders/DNZ/portrait/Erwin_Schrodinger.tga"
 	expire = "1989.1.1"
@@ -150,7 +150,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Erwin Schrodinger"
+	name = "Erwin Schrödinger"
 	desc = "POLITICS_SCHRODINGER_DESC"
 	picture = "gfx/leaders/DNZ/portrait/Erwin_Schrodinger.tga"
 	expire = "1989.1.1"
@@ -161,7 +161,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Erwin Schrodinger"
+	name = "Erwin Schrödinger"
 	desc = "POLITICS_SCHRODINGER_DESC"
 	picture = "gfx/leaders/DNZ/portrait/Erwin_Schrodinger.tga"
 	expire = "1989.1.1"
@@ -172,7 +172,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Erwin Schrodinger"
+	name = "Erwin Schrödinger"
 	desc = "POLITICS_SCHRODINGER_DESC"
 	picture = "gfx/leaders/DNZ/portrait/Erwin_Schrodinger.tga"
 	expire = "1989.1.1"
@@ -183,7 +183,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Erwin Schrodinger"
+	name = "Erwin Schrödinger"
 	desc = "POLITICS_SCHRODINGER_DESC"
 	picture = "gfx/leaders/DNZ/portrait/Erwin_Schrodinger.tga"
 	expire = "1989.1.1"
@@ -208,4 +208,7 @@ set_popularities = {
 	burgundian_system = 0
 	blackdancism = 0
 	anarchism = 0
+}
+add_ideas = {
+  DNZ_Schrodinger's_city
 }

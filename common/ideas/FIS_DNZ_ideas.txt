@@ -1,0 +1,12 @@
+ideas = {
+	country = {
+		DNZ_Schrodinger's_city = {
+			#picture =
+			
+			modifier = {
+				stability_factor = -0.10
+			
+			}
+		}
+	}
+}
