@@ -33,6 +33,15 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+    #국가 정신#
+    GAK_military_government_ideas
+	GAK_tactical_dolls_ideas
+	GAK_Groza_mental_nomarl_ideas
+	GAK_side_effects_development_ideas
+	
+}
+
 create_country_leader = {
 	name = "Ots-14 'Groza'"
 	desc = "POLITICS_GROZA_DESC"
