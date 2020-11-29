@@ -7,7 +7,6 @@ ideas = {
     country = {
         GAK_military_government_ideas = { #그로자하의 독재군사정부
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_military_government_ideas"}
-			picture = GFX_idea_GAK_military_government_ideas
 			modifier = {
                 consumer_goods_factor = 0.05
                 stability_factor = -0.1
@@ -19,13 +18,11 @@ ideas = {
                 production_speed_arms_factory_factor = 0.2
                 production_speed_dockyard_factor = 0.1
                 production_speed_industrial_complex_factor = -0.1
-				
 			}
 		}
 
         GAK_tactical_dolls_ideas = { #전술인형
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_tactical_dolls_ideas"}
-			picture = GFX_idea_GAK_tactical_dolls_ideas
 			modifier = {
 				army_attack_factor = 0.1
 				army_defence_factor = 0.1
@@ -40,7 +37,6 @@ ideas = {
 
         GAK_Groza_mental_nomarl_ideas = { #그로자의 정신 상태 - 정상
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_Groza_mental_nomarl_ideas"}
-			picture = GFX_idea_GAK_tactical_dolls_ideas
 			modifier = {
 				stability_factor = 0.05
 			}
@@ -48,7 +44,6 @@ ideas = {
 
         GAK_side_effects_development_ideas = { #수도 집중개발의 부작용
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_side_effects_development_ideas"}
-			picture = GFX_idea_GAK_tactical_dolls_ideas
 			modifier = {
 				research_speed_factor = -0.15
                 production_factory_max_efficiency_factor = -0.1

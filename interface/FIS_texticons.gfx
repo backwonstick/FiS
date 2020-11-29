@@ -14,4 +14,9 @@ spriteTypes = {
 		texturefile = "gfx/texticons/GAK_ots_groza.tga"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_GAK_tac_doll"
+		texturefile = "gfx/texticons/GAK_tac_doll.tga"
+		legacy_lazy_load = no
+	}
 }
