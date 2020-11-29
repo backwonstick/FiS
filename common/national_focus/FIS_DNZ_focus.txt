@@ -1,0 +1,30 @@
+focus_tree = {
+	id = FIS_DNZ
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DNZ
+		}
+	}
+	default = no
+	focus = {
+		id = DNZ_lost_in_the_dimension
+		icon = GFX_goal_unknown
+		cost = 4.00
+		x = 7
+		y = 0
+
+	}
+	focus = {
+		id = DNZ_approach_to_another_world
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = DNZ_lost_in_the_dimension
+		}
+		x = 6
+		y = 1
+
+	}
+}
