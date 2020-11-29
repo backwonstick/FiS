@@ -23,6 +23,11 @@ PSY = {
 	color_ui = rgb { 0 120 191 }
 }
 
+RAS = {
+	color = rgb { 36 14 87 }
+	color_ui = rgb { 36 14 87 }
+}
+
 TRM = {
 	color = rgb { 163 163 163 }
 	color_ui = rgb { 163 163 163 }
