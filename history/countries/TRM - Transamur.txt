@@ -12,12 +12,22 @@ add_ideas = {
     TRM_failed_government
     TRM_failed_army
 }
-
 set_politics = {
 	ruling_party = authoritarian
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Aleksandr Kolchak"
+	desc = "POLITICS_KOL_DESC"
+	picture = "gfx/leaders/TRM/Kolchak.tga"
+	expire = "1989.1.1"
+	ideology = authoritarian
+	traits = {
+		KOL_Old_gurad
+	}
 }
 
 set_popularities = {
@@ -39,16 +49,7 @@ set_popularities = {
     burgundian_system = 0
 }
 
-create_country_leader = {
-	name = "Aleksandr Kolchak"
-	desc = "POLITICS_KOL_DESC"
-	picture = "gfx/leaders/TRM/Kolchak.tga"
-	expire = "1989.1.1"
-	ideology = authoritarian
-	traits = {
-		KOL_Old_gurad
-	}
-}
+
 
 ### Field Marshals ###
 create_field_marshal = {
