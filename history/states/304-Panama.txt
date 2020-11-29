@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = PAN
+		owner = SCO
 		victory_points = {
 			7630 5 
 		}
@@ -25,7 +25,7 @@ state={
 			}
 
 		}
-		add_core_of = PAN
+		add_core_of = SCO
 
 	}
 

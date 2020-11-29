@@ -119,7 +119,7 @@ NGK = "countries/Eastern European.txt"
 NOS = "countries/Eastern European.txt" 
 CRM = "countries/Eastern European.txt"
 KOS = "countries/Eastern European.txt"
-
+TRM = "countries/Eastern European.txt"
 
 #### African Countries
 ETH = "countries/African.txt"
@@ -322,3 +322,4 @@ BLZ = "countries/South American.txt"
 ###FIS###
 
 PSY = "countries/Asian.txt"
+GAK = "countries/Western European.txt"

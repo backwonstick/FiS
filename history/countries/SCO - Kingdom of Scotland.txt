@@ -1,0 +1,48 @@
+﻿capital = 304
+
+
+
+set_research_slots = 1
+set_stability = 0.25
+set_war_support = 0.5
+
+
+add_ideas = {
+	
+}
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1900.1.1"
+	election_frequency = 42
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = ""
+	desc = ""
+	picture = ""
+	expire = "1989.1.1"
+	ideology = conservatism
+	traits = {
+
+	}
+
+}
+set_popularities = {
+	accelerationism = 100
+	jucheism = 0
+	authoritarian_communism = 0
+	communism = 0
+	liberal_socialism = 0
+	social_democrat = 0
+	liberal_democrat = 0
+	social_liberal = 0
+	conservatism = 0
+	authoritarian = 0
+	nationalism = 0
+	corporatocrat = 0
+	fascism = 0
+	burgundian_system = 0
+	blackdancism = 0
+	anarchism = 0
+}
