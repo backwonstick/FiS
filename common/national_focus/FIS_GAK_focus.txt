@@ -15,7 +15,7 @@ focus_tree = {
 
 focus = {
 	id = GAK_groza_thinking
-	icon = GFX
+	icon = GFX_focus_prc_infiltration
 	x = 12
 	y = 0
 	cost = 0.5
@@ -36,7 +36,7 @@ focus = {
 
 focus = {
 	id = GAK_is_this_ok
-	icon = GFX
+	icon = GFX_goal_GAK_is_this_ok
     prerequisite = {
 		focus = GAK_groza_thinking
 	}
@@ -60,7 +60,7 @@ focus = {
 
 focus = {
 	id = GAK_awful_hawaii
-	icon = GFX
+	icon = GFX_goal_GAK_awful_hawaii
     prerequisite = {
 		focus = GAK_groza_thinking
 	}
@@ -84,7 +84,7 @@ focus = {
 
 focus = {
 	id = GAK_so_how_to_we_do
-	icon = GFX
+	icon = GFX_focus_eng_concessions_to_the_trade_unions
     prerequisite = {
 		focus = GAK_groza_thinking
 	}
@@ -159,7 +159,7 @@ focus = {
 
 focus = {
 	id = GAK_when_i_wake_up_in_isekai_sablin
-	icon = GFX
+	icon = GFX_goal_GAK_when_i_wake_up_in_isekai_sablin
     prerequisite = {
 		focus = GAK_so_how_to_we_do
 	}
