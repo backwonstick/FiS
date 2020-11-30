@@ -66,6 +66,7 @@ SSB = "countries/Reichskommissariat.txt"
 SSP = "countries/Reichskommissariat.txt"
 
 #### Eastern European Countries
+TRM = "countries/Eastern European.txt"
 DAC = "countries/Western European.txt"
 SOV = "countries/Eastern European.txt"
 CZE	= "countries/Eastern European.txt"
@@ -117,7 +118,7 @@ NGK = "countries/Eastern European.txt"
 NOS = "countries/Eastern European.txt" 
 CRM = "countries/Eastern European.txt"
 KOS = "countries/Eastern European.txt"
-TRM = "countries/Eastern European.txt"
+
 
 #### African Countries
 ETH = "countries/African.txt"
