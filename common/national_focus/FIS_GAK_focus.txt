@@ -134,7 +134,7 @@ focus = {
 
 focus = {
 	id = GAK_order_by_groza
-	icon = GFX
+	icon = GFX_goal_GAK_order_by_groza
     prerequisite = {
 		focus = GAK_so_how_to_we_do
 	}
@@ -184,7 +184,7 @@ focus = {
 
 focus = {
 	id = GAK_mosin_nagant_control_island
-	icon = GFX
+	icon = GFX_goal_GAK_mosin_nagant_control_island
     prerequisite = {
 		focus = GAK_so_how_to_we_do
 	}
@@ -209,7 +209,7 @@ focus = {
 
 focus = {
 	id = GAK_groza_fail_we_coup
-	icon = GFX
+	icon = GFX_goal_GAK_groza_fail_we_coup
     prerequisite = {
 		focus = GAK_so_how_to_we_do
 	}
@@ -234,7 +234,7 @@ focus = {
 
 focus = {
 	id = GAK_g36_success_again
-	icon = GFX
+	icon = GFX_goal_GAK_g36_success_again
     prerequisite = {
 		focus = GAK_so_how_to_we_do
 	}
