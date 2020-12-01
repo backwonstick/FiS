@@ -138,6 +138,9 @@ focus = {
     prerequisite = {
 		focus = GAK_so_how_to_we_do
 	}
+	available = {
+		has_country_flag = hawaii_order_by_groza		
+	}
 	x = 8
 	y = 4
 	cost = 0.1
@@ -162,6 +165,9 @@ focus = {
 	icon = GFX_goal_GAK_when_i_wake_up_in_isekai_sablin
     prerequisite = {
 		focus = GAK_so_how_to_we_do
+	}
+	available = {
+		has_country_flag = hawaii_control_sablin		
 	}
 	x = 10
 	y = 5
@@ -188,6 +194,9 @@ focus = {
     prerequisite = {
 		focus = GAK_so_how_to_we_do
 	}
+	available = {
+		has_country_flag = hawaii_control_mosin_nagant		
+	}
 	x = 12
 	y = 4
 	cost = 0.1
@@ -213,6 +222,9 @@ focus = {
     prerequisite = {
 		focus = GAK_so_how_to_we_do
 	}
+	available = {
+		has_country_flag = hawaii_control_kar98		
+	}
 	x = 14
 	y = 5
 	cost = 0.1
@@ -237,6 +249,9 @@ focus = {
 	icon = GFX_goal_GAK_g36_success_again
     prerequisite = {
 		focus = GAK_so_how_to_we_do
+	}
+	available = {
+		has_country_flag = hawaii_control_g36		
 	}
 	x = 16
 	y = 4
