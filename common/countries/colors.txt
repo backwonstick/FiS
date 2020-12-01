@@ -127,8 +127,8 @@ GER = {
 	color_ui = rgb { 138 155 116 }
 }
 ENG = {
-	color = rgb { 190 0 10 }
-	color_ui = rgb { 190 0 10 }
+	color = rgb { 100 20 20 }
+	color_ui = rgb { 100 20 20 }
 }
 SOV = {
 	#color = rgb { 125 13 24 }
@@ -144,8 +144,8 @@ SWE = {
 	color_ui = rgb { 47 172 255 }
 }
 FRA = {
-	color = rgb { 2 100 191 }
-	color_ui = rgb { 0 40 190 }
+	color = rgb {  0  18  93 }
+	color_ui = rgb {  0  18  93 }
 }
 LUX = {
 	color = rgb { 65 175 179 }
