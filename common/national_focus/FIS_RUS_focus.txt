@@ -1,0 +1,13 @@
+focus_tree = {
+	id = FIS_RUS
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RUS
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 30 y = 4000 }
+	shared_focus = RUS_regent
+}

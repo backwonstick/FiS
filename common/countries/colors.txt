@@ -33,6 +33,10 @@ TRM = {
 	color_ui = rgb { 163 163 163 }
 }
 
+RUS = {
+	color = rgb { 67 38 68 }
+	color_ui = rgb { 67 38 68 }
+}
 #reload countrycolors
 ISR = {
 	color = rgb { 15 123 217 }

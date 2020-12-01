@@ -1,0 +1,19 @@
+defined_text = {
+	name = GetRUSFocus_rus_regent
+	text = {
+		trigger = {
+			RUS = {
+				is_ai = no
+			}
+		}
+		localization_key = RUS_regent_text
+	}
+	text = {
+		trigger = {
+			BRG = {
+				is_ai = yes
+			}
+		}
+		localization_key = RUS_madness
+	}
+}
