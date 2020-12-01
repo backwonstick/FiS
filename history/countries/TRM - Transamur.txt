@@ -1,7 +1,7 @@
-﻿capital = 408
+capital = 408
 
 oob = "TRM"
-set_naval_oob= "TRM_naval"
+
 
 set_stability = 0.5
 set_war_support = 0.55
@@ -12,22 +12,12 @@ add_ideas = {
     TRM_failed_government
     TRM_failed_army
 }
+
 set_politics = {
 	ruling_party = authoritarian
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Aleksandr Kolchak"
-	desc = "POLITICS_KOL_DESC"
-	picture = "gfx/leaders/TRM/Kolchak.tga"
-	expire = "1989.1.1"
-	ideology = authoritarian
-	traits = {
-		KOL_Old_gurad
-	}
 }
 
 set_popularities = {
@@ -49,9 +39,14 @@ set_popularities = {
     burgundian_system = 0
 }
 
+create_country_leader = {
+	name = "Alexander Kolchak"
+	desc = "POLITICS_GROZA_DESC"
+	picture = "gfx/leaders/TRM/Kolchak.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_subtype
+}
 
-
-### Field Marshals ###
 create_field_marshal = {
 	name = "Kamarov"
 	portrait_path = "gfx/leaders/TRM/Kamarov.tga"
@@ -66,21 +61,6 @@ create_field_marshal = {
 	logistics_skill = 2
 }
 
-create_field_marshal = {
-	name = "Grigoriy Semyenov"
-	portrait_path = "gfx/leaders/TRM/Portrait_TRM_Grigory_Semyonov.tga"
-	traits = {
-		defensive_doctrine
-		cavalry_leader
-	}
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-### Corps Commanders ###
 create_corps_commander = {
 	name = "Yuri"
 	portrait_path = "gfx/leaders/TRM/Yuri.tga"
@@ -92,104 +72,4 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 
-create_corps_commander = {
-	name = "Mikhail Khanzhin"
-	portrait_path = "gfx/leaders/TRM/TRM_RAN_GEN.tga"
-	traits = {
-		old_guard
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
 
-create_corps_commander = {
-	name = "Dmitriy Semyenov"
-	portrait_path = "gfx/leaders/TRM/Portrait_TRM_Dmitriy_Semyenov.tga"
-	traits = {
-		organizer
-	}
-	skill = 2
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Vladimir Tolstov"
-	portrait_path = "gfx/leaders/TRM/Portrait_TRM_Vladimir_Tolstov.tga"
-	traits = { }
-	skill = 2
-	attack_skill = 3
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Leonid Skipetrov"
-	portrait_path = "gfx/leaders/TRM/Portrait_TRM_Leonid_Skipetrov.tga"
-	traits = {
-		commando
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Vasiliy Boldyrev"
-	portrait_path = "gfx/leaders/TRM/Portrait_TRM_Vasiliy_Boldyrev.tga"
-	traits = { }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Aleksandr Kolchak"
-	id = 50000
-	portrait_path = "gfx/leaders/TRM/Portrait_TRM_Aleksandr_Kolchak.tga"
-	traits = {
-		media_personality
-		politically_connected
-	}
-	skill = 4
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-### Admirals ###
-create_navy_leader = {
-	name = "Georgiy Stark"
-	portrait_path = "gfx/leaders/TRM/Portrait_TRM_Georgiy_Stark.tga"
-	traits = { }
-	skill = 3
-	maneuvering_skill = 2
-	defense_skill = 3
-	attack_skill = 3
-	coordination_skill = 2
-}
-
-create_navy_leader = {
-	name = "Aleksandr Kolchak"
-	id = 50001
-	portrait_path = "gfx/leaders/TRM/Portrait_TRM_Aleksandr_Kolchak.tga"
-	traits = {
-		superior_tactician
-	}
-	skill = 4
-	maneuvering_skill = 3
-	defense_skill = 3
-	attack_skill = 4
-	coordination_skill = 3
-}

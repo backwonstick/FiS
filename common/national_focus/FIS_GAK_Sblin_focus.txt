@@ -1,0 +1,10 @@
+focus_tree = {
+	id = FIS_sablin_control
+
+	country = {
+		factor = 0
+	}
+
+    default = no
+	continuous_focus_position = { x = 3000 y = 700 }
+}

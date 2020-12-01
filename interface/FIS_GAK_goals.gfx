@@ -1,0 +1,32 @@
+spriteTypes = {	
+    SpriteType = {
+		name = "GFX_goal_GAK_is_this_ok"
+		texturefile = "gfx/interface/goals/GAK/generic_seize_money.tga"			
+	}
+    SpriteType = {
+		name = "GFX_goal_GAK_awful_hawaii"
+		texturefile = "gfx/interface/goals/GAK/GAK_broken_safe.tga"			
+	}
+    SpriteType = {
+		name = "GFX_goal_GAK_when_i_wake_up_in_isekai_sablin"
+		texturefile = "gfx/interface/goals/GAK/GAK_sablin_focus_icon.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GAK_order_by_groza"
+		texturefile = "gfx/interface/goals/GAK/GAK_groza_focus_icon.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GAK_mosin_nagant_control_island"
+		texturefile = "gfx/interface/goals/GAK/GAK_mosin_nagant_focus_icon.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_groza_fail_we_coup"
+		texturefile = "gfx/interface/goals/GAK/GAK_kar98_focus_icon.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_g36_success_again"
+		texturefile = "gfx/interface/goals/GAK/GAK_G36_focus_icon.tga"			
+	}
+}

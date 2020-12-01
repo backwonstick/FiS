@@ -8,13 +8,14 @@ ideas = {
                 war_support_factor = -0.10
 			}
 		}
+	}
 	 country = {
         TRM_failed_army = { #무능한 군대
 			
 			modifier = {
                 army_org_factor = -0.20
-                army_morale_factor = -0.5
-                army_attack_factor = -0.5
+                army_morale_factor = -0.15
+                army_attack_factor = -0.15
 			}
 		}
 	}
