@@ -12,7 +12,7 @@ add_ideas = {
 }
 set_politics = {
 	ruling_party = accelerationism
-	last_election = "1950.5.5"
+	last_election = "2012.7.15"
 	election_frequency = 42
 	elections_allowed = no
 }
@@ -20,172 +20,172 @@ set_politics = {
 create_country_leader = {
 	name = "Grigori Rasputin"
 	desc = "POLITICS_Rasputin_DESC"
-	picture = "gfx/leaders/DNZ/portrait/Grigori_Rasputin.tga"
+	picture = "gfx/leaders/RAS/portrait/Portrait_Rasputin.tga"
 	expire = "1989.1.1"
 	ideology = national_rejuvenatism
 	traits = {
-	
+		
 	}
 }
 
 create_country_leader = {
 	name = "Grigori Rasputin"
 	desc = "POLITICS_Rasputin_DESC"
-	picture = "gfx/leaders/DNZ/portrait/Grigori_Rasputin.tga"
+	picture = "gfx/leaders/RAS/portrait/Portrait_Rasputin.tga"
 	expire = "1989.1.1"
 	ideology = jucheism_subtype
 	traits = {
-	
+		
 	}
 }
 
 create_country_leader = {
 	name = "Grigori Rasputin"
 	desc = "POLITICS_Rasputin_DESC"
-	picture = "gfx/leaders/DNZ/portrait/Grigori_Rasputin.tga"
+	picture = "gfx/leaders/RAS/portrait/Portrait_Rasputin.tga"
 	expire = "1989.1.1"
 	ideology = authoritarian_communism_subtype
 	traits = {
-	
+		
 	}
 }
 
 create_country_leader = {
 	name = "Grigori Rasputin"
 	desc = "POLITICS_Rasputin_DESC"
-	picture = "gfx/leaders/DNZ/portrait/Grigori_Rasputin.tga"
+	picture = "gfx/leaders/RAS/portrait/Portrait_Rasputin.tga"
 	expire = "1989.1.1"
 	ideology = communism_subtype
 	traits = {
-	
+		
 	}
 }
 
 create_country_leader = {
 	name = "Grigori Rasputin"
 	desc = "POLITICS_Rasputin_DESC"
-	picture = "gfx/leaders/DNZ/portrait/Grigori_Rasputin.tga"
+	picture = "gfx/leaders/RAS/portrait/Portrait_Rasputin.tga"
 	expire = "1989.1.1"
 	ideology = liberal_socialism_subtype
 	traits = {
-
+		
 	}
 }
 
 create_country_leader = {
 	name = "Grigori Rasputin"
 	desc = "POLITICS_Rasputin_DESC"
-	picture = "gfx/leaders/DNZ/portrait/Grigori_Rasputin.tga"
+	picture = "gfx/leaders/RAS/portrait/Portrait_Rasputin.tga"
 	expire = "1989.1.1"
 	ideology = blackdancism_subtype
 	traits = {
-	
+		
 	}
 }
 
 create_country_leader = {
 	name = "Grigori Rasputin"
 	desc = "POLITICS_Rasputin_DESC"
-	picture = "gfx/leaders/DNZ/portrait/Grigori_Rasputin.tga"
+	picture = "gfx/leaders/RAS/portrait/Portrait_Rasputin.tga"
 	expire = "1989.1.1"
 	ideology = social_democrat_subtype
 	traits = {
-	
+		
 	}
 }
 
 create_country_leader = {
 	name = "Grigori Rasputin"
 	desc = "POLITICS_Rasputin_DESC"
-	picture = "gfx/leaders/DNZ/portrait/Grigori_Rasputin.tga"
+	picture = "gfx/leaders/RAS/portrait/Portrait_Rasputin.tga"
 	expire = "1989.1.1"
 	ideology = liberal_democrat_subtype
 	traits = {
-	
+		
 	}
 }
 
 create_country_leader = {
 	name = "Grigori Rasputin"
 	desc = "POLITICS_Rasputin_DESC"
-	picture = "gfx/leaders/DNZ/portrait/Grigori_Rasputin.tga"
+	picture = "gfx/leaders/RAS/portrait/Portrait_Rasputin.tga"
 	expire = "1989.1.1"
 	ideology = social_liberal_subtype
 	traits = {
-	
+		
 	}
 }
 
 create_country_leader = {
 	name = "Grigori Rasputin"
 	desc = "POLITICS_Rasputin_DESC"
-	picture = "gfx/leaders/DNZ/portrait/Grigori_Rasputin.tga"
+	picture = "gfx/leaders/RAS/portrait/Portrait_Rasputin.tga"
 	expire = "1989.1.1"
 	ideology = conservatism_subtype
 	traits = {
-
+		
 	}
 }
 
 create_country_leader = {
 	name = "Grigori Rasputin"
 	desc = "POLITICS_Rasputin_DESC"
-	picture = "gfx/leaders/DNZ/portrait/Grigori_Rasputin.tga"
+	picture = "gfx/leaders/RAS/portrait/Portrait_Rasputin.tga"
 	expire = "1989.1.1"
 	ideology = authoritarian_subtype
 	traits = {
-	
+		
 	}
 }
 
 create_country_leader = {
 	name = "Grigori Rasputin"
 	desc = "POLITICS_Rasputin_DESC"
-	picture = "gfx/leaders/DNZ/portrait/Grigori_Rasputin.tga"
+	picture = "gfx/leaders/RAS/portrait/Portrait_Rasputin.tga"
 	expire = "1989.1.1"
 	ideology = nationalism_subtype
 	traits = {
-	
+		
 	}
 }
 
 create_country_leader = {
 	name = "Grigori Rasputin"
 	desc = "POLITICS_Rasputin_DESC"
-	picture = "gfx/leaders/DNZ/portrait/Grigori_Rasputin.tga"
+	picture = "gfx/leaders/RAS/portrait/Portrait_Rasputin.tga"
 	expire = "1989.1.1"
 	ideology = corporatocrat_subtype
 	traits = {
-	
+		
 	}
 }
 
 create_country_leader = {
 	name = "Grigori Rasputin"
 	desc = "POLITICS_Rasputin_DESC"
-	picture = "gfx/leaders/DNZ/portrait/Grigori_Rasputin.tga"
+	picture = "gfx/leaders/RAS/portrait/Portrait_Rasputin.tga"
 	expire = "1989.1.1"
 	ideology = fascism_subtype
 	traits = {
-	
+		
 	}
 }
 
 create_country_leader = {
 	name = "Grigori Rasputin"
 	desc = "POLITICS_Rasputin_DESC"
-	picture = "gfx/leaders/DNZ/portrait/Grigori_Rasputin.tga"
+	picture = "gfx/leaders/RAS/portrait/Portrait_Rasputin.tga"
 	expire = "1989.1.1"
 	ideology = burgundian_system_subtype
 	traits = {
-	
+		
 	}
 }
 
 create_country_leader = {
 	name = "Grigori Rasputin"
 	desc = "POLITICS_Rasputin_DESC"
-	picture = "gfx/leaders/DNZ/portrait/Grigori_Rasputin.tga"
+	picture = "gfx/leaders/RAS/portrait/Portrait_Rasputin.tga"
 	expire = "1989.1.1"
 	ideology = anarchism_subtype
 	traits = {
@@ -208,7 +208,4 @@ set_popularities = {
 	burgundian_system = 0
 	blackdancism = 0
 	anarchism = 0
-}
-add_ideas = {
-  DNZ_Schrodinger's_city
 }
