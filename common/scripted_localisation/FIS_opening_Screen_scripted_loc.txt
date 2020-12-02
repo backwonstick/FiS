@@ -145,7 +145,6 @@ defined_text = {
 
 defined_text = {
 	name = GET_POSTER
-	#Iberia
 	text = {
 		trigger = { tag = GAK }
 		localization_key = "GFX_TNO_OpeningScreen_Poster_Hawaii"
