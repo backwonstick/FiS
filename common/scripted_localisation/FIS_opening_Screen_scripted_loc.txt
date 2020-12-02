@@ -4,7 +4,7 @@ defined_text = {
 	##하와이
 	text = {
 		trigger = { tag = GAK }
-		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_KIR
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_GAK
 	}
 }
 
