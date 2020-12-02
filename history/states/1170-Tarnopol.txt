@@ -3,7 +3,7 @@ state={
 	name="STATE_1170"
 	
 	history={
-		owner = POL
+		owner = AST
 		victory_points = {
 	        3483 2
 		}
@@ -12,27 +12,8 @@ state={
 			industrial_complex = 1
 
 		}
-		add_core_of = POL
+		add_core_of = CZE
 		add_core_of = UKR
-		1940.5.10 = {
-			owner = SOV
-			set_state_name = Ternopil
-			set_province_name = { id = 3482 name = "Ternopil" }
-
-		}
-		1942.11.22 = {
-			controller = GGP
-
-		}
-		1945.1.1 = {
-			controller = SOV
-		}
-		2000.1.1 = {
-			owner = UKR
-			controller = UKR
-			remove_core_of = SOV
-		}
-
 	}
 	
 	provinces={

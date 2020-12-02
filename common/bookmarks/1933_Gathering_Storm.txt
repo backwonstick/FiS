@@ -7,17 +7,6 @@ bookmarks = {
 		default_country = "GER"
 		default = yes
 		
-		"FRA"={
-			history = "FRA_1933_desc"
-			ideology = democratic
-			ideas = {
-				FRA_The_Republic_in_Danger
-				FRA_Politicized_Staff
-			}
-			focuses = {
-				
-			}
-		}
 		"USA"={
 			history = "USA_1933_desc"
 			ideology = democratic
@@ -44,6 +33,18 @@ bookmarks = {
 			}
 		}
 		
+		"FRA"={
+			history = "FRA_1933_desc"
+			ideology = democratic
+			ideas = {
+				FRA_The_Republic_in_Danger
+				FRA_Politicized_Staff
+			}
+			focuses = {
+				
+			}
+		}
+		
 		"GER"={
 			history = "GER_1933_desc"
 			ideology = authoritarian
@@ -56,16 +57,13 @@ bookmarks = {
 				
 			}
 		}
-		"ITA"={
-			history = "ITA_1933_desc"
-			ideology = fascist
+		"CAN"={
+			history = "CAN_1933_desc"
+			ideology = democratic
 			ideas = {
-				vittoria_mutilata
-				victor_emmanuel
+				CAN_Conscription_Crisis_among_French_Canadians
 			}
-			focuses = {
-				
-			}
+			focuses = {}
 		}
 		"JAP"={
 			history = "JAP_1933_desc"
@@ -209,6 +207,18 @@ bookmarks = {
 			}
 			focuses = {}
 		}
+		"ITA"={
+			minor = yes
+			history = "ITA_1933_desc"
+			ideology = fascist
+			ideas = {
+				vittoria_mutilata
+				victor_emmanuel
+			}
+			focuses = {
+				
+			}
+		}
 		"FIN"={
 			minor = yes
 			history = "FIN_1933_desc"
@@ -272,15 +282,6 @@ bookmarks = {
 				ETH_Stain_of_Slavery
 				ETH_Illiteracy_Problem
 				ETH_Pre_Industrial_Society				
-			}
-			focuses = {}
-		}
-		"CAN"={
-			minor = yes
-			history = "CAN_1933_desc"
-			ideology = democratic
-			ideas = {
-				CAN_Conscription_Crisis_among_French_Canadians
 			}
 			focuses = {}
 		}

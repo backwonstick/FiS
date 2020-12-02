@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = POL
+		owner = GER
 		victory_points = {
 			6464 3
 		}
@@ -16,19 +16,7 @@ state={
 			industrial_complex = 2
 
 		}
-		add_core_of = POL
-		1940.5.10 = {
-			owner = GER
-			controller = GER
-		}
-		1944.6.20 = {
-			owner = POL
-			controller = GER
-		}
-		1946.1.1 = {
-			owner = POL
-			controller = POL
-		}
+		add_core_of = GER
 	}
 
 	provinces={

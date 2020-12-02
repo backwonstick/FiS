@@ -8,17 +8,7 @@ state={
 	}
 
 	history={
-		owner = HUN
-		1945.1.1 = {
-			controller = SOV
-			HUN = {
-				set_province_controller = 9660
-			}
-		}
-		1946.1.1 = {
-			owner = HUN
-			controller = HUN
-		}
+		owner = AST
 		buildings = {
 			infrastructure = 6
 			arms_factory = 3

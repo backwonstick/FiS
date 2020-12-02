@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = YUG
+		owner = AST
 		victory_points = {
 			11581 5 
 		}
@@ -24,19 +24,6 @@ state={
 		}
 		add_core_of = YUG
 		add_core_of = CRO
-		1941.6.22 = {
-			owner = CRO
-
-		}
-		1946.1.1 = {
-			owner = YUG
-
-		}
-		2000.1.1 = {
-			owner = CRO
-			remove_core_of = YUG
-
-		}
 
 	}
 

@@ -3,8 +3,9 @@ state={
 	name="STATE_1083"
 	
 	history={
-		owner = DEN
-		add_core_of = DEN
+		owner = AUS
+		add_core_of = AUS
+		add_claim_by = DEN
 		victory_points = {
 			6361 1
 		}
@@ -14,14 +15,6 @@ state={
 				naval_base = 1
 
 			}
-
-		}
-		1946.1.1 = {
-			owner = SOV
-
-		}
-		1950.1.1 = {
-			owner = DEN
 
 		}
 

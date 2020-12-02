@@ -3,7 +3,7 @@ state={
 	name="STATE_1040"
 	
 	history={
-		owner = SWI
+		owner = ITA
 		buildings = {
 			infrastructure = 3
 
@@ -13,7 +13,7 @@ state={
 	}
 	
 	provinces={
-		636 9587 
+		636 9587 13368
 	}
 	manpower=26911
 	buildings_max_level_factor=1.000

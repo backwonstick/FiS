@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = POL
+		owner = AST
 		victory_points = {
 			11479 5 
 		}
@@ -18,28 +18,8 @@ state={
 			air_base = 5
 
 		}
-		add_core_of = POL
+		add_core_of = CZE
 		add_core_of = UKR
-		1940.5.10 = {
-			owner = SOV
-			set_state_name = Lviv
-			set_province_name = {
-				id = 11479
-				name = Lviv
-			}
-		}
-		1942.11.22 = {
-			controller = GGP
-
-		}
-		1945.1.1 = {
-			controller = SOV
-		}
-		2000.1.1 = {
-			owner = UKR
-			controller = UKR
-			remove_core_of = SOV
-		}
 	}
 
 	provinces={
