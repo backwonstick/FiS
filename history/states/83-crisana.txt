@@ -11,7 +11,7 @@ state={
 	state_category = town
 
 	history={
-		owner = DAC
+		owner = AST
 		victory_points = {
 			6682 2
 		}

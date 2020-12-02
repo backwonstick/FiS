@@ -4,4 +4,8 @@ spriteTypes = {
 		name = "GFX_TNO_OpeningScreen_Poster_Hawaii"
 		textureFile = "gfx/interface/opening_screen/poster/FIS_GAK_OPENING_POSTER.tga"
 	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_France"
+		textureFile = "gfx/interface/opening_screen/poster/FIS_FRA_OPENING_POSTER.tga"
+	}
 }

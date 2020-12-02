@@ -3,7 +3,7 @@ state={
 	name="STATE_1038"
 	
 	history={
-		owner = SWI
+		owner = ITA
 		victory_points = {
 			658 2
 		}
@@ -16,7 +16,7 @@ state={
 	}
 	
 	provinces={
-		658 3660 3662 13367 
+		661 11601 13369 658 3660 3662 13367 
 	}
 	manpower=198379
 	buildings_max_level_factor=1.000

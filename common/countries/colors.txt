@@ -127,8 +127,8 @@ GER = {
 	color_ui = rgb { 138 155 116 }
 }
 ENG = {
-	color = rgb { 190 0 10 }
-	color_ui = rgb { 190 0 10 }
+	color = rgb { 160 20 20 }
+	color_ui = rgb { 160 20 20 }
 }
 SOV = {
 	#color = rgb { 125 13 24 }
@@ -140,12 +140,12 @@ MAH = {
 	color_ui = rgb { 30 140 247 }	
 }
 SWE = {
-	color = rgb { 16 129 229 }
-	color_ui = rgb { 47 172 255 }
+	color = rgb { 164 187 187 }
+	color_ui = rgb { 240 243 243 }
 }
 FRA = {
-	color = rgb { 2 100 191 }
-	color_ui = rgb { 0 40 190 }
+	color = rgb {  0  18  93 }
+	color_ui = rgb {  0  18  93 }
 }
 LUX = {
 	color = rgb { 65 175 179 }
@@ -211,8 +211,7 @@ SPR = {
 	color_ui = rgb { 255 255 122 }
 }
 ITA = {
-	color = rgb { 0 146 70 }
-	# color = rgb { 67 127 63 }
+	color = rgb { 67 127 63 }
 	color_ui = rgb { 87 165 82 }
 }
 ROM = {
@@ -422,8 +421,8 @@ ARG = {
 	color_ui = rgb { 189 204 255 }
 }
 AST = {
-	color = rgb { 57 143 97 }
-	color_ui = rgb { 74 186 126 }
+	color = rgb { 165 143 97 }
+	color_ui = rgb { 200 186 126 }
 }
 BHU = {
 	color = rgb { 172 122 88 }

@@ -3,7 +3,7 @@ state={
 	name="STATE_1452"
 
 	history={
-		owner = YUG
+		owner = AST
 		victory_points = {
 			14672 1
 		}
@@ -13,19 +13,6 @@ state={
 		}
 		add_core_of = YUG
 		add_core_of = CRO
-		1941.6.22 = {
-			owner = CRO
-
-		}
-		1946.1.1 = {
-			owner = YUG
-
-		}
-		2000.1.1 = {
-			owner = CRO
-			remove_core_of = YUG
-
-		}
 	}
 
 	provinces={

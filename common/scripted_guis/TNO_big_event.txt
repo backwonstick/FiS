@@ -1,0 +1,26 @@
+scripted_gui = {
+
+	FIS_SG_GAK_order_by_groza = {
+		context_type = player_context
+		window_name = "FIS_SG_GAK_order_by_groza"
+
+		visible = {
+			has_country_flag = se_order_by_groza
+		}
+	}
+
+	FIS_SG_GAK_order_by_groza_frame = {
+		context_type = player_context
+		window_name = "FIS_SG_GAK_order_by_groza_frame"
+
+		visible = {
+			has_country_flag = se_order_by_groza
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = se_order_by_groza
+			}
+		}
+	}
+}

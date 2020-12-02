@@ -4,7 +4,7 @@ state={
 	name="STATE_153"
 
 	history={
-		owner = AUS
+		owner = AST
 		victory_points = {
 			11618 5 
 		}
@@ -15,20 +15,6 @@ state={
 
 		}
 		add_core_of = AUS
-		1938.3.12 = {
-			owner = GER
-			add_core_of = GER
-
-		}
-		1946.1.1 = {
-			owner = FRA
-			remove_core_of = GER
-
-		}
-		1956.1.1 = {
-			owner = AUS
-
-		}
 
 	}
 

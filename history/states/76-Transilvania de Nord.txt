@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = DAC
+		owner = AST
 		victory_points = {
 			6711 5 
 		}
