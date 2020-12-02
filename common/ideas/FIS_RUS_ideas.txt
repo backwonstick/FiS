@@ -1,0 +1,47 @@
+ideas = {
+	country = {
+		RUS_syvtyvkartsi = {
+			picture = RUS_syvtyvkar
+			#always = { no }
+			modifier = {
+			    stability_factor = -0.15
+			    army_org_factor = 0.025
+				drift_defence_factor = -0.25
+			    war_support_factor = 0.20
+				political_power_gain = 0.2
+			}
+		}
+		
+		RUS_syvtyvkartsi2 = {
+			picture = RUS_syvtyvkar
+			#always = { no }
+			modifier = {
+			    stability_factor = -0.3
+			    army_org_factor = 0.03
+				drift_defence_factor = -0.25
+			    war_support_factor = 0.60
+				political_power_gain = 0.5
+			}
+		}
+		
+		RUS_taboritsky = {
+			#picture = 
+			#always = { no }
+			modifier = {
+				stability_factor = -0.10
+				burgundian_system_drift = 0.03
+				MONTHLY_POPULATION = -0.35
+				drift_defence_factor = 0.3
+			}
+		}
+		
+		RUS_facility = {
+			#picture = 
+			#always = { no }
+			modifier = {
+				research_speed_factor = 0.05
+				war_support_factor = 0.35
+			}
+		}
+	}
+}	

@@ -1,21 +1,27 @@
 spriteTypes = {
+	#GAK
     spriteType = {
 		name = "GFX_idea_GAK_military_government_ideas"
-		texturefile = ""gfx/interface/ideas/GAK/ideas/GAK_military_government.tga"
+		texturefile = "gfx/interface/ideas/GAK/ideas/GAK_military_government.tga"
 	}
 
     spriteType = {
 		name = "GFX_idea_GAK_tactical_dolls_ideas"
-		texturefile = ""gfx/interface/ideas/GAK/ideas/GAK_chibi_tac_doll.tga"
+		texturefile = "gfx/interface/ideas/GAK/ideas/GAK_chibi_tac_doll.tga"
 	}
 
     spriteType = {
 		name = "GFX_idea_GAK_Groza_mental_nomarl_ideas"
-		texturefile = ""gfx/interface/ideas/GAK/ideas/GAK_groza_mental_normal.tga"
+		texturefile = "gfx/interface/ideas/GAK/ideas/GAK_groza_mental_normal.tga"
 	}
 
     spriteType = {
 		name = "GFX_idea_GAK_side_effects_development_ideas"
 		texturefile = "gfx/interface/ideas/GAK/ideas/GAK_side_effects_intensive_development.tga"
+	}
+	#RUS
+	spriteType = {
+		name = "GFX_idea_RUS_syvtyvkar"
+		texturefile = "gfx/interface/ideas/RUS/ideas/idea_NIK_arsenal.dds"
 	}
 }

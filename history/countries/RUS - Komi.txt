@@ -3,7 +3,7 @@ capital = 397
 
 
 set_research_slots = 3
-set_stability = 0.75
+set_stability = 1
 set_war_support = 0.5
 
 
@@ -11,6 +11,11 @@ add_offsite_building = { type = arms_factory level = 20 }
 add_offsite_building = { type = industrial_complex level = 20 }
 
 
+add_ideas = {
+	RUS_syvtyvkartsi2
+	RUS_taboritsky
+	RUS_facility
+}
 set_politics = {
 	ruling_party = burgundian_system
 	last_election = "1900.1.1"

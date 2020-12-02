@@ -1,4 +1,5 @@
 spriteTypes = {	
+	#GAK
     SpriteType = {
         name = "GFX_goal_GAK_is_this_ok_shine"
         texturefile = "gfx/interface/goals/GAK/generic_seize_money.tga"			
