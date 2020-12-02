@@ -1,0 +1,49 @@
+capital = 397
+
+
+
+set_research_slots = 3
+set_stability = 0.75
+set_war_support = 0.5
+
+
+add_offsite_building = { type = arms_factory level = 20 }
+add_offsite_building = { type = industrial_complex level = 20 }
+
+
+set_politics = {
+	ruling_party = burgundian_system
+	last_election = "1900.1.1"
+	election_frequency = 13
+	elections_allowed = no
+}
+
+set_popularities = {
+	accelerationism = 0
+	jucheism = 0
+	authoritarian_communism = 0
+	communism = 0
+	liberal_socialism = 0
+	social_democrat = 0
+	liberal_democrat = 0
+	social_liberal = 0
+	conservatism = 0
+	authoritarian = 0
+	nationalism = 0
+	corporatocrat = 0
+	fascism = 0
+	burgundian_system = 100
+	blackdancism = 0
+	anarchism = 0
+}
+
+create_country_leader = {
+	name = "Sergey Taboritsky"
+	desc = "POLITICS_TABORITSKY_DESC"
+	picture = "gfx/leaders/RUS/Portrait_NIK_Sergey_Taboritsky_Regent.dds"
+	expire = "1989.1.1"
+	ideology = burgundian_system_subtype
+	traits = {
+		
+	}
+}

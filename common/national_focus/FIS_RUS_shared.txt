@@ -1,0 +1,13 @@
+shared_focus = {
+	id = RUS_regent
+	icon = GFX_goal_unknown
+	cost = 3.00
+	x = 8
+	y = 0
+	#allow_branch = {
+	#	has_country_flag = RUS_1951
+	#}
+	completion_reward = {
+		add_political_power = 50
+	}
+}

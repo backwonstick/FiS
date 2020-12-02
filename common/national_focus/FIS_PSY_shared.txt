@@ -1,6 +1,6 @@
 shared_focus = {
 	id = PSY_coffe
-	icon = GFX_unknown
+	icon = GFX_goal_unknown
 	cost = 8.00
 	x = 4
 	y = 0

@@ -83,18 +83,30 @@
 	# Politics
 	#######################
 	set_politics = {
-		ruling_party = democratic
-		last_election = "1932.5.1"
+		ruling_party = accelerationism
+		last_election = "1949.10.25"
 		election_frequency = 48
-		elections_allowed = yes
+		elections_allowed = no
 	}
 	set_popularities = {
-		fascist = 1.5
-		authoritarian = 1.2
-		democratic = 70.5
-		socialist = 6.9
-		communist = 19.9
+		jucheism = 0
+		authoritarian_communism = 0
+		communism = 0
+		blackdancism = 0
+		liberal_socialism = 0
+		anarchism = 30
+		social_democrat = 0
+		social_liberal = 5
+		liberal_democrat = 0
+		conservatism = 20
+		authoritarian = 0
+		nationalism = 0
+		corporatocrat = 0
+		fascism = 0
+		accelerationism = 45
+		burgundian_system = 0
 	}
+
 	set_country_flag = Allows_Socialists_Ministers
 	### Great Depression/Unemployment
 	set_variable = { unemployment_value_modifier = 1.50 }
@@ -141,7 +153,17 @@
 	}
 	#######################
 	# Leaders
-	#######################
+	#######################	
+	# 파트롱
+	create_country_leader = {
+		name = "Antonin Artaud"
+		desc = "POLITICS_ANTONIN_ARTAUD_DESC"
+		picture = "Portriat_Antonin.tga"
+		expire = "2000.1.1"
+		ideology = ethno_futurism
+	traits = {
+		}
+	}
 	# Fascism
 	create_country_leader = {
 		name = "François de la Rocque"
