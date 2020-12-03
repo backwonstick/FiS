@@ -1,22 +1,15 @@
 spriteTypes = {
-	#GAK
 	spriteType = {
 		name = "GFX_TNO_OpeningScreen_Poster_Hawaii"
 		textureFile = "gfx/interface/opening_screen/poster/FIS_GAK_OPENING_POSTER.tga"
 	}
-	#FRA
 	spriteType = {
 		name = "GFX_TNO_OpeningScreen_Poster_France"
 		textureFile = "gfx/interface/opening_screen/poster/FIS_FRA_OPENING_POSTER.tga"
 	}
-	#RUS
 	spriteType = {
-		name = "GFX_TABORITSKYORDER_OpeningSCreen_Poster_Russia"
-		textureFile = "gfx/interface/opening_screen/poster/FIS_RUS_OPENING_POSTER.tga"
-	}
-	#TRM
-	spriteType = {
-		name = "GFX_OpeningSCreen_Poster_Transamur"
+		name = "GFX_TNO_OpeningScreen_Poster_Transamur"
 		textureFile = "gfx/interface/opening_screen/poster/FIS_TRM_OPENING_POSTER.tga"
 	}
+	
 }
