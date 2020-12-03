@@ -14,7 +14,6 @@ country_event = {
 
 	option = {
 		name = hawaiilif.1.a
-		set_country_flag = se_order_by_groza
 	}
 }
 

@@ -139,7 +139,7 @@ focus = {
 		focus = GAK_so_how_to_we_do
 	}
 	available = {
-		has_country_flag = hawaii_order_by_groza		
+		has_country_flag = se_order_by_groza		
 	}
 	x = 8
 	y = 4
@@ -152,9 +152,7 @@ focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus GAK_order_by_groza"
 		hidden_effect = {
-			country_event = {
-				id = hawaiilif.10
-			}
+			set_country_flag = se_order_by_groza
             load_focus_tree = FIS_groza_control
 		}
 	}
@@ -180,9 +178,7 @@ focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus GAK_when_i_wake_up_in_isekai_sablin"
 		hidden_effect = {
-			country_event = {
-				id = hawaiilif.11
-			}
+			set_country_flag = SE_GAK_Sablin
             load_focus_tree = FIS_sablin_control
 		}
 	}
@@ -208,9 +204,7 @@ focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus GAK_mosin_nagant_control_island"
 		hidden_effect = {
-			country_event = {
-				id = hawaiilif.12
-			}
+			set_country_flag = SE_GAK_Mosin_Nagant
             load_focus_tree = FIS_mosin_nagant_control
 		}
 	}
@@ -236,9 +230,7 @@ focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus GAK_groza_fail_we_coup"
 		hidden_effect = {
-			country_event = {
-				id = hawaiilif.13
-			}
+			set_country_flag = SE_Kar98k
             load_focus_tree = FIS_karbiner_control
 		}
 	}
@@ -264,9 +256,7 @@ focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus GAK_g36_success_again"
 		hidden_effect = {
-			country_event = {
-				id = hawaiilif.14
-			}
+			set_country_flag = SE_G36
             load_focus_tree = FIS_g36_control
 		}
 	}

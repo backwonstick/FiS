@@ -3,6 +3,18 @@ category = {
 	soundeffects = {
 		GAK_order_by_groza_effect
 	}
+	soundeffects = {
+		GAK_G36_effect
+	}
+	soundeffects = {
+		GAK_kar98k_effect
+	}
+	soundeffects = {
+		GAK_mosin_nagant_effect
+	}
+	soundeffects = {
+		GAK_Sablin_effect
+	}
 	compressor = {
 		enabled = yes
 		pregain = 3.0
@@ -22,9 +34,61 @@ soundeffect = {
 		sound = GAK_order_by_groza_effect_01
 	}
 }
+soundeffect = {
+	name = "GAK_G36_effect"
+	volume = 1.8
+	sounds = {
+		sound = GAK_G36_effect_01
+	}
+}
+soundeffect = {
+	name = "GAK_kar98k_effect"
+	volume = 1.8
+	sounds = {
+		sound = GAK_kar98k_effect_01
+	}
+}
+soundeffect = {
+	name = "GAK_mosin_nagant_effect"
+	volume = 1.8
+	sounds = {
+		sound = GAK_mosin_nagant_effect_01
+	}
+}
+soundeffect = {
+	name = "GAK_Sablin_effect"
+	volume = 1.8
+	sounds = {
+		sound = GAK_Sablin_effect_01
+	}
+}
 ######################################
 sound = {
 	name = "GAK_order_by_groza_effect_01"
 	file = "GAK/GAK_order_by_groza_effect_01.wav"
+	always_load = yes
+}
+
+sound = {
+	name = "GAK_G36_effect_01"
+	file = "GAK/GAK_G36_effect_01.wav"
+	always_load = yes
+}
+
+sound = {
+	name = "GAK_kar98k_effect_01"
+	file = "GAK/GAK_kar98k_effect_01.wav"
+	always_load = yes
+}
+
+sound = {
+	name = "GAK_mosin_nagant_effect_01"
+	file = "GAK/GAK_mosin_nagant_effect_01.wav"
+	always_load = yes
+}
+
+sound = {
+	name = "GAK_Sablin_effect_01"
+	file = "GAK/GAK_Sablin_effect_01.wav"
 	always_load = yes
 }

@@ -114,7 +114,7 @@ guiTypes = {
 			maxWidth = 712
 			maxHeight = 410
 			alwaystransparent = yes
-			scrollbarType = standardtext_slider
+			
 		}
 		
 		instantTextBoxType = {
@@ -125,7 +125,7 @@ guiTypes = {
 			maxWidth = 712
 			maxHeight = 370
 			alwaystransparent = yes
-			scrollbarType = standardtext_slider
+			
 		}
 		
 		buttonType = {
@@ -147,7 +147,7 @@ guiTypes = {
 			maxWidth = 712
 			maxHeight = 370
 			alwaystransparent = yes
-			scrollbarType = standardtext_slider
+			
 		}
 		
 		buttonType = {
@@ -211,7 +211,7 @@ guiTypes = {
 			maxWidth = 748
 			maxHeight = 406
 			alwaystransparent = yes
-			scrollbarType = standardtext_slider
+			
 		}
 
 		buttonType = {

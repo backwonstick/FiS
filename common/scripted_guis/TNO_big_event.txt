@@ -23,4 +23,100 @@ scripted_gui = {
 			}
 		}
 	}
+
+	FIS_SG_GAK_G36_success = {
+		context_type = player_context
+		window_name = "FIS_SG_GAK_G36_success"
+
+		visible = {
+			has_country_flag = SE_G36
+		}
+	}
+
+	FIS_SG_GAK_G36_success_frame = {
+		context_type = player_context
+		window_name = "FIS_SG_GAK_G36_success_frame"
+
+		visible = {
+			has_country_flag = SE_G36
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = SE_G36
+			}
+		}
+	}
+
+	FIS_SG_GAK_Kar98k_success = {
+		context_type = player_context
+		window_name = "FIS_SG_GAK_Kar98k_success"
+
+		visible = {
+			has_country_flag = SE_Kar98k
+		}
+	}
+
+	FIS_SG_GAK_Kar98k_success_frame = {
+		context_type = player_context
+		window_name = "FIS_SG_GAK_Kar98k_success_frame"
+
+		visible = {
+			has_country_flag = SE_Kar98k
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = SE_Kar98k
+			}
+		}
+	}
+
+	FIS_SG_GAK_Sablin_success = {
+		context_type = player_context
+		window_name = "FIS_SG_GAK_Sablin_success"
+
+		visible = {
+			has_country_flag = SE_GAK_Sablin
+		}
+	}
+
+	FIS_SG_GAK_Sablin_success_frame = {
+		context_type = player_context
+		window_name = "FIS_SG_GAK_Sablin_success_frame"
+
+		visible = {
+			has_country_flag = SE_GAK_Sablin
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = SE_GAK_Sablin
+			}
+		}
+	}
+
+	FIS_SG_GAK_Mosin_Nagant_success = {
+		context_type = player_context
+		window_name = "FIS_SG_GAK_Mosin_Nagant_success"
+
+		visible = {
+			has_country_flag = SE_GAK_Mosin_Nagant
+		}
+	}
+
+	FIS_SG_GAK_Mosin_Nagant_success_frame = {
+		context_type = player_context
+		window_name = "FIS_SG_GAK_Mosin_Nagant_success_frame"
+
+		visible = {
+			has_country_flag = SE_GAK_Mosin_Nagant
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = SE_GAK_Mosin_Nagant
+			}
+		}
+	}
 }

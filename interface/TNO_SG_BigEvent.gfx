@@ -42,6 +42,26 @@ spriteTypes = {
 		name = "GFX_superevent_order_of_groza"
 		textureFile = "gfx//superevent_pictures//GFX_superevent_order_of_groza.tga"
 	}
+
+	spriteType = {
+		name = "GFX_superevent_G36"
+		textureFile = "gfx//superevent_pictures//GFX_superevent_G36.tga"
+	}
+
+	spriteType = {
+		name = "GFX_superevent_Kar98k"
+		textureFile = "gfx//superevent_pictures//GFX_superevent_order_of_kar98k.tga"
+	}
+
+	spriteType = {
+		name = "GFX_superevent_Sablin"
+		textureFile = "gfx//superevent_pictures//GFX_superevent_sablin.tga"
+	}
+
+	spriteType = {
+		name = "GFX_superevent_Mosin_Nagant"
+		textureFile = "gfx//superevent_pictures//GFX_superevent_Mosin_nagant.tga"
+	}
 }
 
 	
