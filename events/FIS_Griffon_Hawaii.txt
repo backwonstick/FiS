@@ -1,6 +1,6 @@
 add_namespace = hawaiilif
-add_namespace = hawaiipol
 add_namespace = hawaiidol
+add_namespace = hawaiipol
 
 country_event = {
 	id = hawaiilif.1
@@ -155,76 +155,61 @@ country_event = {
 }
 
 country_event = {
-	id = hawaiilif.10
-	immediate = { log = "[GetDateText]: [Root.GetName]: event hawaiilif.10" }
-	title = hawaiilif.10.t
-	desc = hawaiilif.10.d
+	id = hawaiipol.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event hawaiipol.1" }
+	title = hawaiipol.1.t
+	desc = hawaiipol.1.d
 	picture = GFX_report
 
 	is_triggered_only = yes
     fire_only_once = yes
 
 	option = {
-		name = hawaiilif.10.a
+		name = hawaiipol.1.a
 	}
 }
 
 country_event = {
-	id = hawaiilif.11
-	immediate = { log = "[GetDateText]: [Root.GetName]: event hawaiilif.11" }
-	title = hawaiilif.11.t
-	desc = hawaiilif.11.d
+	id = hawaiipol.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event hawaiipol.2" }
+	title = hawaiipol.2.t
+	desc = hawaiipol.2.d
 	picture = GFX_report
 
 	is_triggered_only = yes
     fire_only_once = yes
 
 	option = {
-		name = hawaiilif.11.a
+		name = hawaiipol.2.a
 	}
 }
 
 country_event = {
-	id = hawaiilif.12
-	immediate = { log = "[GetDateText]: [Root.GetName]: event hawaiilif.12" }
-	title = hawaiilif.12.t
-	desc = hawaiilif.12.d
+	id = hawaiipol.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event hawaiipol.3" }
+	title = hawaiipol.3.t
+	desc = hawaiipol.3.d
 	picture = GFX_report
 
 	is_triggered_only = yes
     fire_only_once = yes
 
 	option = {
-		name = hawaiilif.12.a
+		name = hawaiipol.3.a
 	}
 }
 
 country_event = {
-	id = hawaiilif.13
-	immediate = { log = "[GetDateText]: [Root.GetName]: event hawaiilif.13" }
-	title = hawaiilif.13.t
-	desc = hawaiilif.13.d
+	id = hawaiipol.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event hawaiipol.4" }
+	title = hawaiipol.4.t
+	desc = hawaiipol.4.d
 	picture = GFX_report
 
 	is_triggered_only = yes
     fire_only_once = yes
 
 	option = {
-		name = hawaiilif.13.a
-	}
-}
-
-country_event = {
-	id = hawaiilif.14
-	immediate = { log = "[GetDateText]: [Root.GetName]: event hawaiilif.14" }
-	title = hawaiilif.14.t
-	desc = hawaiilif.14.d
-	picture = GFX_report
-
-	is_triggered_only = yes
-    fire_only_once = yes
-
-	option = {
-		name = hawaiilif.14.a
+		name = hawaiipol.4.a
 	}
 }

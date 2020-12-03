@@ -139,7 +139,7 @@ focus = {
 		focus = GAK_so_how_to_we_do
 	}
 	available = {
-		has_country_flag = se_order_by_groza		
+		has_country_flag = hawaii_order_by_groza 
 	}
 	x = 8
 	y = 4
@@ -151,8 +151,20 @@ focus = {
 
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus GAK_order_by_groza"
+		custom_effect_tooltip = GAK_COME_DARKNESS
+		add_ideas = GAK_order_number_14_ideas
+		remove_ideas = { 
+			GAK_side_effects_development_ideas
+			GAK_military_government_ideas
+			GAK_tactical_dolls_ideas
+		}
+		add_manpower = -1000000
+		swap_ideas = {
+			remove_idea = GAK_Groza_mental_nomarl_ideas
+			add_idea = GAK_Groza_mental_happy_ideas
+		}
 		hidden_effect = {
-			set_country_flag = se_order_by_groza
+			set_country_flag = se_order_by_groza		
             load_focus_tree = FIS_groza_control
 		}
 	}

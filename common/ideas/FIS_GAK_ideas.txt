@@ -45,6 +45,14 @@ ideas = {
 			}
 		}
 
+		GAK_Groza_mental_happy_ideas = { #그로자의 정신 상태 - 광기
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_Groza_mental_happy_ideas"}
+			picture = GFX_idea_GAK_Groza_mental_happy_ideas
+			modifier = {
+				stability_factor = -0.05
+			}
+		}
+
         GAK_side_effects_development_ideas = { #수도 집중개발의 부작용
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_side_effects_development_ideas"}
 			picture = GFX_idea_GAK_side_effects_development_ideas
@@ -53,6 +61,44 @@ ideas = {
                 production_factory_max_efficiency_factor = -0.1
                 industrial_capacity_factory = -0.1
                 consumer_goods_factor = 0.05
+			}
+		}
+
+		GAK_order_number_14_ideas = { #명령 14호
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_order_number_14_ideas"}
+			picture = GFX_idea_GAK_order_number_14_ideas
+			modifier = {
+				stability_factor = -1
+				war_support_factor = -1
+				research_speed_factor = -1
+				production_speed_buildings_factor = -0.75
+				industrial_capacity_factory = -0.5
+				industrial_capacity_dockyard = -0.5
+			}
+			research_bonus = {
+				land_doctrine = -0.75
+				naval_doctrine = -0.75
+				air_doctrine = -0.75
+			}
+		}
+
+		GAK_IOP_product_machine_1_ideas = { #IOP 공작기계
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_IOP_product_machine_1_ideas"}
+			picture = GFX_idea_GAK_first_start_ideas
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				industrial_capacity_factory = 0.05
+			}
+		}
+
+		GAK_IOP_product_machine_2_ideas = { #IOP 공작기계
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_IOP_product_machine_2_ideas"}
+			picture = GFX_idea_GAK_first_start_ideas
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_start_efficiency_factor = 0.05
+				industrial_capacity_factory = 0.1
 			}
 		}
     }

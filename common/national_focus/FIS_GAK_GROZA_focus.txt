@@ -7,4 +7,147 @@ focus_tree = {
 
     default = no
 	continuous_focus_position = { x = 3000 y = 700 }
+
+
+	focus = {
+		id = GAK_end_of_purge
+		icon = GFX_goal_GAK_end_of_purge
+		x = 15
+		y = 1
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_end_of_purge"
+			remove_ideas = GAK_order_number_14_ideas
+			country_event = {
+				id = hawaiipol.1
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_start_at_first
+		icon = GFX_goal_GAK_start_at_first
+		prerequisite = {
+			focus = GAK_end_of_purge
+		}
+		x = 15
+		y = 2
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_end_of_purge"
+			set_stability = 0.6
+			country_event = {
+				id = hawaiipol.2
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_IOP_product_machine
+		icon = GFX_goal_GAK_IOP_product_machine
+		prerequisite = {
+			focus = GAK_start_at_first
+		}
+		x = 18
+		y = 3
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_IOP_product_machine"
+			add_ideas = GAK_IOP_product_machine_1_ideas
+			country_event = {
+				id = hawaiipol.3
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_IOP_automactic_producting
+		icon = GFX_goal_GAK_IOP_automactic_producting
+		prerequisite = {
+			focus = GAK_IOP_product_machine
+		}
+		x = 17
+		y = 4
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_IOP_product_machine"
+			swap_ideas = {
+				remove_idea = GAK_IOP_product_machine_1_ideas
+				add_idea = GAK_IOP_product_machine_2_ideas
+			}
+			country_event = {
+				id = hawaiipol.4
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_build_up_civill_factory
+		icon = GFX_goal_GAK_IOP_automactic_producting
+		prerequisite = {
+			focus = GAK_IOP_product_machine
+		}
+		x = 19
+		y = 4
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_build_up_civill_factory"
+			629 = {
+				add_extra_state_shared_building_slots = 3
+			}
+			add_offsite_building = { 
+				type = industrial_complex 
+				level = 3
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_doll_redesign
+		icon = GFX_goal_GAK_doll_redesign
+		prerequisite = {
+			focus = GAK_start_at_first
+		}
+		x = 12
+		y = 3
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_doll_redesign"
+			add_ideas = GAK_tactical_dolls_ideas
+			country_event = {
+				id = hawaiipol.3
+			}
+		}
+	}
+
 }
