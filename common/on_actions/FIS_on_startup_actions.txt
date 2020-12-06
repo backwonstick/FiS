@@ -7,4 +7,494 @@ on_actions = {
 			}
 		}
 	}
+		#CULTURE EVENTS
+	on_startup = {
+		effect = {
+			GER = {
+				country_event = { id = CULTURE.1 }   #Preußisch
+				country_event = { id = CULTURE.141 } #Rheinisch
+				country_event = { id = CULTURE.142 } #Bairisch
+				country_event = { id = CULTURE.143 } #Österreichisch
+				country_event = { id = CULTURE.144 } #Schleswigisch
+				country_event = { id = CULTURE.145 } #Niedersächsisch
+				country_event = { id = CULTURE.146 } #Märkisch
+				country_event = { id = CULTURE.147 } #Sudeten
+				country_event = { id = CULTURE.148 } #Schlesisch
+				country_event = { id = CULTURE.149 } #Luxemburgisch
+				country_event = { id = CULTURE.162 } #Ostdeutsch
+				country_event = { id = CULTURE.163 } #Wolgadeutsch
+				country_event = { id = CULTURE.189 } #Marine-German
+				country_event = { id = CULTURE.324 } #Elsässisch
+				country_event = { id = CULTURE.325 } #Alemannisch
+				country_event = { id = CULTURE.326 } #Westfälisch
+				country_event = { id = CULTURE.327 } #Fränkisch
+				country_event = { id = CULTURE.328 } #Schwäbisch
+				country_event = { id = CULTURE.329 } #Krainisch
+				country_event = { id = CULTURE.330 } #Thüringisch
+				country_event = { id = CULTURE.331 } #Sächsisch
+				country_event = { id = CULTURE.332 } #Weichseldeutsch
+				country_event = { id = CULTURE.333 } #Mecklenburgisch
+				country_event = { id = CULTURE.334 } #Hessisch
+				country_event = { id = CULTURE.335 } #Pommersch
+				country_event = { id = CULTURE.336 } #Germanianisch
+			}
+			ITA = {
+				country_event = { id = CULTURE.2 }
+				country_event = { id = CULTURE.3 }
+				country_event = { id = CULTURE.4 }
+				country_event = { id = CULTURE.5 }
+				country_event = { id = CULTURE.6 }
+				country_event = { id = CULTURE.7 }
+				country_event = { id = CULTURE.8 }
+				country_event = { id = CULTURE.9 }
+				country_event = { id = CULTURE.10 }
+				country_event = { id = CULTURE.11 }
+				country_event = { id = CULTURE.12 }
+				country_event = { id = CULTURE.13 }
+				country_event = { id = CULTURE.14 }
+				country_event = { id = CULTURE.15 }
+				country_event = { id = CULTURE.16 }
+				country_event = { id = CULTURE.17 }
+				country_event = { id = CULTURE.18 }
+				country_event = { id = CULTURE.19 }
+				country_event = { id = CULTURE.20 }
+				country_event = { id = CULTURE.21 }
+				country_event = { id = CULTURE.22 }
+				country_event = { id = CULTURE.23 }
+				country_event = { id = CULTURE.24 }
+				country_event = { id = CULTURE.25 }
+				country_event = { id = CULTURE.26 }
+				country_event = { id = CULTURE.27 }
+				country_event = { id = CULTURE.28 }
+				country_event = { id = CULTURE.29 }
+				country_event = { id = CULTURE.31 }
+				country_event = { id = CULTURE.32 }
+				country_event = { id = CULTURE.33 }
+				country_event = { id = CULTURE.34 }
+				country_event = { id = CULTURE.35 }
+				country_event = { id = CULTURE.36 }
+				country_event = { id = CULTURE.37 }
+				country_event = { id = CULTURE.38 }
+				country_event = { id = CULTURE.39 }
+				country_event = { id = CULTURE.227 }
+				country_event = { id = CULTURE.228 }
+				country_event = { id = CULTURE.229 }
+				country_event = { id = CULTURE.230 }
+				country_event = { id = CULTURE.231 }
+				country_event = { id = CULTURE.232 }
+			}
+			RAJ = {
+				country_event = { id = CULTURE.41 }
+				country_event = { id = CULTURE.42 }
+				country_event = { id = CULTURE.43 }
+				country_event = { id = CULTURE.44 }
+				country_event = { id = CULTURE.45 }
+				country_event = { id = CULTURE.46 }
+				country_event = { id = CULTURE.47 }
+				country_event = { id = CULTURE.48 }
+				country_event = { id = CULTURE.49 }
+				country_event = { id = CULTURE.50 }
+				country_event = { id = CULTURE.51 }
+				country_event = { id = CULTURE.52 }
+				country_event = { id = CULTURE.53 }
+				country_event = { id = CULTURE.54 }
+				country_event = { id = CULTURE.55 }
+				country_event = { id = CULTURE.218 }
+				country_event = { id = CULTURE.78 }
+			}
+			BEN = {
+				country_event = { id = CULTURE.56 }
+				country_event = { id = CULTURE.57 }
+				country_event = { id = CULTURE.317 }
+				country_event = { id = CULTURE.318 }
+				country_event = { id = CULTURE.319 }
+				country_event = { id = CULTURE.320 }
+			}
+			AST = {
+				country_event = { id = CULTURE.58 }
+				country_event = { id = CULTURE.59 }
+			}
+			JAP = {
+				country_event = { id = CULTURE.62 }
+				country_event = { id = CULTURE.65 }
+				country_event = { id = CULTURE.66 }
+				country_event = { id = CULTURE.194 }
+			}
+			SYO = {
+				country_event = { id = CULTURE.73 }
+				country_event = { id = CULTURE.193 }
+			}
+			LAO = {
+				country_event = { id = CULTURE.74 }
+			}
+			SIA = {
+				country_event = { id = CULTURE.75 }
+			}
+			BUR = {
+				country_event = { id = CULTURE.76 }
+				country_event = { id = CULTURE.77 }
+				country_event = { id = CULTURE.79 }
+				country_event = { id = CULTURE.310 }
+				country_event = { id = CULTURE.311 }
+				country_event = { id = CULTURE.312 }
+				country_event = { id = CULTURE.313 }
+				country_event = { id = CULTURE.314 }
+			}
+			CAM = {
+				country_event = { id = CULTURE.80 }
+			}
+			VIN = {
+				country_event = { id = CULTURE.81 }
+			}
+			USA = {
+				country_event = { id = CULTURE.82 }
+				country_event = { id = CULTURE.83 }
+				country_event = { id = CULTURE.84 }
+				country_event = { id = CULTURE.85 }
+				country_event = { id = CULTURE.86 }
+				country_event = { id = CULTURE.87 }
+				country_event = { id = CULTURE.88 }
+				country_event = { id = CULTURE.89 }
+				country_event = { id = CULTURE.90 }
+				country_event = { id = CULTURE.91 }
+				country_event = { id = CULTURE.337 }
+			}
+			CAN = {
+				country_event = { id = CULTURE.92 }
+				country_event = { id = CULTURE.93 }
+				country_event = { id = CULTURE.94 }
+				country_event = { id = CULTURE.95 }
+			}
+			WIN = {
+				country_event = { id = CULTURE.96 }
+				country_event = { id = CULTURE.97 }
+				country_event = { id = CULTURE.98 }
+				country_event = { id = CULTURE.99 }
+			}
+			CUB = {
+				country_event = { id = CULTURE.100 }
+				country_event = { id = CULTURE.101 }
+				country_event = { id = CULTURE.102 }
+				country_event = { id = CULTURE.103 }
+				country_event = { id = CULTURE.104 }
+				country_event = { id = CULTURE.105 }
+				country_event = { id = CULTURE.106 }
+				country_event = { id = CULTURE.107 }
+				country_event = { id = CULTURE.108 }
+				country_event = { id = CULTURE.109 }
+				country_event = { id = CULTURE.110 }
+				country_event = { id = CULTURE.111 }
+				country_event = { id = CULTURE.112 }
+				country_event = { id = CULTURE.113 }
+				country_event = { id = CULTURE.114 }
+				country_event = { id = CULTURE.115 }
+				country_event = { id = CULTURE.116 }
+				country_event = { id = CULTURE.117 }
+				country_event = { id = CULTURE.118 }
+				country_event = { id = CULTURE.119 }
+				country_event = { id = CULTURE.120 }
+				country_event = { id = CULTURE.121 }
+				country_event = { id = CULTURE.122 }
+			}
+			FRA = {
+				country_event = { id = CULTURE.123 }
+				country_event = { id = CULTURE.125 }
+			}
+			BRT = {
+				country_event = { id = CULTURE.124 }
+			}
+			ENG = {
+				country_event = { id = CULTURE.126 }
+				country_event = { id = CULTURE.127 }
+			}
+			WAL = {
+				country_event = { id = CULTURE.129 }
+			}
+			SCO = {
+				country_event = { id = CULTURE.130 }
+				country_event = { id = CULTURE.131 }
+			}
+			IRE = {
+				country_event = { id = CULTURE.132 }
+				country_event = { id = CULTURE.315 }
+			}
+			HOL = {
+				country_event = { id = CULTURE.139 }
+			}
+			BRG = {
+				country_event = { id = CULTURE.140 }
+
+			}
+			SWI = {
+				country_event = { id = CULTURE.150 }
+			}
+			MCW = {
+				country_event = { id = CULTURE.151 }
+				country_event = { id = CULTURE.152 }
+				country_event = { id = CULTURE.153 }
+				country_event = { id = CULTURE.154 }
+				country_event = { id = CULTURE.155 }
+				country_event = { id = CULTURE.156 }
+				country_event = { id = CULTURE.157 }
+				country_event = { id = CULTURE.158 }
+				country_event = { id = CULTURE.159 }
+				country_event = { id = CULTURE.160 }
+				country_event = { id = CULTURE.161 }
+				country_event = { id = CULTURE.316 }
+			}
+			UKH = {
+				country_event = { id = CULTURE.323 }
+			}
+			UKR = {
+				country_event = { id = CULTURE.164 }
+			}
+			CAU = {
+				country_event = { id = CULTURE.165 }
+				country_event = { id = CULTURE.166 }
+			}
+			OST = {
+				country_event = { id = CULTURE.167 }
+				country_event = { id = CULTURE.168 }
+				country_event = { id = CULTURE.169 }
+				country_event = { id = CULTURE.170 }
+				country_event = { id = CULTURE.268 }
+			}
+			FIN = {
+				country_event = { id = CULTURE.171 }
+				country_event = { id = CULTURE.172 }
+			}
+			ROM = {
+				country_event = { id = CULTURE.173 }
+			}
+			SER = {
+				country_event = { id = CULTURE.174 }
+			}
+			BUL = {
+				country_event = { id = CULTURE.175 }
+				country_event = { id = CULTURE.176 }
+			}
+			HUN = {
+				country_event = { id = CULTURE.177 }
+			}
+			GGN = {
+				country_event = { id = CULTURE.178 }
+			}
+			UZB = {
+				country_event = { id = CULTURE.179 }
+			}
+			DER = {
+				country_event = { id = CULTURE.180 }
+			}
+			TRK = {
+				country_event = { id = CULTURE.181 }
+			}
+			TAJ = {
+				country_event = { id = CULTURE.182 }
+			}
+			AFG = {
+				country_event = { id = CULTURE.183 }
+				country_event = { id = CULTURE.184 }
+			}
+			KRK = {
+				country_event = { id = CULTURE.186 }
+			}
+			PER = {
+				country_event = { id = CULTURE.187 }
+				country_event = { id = CULTURE.188 }
+				country_event = { id = CULTURE.185 }
+			}
+			UKR = {
+				country_event = { id = CULTURE.190 }
+			}
+			ROM = {
+				country_event = { id = CULTURE.191 }
+			}
+			MEN = {
+				country_event = { id = CULTURE.192 }
+			}
+			SCO = {
+				country_event = { id = CULTURE.133 }
+			}
+			ICE = {
+				country_event = { id = CULTURE.134 }
+			}
+			NOR = {
+				country_event = { id = CULTURE.135 }
+			}
+			SWE = {
+				country_event = { id = CULTURE.136 }
+				country_event = { id = CULTURE.137 }
+			}
+			DEN = {
+				country_event = { id = CULTURE.138 }
+			}
+			PHI = {
+				country_event = { id = CULTURE.195 }
+			}
+			CHI = {
+				country_event = { id = CULTURE.196 }
+				country_event = { id = CULTURE.198 }
+				country_event = { id = CULTURE.63 }
+				country_event = { id = CULTURE.64 }
+				country_event = { id = CULTURE.67 }
+				country_event = { id = CULTURE.68 }
+				country_event = { id = CULTURE.69 }
+				country_event = { id = CULTURE.70 }
+				country_event = { id = CULTURE.71 }
+				country_event = { id = CULTURE.72 }
+				country_event = { id = CULTURE.203 }
+				country_event = { id = CULTURE.204 }
+				country_event = { id = CULTURE.207 }
+				country_event = { id = CULTURE.208 }
+				country_event = { id = CULTURE.209 }
+				country_event = { id = CULTURE.300 }
+				country_event = { id = CULTURE.301 }
+				country_event = { id = CULTURE.321 }
+			}
+			INS = {
+				country_event = { id = CULTURE.210 }
+				country_event = { id = CULTURE.211 }
+				country_event = { id = CULTURE.212 }
+				country_event = { id = CULTURE.213 }
+				country_event = { id = CULTURE.214 }
+				country_event = { id = CULTURE.217 }
+				country_event = { id = CULTURE.298 }
+				country_event = { id = CULTURE.299 }
+				country_event = { id = CULTURE.60 }
+				country_event = { id = CULTURE.61 }
+			}
+			BHU = {
+				country_event = { id = CULTURE.215 }
+			}
+			NEP = {
+				country_event = { id = CULTURE.216 }
+			}
+			NZL = {
+				country_event = { id = CULTURE.197 }
+			}
+			CZE = {
+				country_event = { id = CULTURE.199 }
+			}
+			SLO = {
+				country_event = { id = CULTURE.200 }
+			}
+			ITA = {
+				country_event = { id = CULTURE.201 }
+				country_event = { id = CULTURE.202 }
+				country_event = { id = CULTURE.223 }
+				country_event = { id = CULTURE.296 }
+			}
+			IBR = {
+				country_event = { id = CULTURE.205 }
+				country_event = { id = CULTURE.206 }
+				country_event = { id = CULTURE.219 }
+				country_event = { id = CULTURE.220 }
+				country_event = { id = CULTURE.221 }
+				country_event = { id = CULTURE.222 }
+				country_event = { id = CULTURE.295 }
+			}
+			EGY = {
+				country_event = { id = CULTURE.30  }
+				country_event = { id = CULTURE.224 }
+				country_event = { id = CULTURE.225 }
+				country_event = { id = CULTURE.226 }
+			}
+			ZZZ = {
+				country_event = { id = CULTURE.232 }
+				country_event = { id = CULTURE.233 }
+				country_event = { id = CULTURE.234 }
+				country_event = { id = CULTURE.235 }
+				country_event = { id = CULTURE.236 }
+				country_event = { id = CULTURE.237 }
+				country_event = { id = CULTURE.238 }
+				country_event = { id = CULTURE.239 }
+				country_event = { id = CULTURE.240 }
+				country_event = { id = CULTURE.241 }
+				country_event = { id = CULTURE.242 }
+				country_event = { id = CULTURE.243 }
+				country_event = { id = CULTURE.244 }
+				country_event = { id = CULTURE.245 }
+				country_event = { id = CULTURE.246 }
+				country_event = { id = CULTURE.247 }
+				country_event = { id = CULTURE.248 }
+				country_event = { id = CULTURE.249 }
+				country_event = { id = CULTURE.250 }
+				country_event = { id = CULTURE.251 }
+				country_event = { id = CULTURE.252 }
+				country_event = { id = CULTURE.253 }
+				country_event = { id = CULTURE.254 }
+				country_event = { id = CULTURE.255 }
+			}
+			COG = {
+				country_event = { id = CULTURE.256 }
+				country_event = { id = CULTURE.257 }
+				country_event = { id = CULTURE.258 }
+				country_event = { id = CULTURE.259 }
+				country_event = { id = CULTURE.260 }
+			}
+			MZB = {
+				country_event = { id = CULTURE.261 }
+				country_event = { id = CULTURE.262 }
+				country_event = { id = CULTURE.263 }
+				country_event = { id = CULTURE.264 }
+				country_event = { id = CULTURE.265 }
+				country_event = { id = CULTURE.266 }
+				country_event = { id = CULTURE.267 }
+				country_event = { id = CULTURE.269 }
+				country_event = { id = CULTURE.270 }
+				country_event = { id = CULTURE.271 }
+				country_event = { id = CULTURE.272 }
+				country_event = { id = CULTURE.273 }
+				country_event = { id = CULTURE.274 }
+				country_event = { id = CULTURE.275 }
+				country_event = { id = CULTURE.276 }
+				country_event = { id = CULTURE.277 }
+				country_event = { id = CULTURE.278 }
+				country_event = { id = CULTURE.279 }
+				country_event = { id = CULTURE.280 }
+			}
+			ANG = {
+				country_event = { id = CULTURE.281 }
+				country_event = { id = CULTURE.282 }
+				country_event = { id = CULTURE.283 }
+				country_event = { id = CULTURE.284 }
+				country_event = { id = CULTURE.285 }
+				country_event = { id = CULTURE.286 }
+				country_event = { id = CULTURE.287 }
+			}
+			SAF = {
+				country_event = { id = CULTURE.288 }
+				country_event = { id = CULTURE.289 }
+				country_event = { id = CULTURE.290 }
+				country_event = { id = CULTURE.291 }
+				country_event = { id = CULTURE.292 }
+				country_event = { id = CULTURE.293 }
+				country_event = { id = CULTURE.294 }
+				country_event = { id = CULTURE.297 }
+			}
+			MEX = {
+				country_event = { id = CULTURE.302 }
+			}
+			SWI = {
+				country_event = { id = CULTURE.303 }
+				country_event = { id = CULTURE.304 }
+			}
+			GNG = {
+				country_event = { id = CULTURE.305 }
+			}
+			TAJ = {
+				country_event = { id = CULTURE.306 }
+			}
+			SAU = {
+				country_event = { id = CULTURE.307 }
+				country_event = { id = CULTURE.308 }
+				country_event = { id = CULTURE.309 }
+			}
+			BKR = {
+				country_event = { id = CULTURE.322 }
+			}
+		}
+	}
+	
+	
 }
