@@ -29,4 +29,99 @@ spriteTypes = {
 		name = "GFX_goal_GAK_g36_success_again"
 		texturefile = "gfx/interface/goals/GAK/GAK_G36_focus_icon.tga"			
 	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_end_of_purge"
+		texturefile = "gfx/interface/goals/GAK/GAK_end_of_purge.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_start_at_first"
+		texturefile = "gfx/interface/goals/GAK/GAK_start_at_first.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_IOP_product_machine"
+		texturefile = "gfx/interface/goals/GAK/GAK_IOP_product_machine.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_IOP_automactic_producting"
+		texturefile = "gfx/interface/goals/GAK/GAK_IOP_automactic_producting.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_old_not_blue_is_good"
+		texturefile = "gfx/interface/goals/GAK/GAK_old_not_blue_is_good.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_steel_and_tear"
+		texturefile = "gfx/interface/goals/GAK/GAK_steel_and_tear.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_build_up_civill_factory"
+		texturefile = "gfx/interface/goals/GAK/GAK_build_up_civill_factory.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_present_to_future"
+		texturefile = "gfx/interface/goals/GAK/GAK_present_to_future.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_reborn_in_ruin"
+		texturefile = "gfx/interface/goals/GAK/GAK_reborn_in_ruin.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_there_was_here"
+		texturefile = "gfx/interface/goals/GAK/GAK_there_was_here.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_doll_redesign"
+		texturefile = "gfx/interface/goals/GAK/GAK_doll_redesign.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_self_bansung"
+		texturefile = "gfx/interface/goals/GAK/GAK_self_bansung.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_teach_the_shame"
+		texturefile = "gfx/interface/goals/GAK/GAK_teach_the_shame.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_tear_and_red_blood"
+		texturefile = "gfx/interface/goals/GAK/GAK_tear_and_red_blood.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_i_right"
+		texturefile = "gfx/interface/goals/GAK/GAK_i_right.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_we_are_strong"
+		texturefile = "gfx/interface/goals/GAK/GAK_we_are_strong.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_knife_gun_and_no_blood"
+		texturefile = "gfx/interface/goals/GAK/GAK_knife_gun_and_no_blood.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_new_born_doll_society"
+		texturefile = "gfx/interface/goals/GAK/GAK_new_born_doll_society.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_identification_and_analysis"
+		texturefile = "gfx/interface/goals/GAK/GAK_identification_and_analysis.tga"			
+	}
 }

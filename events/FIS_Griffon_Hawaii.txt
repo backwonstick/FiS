@@ -196,6 +196,11 @@ country_event = {
 
 	option = {
 		name = hawaiipol.3.a
+		set_country_flag = GAK_coldly
+	}
+	option = {
+		name = hawaiipol.3.b
+		set_country_flag = GAK_know_my_sin
 	}
 }
 
@@ -211,5 +216,185 @@ country_event = {
 
 	option = {
 		name = hawaiipol.4.a
+	}
+}
+
+country_event = {
+	id = hawaiipol.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event hawaiipol.5" }
+	title = hawaiipol.5.t
+	desc = hawaiipol.5.d
+	picture = GFX_report
+
+	is_triggered_only = yes
+    fire_only_once = yes
+
+	option = {
+		name = hawaiipol.5.a
+	}
+}
+
+country_event = {
+	id = hawaiipol.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event hawaiipol.6" }
+	title = hawaiipol.6.t
+	desc = hawaiipol.6.d
+	picture = GFX_report
+
+	is_triggered_only = yes
+    fire_only_once = yes
+
+	option = {
+		name = hawaiipol.6.a
+	}
+}
+
+country_event = {
+	id = hawaiipol.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event hawaiipol.7" }
+	title = hawaiipol.7.t
+	desc = hawaiipol.7.d
+	picture = GFX_report
+
+	is_triggered_only = yes
+    fire_only_once = yes
+
+	option = {
+		name = hawaiipol.7.a
+	}
+}
+
+country_event = {
+	id = hawaiipol.8
+	immediate = { log = "[GetDateText]: [Root.GetName]: event hawaiipol.8" }
+	title = hawaiipol.8.t
+	desc = hawaiipol.8.d
+	picture = GFX_report
+
+	is_triggered_only = yes
+    fire_only_once = yes
+
+	option = {
+		name = hawaiipol.8.a
+	}
+}
+
+country_event = {
+	id = hawaiipol.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event hawaiipol.9" }
+	title = hawaiipol.9.t
+	desc = hawaiipol.9.d
+	picture = GFX_report
+
+	is_triggered_only = yes
+    fire_only_once = yes
+
+	option = {
+		name = hawaiipol.9.a
+	}
+}
+
+country_event = {
+	id = hawaiipol.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event hawaiipol.10" }
+	title = hawaiipol.10.t
+	desc = hawaiipol.10.d
+	picture = GFX_report
+
+	is_triggered_only = yes
+    fire_only_once = yes
+
+	option = {
+		name = hawaiipol.10.a
+	}
+}
+
+country_event = {
+	id = hawaiipol.11
+	immediate = { log = "[GetDateText]: [Root.GetName]: event hawaiipol.11" }
+	title = hawaiipol.11.t
+	desc = hawaiipol.11.d
+	picture = GFX_report
+
+	is_triggered_only = yes
+    fire_only_once = yes
+
+	option = {
+		name = hawaiipol.11.a
+	}
+}
+
+country_event = {
+	id = hawaiipol.12
+	immediate = { log = "[GetDateText]: [Root.GetName]: event hawaiipol.12" }
+	title = hawaiipol.12.t
+	desc = hawaiipol.12.d
+	picture = GFX_report
+
+	is_triggered_only = yes
+    fire_only_once = yes
+
+	option = {
+		name = hawaiipol.12.a
+	}
+}
+
+country_event = {
+	id = hawaiipol.13
+	immediate = { log = "[GetDateText]: [Root.GetName]: event hawaiipol.13" }
+	title = hawaiipol.13.t
+	desc = hawaiipol.13.d
+	picture = GFX_report
+
+	is_triggered_only = yes
+    fire_only_once = yes
+
+	option = {
+		name = hawaiipol.13.a
+	}
+}
+
+country_event = {
+	id = hawaiipol.14
+	immediate = { log = "[GetDateText]: [Root.GetName]: event hawaiipol.14" }
+	title = hawaiipol.14.t
+	desc = hawaiipol.14.d
+	picture = GFX_report
+
+	is_triggered_only = yes
+    fire_only_once = yes
+
+	option = {
+		name = hawaiipol.14.a
+	}
+}
+
+country_event = {
+	id = hawaiipol.15
+	immediate = { log = "[GetDateText]: [Root.GetName]: event hawaiipol.15" }
+	title = hawaiipol.15.t
+	desc = hawaiipol.15.d
+	picture = GFX_report
+
+	is_triggered_only = yes
+    fire_only_once = yes
+
+	option = {
+		name = hawaiipol.15.a
+	}
+}
+
+country_event = {
+	id = hawaiipol.16
+	immediate = { log = "[GetDateText]: [Root.GetName]: event hawaiipol.16" }
+	title = hawaiipol.16.t
+	desc = hawaiipol.16.d
+	picture = GFX_report
+
+	is_triggered_only = yes
+    fire_only_once = yes
+
+	option = {
+		name = hawaiipol.16.a
 	}
 }

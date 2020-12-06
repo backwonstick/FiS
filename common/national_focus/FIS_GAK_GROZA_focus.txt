@@ -102,8 +102,66 @@ focus_tree = {
 	}
 
 	focus = {
+		id = GAK_old_not_blue_is_good
+		icon = GFX_goal_GAK_old_not_blue_is_good
+		prerequisite = {
+			focus = GAK_IOP_automactic_producting
+		}
+		x = 17
+		y = 5
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_old_not_blue_is_good"
+			add_tech_bonus = {
+				name = GAK_experimental_research
+				bonus = 0.74
+				uses = 3
+				category = industry
+			}
+			add_tech_bonus = {
+				name = GAK_fuze_research
+				bonus = 0.69
+				uses = 3
+				category = electronics
+			}	
+		}
+	}
+
+	focus = {
+		id = GAK_steel_and_tear
+		icon = GFX_goal_GAK_steel_and_tear
+		prerequisite = {
+			focus = GAK_old_not_blue_is_good
+		}
+		x = 17
+		y = 6
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_steel_and_tear"
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = steel
+				amount = 3
+			}
+			country_event = {
+				id = hawaiipol.6
+			}	
+		}
+	}
+
+	focus = {
 		id = GAK_build_up_civill_factory
-		icon = GFX_goal_GAK_IOP_automactic_producting
+		icon = GFX_goal_GAK_build_up_civill_factory
 		prerequisite = {
 			focus = GAK_IOP_product_machine
 		}
@@ -117,13 +175,102 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_build_up_civill_factory"
-			629 = {
-				add_extra_state_shared_building_slots = 3
+			hidden_effect = {
+				629 = {
+					add_extra_state_shared_building_slots = 3
+				}
 			}
 			add_offsite_building = { 
 				type = industrial_complex 
 				level = 3
 			}
+		}
+	}
+
+	focus = {
+		id = GAK_present_to_future
+		icon = GFX_goal_GAK_present_to_future
+		prerequisite = {
+			focus = GAK_build_up_civill_factory
+		}
+		x = 19
+		y = 5
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_present_to_future"
+			add_ideas = GAK_new_agriculture_something
+			country_event = {
+				id = hawaiipol.5
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_reborn_in_ruin
+		icon = GFX_goal_GAK_reborn_in_ruin
+		prerequisite = {
+			focus = GAK_present_to_future
+		}
+		x = 19
+		y = 6
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_reborn_in_ruin"
+			add_political_power = 100
+			country_event = {
+				id = hawaiipol.7
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_there_was_here
+		icon = GFX_goal_GAK_there_was_here
+		prerequisite = {
+			focus = GAK_steel_and_tear
+		}
+		prerequisite = {
+			focus = GAK_reborn_in_ruin
+		}
+		x = 18
+		y = 8
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_there_was_here"
+			swap_ideas = {
+				remove_idea = GAK_IOP_product_machine_2_ideas
+				add_idea = GAK_IOP_product_machine_3_ideas
+			}
+			add_tech_bonus = {
+				name = GAK_experimental_research_upgrade
+				bonus = 2
+				uses = 1
+				category = industry
+			}
+			add_tech_bonus = {
+				name = GAK_fuze_research_upgrade
+				bonus = 2
+				uses = 1
+				category = electronics
+			}
+			country_event = {
+				id = hawaiipol.8
+			}	
 		}
 	}
 
@@ -150,4 +297,204 @@ focus_tree = {
 		}
 	}
 
+	focus = {
+		id = GAK_self_bansung
+		icon = GFX_goal_GAK_self_bansung
+		prerequisite = {
+			focus = GAK_doll_redesign
+		}
+		x = 11
+		y = 4
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_doll_redesign"
+			add_ideas = GAK_tactical_dolls_have_mind_ideas
+			country_event = {
+				id = hawaiipol.11
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_teach_the_shame
+		icon = GFX_goal_GAK_teach_the_shame
+		prerequisite = {
+			focus = GAK_self_bansung
+		}
+		x = 11
+		y = 5
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_teach_the_shame"
+			swap_ideas = {
+				remove_idea = GAK_tactical_dolls_have_mind_ideas
+				add_idea = GAK_tactical_dolls_have_mind_1_ideas
+			}
+			country_event = {
+				id = hawaiipol.9
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_tear_and_red_blood
+		icon = GFX_goal_GAK_tear_and_red_blood
+		prerequisite = {
+			focus = GAK_teach_the_shame
+		}
+		x = 11
+		y = 6
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_tear_and_red_blood"
+			swap_ideas = {
+				remove_idea = GAK_tactical_dolls_have_mind_1_ideas
+				add_idea = GAK_tactical_dolls_have_mind_2_ideas
+			}
+			country_event = {
+				id = hawaiipol.10
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_i_right
+		icon = GFX_goal_GAK_i_right
+		prerequisite = {
+			focus = GAK_doll_redesign
+		}
+		x = 13
+		y = 4
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_i_right"
+			add_ideas = GAK_tactical_dolls_have_only_war_ideas
+			country_event = {
+				id = hawaiipol.12
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_we_are_strong
+		icon = GFX_goal_GAK_we_are_strong
+		prerequisite = {
+			focus = GAK_i_right
+		}
+		
+		x = 13
+		y = 5
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_we_are_strong"
+			swap_ideas = {
+				remove_idea = GAK_tactical_dolls_have_only_war_ideas
+				add_idea = GAK_tactical_dolls_have_only_war_1_ideas
+			}
+			country_event = {
+				id = hawaiipol.13
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_knife_gun_and_no_blood
+		icon = GFX_goal_GAK_knife_gun_and_no_blood
+		prerequisite = {
+			focus = GAK_we_are_strong
+		}
+		
+		x = 13
+		y = 6
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_knife_gun_and_no_blood"
+			swap_ideas = {
+				remove_idea = GAK_tactical_dolls_have_only_war_1_ideas
+				add_idea = GAK_tactical_dolls_have_only_war_2_ideas
+			}
+			country_event = {
+				id = hawaiipol.14
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_new_born_doll_society
+		icon = GFX_goal_GAK_new_born_doll_society
+		prerequisite = {
+			focus = GAK_tear_and_red_blood
+		}
+		prerequisite = {
+			focus = GAK_knife_gun_and_no_blood
+		}
+		x = 12
+		y = 8
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_new_born_doll_society"
+			country_event = {
+				id = hawaiipol.16
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_identification_and_analysis
+		icon = GFX_goal_GAK_identification_and_analysis
+		prerequisite = {
+			focus = GAK_there_was_here
+		}
+		prerequisite = {
+			focus = GAK_new_born_doll_society
+		}
+		x = 15
+		y = 9
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_identification_and_analysis"
+			stability_factor = 0.05
+		}
+	}
 }
+

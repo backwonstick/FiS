@@ -34,6 +34,66 @@ ideas = {
 				experience_gain_army = 0.05
 				experience_loss_factor = -0.1
 				conscription_factor = 0.03
+				heat_attrition_factor = -0.5
+				winter_attrition_factor = -0.5
+			}
+		}
+
+		GAK_tactical_dolls_have_mind_ideas = { #인간적인 전술인형
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_tactical_dolls_have_mind_ideas"}
+			picture = GFX_idea_GAK_tactical_dolls_ideas
+			modifier = {
+				MONTHLY_POPULATION = 0.4
+			}
+		}
+
+		GAK_tactical_dolls_have_mind_1_ideas = { #인간적인 전술인형
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_tactical_dolls_have_mind_ideas"}
+			picture = GFX_idea_GAK_tactical_dolls_ideas
+			modifier = {
+				partisan_effect = 0.1
+				MONTHLY_POPULATION = 0.8
+			}
+		}
+
+		GAK_tactical_dolls_have_mind_2_ideas = { #인간적인 전술인형
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_tactical_dolls_have_mind_2_ideas"}
+			picture = GFX_idea_GAK_tactical_dolls_ideas
+			modifier = {
+				partisan_effect = 0.15
+				MONTHLY_POPULATION = 1.2
+			}
+		}
+
+		GAK_tactical_dolls_have_only_war_ideas = { #전투만을 위한 전술인형
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_tactical_dolls_have_only_war_ideas"}
+			picture = GFX_idea_GAK_tactical_dolls_ideas
+			modifier = {
+				consumer_goods_factor = 0.02
+				army_speed_factor = 0.05
+			}
+		}
+
+		GAK_tactical_dolls_have_only_war_1_ideas = { #전투만을 위한 전술인형
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_tactical_dolls_have_only_war_1_ideas"}
+			picture = GFX_idea_GAK_tactical_dolls_ideas
+			modifier = {
+				consumer_goods_factor = 0.03
+				surrender_limit = 0.05
+				army_attack_factor = 0.07
+				army_speed_factor = 0.07
+			}
+		}
+
+		GAK_tactical_dolls_have_only_war_2_ideas = { #전투만을 위한 전술인형
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_tactical_dolls_have_only_war_2_ideas"}
+			picture = GFX_idea_GAK_tactical_dolls_ideas
+			modifier = {
+				consumer_goods_factor = 0.05
+				surrender_limit = 0.1
+				army_attack_factor = 0.1
+				army_speed_factor = 0.1
+				army_morale_factor = 0.1
 			}
 		}
 
@@ -50,6 +110,14 @@ ideas = {
 			picture = GFX_idea_GAK_Groza_mental_happy_ideas
 			modifier = {
 				stability_factor = -0.05
+			}
+		}
+
+		GAK_Groza_mental_stable_ideas = { #그로자의 정신 상태 - 안정
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_Groza_mental_stable_ideas"}
+			picture = GFX_idea_GAK_Groza_mental_happy_ideas
+			modifier = {
+				stability_factor = 0.1
 			}
 		}
 
@@ -74,11 +142,13 @@ ideas = {
 				production_speed_buildings_factor = -0.75
 				industrial_capacity_factory = -0.5
 				industrial_capacity_dockyard = -0.5
+				MONTHLY_POPULATION = -1
+				weekly_manpower = -100000
 			}
 			research_bonus = {
-				land_doctrine = -0.75
-				naval_doctrine = -0.75
-				air_doctrine = -0.75
+				land_doctrine = -1
+				naval_doctrine = -1
+				air_doctrine = -1
 			}
 		}
 
@@ -88,6 +158,7 @@ ideas = {
 			modifier = {
 				production_factory_max_efficiency_factor = 0.05
 				industrial_capacity_factory = 0.05
+				global_building_slots_factor = 0.05
 			}
 		}
 
@@ -98,7 +169,33 @@ ideas = {
 				production_factory_max_efficiency_factor = 0.1
 				production_factory_efficiency_gain_factor = 0.05
 				production_factory_start_efficiency_factor = 0.05
+				global_building_slots_factor = 0.1
+				equipment_conversion_speed = 0.05
 				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+			}
+		}
+
+		GAK_IOP_product_machine_3_ideas = { #IOP 공작기계
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_IOP_product_machine_3_ideas"}
+			picture = GFX_idea_GAK_first_start_ideas
+			modifier = {
+				production_factory_max_efficiency_factor = 0.15
+				production_factory_efficiency_gain_factor = 0.1
+				production_factory_start_efficiency_factor = 0.1
+				global_building_slots_factor = 0.15
+				equipment_conversion_speed = 0.1
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+			}
+		}
+
+		GAK_new_agriculture_something = { #미래를 위한 식량
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_new_agriculture_something"}
+			picture = GFX_idea_GAK_first_start_ideas
+			modifier = {
+				consumer_goods_factor = -0.08
+				MONTHLY_POPULATION = 0.4
 			}
 		}
     }
