@@ -1,5 +1,4 @@
 spriteTypes = {
-	#GAK
     spriteType = {
 		name = "GFX_idea_GAK_military_government_ideas"
 		texturefile = "gfx/interface/ideas/GAK/ideas/GAK_military_government.tga"
