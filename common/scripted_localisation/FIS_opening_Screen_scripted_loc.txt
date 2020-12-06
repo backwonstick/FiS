@@ -20,6 +20,10 @@ defined_text = {
 		trigger = { tag = TRM }
 		localization_key = TABORITSKYORDER_SCREEN_BUTTON_TEXT_TRM
 	}
+	text = {
+		trigger = { tag = RAS }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_RAS
+	}
 }
 
 defined_text = {
@@ -135,6 +139,22 @@ defined_text = { #극동 임시정부
 	}
 }
 
+defined_text = { #라스푸틴
+	name = GET_COUNTRY_INFO_PAGE_TEXT_RAS
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 0 } }
+		localization_key = COUNTRY_INFO_1_RAS
+	}
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 1 } }
+		localization_key = COUNTRY_INFO_2_RAS
+	}
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 2 } }
+		localization_key = COUNTRY_INFO_3_RAS
+	}
+}
+
 defined_text = {
 	name = GET_COUNTRY_INFO
 	## Countries with Opening pages
@@ -153,6 +173,10 @@ defined_text = {
 	text = {
 		trigger = { tag = TRM }
 		localization_key = "[GET_COUNTRY_INFO_PAGE_TEXT_TRM]"
+	}
+	text = {
+		trigger = { tag = RAS }
+		localization_key = "[GET_COUNTRY_INFO_PAGE_TEXT_RAS]"
 	}
 	## Default
 	text = {
@@ -210,5 +234,9 @@ defined_text = {
 	text = {
 		trigger = { tag = TRM }
 		localization_key = "GFX_OpeningSCreen_Poster_Transamur"
+	}
+	text = {
+		trigger = { tag = RAS }
+		localization_key = "GFX_OpeningSCreen_Poster_Rasputin"
 	}
 }
