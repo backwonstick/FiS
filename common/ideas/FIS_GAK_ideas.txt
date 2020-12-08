@@ -44,6 +44,7 @@ ideas = {
 			picture = GFX_idea_GAK_tactical_dolls_ideas
 			modifier = {
 				MONTHLY_POPULATION = 0.4
+				weekly_manpower = 200
 			}
 		}
 
@@ -53,6 +54,7 @@ ideas = {
 			modifier = {
 				partisan_effect = 0.1
 				MONTHLY_POPULATION = 0.8
+				weekly_manpower = 400
 			}
 		}
 
@@ -62,6 +64,7 @@ ideas = {
 			modifier = {
 				partisan_effect = 0.15
 				MONTHLY_POPULATION = 1.2
+				weekly_manpower = 800
 			}
 		}
 
@@ -196,6 +199,107 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = -0.08
 				MONTHLY_POPULATION = 0.4
+			}
+		}
+
+		GAK_upgrade_corp = { #지상군 지원 강화
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_upgrade_corp"}
+			picture = GFX_idea_GAK_first_start_ideas
+			modifier = {
+				air_close_air_support_attack_factor = 0.25
+				air_close_air_support_defence_factor = 0.25
+				air_close_air_support_agility_factor = 0.25
+				air_cas_present_factor = 0.1
+			}
+		}
+
+		GAK_lighter_tank_plan = { #가볍고 더 빠른 타격
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_lighter_tank_plan"}
+			picture = GFX_idea_GAK_first_start_ideas
+			modifier = {
+				army_attack_factor = 0.1
+				army_org_factor = 0.10
+				army_armor_attack_factor = 0.15
+				army_armor_defence_factor = 0.15
+				army_armor_speed_factor = 0.15
+			}
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.20
+					maximum_speed = 0.20
+					hard_attack = -0.10
+					armor_value = -0.15
+					instant = yes
+				}
+			}
+		}
+
+		GAK_harder_tank_plan = { #대구경의, 묵직한 떡장갑
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_harder_tank_plan"}
+			picture = GFX_idea_GAK_first_start_ideas
+			modifier = {
+				army_attack_factor = 0.1
+				army_org_factor = 0.10
+				army_armor_attack_factor = 0.15
+				army_armor_defence_factor = 0.15
+				army_armor_speed_factor = 0.15
+			}
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.20
+					maximum_speed = -0.15
+					hard_attack = 0.15
+					armor_value = 0.20
+					instant = yes
+				}
+			}
+		}
+
+		GAK_groza_experiment = { #그로자의 실험
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_groza_experiment"}
+			picture = GFX_idea_GAK_first_start_ideas
+			modifier = {
+				stability_weekly = -0.02
+				political_power_gain = -0.1
+			}
+		}
+
+		GAK_research_focusing = { #연구 집중
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_research_focusing"}
+			picture = GFX_idea_GAK_first_start_ideas
+			modifier = {
+				political_power_gain = -0.1
+				research_speed_factor = -0.2
+			}
+		}
+
+		GAK_research_focusing2 = { #연구 집중
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_research_focusing2"}
+			picture = GFX_idea_GAK_first_start_ideas
+			modifier = {
+				political_power_gain = -0.3
+				research_speed_factor = -0.4
+			}
+		}
+
+		GAK_research_focusing3 = { #연구 집중
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_research_focusing3"}
+			picture = GFX_idea_GAK_first_start_ideas
+			modifier = {
+				political_power_gain = -0.5
+				research_speed_factor = -0.6
+			}
+		}
+
+		GAK_soul_worker = { #소울워커
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_research_focusing3"}
+			picture = GFX_idea_GAK_first_start_ideas
+			modifier = {
+				army_attack_factor = 0.25
+				army_defence_factor = 0.25
+				army_morale_factor = 0.1
+				recon_factor = 0.1
+				partisan_effect = 0.5
 			}
 		}
     }

@@ -1,0 +1,445 @@
+focus_tree = {
+	id = FIS_groza_control_final
+
+	country = {
+		factor = 0
+	}
+
+    default = no
+	continuous_focus_position = { x = 3000 y = 700 }
+
+    focus = {
+		id = GAK_bio_experiment
+		icon = GFX_goal_GAK_bio_experiment
+		x = 15
+		y = 1
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_bio_experiment"
+			custom_effect_tooltip = GAK_bio_experiment_tooltip
+		}
+	}
+
+    focus = {
+		id = GAK_human_kidnap
+		icon = GFX_goal_GAK_human_kidnap
+		prerequisite = {
+			focus = GAK_bio_experiment
+		}
+		x = 15
+		y = 2
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_human_kidnap"
+			add_manpower = 250
+            hidden_effect = {
+                country_event = {
+				    id = hawaiipol.18
+			    }
+            }
+		}
+	}
+
+    focus = {
+		id = GAK_fail_fuck_all_died
+		icon = GFX_goal_GAK_fail_fuck_all_died
+		prerequisite = {
+			focus = GAK_human_kidnap
+		}
+		x = 15
+		y = 3
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_fail_fuck_all_died"
+            country_event = {
+                id = hawaiipol.19
+            }
+		}
+	}
+
+    focus = {
+		id = GAK_fuck_up_and_wakeup
+		icon = GFX_goal_GAK_fuck_up_and_wakeup
+		prerequisite = {
+			focus = GAK_fail_fuck_all_died
+		}
+        mutually_exclusive = {
+			focus = GAK_no_not_yet_bitchs
+		}
+		x = 13
+		y = 4
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_fail_fuck_all_died"
+            custom_effect_tooltip = GAK_groza_stop_this_shit
+            add_political_power = 100
+		}
+	}
+
+    focus = {
+		id = GAK_no_not_yet_bitchs
+		icon = GFX_goal_GAK_no_not_yet_bitchs
+		prerequisite = {
+			focus = GAK_fail_fuck_all_died
+		}
+        mutually_exclusive = {
+			focus = GAK_fuck_up_and_wakeup
+		}
+		x = 20
+		y = 4
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_no_not_yet_bitchs"
+            add_political_power = -100
+            add_stability = -0.1
+            add_timed_idea = {
+                idea = GAK_groza_experiment
+                days = 360
+            }
+            country_event = {
+                id = hawaiipol.20
+            }
+		}
+	}
+
+    focus = {
+		id = GAK_more_fucking_humans
+		icon = GFX_goal_GAK_more_fucking_humans
+		prerequisite = {
+			focus = GAK_no_not_yet_bitchs
+		}
+		x = 18
+		y = 5
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_no_not_yet_bitchs"
+            add_political_power = -50
+            add_stability = -0.05
+            custom_effect_tooltip = GAK_human_kidnap_tooltip
+		}
+	}
+
+    focus = {
+		id = GAK_strange_something
+		icon = GFX_goal_GAK_strange_something
+		prerequisite = {
+			focus = GAK_no_not_yet_bitchs
+		}
+		x = 22
+		y = 5
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_strange_something"
+            add_timed_idea = {
+                idea = GAK_research_focusing
+                days = 30
+            }
+            add_political_power = -50
+            custom_effect_tooltip = GAK_find_strange_something_tooltip
+            hidden_effect = {
+                country_event = {
+                    id =  hawaiipol.21
+                }
+            }
+		}
+	}
+
+    focus = {
+		id = GAK_substance_injection
+		icon = GFX_goal_GAK_substance_injection
+		prerequisite = {
+			focus = GAK_strange_something
+		}
+        prerequisite = {
+			focus = GAK_more_fucking_humans
+		}
+		x = 19
+		y = 6
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_substance_injection"
+            add_political_power = -50
+            add_manpower = -167
+            custom_effect_tooltip = GAK_human_feels_pain
+		}
+	}
+
+    focus = {
+		id = GAK_Feed_materials_b
+		icon = GFX_goal_GAK_Feed_materials_b
+		prerequisite = {
+			focus = GAK_strange_something
+		}
+        prerequisite = {
+			focus = GAK_more_fucking_humans
+		}
+		x = 21
+		y = 6
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_Feed_materials_b"
+            add_political_power = -50
+            add_manpower = -82
+            custom_effect_tooltip = GAK_human_feels_pain
+		}
+	}
+
+    focus = {
+		id = GAK_determine_cause_of_mistake
+		icon = GFX_goal_GAK_determine_cause_of_mistake
+		prerequisite = {
+			focus = GAK_substance_injection
+		}
+        prerequisite = {
+			focus = GAK_Feed_materials_b
+		}
+        prerequisite = {
+			focus = GAK_strange_something
+		}
+        prerequisite = {
+			focus = GAK_more_fucking_humans
+		}
+		x = 20
+		y = 7
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+        select_effect = {
+            hidden_effect = {
+                country_event = {
+                    id = hawaiilif.23 days = 10
+                }
+                country_event = {
+                    id = hawaiilif.24 days = 20
+                }
+            }
+        }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_determine_cause_of_mistake"
+            add_political_power = -50
+            add_manpower = -1
+            custom_effect_tooltip = GAK_groza_will_research_the_cause
+            hidden_effect = {
+                country_event = {
+                    id =  hawaiipol.22
+                }
+            }
+		}
+	}
+
+    focus = {
+		id = GAK_improve_the_something
+		icon = GFX_goal_GAK_improve_the_something
+		prerequisite = {
+			focus = GAK_determine_cause_of_mistake
+		}
+		x = 19
+		y = 8
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_improve_the_something"
+            add_timed_idea = {
+                idea = GAK_research_focusing2
+                days = 30
+            }
+		}
+	}
+
+    focus = {
+		id = GAK_we_need_fucking_kid
+		icon = GFX_goal_GAK_we_need_fucking_kid
+		prerequisite = {
+			focus = GAK_determine_cause_of_mistake
+		}
+		x = 21
+		y = 8
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_we_need_fucking_kid"
+            add_manpower = 1000
+		}
+	}
+
+    focus = {
+		id = GAK_change_the_experiment_how
+		icon = GFX_goal_GAK_change_the_experiment_how
+		prerequisite = {
+			focus = GAK_we_need_fucking_kid
+		}
+        prerequisite = {
+			focus = GAK_improve_the_something
+		}
+		x = 20
+		y = 9
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_change_the_experiment_how"
+            add_political_power = 300
+		}
+	}
+
+    focus = {
+		id = GAK_body_power_up
+		icon = GFX_goal_GAK_body_power_up
+		prerequisite = {
+			focus = GAK_change_the_experiment_how
+		}
+		x = 20
+		y = 10
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_body_power_up"
+            add_political_power = -100
+            add_timed_idea = {
+                idea = GAK_research_focusing3
+                days = 30
+            }
+		}
+	}
+
+    focus = {
+		id = GAK_brainwashing_and_purification
+		icon = GFX_goal_GAK_brainwashing_and_purification
+		prerequisite = {
+			focus = GAK_change_the_experiment_how
+		}
+		x = 21
+		y = 10
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_brainwashing_and_purification"
+            add_political_power = -100
+            add_timed_idea = {
+                idea = GAK_research_focusing3
+                days = 30
+            }
+		}
+	}
+
+    focus = {
+		id = GAK_manufacture_of_their_weapons
+		icon = GFX_goal_GAK_manufacture_of_their_weapons
+		prerequisite = {
+			focus = GAK_change_the_experiment_how
+		}
+		x = 19
+		y = 10
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_manufacture_of_their_weapons"
+            add_political_power = -100
+            add_timed_idea = {
+                idea = GAK_research_focusing3
+                days = 30
+            }
+		}
+	}
+
+    focus = {
+		id = GAK_fuck_finally_we_go_home
+		icon = GFX_goal_GAK_fuck_finally_we_go_home
+		prerequisite = {
+			focus = GAK_manufacture_of_their_weapons
+		}
+        prerequisite = {
+			focus = GAK_brainwashing_and_purification
+		}
+        prerequisite = {
+			focus = GAK_body_power_up
+		}
+		x = 20
+		y = 11
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_fuck_finally_we_go_home"
+            add_ideas = GAK_soul_worker
+		}
+	}
+
+
+
+}

@@ -44,6 +44,11 @@ spriteTypes = {
 		name = "GFX_terrain_nyc"
 		textureFile = "gfx/interface/terrains/terrain_city_nyc.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_terrain_hawaii"
+		textureFile = "gfx/interface/terrains/terrain_city_hawaii.dds"
+	}
 
 	spriteType = {
 		name = "GFX_terrain_nyc_winter"

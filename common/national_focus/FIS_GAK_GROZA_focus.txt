@@ -496,5 +496,318 @@ focus_tree = {
 			stability_factor = 0.05
 		}
 	}
+
+	focus = {
+		id = GAK_army_upgrade
+		icon = GFX_goal_GAK_army_upgrade
+		prerequisite = {
+			focus = GAK_identification_and_analysis
+		}
+		x = 15
+		y = 10
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_army_upgrade"
+			war_support_factor = 0.1
+		}
+	}
+
+	focus = {
+		id = GAK_many_many_gun
+		icon = GFX_goal_GAK_many_many_gun
+		prerequisite = {
+			focus = GAK_army_upgrade
+		}
+		x = 15
+		y = 11
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_many_many_gun"
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = 3000
+				producer = GAK
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_call_of_factory
+		icon = GFX_goal_GAK_call_of_factory
+		prerequisite = {
+			focus = GAK_many_many_gun
+		}
+		x = 15
+		y = 12
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_call_of_factory"
+			add_offsite_building = { 
+				type = arms_factory  
+				level = 2
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_newest_army
+		icon = GFX_goal_GAK_newest_army
+		prerequisite = {
+			focus = GAK_call_of_factory
+		}
+		x = 12
+		y = 13
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_newest_army"
+			army_experience = 100
+		}
+	}
+
+	focus = {
+		id = GAK_upgrade_our_gun
+		icon = GFX_goal_GAK_upgrade_our_gun
+		prerequisite = {
+			focus = GAK_newest_army
+		}
+		x = 11
+		y = 14
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_upgrade_our_gun"
+			add_tech_bonus = {
+				name = GAK_Infantry_divs
+				bonus = 1
+				uses = 2
+				category = infantry_weapons
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_upgrade_our_artillery
+		icon = GFX_goal_GAK_upgrade_our_gun
+		prerequisite = {
+			focus = GAK_newest_army
+		}
+		x = 13
+		y = 14
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_upgrade_our_gun"
+			add_tech_bonus = {
+				name = GAK_artillery_upgrade
+				bonus = 1
+				uses = 2
+				category = artillery
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_machined_army
+		icon = GFX_goal_GAK_machined_army
+		prerequisite = {
+			focus = GAK_upgrade_our_artillery
+		}
+		prerequisite = {
+			focus = GAK_upgrade_our_gun
+		}
+		x = 12
+		y = 15
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_machined_army"
+			country_event = { 
+				id = hawaiipol.17 
+			}
+			add_tech_bonus = {
+				name = cat_mechanized_equipment
+				bonus = 2
+				uses = 1
+				category = armor
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_newest_airforce
+		icon = GFX_goal_GAK_newest_airforce
+		prerequisite = {
+			focus = GAK_call_of_factory
+		}
+		x = 18
+		y = 13
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_newest_army"
+			air_experience = 100
+		}
+	}
+
+	focus = {
+		id = GAK_upgrade_our_fighter
+		icon = GFX_goal_GAK_upgrade_our_fighter
+		prerequisite = {
+			focus = GAK_newest_airforce
+		}
+		x = 17
+		y = 14
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_upgrade_our_fighter"
+			add_tech_bonus = {
+				name = GAK_fighter_upgrade
+				bonus = 2
+				uses = 1
+				category = light_fighter
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_upgrade_our_cas
+		icon = GFX_goal_GAK_upgrade_our_cas
+		prerequisite = {
+			focus = GAK_newest_airforce
+		}
+		x = 19
+		y = 14
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_upgrade_our_cas"
+			add_tech_bonus = {
+				name = GAK_cas_upgrade
+				bonus = 2
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_strategic_punch
+		icon = GFX_goal_GAK_strategic_punch
+		prerequisite = {
+			focus = GAK_upgrade_our_fighter
+		}
+		prerequisite = {
+			focus = GAK_upgrade_our_cas
+		}
+		x = 18
+		y = 15
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_strategic_punch"
+			add_tech_bonus = {
+				name = GAK_cas_upgrade
+				bonus = 2
+				uses = 1
+				category = cat_strategic_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = GAK_upgrade_strengthening_cooperation
+		icon = GFX_goal_GAK_upgrade_strengthening_cooperation
+		prerequisite = {
+			focus = GAK_machined_army
+		}
+		prerequisite = {
+			focus = GAK_strategic_punch
+		}
+		x = 15
+		y = 16
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_upgrade_strengthening_cooperation"
+			add_ideas = GAK_upgrade_corp
+		}
+	}
+
+	focus = {
+		id = GAK_NOT_ENOUGH
+		icon = GFX_goal_GAK_NOT_ENOUGH
+		prerequisite = {
+			focus = GAK_upgrade_strengthening_cooperation
+		}
+		x = 15
+		y = 17
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_NOT_ENOUGH"
+			custom_effect_tooltip = GAK_Groza_needs_soulworker
+			hidden_effect = {
+				set_country_flag = FIS_GAK_groza_soulworker
+				load_focus_tree = FIS_groza_control_final
+			}
+		}
+	}
 }
 
