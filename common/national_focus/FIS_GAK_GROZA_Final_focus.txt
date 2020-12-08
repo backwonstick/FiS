@@ -372,7 +372,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GAK_change_the_experiment_how
 		}
-		x = 21
+		x = 22
 		y = 10
 		cost = 0.5
 
@@ -396,7 +396,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GAK_change_the_experiment_how
 		}
-		x = 19
+		x = 18
 		y = 10
 		cost = 0.5
 

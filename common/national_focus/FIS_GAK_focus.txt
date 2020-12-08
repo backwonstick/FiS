@@ -15,7 +15,7 @@ focus_tree = {
 
 focus = {
 	id = GAK_groza_thinking
-	icon = GFX_focus_prc_infiltration
+	icon = GFX_goal_GAK_groza_thinking
 	x = 12
 	y = 0
 	cost = 0.5
