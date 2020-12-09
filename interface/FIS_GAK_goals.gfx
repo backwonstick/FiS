@@ -1,4 +1,12 @@
 spriteTypes = {	
+	SpriteType = {
+		name = "GFX_goal_GAK_groza_thinking"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_groza_thinking.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GAK_so_how_to_we_do"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_so_how_to_we_do.tga"			
+	}
     SpriteType = {
 		name = "GFX_goal_GAK_is_this_ok"
 		texturefile = "gfx/interface/goals/GAK/generic_seize_money.tga"			
