@@ -1,0 +1,35 @@
+ideas = {
+	country = {
+		RAS_reign_of_rasputin = {
+			#picture =
+			#always = { no }
+			modifier = {
+			    idk
+			}
+		}
+		
+		RAS_reign_of_crowley = {
+			#picture =
+			#always = { no }
+			modifier = {
+			    idk
+			}
+		}
+		
+		RAS_reign_of_st_germain = {
+			#picture = 
+			#always = { no }
+			modifier = {
+				idk
+			}
+		}
+		
+		RAS_reign_of_idk = {
+			#picture = 
+			#always = { no }
+			modifier = {
+				idk
+			}
+		}
+	}
+}	

@@ -1,11 +1,11 @@
 ﻿l_english:
 
-RAS_accelerationism_party:0 ""
-RAS_accelerationism_party_long:0 ""
-RAS_jucheism_party:0 ""
-RAS_jucheism_party_long:0 ""
-RAS_authoritarian_communism_party:0 ""
-RAS_authoritarian_communism_party_long:0 ""
+RAS_accelerationism_party:0 "§Y생 제르맹 백작§!의 영향력"
+RAS_accelerationism_party_long:0 "§Y생 제르맹 백작§!의 영향력"
+RAS_jucheism_party:0 "§R그리고리 라스푸틴§!의 영향력"
+RAS_jucheism_party_long:0 "§R그리고리 라스푸틴§!의 영향력"
+RAS_authoritarian_communism_party:0 "공석"
+RAS_authoritarian_communism_party_long:0 "공석"
 RAS_communism_party:0 ""
 RAS_communism_party_long:0 ""
 RAS_liberal_socialism_party:0 ""
@@ -26,13 +26,16 @@ RAS_corporatocrat_party:0 ""
 RAS_corporatocrat_party_long:0 ""
 RAS_fascism_party:0 ""
 RAS_fascism_party_long:0 ""
-RAS_burgundian_system_party:0 ""
-RAS_burgundian_system_party_long:0 ""
+RAS_burgundian_system_party:0 "§B알레이스터 크로울리§!의 영향력"
+RAS_burgundian_system_party_long:0 "§B알레이스터 크로울리§!의 영향력"
 RAS_blackdancism_party:0 ""
 RAS_blackdancism_party_long:0 ""
 RAS_anarchism_party:0 ""
-RAS_anarchism_party_long:0 "강"
+RAS_anarchism_party_long:0 ""
+
+RAS_reign_of_rasputin:0 "암흑 의회:§R그리고리 라스푸틴§!의 주도"
+RAS_reign_of_rasputin_desc:0 "현재 암흑 의회의 주도권은 §R그리고리 라스푸틴§!이 쥐고 있습니다.\n라스푸틴 남극가서 놀다가 돌아옴"
 
 
 
-POLITICS_RAS_DESC:0 "라라라스푸틴 러버옾더러시아퀸"
+POLITICS_Rasputin_DESC:0 "라라라스푸틴 러버옾더러시아퀸"
