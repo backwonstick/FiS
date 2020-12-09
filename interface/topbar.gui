@@ -109,26 +109,33 @@ guiTypes = {
 		iconType ={
 			name ="pol_power_value_bg"
 			spriteType = "GFX_generic_box_smallest"
-			position = { x = 100 y = 5 }
+			position = { x = 120 y = 5 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		iconType ={
 			name ="pol_power_icon"
 			spriteType = "GFX_pol_power_icon"
-			position = { x= 104 y = 3 }
+			position = { x= 124 y = 3 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 			name ="pol_power"
-			position = { x= 120 y = 9§§ }
+			position = { x= 140 y = 9§§ }
 			font = "hoi_18mbs"
 			text = "999"
 			format = center
 			maxWidth = 52
 			maxHeight = 24
 			fixedsize = yes
+		}
+		
+		iconType ={
+			name ="party_popularity_bg"
+			spriteType = "GFX_generic_box_smallest"
+			position = { x = 194 y = 5 }
+			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType ={
