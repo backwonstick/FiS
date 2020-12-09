@@ -17,7 +17,7 @@ focus = {
 	id = GAK_groza_thinking
 	icon = GFX_goal_GAK_groza_thinking
 	x = 12
-	y = 0
+	y = 2
 	cost = 0.5
 
 	ai_will_do = {
@@ -41,7 +41,7 @@ focus = {
 		focus = GAK_groza_thinking
 	}
 	x = 13
-	y = 1
+	y = 3
 	cost = 0.5
 
 	ai_will_do = {
@@ -65,7 +65,7 @@ focus = {
 		focus = GAK_groza_thinking
 	}
 	x = 11
-	y = 1
+	y = 3
 	cost = 0.5
 
 	ai_will_do = {
@@ -84,7 +84,7 @@ focus = {
 
 focus = {
 	id = GAK_so_how_to_we_do
-	icon = GFX_focus_eng_concessions_to_the_trade_unions
+	icon = GFX_goal_GAK_so_how_to_we_do
     prerequisite = {
 		focus = GAK_groza_thinking
 	}
@@ -95,7 +95,7 @@ focus = {
 		focus = GAK_awful_hawaii
 	}
 	x = 12
-	y = 2
+	y = 4
 	cost = 10
 
 	ai_will_do = {
@@ -142,7 +142,7 @@ focus = {
 		has_country_flag = hawaii_order_by_groza 
 	}
 	x = 8
-	y = 4
+	y = 6
 	cost = 0.1
 
 	ai_will_do = {
@@ -180,7 +180,7 @@ focus = {
 		has_country_flag = hawaii_control_sablin		
 	}
 	x = 10
-	y = 5
+	y = 7
 	cost = 0.1
 
 	ai_will_do = {
@@ -206,7 +206,7 @@ focus = {
 		has_country_flag = hawaii_control_mosin_nagant		
 	}
 	x = 12
-	y = 4
+	y = 6
 	cost = 0.1
 
 	ai_will_do = {
@@ -232,7 +232,7 @@ focus = {
 		has_country_flag = hawaii_control_kar98		
 	}
 	x = 14
-	y = 5
+	y = 7
 	cost = 0.1
 
 	ai_will_do = {
@@ -258,7 +258,7 @@ focus = {
 		has_country_flag = hawaii_control_g36		
 	}
 	x = 16
-	y = 4
+	y = 6
 	cost = 0.1
 
 	ai_will_do = {
