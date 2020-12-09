@@ -19,4 +19,9 @@ spriteTypes = {
 		name = "GFX_OpeningSCreen_Poster_Transamur"
 		textureFile = "gfx/interface/opening_screen/poster/FIS_TRM_OPENING_POSTER.tga"
 	}
+	#RAS
+	spriteType = {
+		name = "GFX_OpeningSCreen_Poster_Rasputin"
+		textureFile = "gfx/interface/opening_screen/poster/FIS_RAS_OPENING_POSTER.tga"
+	}
 }
