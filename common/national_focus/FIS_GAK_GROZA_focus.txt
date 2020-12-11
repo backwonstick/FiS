@@ -513,7 +513,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_army_upgrade"
-			war_support_factor = 0.1
+			add_war_support = 0.1
 		}
 	}
 
@@ -534,8 +534,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_many_many_gun"
 			add_equipment_to_stockpile = {
-				type = infantry_equipment_1
-				amount = 3000
+				type = infantry_equipment
+				amount = 5000
 				producer = GAK
 			}
 		}
@@ -611,7 +611,7 @@ focus_tree = {
 
 	focus = {
 		id = GAK_upgrade_our_artillery
-		icon = GFX_goal_GAK_upgrade_our_gun
+		icon = GFX_goal_GAK_upgrade_our_artillery
 		prerequisite = {
 			focus = GAK_newest_army
 		}
@@ -788,7 +788,7 @@ focus_tree = {
 
 	focus = {
 		id = GAK_NOT_ENOUGH
-		icon = GFX_goal_GAK_NOT_ENOUGH
+		icon = GFX_goal_GAK_order_by_groza
 		prerequisite = {
 			focus = GAK_upgrade_strengthening_cooperation
 		}

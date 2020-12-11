@@ -534,3 +534,18 @@ country_event = {
 		name = hawaiipol.25.a
 	}
 }
+
+country_event = {
+	id = hawaiipol.26
+	immediate = { log = "[GetDateText]: [Root.GetName]: event hawaiipol.26" }
+	title = hawaiipol.26.t
+	desc = hawaiipol.26.d
+	picture = GFX_report
+
+	is_triggered_only = yes
+    fire_only_once = yes
+
+	option = {
+		name = hawaiipol.26.a
+	}
+}

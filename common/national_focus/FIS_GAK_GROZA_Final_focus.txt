@@ -437,6 +437,9 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_fuck_finally_we_go_home"
             add_ideas = GAK_soul_worker
+			country_event = {
+				id = hawaiipol.26
+			}
 		}
 	}
 

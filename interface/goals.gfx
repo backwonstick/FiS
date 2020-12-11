@@ -125,4 +125,64 @@ spriteTypes = {
 		name = "GFX_goal_GAK_identification_and_analysis"
 		texturefile = "gfx/interface/goals/GAK/GAK_identification_and_analysis.tga"			
 	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_army_upgrade"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_army_upgrade.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_many_many_gun"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_many_many_gun.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_call_of_factory"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_call_of_factory.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_newest_army"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_newest_army.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_upgrade_our_gun"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_upgrade_our_gun.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_upgrade_our_artillery"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_upgrade_our_artillery.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_machined_army"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_machined_army.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_newest_airforce"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_newest_airforce.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_upgrade_our_fighter"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_upgrade_our_fighter.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_upgrade_our_cas"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_upgrade_our_cas.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_strategic_punch"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_strategic_punch.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_upgrade_strengthening_cooperation"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_upgrade_strengthening_cooperation.tga"			
+	}
 }
