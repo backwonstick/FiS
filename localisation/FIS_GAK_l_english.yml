@@ -91,6 +91,7 @@ GAK_g36_success_again:0 "민주주의의 찬가를 울부짖어라"
 
 # 명령 14호 루트 #
 GAK_end_of_purge:0 "숙청의 끝"
+GAK_end_of_purge_desc:0 ""...시청자 여러분들, 안녕하십니까. HDBS(Hawaii Democracy Broad System)입니다. 오늘은 그로자의 '명령 14호'가 발동된지 하루가 지났습니다. 현재 많은 동포가 독재자의 손아귀에 죽어나가고 있습니다. 하지만, 우리는 굴복하지 않을것이며, G36이 남긴 민주주의를 반드시 사수하겠다고..."\n\n(방송 도중, 방송실 바로 위에서는 우담회 요원들의 웅성이는 소리와 총소리가 섞인 욕설이 들려온다.)\n\n"""
 GAK_start_at_first:0 "신화를 쓰다"
 GAK_IOP_product_machine:0 "IOP의 공작기계"
 GAK_IOP_automactic_producting:0 "공장자동화"
@@ -200,6 +201,10 @@ hawaiilif.9.b:0 "사블린의 자유지상적 혁명이 성공했다!"
 hawaiilif.9.c:0 "모신나강의 붉은 민병대가 하와이를 빨갛게 물들였다!"
 hawaiilif.9.e:0 "군부가 그로자를 찾은뒤, 사살하고 하와이를 점령했다."
 hawaiilif.9.f:0 "민주주의의 유령이 깨어났다."
+
+hawaiipol.1.t:0 "숙청의 끝"
+hawaiipol.1.d:0 ""
+hawaiipol.1.a:0 ""
 
 # 슈퍼 이벤트 #
 GAK_ORDER_OF_GROZA_T:0 "명령 14호"

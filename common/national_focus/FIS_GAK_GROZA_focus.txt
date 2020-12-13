@@ -793,7 +793,7 @@ focus_tree = {
 			focus = GAK_upgrade_strengthening_cooperation
 		}
 		x = 15
-		y = 17
+		y = 18
 		cost = 0.5
 
 		ai_will_do = {
