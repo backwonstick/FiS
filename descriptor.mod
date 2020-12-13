@@ -14,6 +14,7 @@ name=" Faith in Steel - Alpha"
 replace_path="history/states"
 replace_path="map/strategicregions"
 replace_path="map/supplyareas"
+replace_path="common/ideologies"
 supported_version="1.10.*"
 path="mod/FIS"
 
