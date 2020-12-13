@@ -9,7 +9,10 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
+			11274 = {
+				naval_base = 3
 
+			}
 		}
 		add_core_of = POL
 		1940.5.10 = {

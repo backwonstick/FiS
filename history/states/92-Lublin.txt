@@ -15,28 +15,12 @@ state={
 			infrastructure = 5
 			industrial_complex = 2
 			air_base = 1
+			3559 = {
+				naval_base = 2
 
+			}
 		}
 		add_core_of = POL
-		1939.1.1 = {
-			buildings = {
-				air_base = 3
-			}
-
-		}
-		1940.5.10 = {
-			owner = GGP
-
-		}
-		1945.1.1 = {
-			controller = SOV
-
-		}		
-		1946.1.1 = {
-			owner = POL
-			controller = POL
-			
-		}
 	}
 
 	provinces={
