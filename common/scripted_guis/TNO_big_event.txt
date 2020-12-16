@@ -119,4 +119,147 @@ scripted_gui = {
 			}
 		}
 	}
+###############################################
+#
+#   새 이벤트
+#
+###############################################
+	SE_Black_Mesa_Incident = {
+		context_type = player_context
+		window_name = "SE_Black_Mesa_Incident"
+
+		visible = {
+			has_country_flag = SE_Black_Mesa_Incident_FLAG
+		}
+	}
+
+	SE_Black_Mesa_Incident_frame = {
+		context_type = player_context
+		window_name = "SE_Black_Mesa_Incident_frame"
+
+		visible = {
+			has_country_flag = SE_Black_Mesa_Incident_FLAG
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = SE_Black_Mesa_Incident_FLAG
+			}
+		}
+	}
+	SE_Second_Lunarian_War = {
+		context_type = player_context
+		window_name = "SE_Second_Lunarian_War"
+
+		visible = {
+			has_country_flag = SE_Second_Lunarian_War_FLAG
+		}
+	}
+
+	SE_Second_Lunarian_War_frame = {
+		context_type = player_context
+		window_name = "SE_Second_Lunarian_War_frame"
+
+		visible = {
+			has_country_flag = SE_Second_Lunarian_War_FLAG
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = SE_Second_Lunarian_War_FLAG
+			}
+		}
+	}
+	SE_Nazi_Meteor_Blitzkrieg = {
+		context_type = player_context
+		window_name = "SE_Nazi_Meteor_Blitzkrieg"
+
+		visible = {
+			has_country_flag = SE_Nazi_Meteor_Blitzkrieg_FLAG
+		}
+	}
+
+	SE_Nazi_Meteor_Blitzkrieg_frame = {
+		context_type = player_context
+		window_name = "SE_Nazi_Meteor_Blitzkrieg_frame"
+
+		visible = {
+			has_country_flag = SE_Nazi_Meteor_Blitzkrieg_FLAG
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = SE_Nazi_Meteor_Blitzkrieg_FLAG
+			}
+		}
+	}
+	SE_Moon_Rabbit_Unified = {
+		context_type = player_context
+		window_name = "SE_Moon_Rabbit_Unified"
+
+		visible = {
+			has_country_flag = SE_Moon_Rabbit_Unified_FLAG
+		}
+	}
+
+	SE_Moon_Rabbit_Unified_frame = {
+		context_type = player_context
+		window_name = "SE_Moon_Rabbit_Unified_frame"
+
+		visible = {
+			has_country_flag = SE_Moon_Rabbit_Unified_FLAG
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = SE_Moon_Rabbit_Unified_FLAG
+			}
+		}
+	}
+	SE_Lunarian_Unified = {
+		context_type = player_context
+		window_name = "SE_Lunarian_Unified"
+
+		visible = {
+			has_country_flag = SE_Lunarian_Unified_FLAG
+		}
+	}
+
+	SE_Lunarian_Unified_frame = {
+		context_type = player_context
+		window_name = "SE_Lunarian_Unified_frame"
+
+		visible = {
+			has_country_flag = SE_Lunarian_Unified_FLAG
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = SE_Lunarian_Unified_FLAG
+			}
+		}
+	}
+	SE_Moon_Nazi_Unified = {
+		context_type = player_context
+		window_name = "SE_Moon_Nazi_Unified"
+
+		visible = {
+			has_country_flag = SE_Moon_Nazi_Unified_FLAG
+		}
+	}
+
+	SE_Moon_Nazi_Unified_frame = {
+		context_type = player_context
+		window_name = "SE_Moon_Nazi_Unified_frame"
+
+		visible = {
+			has_country_flag = SE_Moon_Nazi_Unified_FLAG
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = SE_Moon_Nazi_Unified_FLAG
+			}
+		}
+	}
 }

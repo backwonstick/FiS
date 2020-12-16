@@ -1,0 +1,19 @@
+
+
+news_event = { # 대공명 현상
+	id = TEST.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.1"}
+	title = TEST.1.t
+	desc = TEST.1.d
+	picture = GFX_news_event_german_civil_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = TEST.1.a
+		if = {
+			limit = { is_ai = no }
+			set_country_flag = SE_Black_Mesa_Incident_FLAG
+		}
+	}
+}
