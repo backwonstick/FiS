@@ -58,7 +58,7 @@ DEN_ADJ:0 "뉴 카멜롯"
 DEN_DEF:0 "뉴 카멜롯"
 
 DAC:0 "다키아 대공국"
-DAC_ADJ:0 "다키아"
+DAC_ADJ:0 "다키아 대공국"
 DAC_DEF:0 "다키아"
 
 SWE:0 "스베아리케 합중국"
@@ -66,31 +66,83 @@ SWE_ADJ:0 "스베아리케 합중국"
 SWE_DEF:0 "스베아리케 합중국"
 
 GER:0 "독일 재건 위원회"
-GER_ADJ:0 "독일 재건 위원회"
-GER_DEF:0 "독일 재건 위원회"
+GER_ADJ:0 "독일"
+GER_DEF:0 "연합군 사령부 군정 하 독일 재건 위원회"
+
 GER_rebuild:0 "독일 재건 위원회"
-GER_rebuild_ADJ:0 "독일 재건 위원회"
-GER_rebuild_DEF:0 "독일 재건 위원회"
+GER_rebuild_ADJ:0 "독일"
+GER_rebuild_DEF:0 "연합군 사령부 군정 하 독일 재건 위원회"
 
 PSY:0 "싸이월드"
 PSY_ADJ:0 "싸이"
 PSY_DEF:0 "싸이"
 
+YUG:0 "유고슬라비아"
+YUG_ADJ:0 "유고슬라비아"
+YUG_DEF:0 "유고슬라비아"
+
+
+LIT:0 "리투아니아"
+LIT_ADJ:0 "리투아니아"
+LIT_DEF:0 "리투아니아"
+
+LAT:0 "라트비아"
+LAT_ADJ:0 "라트비아"
+LAT_DEF:0 "라트비아"
+
+EST:0 "에스토니아"
+EST_ADJ:0 "에스토니아"
+EST_DEF:0 "에스토니아"
+
+ITA:0 "이탈리아 연방"
+ITA_ADJ:0 "이탈리아 연방"
+ITA_DEF:0 "이탈리아"
+
+ATZ:0 "아스토츠카"
+ATZ_ADJ:0 "아스토츠카 인민 공화국"
+ATZ_DEF:0 "아스토츠카"
+
+AST:0 "오스트레일리아"
+AST_ADJ:0 "오스트레일리아 연방"
+AST_DEF:0 "오스트레일리아"
+
+VNZ:0 "베네치아"
+VNZ_ADJ:0 "베네치아 공화국"
+VNZ_DEF:0 "마리오 경의 고귀한 베네치아 공화국"
+
+SKV:0 "소코비아"
+SKV_ADJ:0 "소코비아"
+SKV_DEF:0 "소코비아 공화국"
+
 KJE:0 "대한-일본 이중제국"
-KJE_ADJ:0 "한일 이중제국"
-KJE_DEF:0 "한일 이중제국"
+KJE_ADJ:0 "이중제국"
+KJE_DEF:0 "대한-일본 이중제국"
 
 TRM:0 "트란스아무르"
 TRM_ADJ:0 "트란스아무르"
 TRM_DEF:0 "트란스아무르"
 
 DNZ:0 "그단치히 초월시"
-DNZ_ADJ:0 "그단치히"
+DNZ_ADJ:0 "그단치히 초월시"
 DNZ_DEF:0 "그단치히"
 
 SCO:0 "스코틀랜드 왕국"
-SCO_ADJ:0 "스코틀랜드"
+SCO_ADJ:0 "스코틀랜드 왕국"
 SCO_DEF:0 "스코틀랜드"
+
+SPA:0 "이베리아 연방"
+SPA_ADJ:0 "이베리아 연방"
+SPA_DEF:0 "이베리아"
+
+HOL:0 "네덜란드 카르텔"
+HOL_ADJ:0 "네덜란드 카르텔"
+HOL_DEF:0 "네덜란드 카르텔"
+
+
+VCT:0 "교황령"
+VCT_ADJ:0 "교황령"
+VCT_DEF:0 "교황령"
+
 
 RAS:0 "암흑 의회"
 RAS_ADJ:0 "암흑 의회"

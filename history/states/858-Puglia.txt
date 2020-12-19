@@ -4,7 +4,7 @@ state={
 	name="STATE_858"
 
 	history={
-		owner = ITA
+		owner = VCT
 		victory_points = {
 			11837 15 
 		}
@@ -29,6 +29,7 @@ state={
 
 		}
 		add_core_of = ITA
+		add_core_of = VCT
 		1939.1.1 = {
 			buildings = {
 				dockyard = 4

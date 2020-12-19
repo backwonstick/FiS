@@ -12,15 +12,6 @@ state={
 
 		}
 		add_core_of = GER
-		1946.1.1 = {
-			owner = FRA
-			controller = FRA
-
-		}
-		1950.1.1 = {
-			owner = FRG
-
-		}
 
 	}
 	

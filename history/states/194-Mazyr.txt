@@ -4,7 +4,7 @@ state={
 	name="STATE_194"
 
 	history={
-		owner = SOV
+		owner = BLR
 		victory_points = {
 			6232 2
 		}
@@ -15,35 +15,6 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = BLR
-		1942.11.22 = {
-			owner = RUK
-
-		}
-		1944.6.20 = {
-			controller = SOV
-			RUK = {
-				set_province_controller = 215
-				set_province_controller = 3203
-				set_province_controller = 3293
-				set_province_controller = 6319
-				set_province_controller = 9554
-			}
-
-		}
-		1945.1.1 = {
-			controller = SOV
-
-		}
-		1946.1.1 = {
-			owner = SOV
-
-		}
-		2000.1.1 = {
-			owner = BLR
-			controller = BLR
-			remove_core_of = SOV
-
-		}
 
 	}
 

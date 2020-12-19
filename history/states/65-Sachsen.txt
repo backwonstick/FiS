@@ -27,27 +27,6 @@ state={
 			9441 2 
 		}
 		add_core_of = GER
-		1939.1.1 = {
-			buildings = {
-				synthetic_refinery = 2
-				arms_factory = 5
-				industrial_complex = 10
-
-			}
-
-		}
-		1946.1.1 = {
-			owner = SOV
-
-		}
-		1950.1.1 = {
-			owner = DDR
-
-		}
-		1991.1.1 = {
-			owner = FRG
-
-		}
 
 	}
 

@@ -4,7 +4,7 @@ state={
 	name="STATE_95"
 
 	history={
-		owner = POL
+		owner = ATZ
 		victory_points = {
 			9304 1 
 		}
@@ -12,37 +12,8 @@ state={
 			infrastructure = 4
 
 		}
-		add_core_of = POL
+		add_core_of = ATZ
 		add_core_of = BLR
-		1940.5.10 = {
-			owner = SOV
-			add_core_of = SOV
-			set_state_name = Navahrudak
-			set_province_name = {
-				id = 9304
-				name = Navahrudak
-
-			}
-
-		}
-		1942.11.22 = {
-			owner = ROS
-
-		}
-		1945.1.1 = {
-			controller = SOV
-
-		}
-		1946.1.1 = {
-			owner = SOV
-			remove_core_of = POL
-
-		}
-		2000.1.1 = {
-			owner = BLR
-			remove_core_of = SOV
-
-		}
 
 	}
 

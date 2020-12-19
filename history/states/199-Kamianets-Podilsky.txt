@@ -4,7 +4,7 @@ state={
 	name="STATE_199"
 
 	history={
-		owner = SOV
+		owner = UKR
 		victory_points = {
 			3457 2
 		}
@@ -16,29 +16,6 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = UKR
-		1942.11.22 = {
-			owner = RUK
-
-		}
-		1944.6.20 = {
-			controller = SOV
-
-		}
-		1946.1.1 = {
-			owner = SOV
-
-		}
-		1960.1.1 = {
-			set_state_name = Khmelnytskyi
-			set_province_name = { id = 3457 name = "Khmelnytskyi" }
-
-		}
-		2000.1.1 = {
-			owner = UKR
-			controller = UKR
-			remove_core_of = SOV
-
-		}
 
 	}
 

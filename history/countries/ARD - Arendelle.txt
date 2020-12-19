@@ -81,9 +81,9 @@
 	create_country_leader = {
 		name = "엘사 3세"
 		desc = ""
-		picture = "Portrait_Elsa.tga"
+		picture = "gfx/leaders/ARD/Portrait_Elsa.tga"
 		expire = "1999.1.1"
-		ideology = authoritarian
+		ideology = authoritarian_subtype
 		traits = {
 			POSITION_King
 			SUBIDEOLOGY_Monarchism

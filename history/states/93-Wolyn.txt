@@ -4,7 +4,7 @@ state={
 	name="STATE_93"
 
 	history={
-		owner = POL
+		owner = ATZ
 		victory_points = {
 			513 2 
 		}
@@ -18,55 +18,8 @@ state={
 			infrastructure = 5
 
 		}
-		add_core_of = POL
+		add_core_of = ATZ
 		add_core_of = UKR
-		1940.5.10 = {
-			owner = SOV
-			controller = SOV
-			set_state_name = Volyn
-			set_province_name = {
-				id = 11543
-				name = Rivne
-
-			}
-			set_province_name = {
-				id = 513
-				name = Lutsk
-
-			}
-			set_province_name = {
-				id = 3412
-				name = Kovel
-
-			}
-
-		}
-		1942.11.22 = {
-			owner = RUK
-			controller = RUK
-
-		}
-		1944.6.20 = {
-			owner = SOV
-			controller = SOV
-			GER = {
-				set_province_controller = 513
-				set_province_controller = 3412
-				set_province_controller = 11441
-				set_province_controller = 422
-
-			}
-
-		}
-		1945.1.1 = {
-			owner = SOV
-			controller = SOV
-
-		}
-		2000.1.1 = {
-			owner = UKR
-
-		}
 
 	}
 

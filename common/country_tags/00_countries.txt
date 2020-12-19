@@ -3,8 +3,8 @@
 #### Western European Countries
 GER = "countries/Western European.txt"
 ARD = "countries/Western European.txt"
-
-
+VCT = "countries/Western European.txt"
+VNZ = "countries/Western European.txt"
 ENG = "countries/Western European.txt"
 SWE = "countries/Western European.txt"
 FRA = "countries/Western European.txt"
@@ -118,7 +118,8 @@ NGK = "countries/Eastern European.txt"
 NOS = "countries/Eastern European.txt" 
 CRM = "countries/Eastern European.txt"
 KOS = "countries/Eastern European.txt"
-
+SKV = "countries/Eastern European.txt"
+ATZ = "countries/Eastern European.txt"
 
 #### African Countries
 ETH = "countries/African.txt"

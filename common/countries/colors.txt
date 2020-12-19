@@ -8,6 +8,16 @@ KJE = {
 	color_ui = rgb { 240 117 94 }
 }
 
+VNZ = {
+	color = rgb { 114 47 55 }
+	color_ui = rgb { 114 47 55 }
+}
+
+VCT = {
+	color = rgb { 177 177 9 }
+	color_ui = rgb { 177 177 9 }
+}
+
 ARD = {
 	color = rgb { 75 53 94 }
 	color_ui = rgb { 75 53 94 }
@@ -36,6 +46,16 @@ TRM = {
 RUS = {
 	color = rgb { 67 38 68 }
 	color_ui = rgb { 67 38 68 }
+}
+
+SKV = {
+	color = rgb { 52 97 97 }
+	color_ui = rgb { 52 97 97 }
+}
+
+ATZ = {
+	color = rgb { 139 52 52 }
+	color_ui = rgb { 139 52 52 }
 }
 #reload countrycolors
 ISR = {

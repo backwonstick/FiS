@@ -5,9 +5,6 @@
 	capital = 1057
 	set_stability = 0.8
 	set_war_support = 0.3
-	add_to_variable = {
-		money = 70
-	}
 	oob = "GER_1933"
 	set_research_slots = 4
 	set_convoys = 200
@@ -145,15 +142,27 @@
 	set_cosmetic_tag = GER_WEIMAR
 	set_politics = {
 		ruling_party = liberal_democrat
-		last_election = "1932.11.5"
+		last_election = "1951.11.5"
 		election_frequency = 4
 		elections_allowed = yes
 	}
 	set_popularities = {
-		fascist = 43
-		authoritarian = 8
-		liberal_democrat = 31
-		communist = 16
+		jucheism = 0
+		authoritarian_communism = 2
+		communism = 18
+		blackdancism = 0
+		liberal_socialism = 2
+		anarchism = 0
+		social_democrat = 2
+		social_liberal = 6
+		liberal_democrat = 30
+		conservatism = 2
+		authoritarian = 10
+		nationalism = 24
+		corporatocrat = 0
+		fascism = 4
+		accelerationism = 0
+		burgundian_system = 0
 	}
 	### Positive Christianity
 	set_variable = {
@@ -220,25 +229,13 @@
 	#######################
 	# Leaders
 	#######################
-	# Fascism
+	# Democracy
 	create_country_leader = {
-		name = "Hermann Göring"
-		desc = ""
-		picture = "P_F_Hermann_Goring_1933.tga"
-		expire = "1965.1.1"
-		ideology = national_socialism
-		traits = {
-			POSITION_GER_Reichskanzler
-			SUBIDEOLOGY_National_Socialism
-			HoS_Barking_Buffoon
-		}
-	}
-	create_country_leader = {
-		name = "Adolf Hitler"
-		desc = "Adolf_Hitler_desc"
-		picture = "P_F_Adolf_Hitler_1932.tga"
-		expire = "1965.1.1"
-		ideology = national_socialism
+		name = "아돌프 시클그루버"
+		desc = "Adolf_desc"
+		picture = "gfx/leaders/GER/Portrait_GER_Adolf.tga"
+		expire = "1995.1.1"
+		ideology = liberal_democrat_subtype
 		traits = {
 			POSITION_GER_Reichskanzler
 			SUBIDEOLOGY_National_Socialism
@@ -319,8 +316,8 @@
 	### Field Marshal
 	### Corps Commander
 	create_corps_commander = {
-		name = "타냐 데그레챠프"
-		picture = "Portrait_Tanya.tga"
+		name = "타냐 폰 데그레챠프"
+		picture = "gfx/leaders/GER/Portrait_Tanya.tga"
 		traits = {
 			organizer
 			brilliant_strategist
@@ -331,12 +328,12 @@
 			ranger
 			urban_assault_specialist
 		}
-		skill = 8
+		skill = 4
 		id = 6
-		attack_skill = 8
-		defense_skill = 7
-		planning_skill = 8
-		logistics_skill = 9
+		attack_skill = 5
+		defense_skill = 4
+		planning_skill = 4
+		logistics_skill = 6
 	}
 	create_corps_commander = {
 		name = "Walter Model"
@@ -908,461 +905,4 @@
 		maneuvering_skill = 1
 		coordination_skill = 4
 	}
-}
-
-#########################################################################
-# German Reich - 1936
-#########################################################################
-1936.1.1 = {
-	set_stability = 0.5
-	set_war_support = 0.3
-	oob = "GER_1936"
-	set_research_slots = 4
-	set_convoys = 200
-	#######################
-	# Research
-	#######################
-	set_technology = {
-		GER_SS_VT = 1
-		# Infantry Tech
-		Small_Arms_1935 = 1
-		Uniform_1935 = 1
-		SAW_1935 = 1
-		Mortar_1936 = 1
-		tech_military_police = 1
-		paratroopers = 1
-		marines = 1
-		tech_mountaineers = 1
-		# Artillery Tech
-		Split_Trail_Carriage = 1
-        Motor_Compatible_Carriage = 1
-        Optical_Sighting_Mechanism = 1
-		Artillery_1935 = 1
-		Anti_Tank_Gun_1935 = 1
-		# Doctrine Tech
-		Armored_Schwerpunkt = 1
-		Delay = 1
-		Combined_Arms_Offensive = 1
-		Elastic_Defense = 1
-		formation_flying = 1
-	}
-	#######################
-	# National Focuses
-	#######################
-	unlock_national_focus = GER_Chancellor_Hitler
-	unlock_national_focus = GER_Enabling_Act
-	unlock_national_focus = GER_Gleichschaltung
-	unlock_national_focus = GER_Kirchenkampf
-	unlock_national_focus = GER_Reichskonkordat
-	unlock_national_focus = GER_Subdue_the_Lander
-	unlock_national_focus = GER_A_One_Party_State
-	unlock_national_focus = GER_Officialize_the_Hitler_Youth
-	unlock_national_focus = GER_Leave_the_League_of_Nations
-	unlock_national_focus = GER_A_Loudspeaker_in_Every_Home
-	unlock_national_focus = GER_Reconstruct_the_Reich
-	unlock_national_focus = GER_Ein_Volk_Ein_Reich_Ein_Fuhrer
-	unlock_national_focus = GER_Enact_the_Nuremberg_Laws
-	unlock_national_focus = GER_Seek_a_Naval_Agreement_with_Britain
-	unlock_national_focus = GER_Renounce_the_Disarmament_Clauses
-	unlock_national_focus = GER_Establish_The_Gestapo
-	unlock_national_focus = GER_Unternehmen_Kolibri
-	unlock_national_focus = GER_SS_VT
-	### Economic
-	unlock_national_focus = GER_The_Economic_Recovery_Policy
-	unlock_national_focus = GER_Issue_MEFO_Bills
-	unlock_national_focus = GER_Privatizations_and_Austerity
-	unlock_national_focus = GER_Deal_with_IG_Farben
-	unlock_national_focus = GER_Reichsautobahn
-	unlock_national_focus = GER_Deutsche_Arbeitsfront
-	unlock_national_focus = GER_Volkswohlfahrt
-	unlock_national_focus = GER_Kraft_durch_Freude
-	unlock_national_focus = GER_Commence_Rearmament	
-	### Military
-	unlock_national_focus = GER_Reichsluftfahrtministerium
-	unlock_national_focus = GER_Reichswehr
-	unlock_national_focus = GER_Reichsmarine
-	unlock_national_focus = GER_Establish_the_Wehrmacht	
-	#######################
-	# Politics
-	#######################
-	drop_cosmetic_tag = yes
-	set_politics = {
-		ruling_party = fascist
-		last_election = "1933.3.5"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		fascist = 86
-		authoritarian = 7
-		democratic = 1
-		socialist = 0
-		communist = 0
-	}
-	set_party_name = {
-		ideology = authoritarian
-		long_name = GER_authoritarian_party_Wehrmacht_long
-		name = GER_authoritarian_party_Wehrmacht
-	}
-	set_party_name = {
-		ideology = democratic
-		long_name = GER_democratic_party_sympathizers_long
-		name = GER_democratic_party_sympathizers
-	}
-	set_party_name = {
-		ideology = socialist
-		long_name = GER_socialist_party_sympathizers_long
-		name = GER_socialist_party_sympathizers
-	}
-	set_party_name = {
-		ideology = communist
-		long_name = GER_communist_party_sympathizers_long
-		name = GER_communist_party_sympathizers
-	}
-	add_ideas = {
-		GER_mefo_bills_1
-		sour_loser
-		GER_Great_General_Staff
-		# Laws and Policies
-		limited_exports
-		one_year_service
-		corporatism
-		partial_economic_mobilisation
-		# Cabinet
-		GER_HoG_Rudolf_Hess
-		GER_FM_Konstantin_von_Neurath
-		GER_AM_Werner_von_Blomberg
-		GER_MoS_Wilhelm_Frick
-		GER_HoI_Wilhelm_Canaris
-		# Military Staff
-		GER_CoStaff_Ludwig_Beck
-		GER_CoArmy_Werner_von_Fritsch
-		GER_CoNavy_Erich_Raeder
-		GER_CoAir_Hermann_Goring
-	}
-	remove_ideas = {
-		GER_Treaty_of_Versailles
-		GER_Destroyed_German_Spirit
-		GER_Great_Depression
-		GER_Mass_Unemployment
-		GER_The_Weimar_Era
-	}
-	activate_mission = GER_mefo_bills_mission
-	set_variable = {
-		var = wehrmacht_anger
-		value = 0
-	}
-	set_variable = {
-		var = ss_anger
-		value = 0
-	}
-	#######################
-	# Diplomacy
-	#######################
-	create_faction = Axis
-	add_to_faction = GER
-	create_import = {
-		resource = tungsten
-		factories = 1
-		exporter = SWE
-	}
-	#######################
-	# Leaders
-	#######################
-	# Fascism
-	create_country_leader = {
-		name = "Adolf Hitler"
-		desc = "Adolf_Hitler_desc"
-		picture = "P_F_Adolf_Hitler.tga"
-		expire = "1965.1.1"
-		ideology = national_socialism
-		traits = {
-			POSITION_GER_Fuhrer
-			SUBIDEOLOGY_National_Socialism
-			HoS_Paranoid_Megalomaniac
-		}
-	}
-	# Authoritarianism
-	create_country_leader = {
-		name = "Ludwig Beck"
-		desc = ""
-		picture = "P_A_Ludwig_Beck.tga"
-		expire = "1965.1.1"
-		ideology = military_dictatorship
-		traits = {
-			POSITION_Commander_in_Chief
-			SUBIDEOLOGY_Military_Dictatorship
-			HoS_Resigned_Generalissimo
-		}
-	}
-}
-
-#########################################################################
-# German Reich - 1939
-#########################################################################
-1939.9.1 = {
-	oob = "GER_1939"
-	set_research_slots = 5
-	#######################
-	# Research
-	#######################
-	set_technology = {
-		# Infantry Tech
-		Small_Arms_1939 = 1
-		paratroopers2 = 1
-		Support_Weapons_1936 = 1
-		MANPATS_MANPADS_1936 = 1
-		# Armour Tech
-		Armored_Car_1936 = 1
-		Light_Tank_1936 = 1
-		Light_Tank_1939 = 1
-		Medium_Tank_1936 = 1
-		# Air Tech
-		Fighter_1936 = 1
-		Fighter_Bomber_1936 = 1
-		cv_Fighter_1936 = 1
-		Heavy_Fighter_1936 = 1
-		Tactical_Bomber_1936 = 1
-		Strategic_Bomber_1936 = 1
-		Naval_Bomber_1936 = 1
-		# Land Doctrine Tech
-		Combined_Arms_Offensive = 1
-		Elastic_Defense = 1
-	}
-	SLO = {
-		set_cosmetic_tag = SLO_GER
-	}
-	BOH = {
-		set_cosmetic_tag = BOH_GER
-		set_politics = {
-			ruling_party = fascist
-			elections_allowed = no
-		}
-	}
-	if = {
-		limit = {
-			has_start_date > 1939.8.1
-			has_start_date < 1946.01.01
-		}
-		declare_war_on = {
-			target = POL
-			type = annex_everything
-		}
-		declare_war_on = {
-			target = FRA
-			type = annex_everything
-		}
-		declare_war_on = {
-			target = ENG
-			type = annex_everything
-		}
-		declare_war_on = {
-			target = AST
-			type = annex_everything
-		}
-		declare_war_on = {
-			target = NZL
-			type = annex_everything
-		}
-		declare_war_on = {
-			target = RAJ
-			type = annex_everything
-		}
-		declare_war_on = {
-			target = CAN
-			type = annex_everything
-		}
-	}
-}
-
-#########################################################################
-# German Reich - 1940
-#########################################################################
-1940.5.10 = {
-	oob = "GER_1940"
-	add_to_faction = ITA
-	add_to_faction = HUN
-	set_technology = {
-		# Infantry Tech
-		Anti_Tank_Gun_1940 = 1 
-		tech_mountaineers2 = 1
-		# Armour Tech
-		Medium_Tank_1939 = 1
-		Heavy_Tank_1939 = 1
-		# Air Tech
-		Fighter_1940 = 1
-		Fighter_Bomber_1940 = 1
-		cv_Fighter_1940 = 1
-		Heavy_Fighter_1940 = 1
-		CAS_1940 = 1
-		Tactical_Bomber_1940 = 1
-		Naval_Bomber_1940 = 1
-		Strategic_Bomber_1940 = 1		
-	}
-	if = {
-		limit = {
-			has_start_date > 1940.5.9
-			has_start_date < 1946.1.1
-		}
-		declare_war_on = {
-			target = BEL
-			type = annex_everything
-		}
-		declare_war_on = {
-			target = LUX
-			type = annex_everything
-		}
-		declare_war_on = {
-			target = HOL
-			type = annex_everything
-		}
-		declare_war_on = {
-			target = NOR
-			type = annex_everything
-		}
-		declare_war_on = {
-			target = DEN
-			type = annex_everything
-		}
-		declare_war_on = {
-			target = INS
-			type = annex_everything
-		}
-	}
-}
-
-#########################################################################
-# German Reich - 1941.6.22
-#########################################################################
-1941.6.22 = {
-	oob = "GER_1941"
-	set_technology = {
-		GER_Waffen_SS = 1
-		# Infantry Tech
-		Enhanced_Muzzlebreaks_and_Removable_Barrels = 1
-		# Armour Tech
-		Medium_Tank_1941 = 1
-		APC_1941 = 1
-	}
-	if = {
-		limit = {
-			has_start_date > 1941.6.21
-			has_start_date < 1946.1.1
-		}
-		declare_war_on = {
-			target = SOV
-			type = annex_everything
-		}
-		declare_war_on = {
-			target = MON
-			type = annex_everything
-		}
-		declare_war_on = {
-			target = TAN
-			type = annex_everything
-		}
-	}
-	add_to_faction = ROM
-	add_to_faction = SLO
-}
-
-#########################################################################
-# German Reich - 1943.7.26
-#########################################################################
-1942.12.21 = {
-	oob = "GER_1942"
-	set_technology = {
-		# Infantry Tech 
-		Small_Arms_1942 = 1
-		Uniform_1942 = 1
-		SAW_1942 = 1
-		Support_Weapons_1942 = 1
-		Mortar_1942 = 1
-		MANPATS_MANPADS_1942 = 1
-		Artillery_1942 = 1
-		Anti_Tank_Gun_1942 = 1
-		# Armour Tech
-		Armored_Car_1942 = 1
-	}
-	if = {
-		limit = {
-			has_start_date > 1942.11.22
-			has_start_date < 1946.01.01
-		}
-		declare_war_on = {
-			target = USA
-			type = annex_everything
-		}
-	}
-}
-
-#########################################################################
-# German Reich - 1943.7.26
-#########################################################################
-1943.7.26 = {
-	set_cosmetic_tag = GER_GREATER_REICH
-	oob = "GER_1943"
-	set_technology = {
-		# Infantry Tech
-		paratroopers3 = 1
-		High_Velocity_Armor_Piercing_Rounds = 1
-		# Armour Tech
-		Light_Tank_1943 = 1
-		Medium_Tank_1943 = 1
-		Heavy_Tank_1943 = 1
-		APC_1943 = 1
-		# Air Tech
-		Fighter_1943 = 1
-		Fighter_Bomber_1943 = 1
-		cv_Fighter_1943 = 1
-		Heavy_Fighter_1943 = 1
-		CAS_1943 = 1
-		Tactical_Bomber_1943 = 1
-		Strategic_Bomber_1943 = 1
-	}
-}
-
-#########################################################################
-# German Reich - 1944.6.20
-#########################################################################
-1944.6.20 = {
-	oob = "GER_1944"
-	add_ideas = {
-		all_adults_serve
-		war_economy
-	}
-	set_technology = {
-		# Armour Tech
-		Super_Heavy_Tank_1944 = 1
-
-	}
-}
-
-#########################################################################
-# German Reich - 1945
-#########################################################################
-1945.1.1 = {
-	#######################
-	# Leaders
-	#######################
-	# Fascism
-	create_country_leader = {
-		name = "Adolf Hitler"
-		desc = "Adolf_Hitler_desc"
-		picture = "P_F_Adolf_Hitler_1945.tga"
-		expire = "1965.1.1"
-		ideology = national_socialism
-		traits = {
-			POSITION_GER_Fuhrer
-			SUBIDEOLOGY_National_Socialism
-			HoS_Paranoid_Megalomaniac
-		}
-	}
-}
-
-#########################################################################
-# German Reich - 1946
-#########################################################################
-1945.12.31 = {
-	dismantle_faction = yes
 }

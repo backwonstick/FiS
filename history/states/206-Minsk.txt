@@ -4,7 +4,7 @@ state={
 	name="STATE_206"
 
 	history={
-		owner = SOV
+		owner = BLR
 		victory_points = {
 			11370 20 
 		}
@@ -17,33 +17,8 @@ state={
 			air_base = 8
 
 		}
-		add_core_of = SOV
+		add_claim_by = ATZ
 		add_core_of = BLR
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 3
-
-			}
-
-		}
-		1942.11.22 = {
-			owner = ROS
-			controller = ROS
-
-		}
-		1944.6.20 = {
-			owner = SOV
-			controller = GER
-
-		}
-		1945.1.1 = {
-			owner = SOV
-			controller = SOV
-		}
-		2000.1.1 = {
-			owner = BLR
-
-		}
 
 	}
 

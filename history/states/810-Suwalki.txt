@@ -4,24 +4,12 @@ state={
 	name="STATE_810"
 
 	history={
-		owner = POL
+		owner = ATZ
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = POL
-		1940.5.10 = {
-			owner = GER
-			controller = GER
-		}
-		1945.1.1 = {
-			owner = SOV
-			controller = SOV
-		}
-		1946.1.1 = {
-			owner = POL
-			controller = POL
-		}
+		add_core_of = ATZ
 	}
 
 	provinces={

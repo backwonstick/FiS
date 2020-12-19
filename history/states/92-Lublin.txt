@@ -4,7 +4,7 @@ state={
 	name="STATE_92"
 
 	history={
-		owner = POL
+		owner = SKV
 		victory_points = {
 			3559 3
 		}
@@ -20,7 +20,7 @@ state={
 
 			}
 		}
-		add_core_of = POL
+		add_core_of = SKV
 	}
 
 	provinces={

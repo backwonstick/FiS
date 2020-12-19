@@ -41,34 +41,6 @@ state={
 			}
 
 		}
-		1946.1.1 = {
-			owner = SOV
-			controller = SOV
-			add_core_of = SOV
-			remove_core_of = GER
-			set_state_name = Kaliningrad
-			set_province_name = {
-				id = 6332
-				name = Kaliningrad
-
-			}
-			set_province_name = {
-				id = 11265
-				name = Baltiysk
-
-			}
-			set_province_name = {
-				id = 348
-				name = Sovetsk
-
-			}
-			set_province_name = {
-				id = 3384
-				name = Gusev
-
-			}
-
-		}
 
 	}
 

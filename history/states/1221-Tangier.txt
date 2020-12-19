@@ -14,18 +14,6 @@ state={
 		}
 		add_core_of = MOR
 		add_core_of = TIZ
-		1941.6.22 = {
-			owner = SPA
-
-		}
-		1946.1.1 = {
-			owner = TIZ
-
-		}
-		1960.1.1 = {
-			owner = MOR
-
-		}
 
 	}
 

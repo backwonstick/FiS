@@ -16,8 +16,10 @@ state={
 		}
 		buildings = {
 			infrastructure = 5
-			arms_factory = 1
-			dockyard = 3
+			synthetic_refinery = 3
+			anti_air_building = 5
+			arms_factory = 4
+			dockyard = 7
 			air_base = 5
 			6389 = {
 				naval_base = 8
@@ -26,25 +28,6 @@ state={
 
 		}
 		add_core_of = GER
-		1939.1.1 = {
-			buildings = {
-				synthetic_refinery = 3
-				anti_air_building = 5
-				dockyard = 7
-				arms_factory = 4
-
-			}
-
-		}
-		1946.1.1 = {
-			owner = ENG
-			controller = ENG
-
-		}
-		1950.1.1 = {
-			owner = FRG
-
-		}
 
 	}
 

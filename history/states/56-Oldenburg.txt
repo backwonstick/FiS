@@ -29,20 +29,7 @@ state={
 			air_base = 3
 
 		}
-		add_core_of = GER
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 4
-				dockyard = 3
-			}
-		}
-		1946.1.1 = {
-			owner = ENG
-			controller = ENG
-		}
-		1950.1.1 = {
-			owner = FRG
-		}				
+		add_core_of = GER				
 	}
 
 	provinces={

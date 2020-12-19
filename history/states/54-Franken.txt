@@ -17,22 +17,6 @@ state={
 			9557 2 
 		}
 		add_core_of = GER
-		1939.1.1 = {
-			buildings = {
-				air_base = 3
-
-			}
-
-		}
-		1946.1.1 = {
-			owner = USA
-			controller = USA
-
-		}
-		1950.1.1 = {
-			owner = FRG
-
-		}
 
 	}
 

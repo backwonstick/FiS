@@ -4,7 +4,7 @@ state={
 	name="STATE_94"
 
 	history={
-		owner = POL
+		owner = ATZ
 		victory_points = {
 			3392 3
 		}
@@ -19,31 +19,8 @@ state={
 			}
 
 		}
-		add_core_of = POL
+		add_core_of = ATZ
 		add_core_of = BLR
-		1940.5.10 = {
-			owner = SOV
-			set_province_name = { id = 3392 name = "Brest" }
-
-		}
-		1942.11.22 = {
-			owner = RUK
-
-		}
-		1945.1.1 = {
-			controller = SOV
-
-		}
-		1945.1.1 = {
-			owner = SOV
-
-		}
-		2000.1.1 = {
-			owner = BLR
-			controller = BLR
-			remove_core_of = SOV
-			
-		}
 
 	}
 

@@ -1,0 +1,124 @@
+﻿#########################################################################
+# 마리오 경의 고귀한 베네치아 왕국 - Venece Kingdom
+#########################################################################
+1933.1.1 = {
+	capital = 160
+	set_stability = 0.80
+	set_war_support = 0.62
+	oob = "VNZ"
+	set_research_slots = 2
+	set_convoys = 50
+	#######################
+	# Research
+	#######################
+	set_technology = {
+		Small_Arms_1916 = 1
+		Small_Arms_1935 = 1
+		tech_support = 1
+		tech_engineers = 1
+		Fighter_1933 = 1
+		Tactical_Bomber_1933 = 1
+		# Armour Tech
+		Heavy_Tank_1916 = 1
+		Heavy_Tank_1917 = 1
+		#Naval Stuff
+		DD_1885 = 1
+		DD_1900 = 1
+		DD_1912 = 1
+		DD_1916 = 1
+		CL_1885 = 1
+		CL_1900 = 1
+		CL_1912 = 1
+		CA_1885 = 1
+		CA_1895 = 1
+		CA_1906 = 1
+		SS_1895 = 1
+		SS_1912 = 1
+		SS_1916 = 1
+		BB_1885 = 1
+		BB_1895 = 1
+		BB_1900 = 1
+		BB_1906 = 1
+		BB_1912 = 1
+		BB_1916 = 1
+		BB_1922 = 1
+		#
+		tech_recon = 1
+	}
+	#######################
+	# Politics
+	#######################
+	set_politics = {
+		ruling_party = authoritarian
+		last_election = "1921.08.11"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		jucheism = 0
+		authoritarian_communism = 0
+		communism = 0
+		blackdancism = 0
+		liberal_socialism = 0
+		anarchism = 0
+		social_democrat = 0
+		social_liberal = 12
+		liberal_democrat = 0
+		conservatism = 0
+		authoritarian = 68
+		nationalism = 0
+		corporatocrat = 0
+		fascism = 20
+		accelerationism = 0
+		burgundian_system = 0
+	}
+	add_ideas = {
+		one_year_service
+	}
+	#######################
+	# Leaders
+	#######################
+	create_country_leader = {
+		name = "마리오 경"
+		desc = ""
+		picture = "gfx/leaders/VNZ/Super_Mario.tga"
+		expire = "1999.1.1"
+		ideology = authoritarian_subtype
+		traits = {
+		}
+	}
+	#######################
+	# Generals
+	#######################
+	create_corps_commander = {
+		name = "Carl Gustav Fleischer"
+		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+		traits = {
+			trickster
+			winter_specialist
+		}
+		skill = 4
+		attack_skill = 3
+		defense_skill = 4
+		planning_skill = 2
+		logistics_skill = 4
+	}
+	#######################
+	# Admirals
+	#######################
+	create_navy_leader = {
+		name = "Elias Corneliussen"
+		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+		traits = {
+			navy_career_officer
+			inshore_fighter
+			spotter
+		}
+		skill = 3
+		attack_skill = 2
+		defense_skill = 4
+		maneuvering_skill = 3
+		coordination_skill = 1
+	}
+}
+

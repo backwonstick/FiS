@@ -3,34 +3,13 @@ state={
 	name="STATE_1428"
 
 	history={
-		owner = POL
+		owner = ATZ
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = POL
+		add_core_of = ATZ
 		add_core_of = BLR
-		1940.5.10 = {
-			owner = SOV
-			set_state_name = Vileyka
-
-		}
-		1942.11.22 = {
-			owner = ROS
-
-		}
-		1945.1.1 = {
-			controller = SOV
-
-		}
-		1945.1.1 = {
-			owner = SOV
-
-		}
-		2000.1.1 = {
-			owner = BLR
-
-		}
 
 	}
 

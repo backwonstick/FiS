@@ -4,7 +4,7 @@ state={
 	name="STATE_201"
 
 	history={
-		owner = SOV
+		owner = UKR
 		victory_points = {
 			11514 2
 		}
@@ -15,24 +15,6 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = UKR
-		1942.11.22 = {
-			owner = RUK
-
-		}
-		1944.6.20 = {
-			controller = SOV
-
-		}
-		1946.1.1 = {
-			owner = SOV
-
-		}
-		2000.1.1 = {
-			owner = UKR
-			controller = UKR
-			remove_core_of = SOV
-
-		}
 
 	}
 

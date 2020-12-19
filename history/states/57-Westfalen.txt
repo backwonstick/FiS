@@ -19,30 +19,13 @@ state={
 		}
 		buildings = {
 			infrastructure = 8
-			arms_factory = 3
-			industrial_complex = 2
+			radar_station = 1
+			arms_factory = 9
+			industrial_complex = 5
 			air_base = 3
 
 		}
 		add_core_of = GER
-		1939.1.1 = {
-			buildings = {
-				radar_station = 1
-				arms_factory = 6
-				industrial_complex = 3
-
-			}
-
-		}
-		1946.1.1 = {
-			owner = ENG
-			controller = ENG
-
-		}
-		1950.1.1 = {
-			owner = FRG
-
-		}
 
 	}
 
