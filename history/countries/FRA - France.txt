@@ -158,7 +158,7 @@
 	create_country_leader = {
 		name = "앙토냉 아르토"
 		desc = "POLITICS_ANTONIN_ARTAUD_DESC"
-		picture = "gfx/leaders/FRA/Portriat_Antonin.tga"
+		picture = "gfx/leaders/FRA/Portrait_Antonin.tga"
 		expire = "2000.1.1"
 		ideology = ethno_futurism
 	traits = {

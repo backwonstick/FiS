@@ -116,17 +116,28 @@
 	# Politics
 	#######################
 	set_politics = {
-		ruling_party = democratic
-		last_election = "1931.10.27"
+		ruling_party = conservatism
+		last_election = "1951.10.27"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 	set_popularities = {
-		fascist = 2
-		authoritarian = 2
-		democratic = 94
-		socialist = 2
-		communist = 0
+		jucheism = 0
+		authoritarian_communism = 9
+		communism = 5
+		blackdancism = 0
+		liberal_socialism = 2
+		anarchism = 0
+		social_democrat = 1
+		social_liberal = 5
+		liberal_democrat = 23
+		conservatism = 34
+		authoritarian = 13
+		nationalism = 0
+		corporatocrat = 2
+		fascism = 5
+		accelerationism = 0
+		burgundian_system = 1
 	}
 	### Great Depression/Unemployment
 	set_variable = { unemployment_value_modifier = 1.50 }
@@ -258,11 +269,11 @@
 	#######################
 	# Fascism
 	create_country_leader = {
-		name = "Oswald Mosley"
+		name = "윈스턴 처칠"
 		desc = ""
-		picture = "P_F_Oswald_Mosley.tga"
+		picture = "gfx/leaders/ENG/Portrait_Winston.tga"
 		expire = "1965.1.1"
-		ideology = fascism
+		ideology = conservatism_subtype
 		traits = { POSITION_Prime_Minister SUBIDEOLOGY_Fascism HoG_Flamboyant_Tough_Guy }
 	}
 	# Authoritarianism
@@ -300,6 +311,15 @@
 		expire = "1965.1.1"
 		ideology = marxism_leninism
 		traits = { POSITION_General_Secretary SUBIDEOLOGY_Marxism_Leninism HoG_Political_Protege }
+	}
+	# 영사주의자
+	create_country_leader = {
+		name = "빅 브라더"
+		desc = ""
+		picture = "gfx/leaders/ENG/IngSoc.tga"
+		expire = "1965.1.1"
+		ideology = burgundian_system_subtype
+		traits = { POSITION_Prime_Minister SUBIDEOLOGY_Fascism HoG_Flamboyant_Tough_Guy }
 	}
 	#######################
 	# Generals

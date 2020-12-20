@@ -419,122 +419,116 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "elections"
-				position = { x = -5000 y = 45 }
-				font = "Bomb_16"
+				position = { x = -5000	y = 42 }
+				font = "hoi_16mbs"
 				text = "elections"
 				maxWidth = 155
 				maxHeight = 20
 			}
-
+			
 			instantTextboxType = {
 				name = "faction_name"
-				#position = { x = 209 y = -140 }
-				position = { x = -6000 y = -140 }
-				font = "Bomb_16"
+				#position = { x = 103 y = -45 }
+				position = { x = 55 y = 161 }
+				font = "hoi_18mbs"
 				text = "faction"
-				maxWidth = 100
-				maxHeight = 40
-				fixedsize = yes
-				format = left
+				maxWidth = 194
+				maxHeight = 20
+				format = centre				
 			}
-
-			# Do something with this
+			
 			buttonType = {
 				name = "dismantle_faction"
-				position = { x = -5000 y = -120 }
+				position = { x = 255 = 156 }
 				quadTextureSprite = "GFX_dismantle_faction_button"
 				pdx_tooltip = "DIPLOMACY_DISMANTLE_FACTION_TITLE"
 				#buttonFont = "hoi_16mbs"
 				#buttonText = "DIPLOMACY_DISMANTLE_FACTION_TITLE"
-			}
+			}	
 		}
 
 		containerWindowType = {
 			name = "autonomy_progress_view"
-			position = { x = -170 y = 242 }
+			position = { x = 3 y = 375 }
 			size = { width = 255 height = 60 }
 			clipping = no
 
+			background = {
+				name = "Background"		
+				quadTextureSprite ="GFX_subject_overlay"
+			}
+			
 			instantTextboxType = {
 				name = "current_autonomy_name"
-				position = { x = 66 y = 35 }
-				font = "aldrich_16_outline"
+				position = { x = 95 y = 8 }
+				font = "hoi_18mbs"
 				text = "autonomy"
-				fixedsize = yes
-				maxWidth = 100
-				maxHeight = 20
-				format = left
+				maxWidth = 193
+				maxHeight = 20		
+				format = center
 			}
-
+			
 			buttonType = {
 				name = "prev_autonomy_level"
-				#position = { x = 75 y = 9 }
-				position = { x = -5000 y = 9 }
+				position = { x = 60 y = 9 }
 				quadTextureSprite = "GFX_autonomy_level_button"
 			}
-
+			
 			iconType = {
 				name = "prev_level_glow"
-				#position = { x = 63 y = 2 }
-				position = { x = -6000 y = 2 }
+				position = { x = 48 y = 2 }
 				quadTextureSprite = "GFX_ongoing_focus_goal_polview"
-				alwaystransparent = yes
+				alwaystransparent = yes				
 				scale = 0.5
 			}
-
+			
 			iconType = {
 				name = "prev_autonomy_level_icon"
-				#position = { x = 75 y = 9 }
-				position = { x = -5000 y = 9 }
+				position = { x = 60 y = 9 }
 				quadTextureSprite = "GFX_autonomy_unknown_icon"
 				alwaystransparent = yes
 			}
-
+			
 			iconType = {
 				name = "autonomy_progress"
 				spriteType = "GFX_subject_progressbar_long"
-				#position = { x = 116 y = 29 }
-				position = { x = -6000 y = 29 }
+				position = { x = 101 y = 29 }
 				frame = 100
 			}
-
+			
 			buttonType = {
 				name = "next_autonomy_level"
-				#position = { x = 299 y = 5 }
-				position = { x = -5000 y = 5 }
+				position = { x = 284 y = 5 }
 				quadTextureSprite = "GFX_occupation_policy_button_selected"
 			}
-
+			
 			iconType = {
 				name = "next_level_glow"
-				#position = { x = 287 y = -2 }
-				position = { x = -6000 y = -2 }
+				position = { x = 272 y = -2 }
 				quadTextureSprite = "GFX_ongoing_focus_goal_polview"
-				alwaystransparent = yes
+				alwaystransparent = yes				
 				scale = 0.5
 			}
-
+			
 			iconType = {
 				name = "next_autonomy_level_icon"
-				#position = { x = 304 y = 9 }
-				position = { x = -5000 y = 9 }
+				position = { x = 289 y = 9 }
 				quadTextureSprite = "GFX_autonomy_unknown_icon"
 				alwaystransparent = yes
 			}
 
 			iconType = {
 				name = "continuous_glow"
-				position = { x = 4 y = -2 }
+				position = { x = 6 y = 2 }
 				quadTextureSprite = "GFX_ongoing_generic_glow_yellow"
-				alwaystransparent = yes
-				scale = 0.5
+				alwaystransparent = yes				
+				scale = 0.4
 			}
-
+			
 			iconType = {
 				name = "current_autonomy_level_icon"
-				position = { x = 15 y = 5 }
+				position = { x = 15 y = 10 }
 				quadTextureSprite = "GFX_autonomy_unknown_icon"
-				scale = 1.3715
 			}
 		}
 
@@ -2054,15 +2048,14 @@ guiTypes = {
 			size = { width = 255 height = 60 }
 			clipping = no
 					
-#			instantTextboxType = {
-#				name = "party"
-#				position = { x = 9 y = 2 }
-#				font = "hoi_18mbs"
-#				text = "party"
-#				maxWidth = 300
-#				maxHeight = 20
-#			}
-			
+			instantTextboxType = {
+				name = "party"
+				position = { x = 362 y = -127 }
+				font = "aldrich_20_outline"
+				text = "에스카드롱"
+				maxWidth = 300
+				maxHeight = 20
+			}
 			instantTextboxType = {
 				name = "ideology"
 				position = { x = 362 y = -110 }
@@ -2074,8 +2067,8 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "elections"
-				position = { x = 9 y = 42 }
-				font = "hoi_16mbs"
+				position = { x = 325 y = 78 }
+				font = "aldrich_16_outline"
 				text = "elections"
 				maxWidth = 155
 				maxHeight = 20
@@ -2083,8 +2076,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "faction_name"
-				#position = { x = 103 y = -45 }
-				position = { x = -13 y = 86 }
+				position = { x = 55 y = 11 }
 				font = "hoi_18mbs"
 				text = "faction"
 				maxWidth = 194
@@ -2094,7 +2086,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "dismantle_faction"
-				position = { x = 187 y = 81 }
+				position = { x = 255 y = 6 }
 				quadTextureSprite = "GFX_dismantle_faction_button"
 				pdx_tooltip = "DIPLOMACY_DISMANTLE_FACTION_TITLE"
 				#buttonFont = "hoi_16mbs"
