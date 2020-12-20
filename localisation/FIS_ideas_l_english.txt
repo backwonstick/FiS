@@ -1,2 +1,0 @@
-l_english:
- Schrödinger's city:0 "슈뢰딩거의 도시"
