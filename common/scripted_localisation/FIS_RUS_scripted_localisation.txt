@@ -10,7 +10,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			BRG = {
+			RUS = {
 				is_ai = yes
 			}
 		}

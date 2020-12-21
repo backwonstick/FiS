@@ -78,13 +78,10 @@ bookmarks = {
 				JAP_The_National_Defense_State
 			}
 		}
-		"SOV"={
+		"RUS"={
 			history = "SOV_1933_desc"
-			ideology = communist
+			ideology = burgundian_system
 			ideas = {
-				SOV_The_Great_Soviet_Famine
-				SOV_Aftermath_of_the_Ryutin_Affair
-				SOV_Deficient_Economy
 			}
 			focuses = {
 				
