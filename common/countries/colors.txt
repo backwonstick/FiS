@@ -1,4 +1,9 @@
 # FIS Countries
+RED = {
+	color = rgb { 51 51 51 }
+	color_ui = rgb { 51 51 51 }
+}
+
 NCR = {
 	color = rgb { 240 189 36 }
 	color_ui = rgb { 219 46 20 }
