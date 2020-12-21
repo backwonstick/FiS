@@ -5,7 +5,7 @@ RUS_reload_tree = {
 			load_focus_tree = { tree = FIS_RUS keep_completed = yes }
 		}
 		else_if = {
-			limit = { has_focus_tree = FIS_RUS_focus }
+			limit = { has_focus_tree = FIS_RUS }
 			load_focus_tree = { tree = FIS_RUS_swap keep_completed = yes }
 		}
 	}
