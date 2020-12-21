@@ -17,3 +17,60 @@ defined_text = {
 		localization_key = RUS_madness
 	}
 }
+defined_text = {
+	name = GetRUSFocus_rus_pol_start
+	text = {
+		trigger = {
+			RUS = {
+				is_ai = no
+			}
+		}
+		localization_key = RUS_pol_start_text
+	}
+	text = {
+		trigger = {
+			RUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = RUS_madness
+	}
+}
+defined_text = {
+	name = GetRUSFocus_rus_eco_start
+	text = {
+		trigger = {
+			RUS = {
+				is_ai = no
+			}
+		}
+		localization_key = RUS_eco_start_text
+	}
+	text = {
+		trigger = {
+			RUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = RUS_madness
+	}
+}
+defined_text = {
+	name = GetRUSFocus_rus_mil_start
+	text = {
+		trigger = {
+			RUS = {
+				is_ai = no
+			}
+		}
+		localization_key = RUS_mil_start_text
+	}
+	text = {
+		trigger = {
+			RUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = RUS_madness
+	}
+}
