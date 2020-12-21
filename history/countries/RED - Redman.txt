@@ -1,0 +1,56 @@
+
+capital = 195
+oob = "RED_FIS"
+set_research_slots = 2
+set_stability = 0.66
+set_war_support = 1
+set_convoys = 0
+add_political_power = 777
+
+#######################
+# Research
+#######################
+set_technology = {
+Small_Arms_1916 = 1
+Small_Arms_1935 = 1
+tech_support = 1
+tech_engineers = 1
+
+tech_recon = 1
+
+set_politics = {
+    ruling_party = communism
+    last_election = "1936.12.12"
+    election_frequency = 60
+    elections_allowed = yes
+}
+
+set_popularities = {
+    jucheism = 0 
+    authoritarian_communism = 0
+    communism = 100
+    blackdancism = 0 
+    liberal_socialism = 0 
+    anarchism = 0 
+    social_democrat = 0 
+    social_liberal = 0 
+    liberal_democrat = 0 
+    conservatism = 0 
+    authoritarian = 8 
+    nationalism = 81
+    corporatocrat = 2 
+    fascism = 3 
+    accelerationism = 0 
+    burgundian_system = 0 
+
+}
+
+create_country_leader = {
+	name = "RED MAN" 
+	desc = "" 
+	picture = "" 
+	expire = "" 
+	ideology = communism
+	traits = { } 
+}			
+
