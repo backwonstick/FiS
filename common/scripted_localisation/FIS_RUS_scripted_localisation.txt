@@ -74,3 +74,83 @@ defined_text = {
 		localization_key = RUS_madness
 	}
 }
+
+defined_text = {
+	name = GetRUSFocus_rus_mil_right
+	text = {
+		trigger = {
+			RUS = {
+				is_ai = no
+			}
+		}
+		localization_key = RUS_mil_right_text
+	}
+	text = {
+		trigger = {
+			RUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = RUS_madness
+	}
+}
+
+defined_text = {
+	name = GetRUSFocus_rus_mil_left
+	text = {
+		trigger = {
+			RUS = {
+				is_ai = no
+			}
+		}
+		localization_key = RUS_mil_left_text
+	}
+	text = {
+		trigger = {
+			RUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = RUS_madness
+	}
+}
+
+defined_text = {
+	name = GetRUSFocus_rus_pol_right
+	text = {
+		trigger = {
+			RUS = {
+				is_ai = no
+			}
+		}
+		localization_key = RUS_pol_right_text
+	}
+	text = {
+		trigger = {
+			RUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = RUS_madness
+	}
+}
+
+defined_text = {
+	name = GetRUSFocus_rus_pol_left
+	text = {
+		trigger = {
+			RUS = {
+				is_ai = no
+			}
+		}
+		localization_key = RUS_pol_left_text
+	}
+	text = {
+		trigger = {
+			RUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = RUS_madness
+	}
+}

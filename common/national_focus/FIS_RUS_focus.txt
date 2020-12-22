@@ -16,6 +16,10 @@ focus_tree = {
 	id = FIS_RUS_swap
 	country = {
 		factor = 0
+		modifier = {
+			add = 5
+			tag = RUS
+		}
 	}
 	default = no
 	continuous_focus_position = { x = 30 y = 4000 }

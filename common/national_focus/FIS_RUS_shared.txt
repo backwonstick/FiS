@@ -12,15 +12,16 @@ shared_focus = {
 	cost = 3.00
 	x = 8
 	y = 0
-	#allow_branch = {
-	#	has_country_flag = RUS_1951
-	#}
+	
 	completion_reward = {
-		add_political_power = 50
+		#add_political_power = 50
 		set_country_flag = RUS_1952
 		RUS_reload_tree = yes
-
 	}
+	#hidden_effects = {
+	#	set_country_flag = RUS_1952
+	#	RUS_reload_tree = yes
+	#}
 }
 
 
