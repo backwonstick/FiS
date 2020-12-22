@@ -62,6 +62,11 @@ spriteTypes = {
 		name = "GFX_superevent_Mosin_Nagant"
 		textureFile = "gfx//superevent_pictures//GFX_superevent_Mosin_nagant.tga"
 	}
+
+	spriteType = {
+		name = "GFX_superevent_united_russia_east_russia_empire"
+		textureFile = "gfx//superevent_pictures//GFX_superevent_united_russia_east_russia_empire.tga"
+	}
 	
 	spriteType = {
 		name = "GFX_superevent_Blackmesa"

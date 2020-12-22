@@ -4,6 +4,11 @@ spriteTypes = {
 		name = "GFX_TNO_OpeningScreen_Poster_Hawaii"
 		textureFile = "gfx/interface/opening_screen/poster/FIS_GAK_OPENING_POSTER.tga"
 	}
+	#ERE
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_East_Russia_Empire"
+		textureFile = "gfx/interface/opening_screen/poster/FIS_ERE_OPENING_POSTER.tga"
+	}
 	#FRA
 	spriteType = {
 		name = "GFX_TNO_OpeningScreen_Poster_France"

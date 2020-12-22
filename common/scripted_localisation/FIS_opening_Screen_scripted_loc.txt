@@ -10,7 +10,11 @@ defined_text = {
 		trigger = { tag = GAK }
 		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_GAK
 	}
-	
+	##극동 러시아 제국
+	text = {
+		trigger = { tag = ERE }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_ERE
+	}
 	text = {
 		trigger = { tag = RUS }
 		localization_key = TABORITSKYORDER_SCREEN_BUTTON_TEXT_RUS
@@ -139,6 +143,22 @@ defined_text = { #극동 임시정부
 	}
 }
 
+defined_text = { #극동 러시아 제국
+	name = GET_COUNTRY_INFO_PAGE_TEXT_ERE
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 0 } }
+		localization_key = COUNTRY_INFO_1_ERE
+	}
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 1 } }
+		localization_key = COUNTRY_INFO_2_ERE
+	}
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 2 } }
+		localization_key = COUNTRY_INFO_3_ERE
+	}
+}
+
 defined_text = { #라스푸틴
 	name = GET_COUNTRY_INFO_PAGE_TEXT_RAS
 	text = {
@@ -165,6 +185,10 @@ defined_text = {
 	text = {
 		trigger = { tag = GAK }
 		localization_key = "[GET_COUNTRY_INFO_PAGE_TEXT_GAK]"
+	}
+	text = {
+		trigger = { tag = ERE }
+		localization_key = "[GET_COUNTRY_INFO_PAGE_TEXT_ERE]"
 	}
 	text = {
 		trigger = { tag = RUS }
@@ -222,7 +246,10 @@ defined_text = {
 		trigger = { tag = GAK }
 		localization_key = "GFX_TNO_OpeningScreen_Poster_Hawaii"
 	}
-	
+	text = {
+		trigger = { tag = ERE }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_East_Russia_Empire"
+	}
 	text = {
 		trigger = { tag = FRA }
 		localization_key = "GFX_TNO_OpeningScreen_Poster_France"
