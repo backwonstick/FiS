@@ -1,0 +1,52 @@
+focus_tree = {
+	id = FIS_RAS
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RAS
+		}
+	}
+	default = no
+	focus = {
+		id = RAS_return_of_rasputin
+		icon = GFX_goal_unknown
+		cost = 3.00
+		x = 3
+		y = 0
+
+	}
+	focus = {
+		id = RAS_project_ragnarok
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = RAS_return_of_rasputin
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = RAS_magnum_opus
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = RAS_return_of_rasputin
+		}
+		x = 3
+		y = 2
+
+	}
+	focus = {
+		id = RAS_totalchaos
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = RAS_return_of_rasputin
+		}
+		x = 5
+		y = 2
+
+	}
+}

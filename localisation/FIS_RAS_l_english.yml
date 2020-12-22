@@ -36,6 +36,13 @@ RAS_anarchism_party_long:0 ""
 RAS_reign_of_rasputin:0 "암흑 의회:§R그리고리 라스푸틴§!의 주도"
 RAS_reign_of_rasputin_desc:0 "현재 암흑 의회의 주도권은 §R그리고리 라스푸틴§!이 쥐고 있습니다.\n라스푸틴 남극가서 놀다가 돌아옴"
 
-
+RAS_return_of_rasputin:0 "그리고리 라스푸틴의 귀환"
+RAS_return_of_rasputin_desc:0 ""
+RAS_project_ragnarok:0 "§R프로젝트:라그나 로크§!"
+RAS_project_ragnarok_desc:0 "심연의 왕이 깨어나니 온 천지가 비명과 함께 불타오르매,\n 모든 이가 라그나 로크의 때가 왔음을 깨닫느니라."
+RAS_magnum_opus:0 "§Y마그눔 오푸스§!"
+RAS_magnum_opus_desc: "헤르메스 트리스메기스투스가 천상을 꿰뚫는 지혜로 남긴 §G에메랄드의 비문§!이 이르기를.\n§b흑색작업,§! §W백색작업,§! §Y황색작업,§! §G녹색작업,§! 그리고 §R적색작업§!.\n이 단계를 모두 거쳐 만물을 빚는 §O철학자의 돌§!이 태어나나니, 어떤 아름다운 보석과 어떤 날카로운 무기도 그에 미치지 못하느니라."
+RAS_totalchaos:0 "완벽한 혼돈"
+RAS_totalchaos_desc:0 "꿈은 현실을 낳고, 그들의 꿈은 모두 당신의 손아귀 속이니,\n살인하는 자와 치유하는 자,\n심는 자와 수확하는 자,\n죽어가는 자와 태어나는 자들을 만드는 경계가 모두 허물어지고 모든것이 당신의 의지를 따라 무너지리라."
 
 POLITICS_Rasputin_DESC:0 "라라라스푸틴 러버옾더러시아퀸"
