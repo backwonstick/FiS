@@ -39,13 +39,14 @@ country_event = {
 }
 
 add_ideas = {
-
+	ERE_undead_infantry_ideas
+	ERE_GOD_SAVE_OUR_QUEEN_IDEAS
 }
 
 create_country_leader = {
 	name = "Anastasia Romanova"
 	desc = "POLITICS_ANASTASIA_DESC"
-	picture = "gfx/leaders/ERE/Portrait_Fate_grand_order_Anastasia3.tga"
+	picture = "gfx/leaders/ERE/Portrait_Fate_grand_order_Anastasia.tga"
 	expire = "2000.1.1"
 	ideology = authoritarian_subtype
 }
