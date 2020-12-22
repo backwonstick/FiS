@@ -38,9 +38,9 @@ set_popularities = {
 create_country_leader = {
 	name = "Soviet Military Committee"
 	desc = "POLITICS_KOL_DESC"
-	picture = "gfx/leaders/SMV/Soviet_Military_Committee.tga"
+	picture = "gfx/leaders/SMV/Soviet_Military.tga"
 	expire = "2000.1.1"
-	ideology = authoritarian_communism
+	ideology = authoritarian_communism_subtype
 }
 
 create_field_marshal = {
