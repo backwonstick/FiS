@@ -1,0 +1,36 @@
+focus_tree = {
+	id = ERE_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = ERE
+		}
+	}
+
+focus = {
+	id = ERE_test
+	icon = ERE_test
+	x = 12
+	y = 2
+	cost = 0.5
+
+	ai_will_do = {
+		factor = 100
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus ERE_test"
+		hidden_effect = {
+			country_event = {
+				id = eastrussia.1
+			}
+		}
+	}
+}
+
+    default = no
+    continuous_focus_position = { x = 3000 y = 700 }
+}

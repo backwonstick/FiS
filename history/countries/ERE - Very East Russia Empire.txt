@@ -34,6 +34,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+country_event = {
+	id = eastrussia.1
+}
+
 add_ideas = {
 
 }

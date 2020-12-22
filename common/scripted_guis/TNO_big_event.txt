@@ -119,6 +119,30 @@ scripted_gui = {
 			}
 		}
 	}
+
+	FIS_SG_ERE_united_of_east_russia_empire = {
+		context_type = player_context
+		window_name = "FIS_SG_ERE_united_of_east_russia_empire"
+
+		visible = {
+			has_country_flag = SE_ERE_united_russia
+		}
+	}
+
+	FIS_SG_ERE_united_of_east_russia_empire_frame = {
+		context_type = player_context
+		window_name = "FIS_SG_ERE_united_of_east_russia_empire_frame"
+
+		visible = {
+			has_country_flag = SE_ERE_united_russia
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = SE_ERE_united_russia
+			}
+		}
+	}
 ###############################################
 #
 #   새 이벤트

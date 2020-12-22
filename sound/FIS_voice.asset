@@ -16,6 +16,9 @@ category = {
 		GAK_Sablin_effect
 	}
 	soundeffects = {
+		ERE_Sablin_effect
+	}
+	soundeffects = {
 		SE_Black_Mesa_effect
 	}
 	soundeffects = {
@@ -81,6 +84,13 @@ soundeffect = {
 	volume = 1.8
 	sounds = {
 		sound = GAK_Sablin_effect_01
+	}
+}
+soundeffect = {
+	name = "ERE_EAST_RUSSIA_UNITED"
+	volume = 1.8
+	sounds = {
+		sound = ERE_EAST_RUSSIA_UNITED_01
 	}
 }
 soundeffect = {
@@ -160,6 +170,12 @@ sound = {
 sound = {
 	name = "GAK_Sablin_effect_01"
 	file = "GAK/GAK_Sablin_effect_01.wav"
+	always_load = yes
+}
+
+sound = {
+	name = "ERE_EAST_RUSSIA_UNITED_01"
+	file = "ERE/ERE_EAST_RUSSIA_UNITED_01.wav"
 	always_load = yes
 }
 
