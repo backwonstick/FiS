@@ -1,6 +1,6 @@
 capital = 397
 
-
+set_variable = { RUS_tabby_clock = 0 }
 
 set_research_slots = 3
 set_stability = 1
