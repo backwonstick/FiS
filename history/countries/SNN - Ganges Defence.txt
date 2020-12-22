@@ -1,0 +1,59 @@
+﻿capital = 438
+
+set_research_slots = 2
+
+
+set_technology = {
+	Small_Arms_1916 = 2
+	Small_Arms_1935 = 2
+	tech_mountaineers = 2
+	tech_support = 1
+	tech_recon = 1
+	transport = 1
+}
+
+add_political_power = 0
+set_convoys = 50
+
+set_politics = {	
+		ruling_party = social_democrat
+		last_election = "1932.9.20"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		jucheism = 0
+		authoritarian_communism = 0
+		communism = 5
+		blackdancism = 0
+		liberal_socialism = 5
+		anarchism = 0
+		social_democrat = 10
+		social_liberal = 10
+		liberal_democrat = 25
+		conservatism = 5
+		authoritarian = 20
+		nationalism = 0
+		corporatocrat = 0
+		fascism = 10
+		accelerationism = 0
+		burgundian_system = 0
+	}
+add_ideas = {
+	volunteer_only
+	export_focus
+	war_economy
+}
+
+####################################################
+# SS-Staat Burgund Leaders
+####################################################
+# National Socialism
+create_country_leader = {
+	name = "Toyota Taiju"
+	desc = "TOYOTA_TAIJU_DESC"
+	picture = "Snsng.dds"
+	expire = "2005.1.1"
+	ideology = social_democracy
+	traits = {}
+}
