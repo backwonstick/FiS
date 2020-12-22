@@ -92,6 +92,11 @@ spriteTypes = {
 		name = "GFX_superevent_Moon_Unite"
 		textureFile = "gfx//superevent_pictures//GFX_superevent_moon_unite.tga"
 	}
+	
+	spriteType = {
+		name = "GFX_Russia_unification_RUS_tabby"
+		textureFile = "gfx/superevent_pictures/GFX_RUS_tabby_unified.dds"
+	}
 }
 
 	

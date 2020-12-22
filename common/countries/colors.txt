@@ -72,6 +72,11 @@ ATZ = {
 	color = rgb { 139 52 52 }
 	color_ui = rgb { 139 52 52 }
 }
+SNN = {
+	color = rgb { 114 47 255 }
+	color_ui = rgb { 114 47 255 }
+}
+
 #reload countrycolors
 ISR = {
 	color = rgb { 15 123 217 }
