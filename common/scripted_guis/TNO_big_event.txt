@@ -309,4 +309,26 @@ scripted_gui = {
 			}
 		}
 	}
+	FIS_SE_Russia_unification_RUS_alexei = {
+		context_type = player_context
+		window_name = "FIS_SE_Russia_unification_RUS_alexei"
+		
+		visible = {
+			has_country_flag = SE_Russia_unification_RUS_alexei_flag
+		}
+	}
+	
+	FIS_SE_Russia_unification_RUS_alexei_frame = {
+		context_type = player_context
+		window_name = "FIS_SE_Russia_unification_RUS_alexei_frame"
+		
+		visible = {
+			has_country_flag = SE_Russia_unification_RUS_alexei_flag
+		}
+		effects = {
+			Option_click = {
+				clr_country_flag = SE_Russia_unification_RUS_alexei_flag
+			}
+		}
+	}
 }
