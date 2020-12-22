@@ -56,6 +56,44 @@ defined_text = {
 	}
 }
 defined_text = {
+	name = GetRUSFocus_rus_eco_left
+	text = {
+		trigger = {
+			RUS = {
+				is_ai = no
+			}
+		}
+		localization_key = RUS_eco_left_text
+	}
+	text = {
+		trigger = {
+			RUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = RUS_madness
+	}
+}
+defined_text = {
+	name = GetRUSFocus_rus_eco_right
+	text = {
+		trigger = {
+			RUS = {
+				is_ai = no
+			}
+		}
+		localization_key = RUS_eco_right_text
+	}
+	text = {
+		trigger = {
+			RUS = {
+				is_ai = yes
+			}
+		}
+		localization_key = RUS_madness
+	}
+}
+defined_text = {
 	name = GetRUSFocus_rus_mil_start
 	text = {
 		trigger = {
