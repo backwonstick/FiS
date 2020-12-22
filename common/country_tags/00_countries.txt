@@ -322,6 +322,7 @@ BLZ = "countries/South American.txt"
 ###FIS###
 
 RUS = "countries/Eastern European.txt"
+ERE = "countries/Eastern European.txt"
 PSY = "countries/Asian.txt"
 GAK = "countries/Western European.txt"
 DNZ	= "countries/Eastern European.txt"

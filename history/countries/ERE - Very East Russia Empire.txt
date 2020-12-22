@@ -1,0 +1,47 @@
+capital = 637
+
+oob = "ERE_FIS"
+set_naval_oob = "ERE_FIS_NAVAL"
+
+set_stability = 0.6
+set_war_support = 0.8
+set_research_slots = 2
+
+set_popularities = {
+	jucheism = 0 
+	authoritarian_communism = 0 
+	communism = 0
+	blackdancism = 0 
+	liberal_socialism = 0 
+	anarchism = 0 
+	social_democrat = 0 
+	social_liberal = 0 
+	liberal_democrat = 0 
+	conservatism = 0 
+	authoritarian = 100
+	nationalism = 0
+	corporatocrat = 0 
+	fascism = 0
+	accelerationism = 0 
+	burgundian_system = 0 
+	
+}
+
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1936.12.12"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+add_ideas = {
+
+}
+
+create_country_leader = {
+	name = "Anastasia Romanova"
+	desc = "POLITICS_ANASTASIA_DESC"
+	picture = "gfx/leaders/ERE/Portrait_Fate_grand_order_Anastasia3.tga"
+	expire = "2000.1.1"
+	ideology = authoritarian_subtype
+}

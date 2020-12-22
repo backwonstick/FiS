@@ -11,6 +11,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
+		name = "GFX_ERE_ana"
+		texturefile = "gfx/texticons/ERE_Anastasia.tga"
+		legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_GAK_ots_groza"
 		texturefile = "gfx/texticons/GAK_ots_groza.tga"
 		legacy_lazy_load = no

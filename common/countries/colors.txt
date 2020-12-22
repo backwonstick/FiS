@@ -4,6 +4,16 @@ RED = {
 	color_ui = rgb { 51 51 51 }
 }
 
+GAK = {
+	color = rgb { 204 255 255 }
+	color_ui = rgb { 204 255 255 }
+}
+
+ERE = {
+	color = rgb { 051 204 255 }
+	color_ui = rgb { 051 204 255 }
+}
+
 NCR = {
 	color = rgb { 240 189 36 }
 	color_ui = rgb { 219 46 20 }
