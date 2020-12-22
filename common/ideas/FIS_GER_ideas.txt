@@ -3,25 +3,25 @@
 
 ideas = {
     country = {
-        GER_losers_of_wwii_ideas = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GER_losers_of_wwii_ideas"}
-			picture = GER_losers_of_wwii
+        		GER_losers_of_wwii = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GER_losers_of_wwii"}
+			picture = GFX_idea_GER_losers_of_wwii
 			modifier = {
 				stability_factor = -0.20
 				war_support_factor = -0.3
 			}
 		}
-		GER_moon_nazis_influence_ideas = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GER_moon_nazis_influence_ideas"}
-			picture = GER_moon_nazis_influence
+		GER_moon_nazis_influence = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GER_moon_nazis_influence"}
+			picture = GFX_idea_GER_moon_nazis_influence
 			modifier = {
 				crypto_strength = -0.1
 				decryption_power_factor = -0.05
 			}
 		}
-		GER_divided_government_ideas = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GER_divided_government_ideas"}
-			picture = GER_divided_government
+		GER_divided_government = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GER_divided_government"}
+			picture = GFX_idea_GER_divided_government
 			modifier = {
 				political_power_factor = -0.50
 				research_speed_factor = -0.1
@@ -29,9 +29,9 @@ ideas = {
 				production_speed_buildings_factor = -0.15
 			}
 		}		
-		GER_disbanded_wehrmacht_ideas = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GER_disbanded_wehrmacht_ideas"}
-			picture = GER_disbanded_wehrmacht
+		GER_disbanded_wehrmacht = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GER_disbanded_wehrmacht"}
+			picture = GFX_idea_GER_disbanded_wehrmacht
 			modifier = {
 				conscription_factor = -0.25
 				conscription = -0.0075
