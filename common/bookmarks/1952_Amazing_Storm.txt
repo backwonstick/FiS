@@ -37,16 +37,17 @@ bookmarks = {
 		}
 		
 		"GAK"={
-			history = "GAK_desc"
+			history = "GAK_bookmark_desc"
 			ideology = nationalism
 			ideas = {
-				GER_losers_of_wwii_ideas
-				GER_moon_nazis_influence_ideas
-				GER_divided_government_ideas
-				GER_disbanded_wehrmacht_ideas
+				GAK_side_effects_development_ideas
+				GAK_tactical_dolls_ideas
+				GAK_Groza_mental_nomarl_ideas
 			}
 			focuses = {
-				
+				GAK_FAKE_ONE
+				GAK_FAKE_TWO
+				GAK_FAKE_THR
 			}
 		}
 		""={

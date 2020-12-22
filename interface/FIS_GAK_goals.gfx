@@ -132,4 +132,19 @@ spriteTypes = {
 		name = "GFX_goal_GAK_identification_and_analysis"
 		texturefile = "gfx/interface/goals/GAK/GAK_identification_and_analysis.tga"			
 	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_FAKE_ONE"
+		texturefile = "gfx/interface/goals/GAK/GAK_kar98_focus_icon_2.tga"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_FAKE_TWO"
+		texturefile = "gfx/interface/goals/GAK/GAK_mosin_nagant_focus_icon_2.tga"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_GAK_FAKE_THR"
+		texturefile = "gfx/interface/goals/GAK/GAK_G36_focus_icon_2.tga"			
+	}
 }

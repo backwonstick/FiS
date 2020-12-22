@@ -1,0 +1,51 @@
+######################
+## 섹 스 뷰 지 섹 스 뷰 지## 
+######################
+
+focus_tree = {
+	id = FIS_FAKE_FAKE
+
+	country = {
+		factor = 0
+	}
+
+    default = no
+	
+	focus = {
+	id = GAK_FAKE_ONE
+	icon = GFX_goal_GAK_FAKE_ONE
+	x = 0
+	y = 0
+	cost = 0.5
+
+	ai_will_do = {
+		factor = 100
+	}
+
+	}
+	focus = {
+	id = GAK_FAKE_TWO
+	icon = GFX_goal_GAK_FAKE_TWO
+	x = 0
+	y = 0
+	cost = 0.5
+
+	ai_will_do = {
+		factor = 100
+	}
+
+	}
+	focus = {
+	id = GAK_FAKE_THR
+	icon = GFX_goal_GAK_FAKE_THR
+	x = 0
+	y = 0
+	cost = 0.5
+
+	ai_will_do = {
+		factor = 100
+	}
+
+	}
+	
+}
