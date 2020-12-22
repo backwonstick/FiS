@@ -1,28 +1,26 @@
 bookmarks = {
 	bookmark = {
-		name = "GATHERING_STORM_name"
-		desc = "GATHERING_STORM_desc"
-		date = 1951.12.31.12
-		picture = "GFX_select_date_1933"
+		name = "FUCKING_STORM_EUROPE_name"
+		desc = "FUCKING_STORM_EUROPE_desc"
+		date = 1952.1.1.12
+		picture = "GFX_select_Europe"
 		default_country = "GER"
 		default = yes
 		
-		"USA"={
-			history = "USA_1933_desc"
-			ideology = democratic
+		"FRA"={
+			history = "FRA_1952_desc"
+			ideology = accelerationism
 			ideas = {
-				USA_Land_of_the_Free
-				USA_The_Lochner_Era
-				USA_The_Great_Depression
-				USA_the_Noble_Experiment
+				FRA_The_Republic_in_Danger
+				FRA_Politicized_Staff
 			}
 			focuses = {
 				
 			}
 		}
 		"ENG"={
-			history = "ENG_1933_desc"
-			ideology = democratic
+			history = "ENG_1952_desc"
+			ideology = conservatism
 			ideas = {
 				ENG_Pax_Britannica
 				ENG_The_Great_Depression
@@ -33,49 +31,37 @@ bookmarks = {
 			}
 		}
 		
-		"FRA"={
-			history = "FRA_1933_desc"
-			ideology = democratic
-			ideas = {
-				FRA_The_Republic_in_Danger
-				FRA_Politicized_Staff
-			}
-			focuses = {
-				
-			}
-		}
-		
 		"GER"={
-			history = "GER_1933_desc"
-			ideology = authoritarian
+			history = "GER_1952_desc"
+			ideology = liberal_democrat
 			ideas = {
-				GER_Destroyed_German_Spirit
-				GER_Treaty_of_Versailles
-				GER_Great_Depression
+				GER_losers_of_wwii_ideas
+				GER_moon_nazis_influence_ideas
+				GER_divided_government_ideas
+				GER_disbanded_wehrmacht_ideas
 			}
 			focuses = {
 				
 			}
 		}
-		"CAN"={
-			history = "CAN_1933_desc"
-			ideology = democratic
+		"VCT"={
+			history = "VCT_1952_desc"
+			ideology = nationalism
 			ideas = {
-				CAN_Conscription_Crisis_among_French_Canadians
-			}
-			focuses = {}
-		}
-		"JAP"={
-			history = "JAP_1933_desc"
-			ideology = authoritarian
-			ideas = {
-				JAP_The_Fading_Ballot_Box
-				JAP_The_Military_Ascendant
 			}
 			focuses = {
-				JAP_Manchuria_Triumphant
-				JAP_Shadow_of_2_26
-				JAP_The_National_Defense_State
+				
+			}
+		}
+		"ARD"={
+			history = "ARD_1952_desc"
+			ideology = conservatism
+			ideas = {
+				vittoria_mutilata
+				victor_emmanuel
+			}
+			focuses = {
+				
 			}
 		}
 		"RUS"={
@@ -85,6 +71,14 @@ bookmarks = {
 			}
 			focuses = {
 				
+			}
+		}
+		"SKV"={
+			history = "SKV_1952_desc"
+			ideology = authoritarian
+			ideas = {
+			}
+			focuses = {
 			}
 		}
 		
@@ -204,18 +198,6 @@ bookmarks = {
 			}
 			focuses = {}
 		}
-		"ITA"={
-			minor = yes
-			history = "ITA_1933_desc"
-			ideology = fascist
-			ideas = {
-				vittoria_mutilata
-				victor_emmanuel
-			}
-			focuses = {
-				
-			}
-		}
 		"FIN"={
 			minor = yes
 			history = "FIN_1933_desc"
@@ -279,6 +261,15 @@ bookmarks = {
 				ETH_Stain_of_Slavery
 				ETH_Illiteracy_Problem
 				ETH_Pre_Industrial_Society				
+			}
+			focuses = {}
+		}
+		"CAN"={
+			minor = yes
+			history = "CAN_1933_desc"
+			ideology = democratic
+			ideas = {
+				CAN_Conscription_Crisis_among_French_Canadians
 			}
 			focuses = {}
 		}

@@ -1,73 +1,55 @@
 bookmarks = {
 	bookmark = {
-		name = "FUCKING_STORM_name"
-		desc = "FUCKING_STORM_desc"
+		name = "FUCKING_STORM_AMERICA_name"
+		desc = "FUCKING_STORM_AMERICA_desc"
 		date = 1952.1.1.12
-		picture = "GFX_select_date_1952"
-		default_country = "GER"
+		picture = "GFX_select_America"
+		default_country = "USA"
 		default = yes
 		
-		"FRA"={
-			history = "FRA_1933_desc"
-			ideology = democratic
-			ideas = {
-				FRA_The_Republic_in_Danger
-				FRA_Politicized_Staff
-			}
-			focuses = {
-				
-			}
-		}
 		"USA"={
-			history = "USA_1933_desc"
-			ideology = democratic
+			history = "USA_desc"
+			ideology = conservatism
 			ideas = {
-				USA_Land_of_the_Free
-				USA_The_Lochner_Era
-				USA_The_Great_Depression
-				USA_the_Noble_Experiment
 			}
 			focuses = {
 				
 			}
 		}
-		"ENG"={
-			history = "ENG_1933_desc"
-			ideology = democratic
+		"NCR"={
+			history = "NCR_desc"
+			ideology = liberal_democrat
 			ideas = {
-				ENG_Pax_Britannica
-				ENG_The_Great_Depression
-				ENG_World_War_One_Reparations
 			}
 			focuses = {
 				
 			}
 		}
 		
-		"GER"={
-			history = "GER_1933_desc"
-			ideology = authoritarian
+		"CAN"={
+			history = "CAN_desc"
+			ideology = conservatism
 			ideas = {
-				GER_Destroyed_German_Spirit
-				GER_Treaty_of_Versailles
-				GER_Great_Depression
 			}
 			focuses = {
 				
 			}
 		}
-		"ITA"={
-			history = "ITA_1933_desc"
-			ideology = fascist
+		
+		"GAK"={
+			history = "GAK_desc"
+			ideology = nationalism
 			ideas = {
-				vittoria_mutilata
-				victor_emmanuel
+				GER_losers_of_wwii_ideas
+				GER_moon_nazis_influence_ideas
+				GER_divided_government_ideas
+				GER_disbanded_wehrmacht_ideas
 			}
 			focuses = {
 				
 			}
 		}
-		"JAP"={
+		""={
 			history = "JAP_1933_desc"
 			ideology = authoritarian
 			ideas = {
@@ -80,13 +62,10 @@ bookmarks = {
 				JAP_The_National_Defense_State
 			}
 		}
-		"SOV"={
+		"RAP"={
 			history = "SOV_1933_desc"
-			ideology = communist
+			ideology = burgundian_system
 			ideas = {
-				SOV_The_Great_Soviet_Famine
-				SOV_Aftermath_of_the_Ryutin_Affair
-				SOV_Deficient_Economy
 			}
 			focuses = {
 				
@@ -209,6 +188,18 @@ bookmarks = {
 			}
 			focuses = {}
 		}
+		"ITA"={
+			minor = yes
+			history = "ITA_1933_desc"
+			ideology = fascist
+			ideas = {
+				vittoria_mutilata
+				victor_emmanuel
+			}
+			focuses = {
+				
+			}
+		}
 		"FIN"={
 			minor = yes
 			history = "FIN_1933_desc"
@@ -272,15 +263,6 @@ bookmarks = {
 				ETH_Stain_of_Slavery
 				ETH_Illiteracy_Problem
 				ETH_Pre_Industrial_Society				
-			}
-			focuses = {}
-		}
-		"CAN"={
-			minor = yes
-			history = "CAN_1933_desc"
-			ideology = democratic
-			ideas = {
-				CAN_Conscription_Crisis_among_French_Canadians
 			}
 			focuses = {}
 		}

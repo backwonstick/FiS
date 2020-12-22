@@ -79,9 +79,9 @@
 	# Leaders
 	#######################
 	create_country_leader = {
-		name = "스트러커 남작"
+		name = "볼프강 본 스트러커"
 		desc = ""
-		picture = "gfx/leaders/SKV/Test.tga"
+		picture = "gfx/leaders/SKV/Portrait_SKV_Strucker.tga"
 		expire = "2999.1.1"
 		ideology = conservatism_subtype
 		traits = {

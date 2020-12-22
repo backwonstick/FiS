@@ -108,17 +108,28 @@
 	# Politics
 	#######################
 	set_politics = {
-		ruling_party = democratic
-		last_election = "1932.11.8"
+		ruling_party = liberal_democrat
+		last_election = "1948.11.8"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 	set_popularities = {
-		fascist = 0
+		jucheism = 0
+		authoritarian_communism = 0
+		communism = 10
+		blackdancism = 5
+		liberal_socialism = 10
+		anarchism = 0
+		social_democrat = 0
+		social_liberal = 27
+		liberal_democrat = 33
+		conservatism = 0
 		authoritarian = 0
-		democratic = 98
-		socialist = 2
-		communist = 0
+		nationalism = 0
+		corporatocrat = 8
+		fascism = 3
+		accelerationism = 4
+		burgundian_system = 0
 	}	
 	### Great Depression/Unemployment
 	set_variable = { unemployment_value_modifier = 1.80 }
@@ -210,11 +221,11 @@
 	}
 	# Democractic
 	create_country_leader = {
-		name = "Herbert Hoover"
-		desc = "Herbert_Hoover_desc"
-		picture = "P_D_Herbert_Hoover.tga"
-		expire = "1947.1.1"
-		ideology = social_conservatism
+		name = "도널드 트럼프"
+		desc = "Donald_Trump_desc"
+		picture = "gfx/leaders/USA/Portrait_Trump.tga"
+		expire = "1977.1.1"
+		ideology = liberal_democrat_subtype
 		traits = { POSITION_President SUBIDEOLOGY_Conservatism HoS_Benevolent_Gentleman }
 	}
 	# Socialism
