@@ -2,7 +2,7 @@
 capital = 195
 oob = "RED_FIS"
 set_research_slots = 2
-set_stability = 0.66
+set_stability = -0.7
 set_war_support = 1
 set_convoys = 0
 add_political_power = 777
@@ -15,7 +15,6 @@ Small_Arms_1916 = 1
 Small_Arms_1935 = 1
 tech_support = 1
 tech_engineers = 1
-
 tech_recon = 1
 
 set_politics = {
