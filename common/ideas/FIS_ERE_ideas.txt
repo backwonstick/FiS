@@ -1,0 +1,30 @@
+ideas = {
+    country = {
+        ERE_undead_infantry_ideas = { #죽지않는 병사들
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAK_military_government_ideas"}
+			picture = GFX_idea_ERE_undead_infantry_ideas
+			modifier = {
+                army_attack_factor = 0.1
+                army_defence_factor = 0.1
+                army_morale_factor = 0.25
+                army_org = 10
+                experience_loss_factor = -0.9
+                heat_attrition_factor = -0.25
+                winter_attrition_factor = -0.25
+                conscription_factor = -0.5
+			}
+		}
+
+        ERE_GOD_SAVE_OUR_QUEEN_IDEAS = { #신이시여, 우리 여왕님을 보우하소서!
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_GOD_SAVE_OUR_QUEEN_IDEAS"}
+			picture = GFX_idea_ERE_GOD_SAVE_OUR_QUEEN_IDEAS
+			modifier = {
+                stability_factor = 0.25
+                war_support_factor = 0.25
+                surrender_limit = 0.5
+			}
+		}
+
+
+    }
+}

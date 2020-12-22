@@ -11,9 +11,9 @@ focus_tree = {
 	}
 
 focus = {
-	id = ERE_test
-	icon = ERE_test
-	x = 12
+	id = ERE_way_to_find_baby_brother
+	icon = GFX_goal_ERE_way_to_find_baby_brother
+	x = 15
 	y = 2
 	cost = 0.5
 
@@ -22,12 +22,8 @@ focus = {
 	}
 
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus ERE_test"
-		hidden_effect = {
-			country_event = {
-				id = eastrussia.1
-			}
-		}
+		log = "[GetDateText]: [Root.GetName]: Focus ERE_way_to_find_baby_brother"
+		add_political_power = 150
 	}
 }
 

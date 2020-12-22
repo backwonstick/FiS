@@ -1,4 +1,5 @@
 spriteTypes = {
+	#GAK
     spriteType = {
 		name = "GFX_idea_GAK_military_government_ideas"
 		texturefile = "gfx/interface/ideas/GAK/ideas/GAK_military_government.tga"
@@ -17,6 +18,15 @@ spriteTypes = {
     spriteType = {
 		name = "GFX_idea_GAK_side_effects_development_ideas"
 		texturefile = "gfx/interface/ideas/GAK/ideas/GAK_side_effects_intensive_development.tga"
+	}
+	#ERE
+	spriteType = {
+		name = "GFX_idea_ERE_undead_infantry_ideas"
+		texturefile = "gfx/interface/ideas/ERE/ideas/GFX_idea_ERE_undead_infantry_ideas.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ERE_GOD_SAVE_OUR_QUEEN_IDEAS"
+		texturefile = "gfx/interface/ideas/ERE/ideas/GFX_idea_ERE_GOD_SAVE_OUR_QUEEN_IDEAS.tga"
 	}
 	#RUS
 	spriteType = {

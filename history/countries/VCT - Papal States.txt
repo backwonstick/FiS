@@ -73,8 +73,13 @@
 		burgundian_system = 0
 	}
 	add_ideas = {
-		one_year_service
+		VCT_the_cosmos_religion
+		VCT_cthulhu_slayer
+		VCT_catholic_civil_war
+		VCT_sanchi_crisis
+		VCT_lance_of_longinus_shard
 	}
+	
 	#######################
 	# Leaders
 	#######################
