@@ -58,11 +58,6 @@ TRM = {
 	color_ui = rgb { 163 163 163 }
 }
 
-SMV = {
-	color = rgb { 163 0 0 }
-	color_ui = rgb { 163 0 0 }
-}
-
 RUS = {
 	color = rgb { 67 38 68 }
 	color_ui = rgb { 67 38 68 }
