@@ -1035,7 +1035,7 @@ containerWindowType = {
 		Orientation = center
 		Origo = center
 		clipping = no
-		show_sound = SE_Russia_unification_RUS_tabby_effect#수정필요
+		show_sound = SE_Russia_unification_RUS_alexei_effect
 
 		background = {
 			name = "Background"
