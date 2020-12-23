@@ -11,7 +11,7 @@ leader_traits = {
 			}
 		}
 		field_marshal_modifier = {
-		    max_army_group_size = 45
+		    max_army_group_size = 95
 		}
         corps_commander_modifier = {
 		    max_commander_army_size = 36
@@ -19,7 +19,19 @@ leader_traits = {
 		non_shared_modifier = {
 			experience_gain_factor = 0.75
 			promote_cost_factor = -0.50
+			planning_speed = 1
+			max_planning = 1
 		}
+		
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+		attack_skill_factor = 2
+		defense_skill_factor = 2
+		planning_skill_factor = 2
+		logistics_skill_factor = 2
+				
 	}
 	gf_doll = {
 		type = land
@@ -38,9 +50,20 @@ leader_traits = {
         corps_commander_modifier = {
 		    max_commander_army_size = -23
 		}
-				non_shared_modifier = {
-			experience_gain_factor = 1
-			promote_cost_factor = -0.50
+		non_shared_modifier = {
+			experience_gain_factor = 2
+			promote_cost_factor = 10
+			wounded_chance_factor = -0.8
 		}
+		
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+		attack_skill_factor = 2
+		defense_skill_factor = 2
+		planning_skill_factor = 2
+		logistics_skill_factor = 2
+		
 	}
 }

@@ -1,0 +1,86 @@
+spriteTypes = {
+	spritetype = {
+		name = "GFX_M4A1"
+		texturefile = "gfx/texticons/GRI_M4A1.tga"
+		legacy_lazy_load = no
+	}
+	spritetype = {
+		name = "GFX_RO635"
+		texturefile = "gfx/texticons/GRI_RO635.tga"
+		legacy_lazy_load = no
+	}
+	spritetype = {
+		name = "GFX_SOP2"
+		texturefile = "gfx/texticons/GRI_M4_SOPMOD_II.tga"
+		legacy_lazy_load = no
+	}
+	spritetype = {
+		name = "GFX_STAR"
+		texturefile = "gfx/texticons/GRI_ST_AR-15.tga"
+		legacy_lazy_load = no
+	}
+	spritetype = {
+		name = "GFX_UMP9"
+		texturefile = "gfx/texticons/GRI_UMP9.tga"
+		legacy_lazy_load = no
+	}
+	spritetype = {
+		name = "GFX_UMP45"
+		texturefile = "gfx/texticons/GRI_UMP45.tga"
+		legacy_lazy_load = no
+	}
+	spritetype = {
+		name = "GFX_deagle"
+		texturefile = "gfx/texticons/GRI_desert_eagle.tga"
+		legacy_lazy_load = no
+	}spritetype = {
+		name = "GFX_FAL"
+		texturefile = "gfx/texticons/GRI_FAL.tga"
+		legacy_lazy_load = no
+	}
+	spritetype = {
+		name = "GFX_HK416"
+		texturefile = "gfx/texticons/GRI_HK416.tga"
+		legacy_lazy_load = no
+	}
+	spritetype = {
+		name = "GFX_IWS"
+		texturefile = "gfx/texticons/GRI_IWS_2000.tga"
+		legacy_lazy_load = no
+	}
+	spritetype = {
+		name = "GFX_kar"
+		texturefile = "gfx/texticons/GRI_Kar98k.tga"
+		legacy_lazy_load = no
+	}
+	spritetype = {
+		name = "GFX_M99"
+		texturefile = "gfx/texticons/GRI_M99.tga"
+		legacy_lazy_load = no
+	}
+	spritetype = {
+		name = "GFX_makarov"
+		texturefile = "gfx/texticons/GRI_makarov.tga"
+		legacy_lazy_load = no
+	}
+	spritetype = {
+		name = "GFX_negev"
+		texturefile = "gfx/texticons/GRI_negev.tga"
+		legacy_lazy_load = no
+	}
+	spritetype = {
+		name = "GFX_thompson"
+		texturefile = "gfx/texticons/GRI_thompson.tga"
+		legacy_lazy_load = no
+	}
+	spritetype = {
+		name = "GFX_K2"
+		texturefile = "gfx/texticons/GRI_K2.tga"
+		legacy_lazy_load = no
+	}
+#	spritetype = {
+#		name = "GFX_G11"
+#		texturefile = "gfx/texticons/GRI_G11.tga"
+#		legacy_lazy_load = no
+#	}
+}
