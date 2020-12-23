@@ -10,6 +10,11 @@ defined_text = {
 		trigger = { tag = GAK }
 		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_GAK
 	}
+	##그리폰
+	text = {
+		trigger = { tag = GRI }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_GRI
+	}
 	##극동 러시아 제국
 	text = {
 		trigger = { tag = ERE }
@@ -103,6 +108,21 @@ defined_text = { #하와이
 	}
 }
 
+defined_text = { #그리폰
+	name = GET_COUNTRY_INFO_PAGE_TEXT_GRI
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 0 } }
+		localization_key = COUNTRY_INFO_1_GRI
+	}
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 1 } }
+		localization_key = COUNTRY_INFO_2_GRI
+	}
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 2 } }
+		localization_key = COUNTRY_INFO_3_GRI
+	}
+}
 
 defined_text = { #프랑스
 	name = GET_COUNTRY_INFO_PAGE_TEXT_FRA
@@ -228,6 +248,10 @@ defined_text = {
 		localization_key = "[GET_COUNTRY_INFO_PAGE_TEXT_GAK]"
 	}
 	text = {
+		trigger = { tag = GRI }
+		localization_key = "[GET_COUNTRY_INFO_PAGE_TEXT_GRI]"
+	}
+	text = {
 		trigger = { tag = ERE }
 		localization_key = "[GET_COUNTRY_INFO_PAGE_TEXT_ERE]"
 	}
@@ -321,6 +345,10 @@ defined_text = {
 	}
 	text = {
 		trigger = { tag = NCR }
+		localization_key = "GFX_OpeningSCreen_Poster_New_California"
+	}
+	text = {
+		trigger = { tag = GRI }
 		localization_key = "GFX_OpeningSCreen_Poster_New_California"
 	}
 }
