@@ -29,7 +29,7 @@ set_popularities = {
 	liberal_democrat = 0 
 	conservatism = 0 
 	authoritarian = 0
-	nationalism = 0
+	nationalism = 100
 	corporatocrat = 0 
 	fascism = 0
 	accelerationism = 0 
@@ -47,9 +47,9 @@ add_ideas = {
 
 #국가 지도자
 create_country_leader = {
-	name = ""
+	name = "무명"
 	desc = ""
 	picture = ""
-	expire = ""
-	ideology = 
+	expire = "2000.12.01"
+	ideology = nationalism
 }

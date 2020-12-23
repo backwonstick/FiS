@@ -24,7 +24,7 @@ ideas = {
             picture = VCT_catholic_civil_war
             modifier = {
 				stability_weekly_factor = -0.05
-				war_support_weekly_factor = -0.05
+				war_support_weekly = -0.05
 				}
 			}
 			
