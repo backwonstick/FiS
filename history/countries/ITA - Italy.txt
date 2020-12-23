@@ -28,17 +28,21 @@ set_popularities = {
 	social_liberal = 0 
 	liberal_democrat = 0 
 	conservatism = 0 
-	authoritarian = 8 
+	authoritarian = 0
 	nationalism = 0
 	corporatocrat = 0 
 	fascism = 0
 	accelerationism = 0 
 	burgundian_system = 0 
-	
 }
 
 #국민정신과 법률
 add_ideas = {
+	ITA_public_safety_collapse
+	ITA_divided_politics
+	ITA_powerful_papal_States
+	ITA_extreme_poverty
+	ITA_religion_all_over
 }
 
 #국가 지도자

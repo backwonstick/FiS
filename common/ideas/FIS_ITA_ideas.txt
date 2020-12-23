@@ -1,0 +1,37 @@
+ideas = {
+	country = {
+		ITA_public_safety_collapse = { #치안 붕괴
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea ITA_public_safety_collapse"}
+            picture = ITA_public_safety_collapse
+            modifier = {
+                stability_factor = -0.75
+				}
+			}
+		ITA_divided_politics = { #분열된 정치
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea ITA_divided_politics"}
+            picture = ITA_divided_politics
+            modifier = {
+                political_power_gain = -3
+				}
+			}
+		ITA_powerful_papal_States = { #강대한 교황령
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea ITA_powerful_papal_States"}
+            picture = ITA_powerful_papal_States
+            modifier = {
+                political_power_gain = -1
+				}
+			}
+		ITA_extreme_poverty = { #극심한 빈곤
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea ITA_extreme_poverty"}
+            picture = ITA_extreme_poverty
+            modifier = {
+				}
+			}
+		ITA_religion_all_over = { #종교 난립
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea ITA_religion_all_over"}
+            picture = ITA_religion_all_over
+            modifier = {
+				}
+			}
+		}
+	}
