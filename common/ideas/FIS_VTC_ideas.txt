@@ -4,15 +4,18 @@ ideas = {
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea VCT_the_cosmos_religion"}
             picture = VCT_the_cosmos_religion
             modifier = {
-                political_power_gain = 1
+                political_power_gain = 2
 				}
 			}
 		VCT_cthulhu_slayer = { #이신(異神)을 무릎 꿇린 자
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea VCT_cthulhu_Slayer"}
             picture = VCT_cthulhu_slayer
             modifier = {
-				stability_factor = 0.05
-				war_support_weekly_factor = 0.1
+				stability_factor = 0.2
+				war_support_factor = 0.2
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1 
+				army_org_factor = 0.1
 				}
 			}
 		
@@ -29,7 +32,10 @@ ideas = {
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea VCT_sanchi_crisis"}
             picture = VCT_sanchi_crisis
             modifier = {
-			stability_factor = -0.3
+			stability_weekly_factor = -0.03
+			industrial_capacity_factory = -0.2
+			industrial_capacity_dockyard = -0.2
+			local_resources_factor = -0.2
 				}
 			}	
 		VCT_lance_of_longinus_shard = { #롱기누스의 창 파편
