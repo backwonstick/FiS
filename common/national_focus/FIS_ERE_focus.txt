@@ -10,23 +10,383 @@ focus_tree = {
 		}
 	}
 
-focus = {
-	id = ERE_way_to_find_baby_brother
-	icon = GFX_goal_ERE_way_to_find_baby_brother
-	x = 15
-	y = 2
-	cost = 0.5
-
-	ai_will_do = {
-		factor = 100
-	}
-
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus ERE_way_to_find_baby_brother"
-		add_political_power = 150
-	}
-}
-
-    default = no
+	default = no
     continuous_focus_position = { x = 3000 y = 700 }
+
+	focus = {
+		id = ERE_way_to_find_baby_brother
+		icon = GFX_goal_ERE_way_to_find_baby_brother
+		x = 15
+		y = 2
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_way_to_find_baby_brother"
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = ERE_anastasia_s_speech
+		icon = GFX_goal_ERE_anastasia_s_speech
+		x = 12
+		y = 3
+		cost = 0.5
+
+		prerequisite = {
+			focus = ERE_way_to_find_baby_brother
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_anastasia_s_speech"
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = ERE_our_future_is
+		icon = GFX_goal_ERE_our_future_is
+		x = 12
+		y = 4
+		cost = 0.5
+
+		prerequisite = {
+			focus = ERE_anastasia_s_speech
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_anastasia_s_speech"
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = ERE_to_save_our_babybro
+		icon = GFX_goal_ERE_to_save_our_babybro
+		x = 11
+		y = 5
+		cost = 0.5
+
+		prerequisite = {
+			focus = ERE_our_future_is
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_to_save_our_babybro"
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = ERE_ask_around_about_baby_bro
+		icon = GFX_goal_ERE_ask_around_about_baby_bro
+		x = 11
+		y = 6
+		cost = 0.5
+
+		prerequisite = {
+			focus = ERE_to_save_our_babybro
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_ask_around_about_baby_bro"
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = ERE_what_the_fuck_looklike_ss
+		icon = GFX_goal_ERE_what_the_fuck_looklike_ss
+		x = 11
+		y = 7
+		cost = 0.5
+
+		prerequisite = {
+			focus = ERE_ask_around_about_baby_bro
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_ask_around_about_baby_bro"
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = ERE_we_return_to_empire
+		icon = GFX_goal_ERE_we_return_to_empire
+		x = 13
+		y = 5
+		cost = 0.5
+
+		prerequisite = {
+			focus = ERE_our_future_is
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_to_save_our_babybro"
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = ERE_Gathering_asylum_seekers
+		icon = GFX_goal_ERE_Gathering_asylum_seekers
+		x = 13
+		y = 6
+		cost = 0.5
+
+		prerequisite = {
+			focus = ERE_we_return_to_empire
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_Gathering_asylum_seekers"
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = ERE_gift_from_supporters
+		icon = GFX_goal_ERE_gift_from_supporters
+		x = 13
+		y = 7
+		cost = 0.5
+
+		prerequisite = {
+			focus = ERE_Gathering_asylum_seekers
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_gift_from_supporters"
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = ERE_build_the_industry
+		icon = GFX_goal_ERE_build_the_industry
+		x = 18
+		y = 3
+		cost = 0.5
+
+		prerequisite = {
+			focus = ERE_way_to_find_baby_brother
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_build_the_industry"
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = ERE_ideological_advancement_of_thinking
+		icon = GFX_goal_ERE_ideological_advancement_of_thinking
+		x = 17
+		y = 4
+		cost = 0.5
+
+		prerequisite = {
+			focus = ERE_build_the_industry
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_ideological_advancement_of_thinking"
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = ERE_precious_people
+		icon = GFX_goal_ERE_precious_people
+		x = 19
+		y = 4
+		cost = 0.5
+
+		prerequisite = {
+			focus = ERE_build_the_industry
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_precious_people"
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = ERE_problem_of_indigenous_peoples
+		icon = GFX_goal_ERE_precious_people
+		x = 18
+		y = 5
+		cost = 0.5
+
+		prerequisite = {
+			focus = ERE_ideological_advancement_of_thinking
+		}
+		prerequisite = {
+			focus = ERE_precious_people
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_precious_people"
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = ERE_heavy_crackdown
+		icon = GFX_goal_ERE_heavy_crackdown
+		x = 19
+		y = 6
+		cost = 0.5
+
+		prerequisite = {
+			focus = ERE_problem_of_indigenous_peoples
+		}
+		mutually_exclusive = {
+			focus = ERE_assimilation_with_indigenous
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_heavy_crackdown"
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = ERE_assimilation_with_indigenous
+		icon = GFX_goal_ERE_assimilation_with_indigenous
+		x = 17
+		y = 6
+		cost = 0.5
+
+		prerequisite = {
+			focus = ERE_problem_of_indigenous_peoples
+		}
+		mutually_exclusive = {
+			focus = ERE_heavy_crackdown
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_heavy_crackdown"
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = ERE_foundation_building
+		icon = GFX_goal_ERE_foundation_building
+		x = 18
+		y = 7
+		cost = 0.5
+
+		prerequisite = {
+			focus = ERE_assimilation_with_indigenous
+		}
+		prerequisite = {
+			focus = ERE_heavy_crackdown
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_foundation_building"
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = ERE_pieces_were_put_together
+		icon = GFX_goal_ERE_pieces_were_put_together
+		x = 15
+		y = 8
+		cost = 0.5
+
+		prerequisite = {
+			focus = ERE_what_the_fuck_looklike_ss
+		}
+		prerequisite = {
+			focus = ERE_gift_from_supporters
+		}
+		prerequisite = {
+			focus = ERE_foundation_building
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_pieces_were_put_together"
+			add_political_power = 150
+		}
+	}
+
+
+
+
+
+    
 }
