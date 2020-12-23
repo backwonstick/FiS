@@ -1,0 +1,1489 @@
+﻿focus_tree = {
+	id = grifon_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GRI
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+	
+	####건설 중점####
+	
+	focus = {
+		id = GRI_inf
+		icon = GFX_goal_generic_construct_infrastructure
+		x = -2
+		y = 0
+		relative_position_id = GRI_civil
+
+		available = {
+		}
+
+		bypass = {
+		}
+	
+		prerequisite = { focus = GRI_start }
+		cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			}
+	}
+	focus = {
+		id = GRI_inf2
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 0
+		y = 1
+		relative_position_id = GRI_inf
+
+		available = {
+		}
+
+		bypass = {
+		}
+	
+		prerequisite = { focus = GRI_inf }
+		cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			}
+	}
+	focus = {
+		id = GRI_inf3
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 0
+		y = 1
+		relative_position_id = GRI_inf2
+
+		available = {
+		}
+
+		bypass = {
+		}
+	
+		prerequisite = { focus = GRI_inf2 }
+		cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			}
+	}
+	focus = {
+		id = GRI_inf4
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 0
+		y = 1
+		relative_position_id = GRI_inf3
+
+		available = {
+		}
+
+		bypass = {
+		}
+	
+		prerequisite = { focus = GRI_inf3 }
+		cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			}
+	}
+	focus = {
+		id = GRI_civil
+		icon = GFX_goal_generic_construct_civ_factory
+		x = -10
+		y = 1
+		relative_position_id = GRI_start
+
+		available = {
+		}
+
+		bypass = {
+		}
+	
+		prerequisite = { focus = GRI_start }
+		cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+				}
+		}
+		ai_will_do = {
+			}
+	}
+	focus = {
+		id = GRI_civil2
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 0
+		y = 1
+		relative_position_id = GRI_civil
+
+		available = {
+		}
+
+		bypass = {
+		}
+	
+		prerequisite = { focus = GRI_civil }
+		cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+				}
+		}
+		ai_will_do = {
+			}
+	}
+	focus = {
+		id = GRI_civil3
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 0
+		y = 1
+		relative_position_id = GRI_civil2
+
+		available = {
+		}
+
+		bypass = {
+		}
+	
+		prerequisite = { focus = GRI_civil2 }
+		cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+				}
+		}
+		ai_will_do = {
+			}
+	}
+	focus = {
+		id = GRI_civil4
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 0
+		y = 1
+		relative_position_id = GRI_civil3
+
+		available = {
+		}
+
+		bypass = {
+		}
+	
+		prerequisite = { focus = GRI_civil3 }
+		cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+				}
+		}
+		ai_will_do = {
+			}
+	}
+	focus = {
+		id = GRI_mil
+		icon = GFX_goal_generic_construct_mil_factory
+		x = -8
+		y = 1
+		relative_position_id = GRI_start
+
+		available = {
+		}
+
+		bypass = {
+		}
+	
+		prerequisite = { focus = GRI_start }
+		cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			}
+	}
+	focus = {
+		id = GRI_mil2
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 0
+		y = 1
+		relative_position_id = GRI_mil
+
+		available = {
+		}
+
+		bypass = {
+		}
+	
+		prerequisite = { focus = GRI_mil }
+		cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			}
+	}
+	focus = {
+		id = GRI_mil3
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 0
+		y = 1
+		relative_position_id = GRI_mil2
+
+		available = {
+		}
+
+		bypass = {
+		}
+	
+		prerequisite = { focus = GRI_mil2 }
+		cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			}
+	}
+	focus = {
+		id = GRI_mil4
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 0
+		y = 1
+		relative_position_id = GRI_mil3
+
+		available = {
+		}
+
+		bypass = {
+		}
+	
+		prerequisite = { focus = GRI_mil3 }
+		cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			}
+	}
+	focus = {
+		id = GRI_dock
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 2
+		y = 0
+		relative_position_id = GRI_mil
+
+		available = {
+		}
+
+		bypass = {
+		}
+	
+		prerequisite = { focus = GRI_start }
+		cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			}
+	}
+	focus = {
+		id = GRI_dock2
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 0
+		y = 1
+		relative_position_id = GRI_dock
+
+		available = {
+		}
+
+		bypass = {
+		}
+	
+		prerequisite = { focus = GRI_dock }
+		cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			}
+	}
+	focus = {
+		id = GRI_dock3
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 0
+		y = 1
+		relative_position_id = GRI_dock2
+
+		available = {
+		}
+
+		bypass = {
+		}
+	
+		prerequisite = { focus = GRI_dock2 }
+		cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			}
+	}
+	focus = {
+		id = GRI_dock4
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 0
+		y = 1
+		relative_position_id = GRI_dock3
+
+		available = {
+		}
+
+		bypass = {
+		}
+	
+		prerequisite = { focus = GRI_dock3 }
+		cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			}
+	}
+	
+####시작 중점####
+	
+	focus = {
+		id = GRI_start
+		icon = GFX_goal_generic_major_war
+		x = 50
+		y = 0
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		ai_will_do = {
+			}
+	}
+	focus = {
+		id = GRI_commander
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = GRI_start
+
+		available = {
+		}
+		
+		bypass = {
+		}
+				
+		prerequisite = { focus = GRI_start }
+		cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+							create_field_marshal = { #원수생성
+									name = "장시안"
+									picture = "Portrait_General_Gentiane.dds"
+									traits = { gf_commander }
+									skill = 1
+									attack_skill = 1
+									defense_skill = 1
+									planning_skill = 1
+									logistics_skill = 1
+								}
+		}
+		ai_will_do = {
+			}
+	}
+	focus = {
+		id = GRI_doll_commander
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = GRI_commander
+
+		available = {
+		}
+		
+		bypass = {
+		}
+				
+		prerequisite = { focus = GRI_commander }
+		cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+							create_corps_commander = { #장군생성
+									name = "M4A1"
+									desc = "MARSHAL_M4A1_DESC"
+									picture = "Portrait_M4A1.dds"
+									traits = { gf_doll Commando Adaptable }
+									id = 20000
+									skill = 1
+									attack_skill = 1
+									defense_skill = 1
+									planning_skill = 1
+									logistics_skill = 1
+								}
+							create_corps_commander = { #장군생성
+									name = "ST AR-15"
+									desc = "MARSHAL_ST_AR-15_DESC"
+									picture = "Portrait_ST_AR-15.dds"
+									traits = { gf_doll Commando Adaptable }
+									id = 20001
+									skill = 1
+									attack_skill = 1
+									defense_skill = 1
+									planning_skill = 1
+									logistics_skill = 1
+								}
+							create_corps_commander = { #장군생성
+								name = "M4 SOPMOD II"
+									desc = "MARSHAL_M4_SOPMOD_II_DESC"
+									picture = "Portrait_M4_SOPMOD_II.dds"
+									traits = { gf_doll Commando Adaptable }
+									id = 20002
+									skill = 1
+									attack_skill = 1
+									defense_skill = 1
+									planning_skill = 1
+									logistics_skill = 1
+								}
+							create_corps_commander = { #장군생성
+								name = "RO635"
+									desc = "MARSHAL_RO635_DESC"
+									picture = "Portrait_RO635.dds"
+									traits = { gf_doll Commando Adaptable }
+									id = 20003
+									skill = 1
+									attack_skill = 1
+									defense_skill = 1
+									planning_skill = 1
+									logistics_skill = 1
+								}
+							create_corps_commander = { #장군생성
+									name = "UMP45"
+									desc = "MARSHAL_UMP45_DESC"
+									picture = "Portrait_UMP45.dds"
+									traits = { gf_doll Commando Adaptable }
+									id = 20004
+									skill = 1
+									attack_skill = 1
+									defense_skill = 1
+									planning_skill = 1
+									logistics_skill = 1
+								}
+							create_corps_commander = { #장군생성
+									name = "UMP9"
+									desc = "MARSHAL_UMP9_DESC"
+									picture = "Portrait_UMP9.dds"
+									traits = { gf_doll Commando Adaptable }
+									id = 20005
+									skill = 1
+									attack_skill = 1
+									defense_skill = 1
+									planning_skill = 1
+									logistics_skill = 1
+								}
+							create_corps_commander = { #장군생성
+									name = "HK416"
+									desc = "MARSHAL_HK416_DESC"
+									picture = "Portrait_HK416.dds"
+									traits = { gf_doll Commando Adaptable }
+									id = 20006
+									skill = 1
+									attack_skill = 1
+									defense_skill = 1
+									planning_skill = 1
+									logistics_skill = 1
+								}
+		ai_will_do = {
+			}
+		}
+	}
+	focus = {
+		id = GRI_comeback
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 0
+		relative_position_id = GRI_doll_commander
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		prerequisite = { focus = GRI_commander }
+		cost = 1
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+									add_war_support = 0.1
+		}
+		ai_will_do = {
+			}
+	}
+		focus = {
+		id = GRI_krugergone
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = GRI_comeback
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		prerequisite = { focus = GRI_comeback }
+		cost = 1
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+				add_stability = -0.3
+				retire_country_leader = yes
+				create_country_leader = {
+				name = "헬리안투스"
+				desc = "POLITICS_HELIANTHUS_DESC"
+				picture = "Portrait_Helianthus.dds"
+				expire = "2080.1.1"
+				ideology = conservatism_subtype
+				traits = { attractive_leader }
+				}
+		}
+		ai_will_do = {
+			}
+	}
+	focus = {
+		id = GRI_claim_land
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = GRI_krugergone
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		prerequisite = { focus = GRI_krugergone }
+		cost = 1
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+				transfer_state = 214
+				transfer_state = 397
+				transfer_state = 581
+				transfer_state = 579
+		}
+		ai_will_do = {
+			}
+	}
+	
+####파시즘 중점####
+	
+	focus = {
+		id = GRI_fascism
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 0
+		relative_position_id = GRI_claim_land
+
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		prerequisite = { focus = GRI_krugergone }
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+				add_popularity = {
+				ideology = fascism
+				popularity = 0.25
+				}
+				set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+				}
+		}
+		ai_will_do = {
+			}
+	}
+	focus = {
+		id = GRI_fascism2
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = GRI_fascism
+
+		available = {
+		}
+
+		bypass = {
+		}
+	
+		prerequisite = { focus = GRI_fascism }
+		prerequisite = { focus = GRI_doll_commander }
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+				
+		}
+		ai_will_do = {
+			}
+	}
+	focus = {
+		id = GRI_fascism3
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 1
+		relative_position_id = GRI_fascism
+
+		available = {
+		}
+
+		bypass = {
+		}
+	
+		prerequisite = { focus = GRI_fascism }
+		prerequisite = { focus = GRI_doll_commander }
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+				
+		}
+		ai_will_do = {
+			}
+	}
+}	

@@ -1,0 +1,216 @@
+﻿capital = 137
+
+oob = "GRI_FIS"
+set_naval_oob = "GRI_FIS_NAVAL"
+
+set_research_slots = 6
+
+add_ideas = {
+	limited_conscription
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	early_fighter = 1
+}
+
+set_convoys = 100
+
+1936.1.1 = {
+
+	add_political_power = 500
+	
+	set_technology = {
+		tech_support = 1		
+		tech_engineers = 1
+		early_bomber = 1
+		gw_artillery = 1
+		interwar_artillery = 1
+		interwar_antiair = 1
+		support_weapons = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_silos = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1926.5.8"
+	election_frequency = 120
+	elections_allowed = no
+}
+set_popularities = {
+	jucheism = 0 
+	authoritarian_communism = 0
+	communism = 0
+	blackdancism = 0 
+	liberal_socialism = 0 
+	anarchism = 0 
+	social_democrat = 0 
+	social_liberal = 0 
+	liberal_democrat = 0 
+	conservatism = 100
+	authoritarian = 0
+	nationalism = 0
+	corporatocrat = 0
+	fascism = 0
+	accelerationism = 0 
+	burgundian_system = 0 
+	
+}
+
+create_country_leader = {
+	name = "브레조비치 크루거"
+	desc = "POLITICS_BEREZOVICH_KRUGER_DESC"
+	picture = "Portrait_Berezovich_Kruger.dds"
+	expire = "1965.1.1"
+	ideology = conservatism_subtype
+	traits = {
+	}
+}
+
+create_field_marshal = {
+	name = "헬리안투스"
+	desc = "MARSHAL_HELIANTHUS_DESC"
+	id = helianthus_marshal
+	picture = "Portrait_Helianthus.dds"
+	traits = { infantry_officer career_officer brilliant_strategist career_officer media_personality politically_connected gf_commander Thorough_Planner Charismatic }
+	skill = 3
+
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 6
+	logistics_skill = 4
+}
+create_corps_commander = {
+	name = "FAL"
+	desc = "MARSHAL_FAL_DESC"
+	picture = "Portrait_FAL.dds"
+	traits = { gf_doll }
+	skill = 1
+
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "K2"
+	desc = "MARSHAL_K2_DESC"
+	picture = "Portrait_K2.dds"
+	traits = { gf_doll }
+	skill = 1
+
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "kar98k"
+	desc = "MARSHAL_kar98k_DESC"
+	picture = "Portrait_kar98k.dds"
+	traits = { gf_doll }
+	skill = 1
+
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "M99"
+	desc = "MARSHAL_M99_DESC"
+	picture = "Portrait_M99.dds"
+	traits = { gf_doll }
+	skill = 1
+
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "마카로프"
+	desc = "MARSHAL_makarov_DESC"
+	picture = "Portrait_Makarov.dds"
+	traits = { gf_doll }
+	skill = 1
+
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "네게브"
+	desc = "MARSHAL_negev_DESC"
+	picture = "Portrait_Negev.dds"
+	traits = { gf_doll }
+	skill = 1
+
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "톰슨"
+	desc = "MARSHAL_thompson_DESC"
+	picture = "Portrait_Thompson.dds"
+	traits = { gf_doll }
+	skill = 1
+
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "데저트 이글"
+	desc = "MARSHAL_Desert_Eagle_DESC"
+	picture = "Portrait_Desert_Eagle.dds"
+	traits = { gf_doll }
+	skill = 1
+
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "IWS 2000"
+	desc = "MARSHAL_IWS_2000_DESC"
+	picture = "Portrait_IWS_2000.dds"
+	traits = { gf_doll }
+	skill = 1
+
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}

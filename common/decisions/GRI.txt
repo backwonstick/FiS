@@ -1,0 +1,223 @@
+####404소대 숙청####
+
+GRI_404_Purge_category = {
+
+	404_Purge_UMP45 = {
+
+		icon = 
+	
+		allowed = {
+			original_tag = GRI
+		}
+	
+		available = {
+			has_completed_focus = GRI_fascism2
+		}
+	
+		cost = 0
+		fire_only_once = yes
+	
+		ai_will_do = {
+			factor = 10
+		}
+	
+		modifier = {
+			political_power_gain = -0.5
+		}
+	
+		days_remove = 1
+	
+		remove_effect = {
+			country_event = { id = purge.1 } #UMP45 사망 이벤트
+		}
+		
+	}
+	404_Purge_UMP9 = {
+
+		icon = 
+	
+		allowed = {
+			original_tag = GRI
+		}
+	
+		available = {
+			has_completed_focus = GRI_fascism2
+		}
+	
+		cost = 0
+		fire_only_once = yes
+	
+		ai_will_do = {
+			factor = 10
+		}
+	
+		modifier = {
+			political_power_gain = -0.5
+		}
+	
+		days_remove = 1
+	
+		remove_effect = {
+			country_event = { id = purge.2 } #UMP9 사망 이벤트
+		}
+		
+	}
+	404_Purge_HK416 = {
+
+		icon = 
+	
+		allowed = {
+			original_tag = GRI
+		}
+	
+		available = {
+			has_completed_focus = GRI_fascism2
+		}
+	
+		cost = 0
+		fire_only_once = yes
+	
+		ai_will_do = {
+			factor = 10
+		}
+	
+		modifier = {
+			political_power_gain = -0.5
+		}
+	
+		days_remove = 1
+	
+		remove_effect = {
+			country_event = { id = purge.3 } #HK416 사망 이벤트
+		}
+		
+	}
+	
+}
+
+####AR소대 숙청####
+
+GRI_AR_Purge_category = {
+
+	AR_Purge_M4A1 = {
+
+		icon = 
+	
+		allowed = {
+			original_tag = GRI
+		}
+	
+		available = {
+			has_completed_focus = GRI_fascism3
+		}
+	
+		cost = 0
+		fire_only_once = yes
+	
+		ai_will_do = {
+			factor = 10
+		}
+	
+		modifier = {
+			political_power_gain = -0.5
+		}
+	
+		days_remove = 1
+	
+		remove_effect = {
+			country_event = { id = purge.4 } #M4A1 사망 이벤트
+		}
+		
+	}
+	AR_Purge_ST_AR-15 = {
+
+		icon = 
+	
+		allowed = {
+			original_tag = GRI
+		}
+	
+		available = {
+			has_completed_focus = GRI_fascism3
+		}
+	
+		cost = 0
+		fire_only_once = yes
+	
+		ai_will_do = {
+			factor = 10
+		}
+	
+		modifier = {
+			political_power_gain = -0.5
+		}
+	
+		days_remove = 1
+	
+		remove_effect = {
+			country_event = { id = purge.5 } #ST AR-15 사망 이벤트
+		}
+		
+	}
+	AR_Purge_M4_SOPMOD_II = {
+
+		icon = 
+	
+		allowed = {
+			original_tag = GRI
+		}
+	
+		available = {
+			has_completed_focus = GRI_fascism3
+		}
+	
+		cost = 0
+		fire_only_once = yes
+	
+		ai_will_do = {
+			factor = 10
+		}
+	
+		modifier = {
+			political_power_gain = -0.5
+		}
+	
+		days_remove = 1
+	
+		remove_effect = {
+			country_event = { id = purge.6 } #M4 SOPMOD II 사망 이벤트
+		}
+		
+	}
+	AR_Purge_RO635 = {
+
+		icon = 
+	
+		allowed = {
+			original_tag = GRI
+		}
+	
+		available = {
+			has_completed_focus = GRI_fascism3
+		}
+	
+		cost = 0
+		fire_only_once = yes
+	
+		ai_will_do = {
+			factor = 10
+		}
+	
+		modifier = {
+			political_power_gain = -0.5
+		}
+	
+		days_remove = 1
+	
+		remove_effect = {
+			country_event = { id = purge.7 } #RO635 사망 이벤트
+		}
+		
+	}
+	
+}

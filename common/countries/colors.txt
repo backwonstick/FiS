@@ -9,6 +9,11 @@ GAK = {
 	color_ui = rgb { 204 255 255 }
 }
 
+GRI = {
+	color = rgb { 219  219  119 }
+	color_ui = rgb { 219  219  119 }
+}
+
 ERE = {
 	color = rgb { 051 204 255 }
 	color_ui = rgb { 051 204 255 }

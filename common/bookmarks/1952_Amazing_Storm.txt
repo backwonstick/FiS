@@ -50,6 +50,18 @@ bookmarks = {
 				GAK_FAKE_THR
 			}
 		}
+		"GRI"={
+			history = "GRI_bookmark_DESC"
+			ideology = conservatism
+			ideas={
+
+			}
+			focuses = {
+				GRI_start
+				GRI_doll_commander
+				GRI_fascism3
+			}
+		}
 		""={
 			history = "JAP_1933_desc"
 			ideology = authoritarian

@@ -1,0 +1,46 @@
+leader_traits = {
+	gf_commander = {
+		type = land
+		trait_type = personality_trait
+		gain_xp = {
+			always = no # not gainable
+		}
+		allowed = {
+			FROM = {
+				tag = GRI
+			}
+		}
+		field_marshal_modifier = {
+		    max_army_group_size = 45
+		}
+        corps_commander_modifier = {
+		    max_commander_army_size = 36
+		}
+		non_shared_modifier = {
+			experience_gain_factor = 0.75
+			promote_cost_factor = -0.50
+		}
+	}
+	gf_doll = {
+		type = land
+		trait_type = personality_trait
+		gain_xp = {
+			always = no # not gainable
+		}
+		allowed = {
+			FROM = {
+				tag = GRI
+			}
+		}
+		field_marshal_modifier = {
+		    max_army_group_size = -3
+		}
+        corps_commander_modifier = {
+		    max_commander_army_size = -23
+		}
+				non_shared_modifier = {
+			experience_gain_factor = 1
+			promote_cost_factor = -0.50
+		}
+	}
+}

@@ -1,0 +1,140 @@
+﻿###########################
+# GRI Events
+###########################
+
+add_namespace = purge
+
+
+country_event = {
+	id = purge.1
+	title = purge.1.t
+	desc = purge.1.d
+	picture = GFX_report_event_UMP45_purge_event
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GRI
+	}
+	
+	option = { #UMP45 사망 
+		name = purge.1.a
+		add_political_power = -10
+		remove_unit_leader = 20004
+	}
+}
+country_event = {
+	id = purge.2
+	title = purge.2.t
+	desc = purge.2.d
+	picture = GFX_report_event_UMP9_purge_event
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GRI
+	}
+	
+	option = { #UMP9 사망 
+		name = purge.2.a
+		add_political_power = -10
+		remove_unit_leader = 20005
+	}
+}
+country_event = {
+	id = purge.3
+	title = purge.3.t
+	desc = purge.3.d
+	picture = GFX_report_event_HK416_purge_event
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GRI
+	}
+	
+	option = { #HK416 사망 
+		name = purge.3.a
+		add_political_power = -10
+		remove_unit_leader = 20006
+	}
+}
+country_event = {
+	id = purge.4
+	title = purge.4.t
+	desc = purge.4.d
+	picture = GFX_report_event_M4A1_purge_event
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GRI
+	}
+	
+	option = { #M4A1 사망
+		name = purge.4.a
+		add_political_power = -10
+		remove_unit_leader = 20000
+	}
+}
+country_event = {
+	id = purge.5
+	title = purge.5.t
+	desc = purge.5.d
+	picture = GFX_report_event_AR15_purge_event
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GRI
+	}
+	
+	option = { #ST AR-15 사망
+		name = purge.5.a
+		add_political_power = -10
+		remove_unit_leader = 20001
+	}
+}
+country_event = {
+	id = purge.6
+	title = purge.6.t
+	desc = purge.6.d
+	picture = GFX_report_event_SOP2_purge_event
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GRI
+	}
+	
+	option = { #M4 SOPMOD II 사망
+		name = purge.6.a
+		add_political_power = -10
+		remove_unit_leader = 20002
+	}
+}
+country_event = {
+	id = purge.7
+	title = purge.7.t
+	desc = purge.7.d
+	picture = GFX_report_event_RO635_purge_event
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GRI
+	}
+	
+	option = { #RO635 사망
+		name = purge.7.a
+		add_political_power = -10
+		remove_unit_leader = 20003
+	}
+}
