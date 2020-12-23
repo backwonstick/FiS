@@ -28,6 +28,11 @@ defined_text = {
 		trigger = { tag = RAS }
 		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_RAS
 	}
+	##뉴 캘리포니아 공화국
+	text = {
+		trigger = { tag = NCR }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_NCR
+	}
 }
 
 defined_text = {
@@ -175,6 +180,22 @@ defined_text = { #라스푸틴
 	}
 }
 
+defined_text = { #뉴 캘리포니아 공화국
+	name = GET_COUNTRY_INFO_PAGE_TEXT_NCR
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 0 } }
+		localization_key = COUNTRY_INFO_1_NCR
+	}
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 1 } }
+		localization_key = COUNTRY_INFO_2_NCR
+	}
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 2 } }
+		localization_key = COUNTRY_INFO_3_NCR
+	}
+}
+
 defined_text = {
 	name = GET_COUNTRY_INFO
 	## Countries with Opening pages
@@ -201,6 +222,10 @@ defined_text = {
 	text = {
 		trigger = { tag = RAS }
 		localization_key = "[GET_COUNTRY_INFO_PAGE_TEXT_RAS]"
+	}
+	text = {
+		trigger = { tag = NCR }
+		localization_key = "[GET_COUNTRY_INFO_PAGE_TEXT_NCR]"
 	}
 	## Default
 	text = {
@@ -265,5 +290,9 @@ defined_text = {
 	text = {
 		trigger = { tag = RAS }
 		localization_key = "GFX_OpeningSCreen_Poster_Rasputin"
+	}
+	text = {
+		trigger = { tag = NCR }
+		localization_key = "GFX_OpeningSCreen_Poster_New_California"
 	}
 }

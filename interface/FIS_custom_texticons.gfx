@@ -25,4 +25,29 @@ spriteTypes = {
 		texturefile = "gfx/texticons/GAK_tac_doll.tga"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_NCR_enclave"
+		texturefile = "gfx/texticons/NCR_enclave.tga"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_NCR_wendell"
+		texturefile = "gfx/leaders/portrait_wendell.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_NCR_aaron"
+		texturefile = "gfx/leaders/portrait_kimball.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_NCR_hiram"
+		texturefile = "gfx/leaders/portrait_Hiram_Johnson.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_NCR_norton"
+		texturefile = "gfx/leaders/portrait_Emperor_Norton_I.dds"
+		legacy_lazy_load = no
+	}
 }
