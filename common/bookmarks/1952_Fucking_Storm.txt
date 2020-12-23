@@ -35,10 +35,10 @@ bookmarks = {
 			history = "GER_1952_desc"
 			ideology = liberal_democrat
 			ideas = {
-				GER_losers_of_wwii_ideas
-				GER_moon_nazis_influence_ideas
-				GER_divided_government_ideas
-				GER_disbanded_wehrmacht_ideas
+				GER_losers_of_wwii
+				GER_moon_nazis_influence
+				GER_divided_government
+				GER_disbanded_wehrmacht
 			}
 			focuses = {
 				

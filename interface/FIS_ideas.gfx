@@ -35,19 +35,19 @@ spriteTypes = {
 	}
 	#GER
 	spriteType = {
-		name = "GER_disbanded_wehrmacht"
+		name = "GFX_idea_GER_disbanded_wehrmacht"
 		texturefile = "gfx/interface/ideas/GER/GER_disbanded_wehrmacht.dds"
 	}
 	spriteType = {
-		name = "GER_divided_government"
+		name = "GFX_idea_GER_divided_government"
 		texturefile = "gfx/interface/ideas/GER/GER_divided_government.dds"
 	}
 	spriteType = {
-		name = "GER_losers_of_wwii"
+		name = "GFX_idea_GER_losers_of_wwii"
 		texturefile = "gfx/interface/ideas/GER/GER_losers_of_wwii.dds"
 	}
 	spriteType = {
-		name = "GER_moon_nazis_influence"
+		name = "GFX_idea_GER_moon_nazis_influence"
 		texturefile = "gfx/interface/ideas/GER/GER_moon_nazis_influence.dds"
 	}
 }

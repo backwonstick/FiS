@@ -39,6 +39,9 @@ category = {
 	soundeffects = {
 		SE_Russia_unification_RUS_tabby_effect
 	}
+	soundeffects = {
+		SE_Russia_unification_RUS_alexei_effect
+	}
 	compressor = {
 		enabled = yes
 		pregain = 3.0
@@ -142,6 +145,13 @@ soundeffect = {
 		sound = SE_Russia_unification_RUS_tabby_01
 	}
 }
+soundeffect = {
+	name = "SE_Russia_unification_RUS_alexei_effect"
+	volume = 1.8
+	sounds = {
+		sound = SE_Russia_unification_RUS_alexei_01
+	}
+}
 ######################################
 sound = {
 	name = "GAK_order_by_groza_effect_01"
@@ -212,5 +222,10 @@ sound = {
 sound = {
 	name = "SE_Russia_unification_RUS_tabby_01"
 	file = "se/se_tabby_unified.wav"
+	always_load = yes
+}
+sound = {
+	name = "SE_Russia_unification_RUS_alexei_01"
+	file = "se/se_alexei_unified.wav"
 	always_load = yes
 }
