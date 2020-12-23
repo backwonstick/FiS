@@ -1,5 +1,7 @@
 capital = 926
 
+obb = "SMV"
+
 set_stability = 0.7
 set_war_support = 0.68
 set_research_slots = 4

@@ -29,4 +29,9 @@ spriteTypes = {
 		name = "GFX_OpeningSCreen_Poster_Rasputin"
 		textureFile = "gfx/interface/opening_screen/poster/FIS_RAS_OPENING_POSTER.tga"
 	}
+	#SMV
+	spriteType = {
+		name = "GFX_OpeningSCreen_Poster_Soviet_militay"
+		textureFile = "gfx/interface/opening_screen/poster/FIS_SVM_OPENING_POSTER.tga"
+	}
 }
