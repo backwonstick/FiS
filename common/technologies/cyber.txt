@@ -1,0 +1,3346 @@
+technologies = {
+
+	# VANILLA TAGS USED 
+
+	# electronics
+	# industry
+	# armor
+	# artillery
+	# dispersed_industry_category
+	# concentrated_industry_category
+	# military_police_tech
+	# hospital_tech
+	# logistics_tech
+	# signal_company_tech
+	# maintenance_company_tech
+	# engineers_tech
+	# recon_tech
+	# support_tech
+	# construction_tech
+	# excavation_tech
+	# infantry_tech
+	# encryption_tech
+	# decryption_tech
+	# computing_tech
+	# tactical_bomber
+	# land_doctrine
+	# light_fighter
+	# cat_heavy_fighter
+	# cat_heavy_armor
+	# cat_anti_tank
+	# computing_tech
+	# mountaineers_tech
+	# marine_tech
+	# para_tech
+	# medium_air
+	# air_equipment
+	# light_air
+	# tactical_bomber
+
+	# MODDED TAGS USED
+
+	# cyber_tech
+	# mech_tech
+	# cybernetic_tech
+	# drone_tech
+	# drone_support_tech
+	# cyber_industry_tech
+	# special_research_division_tech
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	### SRD CYBER TECHNOLOGY START ###
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	## SRD CYBER STARTING RESEARCH START ##
+	# IGNORE # CATEGORIES : 4/4 cyber_tech special_research_division_tech | 2/4 cyber_industry_tech #
+	
+	cyber_starting_technology_1 = {
+	
+		XOR = { holy_starting_technology_1 }
+		
+		on_research_complete = {
+			custom_effect_tooltip = tooltip_research
+			hidden_effect = {
+				set_technology = {
+					SRD_whatever_1 = 1
+					popup = no
+				}
+			}
+		}
+		
+		research_speed_factor = 0.05
+		consumer_goods_factor = 0.02
+	
+		#doctrine = no/yes
+		research_cost = 1 
+		start_year = 1936
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { cyber_tech special_research_division_tech computing_tech electronics } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 0
+                y = -5
+            }
+        }
+		
+		path = { leads_to_tech = cyber_building_technology_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_building_technology_1_1 research_cost_coeff = 1 }
+	}
+	
+	cyber_building_technology_1 = {
+	
+		#doctrine = no/yes
+		research_cost = 0.5 
+		start_year = 1936
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { cyber_tech special_research_division_tech cyber_industry_tech industry } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 2
+                y = 0
+            }
+        }
+		
+		path = { leads_to_tech = cyber_starting_technology_2 research_cost_coeff = 1 }
+		
+		enable_building = { building = reactor_assembler level = 3 }
+	}
+	
+	cyber_building_technology_1_1 = {
+	
+		#doctrine = no/yes
+		research_cost = 0.5
+		start_year = 1936
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { industry cyber_tech special_research_division_tech cyber_industry_tech }
+		
+		folder = { 
+			name = cyber_folder 
+				position = { 
+				x = -2
+                y = 0
+            }
+        }
+		
+		path = { leads_to_tech = cyber_starting_technology_2 research_cost_coeff = 1 }
+		
+		enable_building = { building = alloy_forge level = 3 }
+	}
+	
+	cyber_starting_technology_2 = {
+	
+		#doctrine = no/yes
+		research_cost = 1
+		start_year = 1936
+        show_equipment_icon = yes 
+		
+		research_speed_factor = 0.05
+		consumer_goods_factor = 0.03
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { computing_tech electronics cyber_tech special_research_division_tech cyber_industry_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 0
+                y = 3
+            }
+        }
+		
+		path = { leads_to_tech = cyber_cybernetic_starting_technology_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_robot_starting_technology_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_mech_starting_technology_1 research_cost_coeff = 1 }
+		
+		
+	}
+	
+	
+	## FWT CYBER STARTING TECHNOLOGY END ##
+	
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	## SRD MECH IMPROVEMENT TECHNOLOGY START ##
+	# CATEGORIES : | cyber_tech special_research_division_tech | mech_tech #
+
+	cyber_mech_improvement_technology_1 = {
+
+		mech_land_unit = {
+			hard_attack = 0.10 # Required!
+            forest = {
+				attack = 0.2
+				defence = 0.2
+			}
+			marsh = {
+				attack = 0.2
+				defence = 0.2
+			}
+			jungle = {
+				attack = 0.2
+				defence = 0.2
+			}
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = SRD_custom_effect_tooltip_cyber_mech_improvement_technology_1
+			hidden_effect = {
+				add_ideas = cybernetic_mech_improvement_cost_increase_1
+			}
+		}
+	
+		doctrine = yes
+		research_cost = 1.5 
+		start_year = 1938
+        show_equipment_icon = yes
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { cyber_tech special_research_division_tech mech_tech } 
+		
+		folder = {
+				name = cyber_folder 
+				position = {
+				x = -21
+                y = 15
+            }
+        }	
+		path = { leads_to_tech = cyber_mech_improvement_technology_2 research_cost_coeff = 1 }
+	}
+	cyber_mech_improvement_technology_2 = {
+
+		mech_land_unit = {
+            soft_attack = 0.10 # Required!   
+			urban = {
+				attack = 0.20
+				defence = 0.20
+			}
+        }
+
+		on_research_complete = {
+			custom_effect_tooltip = SRD_custom_effect_tooltip_cyber_mech_improvement_technology_2
+			hidden_effect = {
+				add_ideas = cybernetic_mech_improvement_cost_increase_2
+			}
+		}
+	
+		doctrine = yes
+		research_cost = 1.5 
+		start_year = 1939
+        show_equipment_icon = yes
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { cyber_tech special_research_division_tech mech_tech } 
+		
+		folder = {
+				name = cyber_folder 
+				position = {
+				x = -21
+                y = 19
+            }
+        }
+		
+		path = { leads_to_tech = cyber_mech_improvement_technology_3 research_cost_coeff = 1 }
+	}
+	cyber_mech_improvement_technology_3 = {
+
+		mech_land_unit = {
+            soft_attack = 0.10 # Required!
+			hard_attack = 0.10	
+			hills = {
+				attack = 0.2
+				defence = 0.2
+			}
+			mountain = 	{
+				attack = 0.20
+				defence = 0.20
+			}
+        }
+		on_research_complete = {
+			custom_effect_tooltip = SRD_custom_effect_tooltip_cyber_mech_improvement_technology_3
+			hidden_effect = {
+				add_ideas = cybernetic_mech_improvement_cost_increase_3
+			}
+		}
+	
+		doctrine = yes
+		research_cost = 1.5 
+		start_year = 1940
+        show_equipment_icon = yes
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { cyber_tech special_research_division_tech mech_tech } 
+		
+		folder = {
+				name = cyber_folder 
+				position = {
+				x = -21
+                y = 23
+            }
+        }
+		
+		path = { leads_to_tech = cyber_mech_improvement_technology_4 research_cost_coeff = 1 }
+	}
+	cyber_mech_improvement_technology_4 = {
+
+		mech_land_unit = {
+            soft_attack = 0.10 # Required!   
+			river = { 
+				attack = 0.20
+				defence = 0.20
+				movement = 0.20
+			}
+			amphibious = { 
+				attack = 0.30
+			}
+        }
+
+		on_research_complete = {
+			custom_effect_tooltip = SRD_custom_effect_tooltip_cyber_mech_improvement_technology_4
+			hidden_effect = {
+				add_ideas = cybernetic_mech_improvement_cost_increase_4
+			}
+		}
+	
+		doctrine = yes
+		research_cost = 1.5 
+		start_year = 1942
+        show_equipment_icon = yes
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { cyber_tech special_research_division_tech mech_tech } 
+		
+		folder = {
+				name = cyber_folder 
+				position = {
+				x = -21
+                y = 28
+            }
+        }
+	}
+
+	## SRD MECH IMPROVEMENT TECHNOLOGY END ##
+	
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
+	## SRD MECH TECHNOLOGY START ##
+	# CATEGORIES : | cyber_tech special_research_division_tech | mech_tech #
+	
+	cyber_mech_starting_technology_1 = {
+	
+		production_speed_buildings_factor = 0.25
+		local_resources_factor = 0.10
+		production_factory_max_efficiency_factor = 0.05
+	
+		doctrine = yes
+		research_cost = 1 
+		start_year = 1936
+        show_equipment_icon = yes
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { industry cyber_tech special_research_division_tech mech_tech } 
+		
+		folder = {
+				name = cyber_folder 
+				position = {
+				x = -16
+                y = 6
+            }
+        }
+		
+		path = { leads_to_tech = cyber_industry_improvement_technology_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_mech_starting_technology_2 research_cost_coeff = 1 }
+	}
+	
+	cyber_mech_starting_technology_2 = {
+	
+		army_attack_factor = 0.02
+		army_defence_factor = 0.02
+	
+		doctrine = yes
+		research_cost = 1 
+		start_year = 1937
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { special_research_division_tech cyber_tech mech_tech armor } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = -16
+                y = 12
+            }
+        }
+		path = { leads_to_tech = cyber_mech_technology_1 research_cost_coeff = 1 }
+	}
+	cyber_mech_technology_1 = {
+	
+		research_cost = 2 
+		start_year = 1938
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { armor special_research_division_tech cyber_tech mech_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = -16
+                y = 15
+            }
+        }
+		path = { leads_to_tech = cyber_mech_doctrine_technology_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_mech_improvement_technology_1 research_cost_coeff = 1 }
+
+		enable_subunits = { mech_land_unit }
+
+		enable_equipments = { mech_land_equipment_1 }
+	}
+	cyber_mech_doctrine_technology_1 = {
+
+		category_mech = {
+			max_organisation = 20 # Required!
+			max_strength = 6.5 # +13
+		}
+	
+		research_cost = 1.5 
+		start_year = 1939
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { land_doctrine special_research_division_tech cyber_tech mech_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = -16
+                y = 19
+            }
+        }
+		path = { leads_to_tech = cyber_mech_technology_2 research_cost_coeff = 1 }
+	}
+	cyber_mech_technology_2 = {
+
+		category_mech = {
+			max_organisation = 10 # Required!
+			max_strength = 5 #10
+		}
+	
+		research_cost = 2 
+		start_year = 1940
+        show_equipment_icon = yes 
+		sub_technologies = {
+            cyber_mech_anti_tank_technology_2
+        }
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { armor special_research_division_tech cyber_tech mech_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = -16
+                y = 23
+            }
+        }
+		path = { leads_to_tech = cyber_mech_technology_3 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_mech_air_technology_1 research_cost_coeff = 1 }
+		
+		enable_equipments = { mech_land_equipment_2 }
+	}
+	cyber_mech_anti_tank_technology_2 = {
+	
+		research_cost = 1 
+		start_year = 1939
+        show_equipment_icon = yes 
+
+		ai_will_do = { factor = 0 }
+		
+		categories = { cat_anti_tank armor special_research_division_tech cyber_tech mech_tech } 
+		
+		enable_equipments = { mech_anti_tank_equipment_1 }
+
+		enable_subunits = { mech_anti_tank_unit }
+	}
+	cyber_mech_air_technology_1 = {
+		research_cost = 2 
+		start_year = 1940
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { cat_heavy_fighter special_research_division_tech cyber_tech mech_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = -8
+                y = 23
+            }
+        }
+		path = { leads_to_tech = cyber_mech_air_technology_2 research_cost_coeff = 1 }
+		
+		enable_equipments = { mech_air_equipment_2 }
+	}
+	cyber_mech_technology_3 = {
+
+		category_mech = {
+			max_organisation = 10
+		}
+	
+		research_cost = 2 
+		start_year = 1942
+        show_equipment_icon = yes 
+		sub_technologies = {
+            cyber_mech_anti_tank_technology_3
+        }
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { armor special_research_division_tech cyber_tech mech_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = -16
+                y = 28
+            }
+        }
+		path = { leads_to_tech = cyber_mech_technology_4 research_cost_coeff = 1 }
+
+		enable_equipments = { mech_land_equipment_3 }
+	}
+	cyber_mech_anti_tank_technology_3 = {
+	
+		research_cost = 1 
+		start_year = 1939
+        show_equipment_icon = yes 
+
+		ai_will_do = { factor = 0 }
+		
+		categories = { cat_anti_tank armor special_research_division_tech cyber_tech mech_tech } 
+		
+		enable_equipments = { mech_anti_tank_equipment_2 }
+	}
+	cyber_mech_air_technology_2 = {
+		research_cost = 2 
+		start_year = 1942
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { cat_heavy_fighter special_research_division_tech cyber_tech mech_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = -8
+                y = 28
+            }
+        }
+		path = { leads_to_tech = cyber_mech_air_technology_3 research_cost_coeff = 1 }
+		
+		enable_equipments = { mech_air_equipment_3 }
+	}
+	cyber_mech_air_technology_3 = {
+		research_cost = 2 
+		start_year = 1944
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { cat_heavy_fighter special_research_division_tech cyber_tech mech_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = -8
+                y = 33
+            }
+        }
+		path = { leads_to_tech = cyber_mech_giga_technology_1 research_cost_coeff = 1 }
+		
+		enable_equipments = { mech_air_equipment_4 }
+	}
+	cyber_mech_technology_4 = {
+	
+		research_cost = 2 
+		start_year = 1944
+        show_equipment_icon = yes 
+		sub_technologies = {
+            cyber_mech_anti_tank_technology_4
+        }
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { armor special_research_division_tech cyber_tech mech_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = -16
+                y = 33
+            }
+        }
+		
+		path = { leads_to_tech = cyber_mech_giga_technology_1 research_cost_coeff = 1 }
+
+		enable_equipments = { mech_land_equipment_4 }
+	}
+	cyber_mech_anti_tank_technology_4 = {
+	
+		research_cost = 1 
+		start_year = 1939
+        show_equipment_icon = yes 
+
+		ai_will_do = { factor = 0 }
+		
+		categories = { cat_anti_tank armor special_research_division_tech cyber_tech mech_tech } 
+		
+		enable_equipments = { mech_anti_tank_equipment_3 }
+	}
+	cyber_mech_giga_technology_1 = {
+		research_cost = 2 
+		start_year = 1945
+		show_equipment_icon = yes 
+		
+		sub_technologies = {
+            cyber_mech_giga_air_technology_1
+        }
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { cat_heavy_armor armor special_research_division_tech cyber_tech mech_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = -12
+                y = 38
+            }
+        }
+		
+		
+		enable_equipments = { mech_giga_land_equipment_1 }
+		
+		enable_subunits = { giga_mech_unit }
+	}
+	cyber_mech_giga_air_technology_1 = {
+		research_cost = 1 
+		start_year = 1945
+		show_equipment_icon = yes 		
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { cat_heavy_fighter special_research_division_tech cyber_tech mech_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = -13
+                y = 38
+            }
+        }
+		
+		enable_equipments = { mech_giga_air_equipment_1 }
+
+	}
+	
+	## FWT MECH TECHNOLOGY END ##
+	
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	## FWT CYBERNETIC TECHNOLOGY START ##
+	# CATEGORIES : | cyber_tech special_research_division_tech | cybernetic_tech cyber_industry_tech #
+	
+	cyber_cybernetic_starting_technology_1 = {
+
+		research_speed_factor = 0.03
+		conscription_factor = 0.10
+	
+		research_cost = 1 
+		start_year = 1936
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { electronics cyber_tech cybernetic_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 29
+                y = 6
+            }
+        }
+		
+		path = { leads_to_tech = cyber_industry_improvement_technology_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_cybernetic_starting_technology_2 research_cost_coeff = 1 }
+	}
+	cyber_cybernetic_starting_technology_2 = {
+
+		research_speed_factor = 0.03
+	
+		research_cost = 1.5 
+		start_year = 1937
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { electronics cyber_tech cybernetic_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 29
+                y = 12
+            }
+        }
+		path = { leads_to_tech = cyber_cybernetic_military_technology_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_cybernetic_equipment_technology_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_cybernetic_techpriest_technology_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_cybernetic_civilian_technology_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_cybernetic_spy_technology_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_cybernetic_spy_DLC_technology_1 research_cost_coeff = 1 }
+	}
+	
+	cyber_cybernetic_military_technology_1 = {
+
+		on_research_complete = {
+			custom_effect_tooltip = SRD_custom_effect_tooltip_cyber_cybernetic_military_technology_1
+			hidden_effect = {
+				add_ideas = cybernetic_military_1
+			}
+		}
+
+		research_cost = 1.5 
+		start_year = 1938
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { electronics cyber_tech cybernetic_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 31
+                y = 15
+            }
+        }
+		path = { leads_to_tech = cyber_cybernetic_military_technology_2 research_cost_coeff = 1 }
+
+	}
+	cyber_cybernetic_military_technology_2 = {
+
+		on_research_complete = {
+			custom_effect_tooltip = SRD_custom_effect_tooltip_cyber_cybernetic_military_technology_2
+			hidden_effect = {
+				swap_ideas = {
+					remove_idea = cybernetic_military_1
+					add_idea = cybernetic_military_2
+				}
+			}
+		}
+	
+		research_cost = 1.5 
+		start_year = 1940
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { electronics cyber_tech cybernetic_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 31
+                y = 21
+            }
+        }
+		path = { leads_to_tech = cyber_cybernetic_military_technology_3 research_cost_coeff = 1 }
+
+	}
+	cyber_cybernetic_military_technology_3 = {
+	
+		on_research_complete = {
+			custom_effect_tooltip = SRD_custom_effect_tooltip_cyber_cybernetic_military_technology_3
+			hidden_effect = {
+				swap_ideas = {
+					remove_idea = cybernetic_military_2
+					add_idea = cybernetic_military_3
+				}
+			}
+		}
+
+		research_cost = 1.5 
+		start_year = 1942
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { electronics cyber_tech cybernetic_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 31
+                y = 27
+            }
+        }
+		#path = { leads_to_tech = cyber_cybernetic_super_computer_building_technology_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_cybernetic_titan_technology_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_cybernetic_soldier_technology_1 research_cost_coeff = 1 }
+	}
+	cyber_cybernetic_civilian_technology_1 = {
+
+		on_research_complete = {
+			custom_effect_tooltip = SRD_custom_effect_tooltip_cyber_cybernetic_civilian_technology_1
+			hidden_effect = {
+				add_ideas = cybernetic_civilian_1
+			}
+		}
+	
+		research_cost = 1.5 
+		start_year = 1938
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { electronics computing_tech cyber_tech cybernetic_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 29
+                y = 15
+            }
+        }
+		path = { leads_to_tech = cyber_cybernetic_civilian_technology_2 research_cost_coeff = 1 }
+
+	}
+	cyber_cybernetic_civilian_technology_2 = {
+
+		on_research_complete = {
+			custom_effect_tooltip = SRD_custom_effect_tooltip_cyber_cybernetic_civilian_technology_3
+			hidden_effect = {
+				swap_ideas = {
+					remove_idea = cybernetic_civilian_1
+					add_idea = cybernetic_civilian_2
+				}
+			}
+		}
+	
+		research_cost = 1.5 
+		start_year = 1940
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { electronics computing_tech cyber_tech cybernetic_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 29
+                y = 21
+            }
+        }
+		path = { leads_to_tech = cyber_cybernetic_civilian_technology_3 research_cost_coeff = 1 }
+
+	}
+	cyber_cybernetic_civilian_technology_3 = {
+
+		on_research_complete = {
+			custom_effect_tooltip = SRD_custom_effect_tooltip_cyber_cybernetic_civilian_technology_3
+			hidden_effect = {
+				swap_ideas = {
+					remove_idea = cybernetic_civilian_2
+					add_idea = cybernetic_civilian_3
+				}
+			}
+		}
+	
+		research_cost = 1.5 
+		start_year = 1942
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { electronics computing_tech cyber_tech cybernetic_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 29
+                y = 27
+            }
+        }
+		#path = { leads_to_tech = cyber_cybernetic_super_computer_building_technology_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_cybernetic_titan_technology_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_cybernetic_soldier_technology_1 research_cost_coeff = 1 }
+	}
+
+	## TEST IMPORTANT ##
+
+	cyber_cybernetic_spy_technology_1 = {
+
+		
+
+		allow_branch = {
+			NOT = {
+				has_dlc = "La Resistance"
+			}
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = SRD_custom_effect_tooltip_cyber_cybernetic_espionage_technology_1
+			hidden_effect = {
+				add_ideas = cybernetic_espionage_1
+			}
+		}
+
+		research_cost = 1.5 
+		start_year = 1938
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { cyber_tech cybernetic_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 26
+                y = 15
+            }
+        }
+		path = { leads_to_tech = cyber_cybernetic_spy_technology_2 research_cost_coeff = 1 }
+
+	}
+	cyber_cybernetic_spy_technology_2 = {
+
+		on_research_complete = {
+			custom_effect_tooltip = SRD_custom_effect_tooltip_cyber_cybernetic_espionage_technology_2
+			hidden_effect = {
+				swap_ideas = {
+					remove_idea = cybernetic_espionage_1
+					add_idea = cybernetic_espionage_2
+				}
+			}
+		}
+	
+		research_cost = 1.5
+		start_year = 1940
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { cyber_tech cybernetic_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 26
+                y = 21
+            }
+        }
+		path = { leads_to_tech = cyber_cybernetic_spy_technology_3 research_cost_coeff = 1 }
+
+	}
+	cyber_cybernetic_spy_technology_3 = {
+
+		allow_branch = {
+			NOT = {
+				has_dlc = "La Resistance"
+			}
+		}
+	
+
+		on_research_complete = {
+			custom_effect_tooltip = SRD_custom_effect_tooltip_cyber_cybernetic_espionage_technology_3
+			hidden_effect = {
+				swap_ideas = {
+					remove_idea = cybernetic_espionage_2
+					add_idea = cybernetic_espionage_3
+				}
+			}
+		}
+	
+		research_cost = 1.5 
+		start_year = 1942
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { cyber_tech cybernetic_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 26
+                y = 27
+            }
+        }
+		path = { leads_to_tech = cyber_cybernetic_super_computer_building_technology_1 research_cost_coeff = 1 }
+	}	
+	cyber_cybernetic_spy_DLC_technology_1 = {
+
+		allow_branch = {
+			has_dlc = "La Resistance"
+		}
+
+
+		on_research_complete = {
+			custom_effect_tooltip = SRD_custom_effect_tooltip_cyber_cybernetic_espionage_technology_1
+			hidden_effect = {
+				add_ideas = cybernetic_espionage_DLC_1
+			}
+		}
+	
+		research_cost = 1.5 
+		start_year = 1938
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { cyber_tech cybernetic_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 25
+                y = 15
+            }
+        }
+		path = { leads_to_tech = cyber_cybernetic_spy_DLC_technology_2 research_cost_coeff = 1 }
+
+	}
+	cyber_cybernetic_spy_DLC_technology_2 = {
+
+		on_research_complete = {
+			custom_effect_tooltip = SRD_custom_effect_tooltip_cyber_cybernetic_espionage_technology_2
+			hidden_effect = {
+				swap_ideas = {
+					remove_idea = cybernetic_espionage_DLC_1
+					add_idea = cybernetic_espionage_DLC_2
+				}
+			}
+		}
+	
+		research_cost = 1.5
+		start_year = 1940
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { cyber_tech cybernetic_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 25
+                y = 21
+            }
+        }
+		path = { leads_to_tech = cyber_cybernetic_spy_DLC_technology_3 research_cost_coeff = 1 }
+	}
+	cyber_cybernetic_spy_DLC_technology_3 = {
+
+		on_research_complete = {
+			custom_effect_tooltip = SRD_custom_effect_tooltip_cyber_cybernetic_espionage_technology_3
+			hidden_effect = {
+				swap_ideas = {
+					remove_idea = cybernetic_espionage_DLC_2
+					add_idea = cybernetic_espionage_DLC_3
+				}
+			}
+		}
+	
+		research_cost = 1.5 
+		start_year = 1942
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { cyber_tech cybernetic_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 25
+                y = 27
+            }
+        }
+		path = { leads_to_tech = cyber_cybernetic_super_computer_building_DLC_technology_1 research_cost_coeff = 1 }
+		#path = { leads_to_tech = cyber_cybernetic_titan_DLC_technology_1 research_cost_coeff = 1 }
+		#path = { leads_to_tech = cyber_cybernetic_soldier_DLC_technology_1 research_cost_coeff = 1 }
+	}
+	cyber_cybernetic_equipment_technology_1 = {
+	
+		research_cost = 2 
+		start_year = 1938
+        show_equipment_icon = no 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { support_tech hospital_tech cyber_tech cybernetic_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 37
+                y = 15
+            }
+        }
+		path = { leads_to_tech = cyber_cybernetic_improvement_technology_1 research_cost_coeff = 1 }
+		
+		enable_subunits = { cyber_medic_unit }
+		
+		enable_equipments = { cyber_medic_equipment_1 }
+	}
+	
+	cyber_cybernetic_improvement_technology_1 = {
+
+		cyber_medic_unit = {
+			casualty_trickleback = 0.05
+			experience_loss_factor = 0.05
+		}
+	
+		research_cost = 1.5
+		start_year = 1940
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { support_tech hospital_tech cyber_tech cybernetic_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 37
+                y = 21
+            }
+        }
+		path = { leads_to_tech = cyber_cybernetic_improvement_technology_2 research_cost_coeff = 1 }
+
+	}
+	cyber_cybernetic_improvement_technology_2 = {
+
+		cyber_medic_unit = {
+			casualty_trickleback = 0.10
+			experience_loss_factor = 0.10
+		}
+		
+		research_cost = 1.5 
+		start_year = 1942
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { support_tech hospital_tech cyber_tech cybernetic_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 37
+                y = 27
+            }
+        }
+		path = { leads_to_tech = cyber_cybernetic_improvement_technology_3 research_cost_coeff = 1 }
+	}
+	cyber_cybernetic_improvement_technology_3 = {
+
+		cyber_medic_unit = {
+			casualty_trickleback = 0.15
+			experience_loss_factor = 0.15
+		}
+		
+		research_cost = 1.5 
+		start_year = 1944
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { support_tech hospital_tech cyber_tech cybernetic_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 37
+                y = 33
+            }
+        }
+	}
+
+	cyber_cybernetic_techpriest_technology_1 = {
+	
+		research_cost = 2 
+		start_year = 1938
+        show_equipment_icon = no 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { maintenance_company_tech support_tech cyber_tech cybernetic_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 21
+                y = 15
+            }
+        }
+		path = { leads_to_tech = cyber_cybernetic_techpriest_improvement_technology_1 research_cost_coeff = 1 }
+		
+		enable_subunits = { techpriest_unit }
+
+		enable_equipments = { techpriest_equipment_1 }
+	}
+	cyber_cybernetic_techpriest_improvement_technology_1 = {
+	
+		research_cost = 1.5 
+		start_year = 1940
+		show_equipment_icon = yes 
+		
+		techpriest_unit = {
+			reliability_factor = 0.10
+			entrenchment  = 2
+		}
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { maintenance_company_tech support_tech cyber_tech cybernetic_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 21
+                y = 21
+            }
+        }
+		path = { leads_to_tech = cyber_cybernetic_techpriest_improvement_technology_2 research_cost_coeff = 1 }
+	}
+	cyber_cybernetic_techpriest_improvement_technology_2 = {
+
+		techpriest_unit = {
+			reliability_factor = 0.10
+			entrenchment  = 2
+		}
+	
+		research_cost = 1.5 
+		start_year = 1942
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { maintenance_company_tech support_tech cyber_tech cybernetic_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 21
+                y = 27
+            }
+        }
+		path = { leads_to_tech = cyber_cybernetic_techpriest_improvement_technology_3 research_cost_coeff = 1 }
+	}
+	cyber_cybernetic_techpriest_improvement_technology_3 = {
+
+		techpriest_unit = {
+			reliability_factor = 0.10
+			entrenchment  = 2
+		}
+	
+		research_cost = 1.5 
+		start_year = 1944
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { maintenance_company_tech support_tech cyber_tech cybernetic_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 21
+                y = 33
+            }
+        }
+	}
+	
+	cyber_cybernetic_super_computer_building_technology_1 = {
+
+		dependencies = {
+			cyber_cybernetic_spy_technology_3 = 1
+        }
+	
+		#doctrine = no/yes
+		research_cost = 2.5 
+		start_year = 1943
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { computing_tech electronics cyber_tech cybernetic_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 25
+                y = 33
+            }
+        }
+		
+		enable_building = { building = super_computer level = 1 }
+	}
+	cyber_cybernetic_super_computer_building_DLC_technology_1 = {
+
+		dependencies = {
+			cyber_cybernetic_spy_DLC_technology_3 = 1
+        }
+	
+		#doctrine = no/yes
+		research_cost = 2.5 
+		start_year = 1943
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { computing_tech electronics cyber_tech cybernetic_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 25
+                y = 33
+            }
+        }
+		
+		enable_building = { building = super_computer level = 1 }
+	}
+	cyber_cybernetic_soldier_technology_1 = {
+
+		dependencies = {
+			cyber_cybernetic_civilian_technology_3 = 1
+			cyber_cybernetic_military_technology_3 = 1
+        }
+	
+		#doctrine = no/yes
+		research_cost = 2 
+		start_year = 1943
+        show_equipment_icon = no 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { mountaineers_tech marine_tech para_tech infantry_tech cyber_tech cybernetic_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 33
+                y = 31
+            }
+		}
+		enable_subunits = {
+			cyber_soldier_unit
+		}
+		enable_equipments = {
+			cyber_soldier_equipment_1
+		}
+	}
+	#cyber_cybernetic_soldier_DLC_technology_1 = {
+	#	
+	#	dependencies = {
+	#		cyber_cybernetic_civilian_technology_3 = 1
+	#		cyber_cybernetic_military_technology_3 = 1
+	#		cyber_cybernetic_spy_DLC_technology_3 = 1
+     #   }
+	#
+	#	#doctrine = no/yes
+	#	research_cost = 2 
+	#	start_year = 1943
+     #   show_equipment_icon = no 
+	#	
+	#	ai_will_do = { factor = 0 }
+	#	
+	#	categories = { mountaineers_tech marine_tech para_tech infantry_tech cyber_tech cybernetic_tech } 
+	#	
+	#	folder = { 
+	#			name = cyber_folder 
+	#			position = { 
+	#			x = 33
+     #           y = 31
+      #      }
+	#	}
+	#	enable_subunits = {
+	#		cyber_soldier_unit
+	#	}
+	#	enable_equipments = {
+	#		cyber_soldier_DLC_equipment_1
+	#	}
+	#}
+	
+	
+	cyber_cybernetic_titan_technology_1 = {
+
+		dependencies = {
+			cyber_cybernetic_civilian_technology_3 = 1
+			cyber_cybernetic_military_technology_3 = 1
+		}
+		
+		research_cost = 2 
+		start_year = 1944
+        show_equipment_icon = no 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { cat_heavy_armor cyber_tech cybernetic_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 29
+                y = 33
+            }
+        }
+		enable_subunits = { cyber_titan_unit }
+
+		enable_equipments = { cyber_titan_equipment_1 }
+	}
+	#cyber_cybernetic_titan_DLC_technology_1 = {
+	#	
+	#	dependencies = {
+	#		cyber_cybernetic_civilian_technology_3 = 1
+	#		cyber_cybernetic_military_technology_3 = 1
+	#		cyber_cybernetic_spy_DLC_technology_3 = 1
+    #   }
+	#	
+	#	research_cost = 2 
+	#	start_year = 1944
+    #   show_equipment_icon = no 
+	#	
+	#	ai_will_do = { factor = 0 }
+	#	
+	#	categories = { cat_heavy_armor cyber_tech cybernetic_tech } 
+	#	
+	#	folder = { 
+	#			name = cyber_folder 
+	#			position = { 
+	#			x = 29
+    #           y = 33
+    #       }
+    #    }
+	#	enable_subunits = { cyber_titan_unit }
+	#	
+	#	enable_equipments = { cyber_titan_DLC_equipment_1 }
+	#}
+	
+	## FWT CYBERNETIC TECHNOLOGY END ##
+	
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	## FWT ROBOTS TECHNOLOGY START ##
+	# CATEGORIES : | cyber_tech special_research_division_tech | drone_tech #
+	
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	# FWT ROBOTS STARTING TECH START #
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	cyber_robot_starting_technology_1 = {
+	
+		research_speed_factor = 0.03
+
+		doctrine = no
+		research_cost = 1 
+		start_year = 1936
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { industry electronics special_research_division_tech cyber_tech drone_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 75
+                y = 6
+            }
+        }
+		
+		path = { leads_to_tech = cyber_industry_improvement_technology_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_robot_starting_technology_2 research_cost_coeff = 1 }
+	}
+	cyber_robot_starting_technology_2 = {
+		
+		on_research_complete = {
+			custom_effect_tooltip = SRD_custom_effect_tooltip_cyber_robot_starting_technology_2
+		}
+
+		doctrine = no
+		research_cost = 1.5 
+		start_year = 1937
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { computing_tech electronics special_research_division_tech cyber_tech drone_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 75
+                y = 12
+            }
+        }
+		path = { leads_to_tech = cyber_robot_support_drone_technology_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_robot_improvement_technology_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_robot_infantry_drone_equipment_technology_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_robot_fighter_drone_equipment_technology_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_robot_bomber_drone_equipment_technology_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_robot_tank_drone_equipment_technology_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_robot_gun_drone_equipment_technology_1 research_cost_coeff = 1 }
+	}
+	
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# FWT ROBOTS STARTING TECH END #
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# FWT ROBOTS BOMBER DRONE TECHNOLOGY START #
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	cyber_robot_bomber_drone_equipment_technology_1 = {
+	
+		doctrine = no
+		research_cost = 2 
+		start_year = 1938
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { medium_air tactical_bomber air_equipment special_research_division_tech cyber_tech drone_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 102
+                y = 15
+            }
+        }
+		path = { leads_to_tech = cyber_robot_bomber_drone_equipment_technology_2 research_cost_coeff = 1 }
+		
+		enable_equipments = { drone_bomber_equipment_1 }
+	}
+	cyber_robot_bomber_drone_equipment_technology_2 = {
+	
+		doctrine = no
+		research_cost = 2 
+		start_year = 1940
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { medium_air tactical_bomber air_equipment special_research_division_tech cyber_tech drone_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 102
+                y = 23
+            }
+        }
+		path = { leads_to_tech = cyber_robot_bomber_drone_equipment_technology_3 research_cost_coeff = 1 }
+		
+		enable_equipments = { drone_bomber_equipment_2 }
+	}
+	cyber_robot_bomber_drone_equipment_technology_3 = {
+
+		dependencies = {
+			jet_engines = 1
+		}
+	
+		doctrine = no
+		research_cost = 2 
+		start_year = 1944
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { medium_air tactical_bomber air_equipment special_research_division_tech cyber_tech drone_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 102
+                y = 31
+            }
+        }	
+		enable_equipments = { drone_bomber_equipment_3 }
+	}
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# FWT ROBOT BOMBER DRONE TECHNOLOGY END #
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# FWT ROBOT FIGHTER DRONE TECHNOLOGY START
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	cyber_robot_fighter_drone_equipment_technology_1 = {
+
+		on_research_complete = { 
+			set_rule = {
+				can_use_kamikaze_pilots = yes
+			}
+		}
+	
+		doctrine = no
+		research_cost = 2 
+		start_year = 1938
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { light_air  air_equipment light_fighter special_research_division_tech cyber_tech drone_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 97
+                y = 15
+            }
+        }
+		path = { leads_to_tech = cyber_robot_fighter_drone_equipment_technology_2 research_cost_coeff = 1 }
+		
+		enable_equipments = { drone_fighter_equipment_1 }
+	}
+	cyber_robot_fighter_drone_equipment_technology_2 = {
+	
+		doctrine = no
+		research_cost = 2 
+		start_year = 1940
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { light_air  air_equipment light_fighter special_research_division_tech cyber_tech drone_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 97
+                y = 23
+            }
+        }
+		path = { leads_to_tech = cyber_robot_fighter_drone_equipment_technology_3 research_cost_coeff = 1 }
+		
+		enable_equipments = { drone_fighter_equipment_2 }
+	}
+	cyber_robot_fighter_drone_equipment_technology_3 = {
+
+		dependencies = {
+			jet_engines = 1
+		}
+	
+		doctrine = no
+		research_cost = 2 
+		start_year = 1944
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { light_air  air_equipment light_fighter special_research_division_tech cyber_tech drone_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 97
+                y = 31
+            }
+        }	
+		enable_equipments = { drone_fighter_equipment_3 }
+	}
+	#cyber_robot_mothership_drone_equipment_technology_1 = {
+	#
+	#	doctrine = no
+	#	research_cost = 1 
+	#	start_year = 1945
+    #    show_equipment_icon = yes 
+	#	
+	#	ai_will_do = { factor = 0 }
+	#	
+	#	categories = { air_equipment special_research_division_tech cyber_tech drone_tech } 
+	#	
+	#	folder = { 
+	#			name = cyber_folder 
+	#			position = { 
+	#			x = 99
+    #            y = 35
+    #        }
+    #    }
+	#	
+	#	enable_equipments = { drone_mothership_equipment_1 }
+	#	
+	#}
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# FWT ROBOT FIGHTER DRONE TECHNOLOGY END
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# FWT ROBOT TANK DRONE TECHNOLOGY START
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	cyber_robot_tank_drone_equipment_technology_1 = {
+	
+		doctrine = no
+		research_cost = 2 
+		start_year = 1938
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { armor special_research_division_tech cyber_tech drone_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 91
+                y = 15
+            }
+        }
+		path = { leads_to_tech = cyber_robot_tank_drone_improvement_technology_1 research_cost_coeff = 1 }
+		
+		enable_subunits = { drone_tank_unit }
+		
+		enable_equipments = { drone_tank_equipment_1 }
+	}
+	cyber_robot_tank_drone_improvement_technology_1 = {
+
+		drone_tank_unit = {
+			soft_attack = 0.10
+		}
+	
+		doctrine = no
+		research_cost = 1.5
+		start_year = 1939
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { armor special_research_division_tech cyber_tech drone_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 91
+                y = 19
+            }
+        }
+		path = { leads_to_tech = cyber_robot_tank_drone_equipment_technology_2 research_cost_coeff = 1 }
+	}
+	cyber_robot_tank_drone_equipment_technology_2 = {
+	
+		doctrine = no
+		research_cost = 2 
+		start_year = 1940
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { armor special_research_division_tech cyber_tech drone_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 91
+                y = 23
+            }
+        }
+		path = { leads_to_tech = cyber_robot_tank_drone_improvement_technology_2 research_cost_coeff = 1 }
+		
+		enable_equipments = { drone_tank_equipment_2 }
+	}
+	cyber_robot_tank_drone_improvement_technology_2 = {
+
+		drone_tank_unit = {
+			soft_attack = 0.10
+		}
+	
+		doctrine = no
+		research_cost = 1.5 
+		start_year = 1942
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { armor special_research_division_tech cyber_tech drone_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 91
+                y = 27
+            }
+        }
+		path = { leads_to_tech = cyber_robot_tank_drone_equipment_technology_3 research_cost_coeff = 1 }
+	}
+	cyber_robot_tank_drone_equipment_technology_3 = {
+	
+		doctrine = no
+		research_cost = 2 
+		start_year = 1944
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { armor special_research_division_tech cyber_tech drone_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 91
+                y = 31
+            }
+        }	
+		enable_equipments = { drone_tank_equipment_3 }
+	}
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# FWT ROBOT TANK DRONE TECHNOLOGY END
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# FWT ROBOT GUN DRONE EQUIPMENT TECHNOLOGY START #
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	cyber_robot_gun_drone_equipment_technology_1 = {
+	
+		doctrine = no
+		research_cost = 2 
+		start_year = 1938
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { artillery special_research_division_tech cyber_tech drone_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 85
+                y = 15
+            }
+        }
+		path = { leads_to_tech = cyber_robot_gun_drone_improvement_technology_1 research_cost_coeff = 1 }
+	
+		enable_subunits = { drone_gun_unit drone_gun_support_unit }
+		
+		enable_equipments = { drone_gun_equipment_1 }
+	}
+	cyber_robot_gun_drone_improvement_technology_1 = {
+
+		drone_gun_unit = {
+			soft_attack = 0.10
+		}
+		drone_gun_support_unit = {
+			soft_attack = 0.10
+		}
+
+		doctrine = no
+		research_cost = 1.5 
+		start_year = 1939
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { artillery special_research_division_tech cyber_tech drone_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 85
+                y = 19
+            }
+        }
+		path = { leads_to_tech = cyber_robot_gun_drone_equipment_technology_2 research_cost_coeff = 1 }
+	}
+	cyber_robot_gun_drone_equipment_technology_2 = {
+	
+		doctrine = no
+		research_cost = 2 
+		start_year = 1940
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { artillery special_research_division_tech cyber_tech drone_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 85
+                y = 23
+            }
+        }
+		path = { leads_to_tech = cyber_robot_gun_drone_improvement_technology_2 research_cost_coeff = 1 }
+		
+		enable_equipments = { drone_gun_equipment_2 }
+	}
+	cyber_robot_gun_drone_improvement_technology_2 = {
+	
+		drone_gun_unit = {
+			soft_attack = 0.10
+		}
+		drone_gun_support_unit = {
+			soft_attack = 0.10
+		}
+
+		doctrine = no
+		research_cost = 1.5 
+		start_year = 1942
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { artillery special_research_division_tech cyber_tech drone_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 85
+                y = 27
+            }
+        }
+		path = { leads_to_tech = cyber_robot_gun_drone_equipment_technology_3 research_cost_coeff = 1 }
+	}
+	cyber_robot_gun_drone_equipment_technology_3 = {
+	
+		doctrine = no
+		research_cost = 2 
+		start_year = 1944
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { artillery special_research_division_tech cyber_tech drone_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 85
+                y = 31
+            }
+        }
+		
+		enable_equipments = { drone_gun_equipment_3 }
+	}
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# FWT ROBOT GUN DRONE EQUIPMENT TECHNOLOGY END #
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# FWT ROBOT INFANTRY DRONE EQUIPMENT TECH START #
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		
+	cyber_robot_infantry_drone_equipment_technology_1 = {
+	
+		doctrine = no
+		research_cost = 2 
+		start_year = 1938
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { infantry_tech special_research_division_tech cyber_tech drone_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 80
+                y = 15
+            }
+        }
+		path = { leads_to_tech = cyber_robot_infantry_drone_improvement_technology_1 research_cost_coeff = 1 }
+		
+		enable_subunits = { drone_infantry_unit drone_motorized_unit drone_mechanized_unit }
+		
+		enable_equipments = { drone_infantry_equipment_1 }
+	}
+	cyber_robot_infantry_drone_improvement_technology_1 = {
+
+		drone_infantry_unit = {
+			max_organisation = 10
+		}
+	
+		doctrine = no
+		research_cost = 1.5 
+		start_year = 1939
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { infantry_tech special_research_division_tech cyber_tech drone_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 80
+                y = 19
+            }
+        }
+		path = { leads_to_tech = cyber_robot_infantry_drone_equipment_technology_2 research_cost_coeff = 1 }
+	}
+	cyber_robot_infantry_drone_equipment_technology_2 = {
+	
+		doctrine = no
+		research_cost = 2 
+		start_year = 1940
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { infantry_tech special_research_division_tech cyber_tech drone_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 80
+                y = 23
+            }
+        }
+		path = { leads_to_tech = cyber_robot_infantry_drone_improvement_technology_2 research_cost_coeff = 1 }
+		
+		enable_equipments = { drone_infantry_equipment_2 }
+	}
+	cyber_robot_infantry_drone_improvement_technology_2 = {
+
+		drone_infantry_unit = {
+			max_organisation = 10
+		}
+	
+		doctrine = no
+		research_cost = 1.5 
+		start_year = 1942
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { infantry_tech special_research_division_tech cyber_tech drone_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 80
+                y = 27
+            }
+        }
+		path = { leads_to_tech = cyber_robot_infantry_drone_equipment_technology_3 research_cost_coeff = 1 }
+	}
+	cyber_robot_infantry_drone_equipment_technology_3 = {
+	
+		doctrine = no
+		research_cost = 2 
+		start_year = 1944
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { infantry_tech special_research_division_tech cyber_tech drone_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 80
+                y = 31
+            }
+        }
+		enable_equipments = { drone_infantry_equipment_3 }
+	}
+	
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# FWT ROBOT INFANTRY DRONE EQUIPMENT TECH END #
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# FWT ROBOT IMPROVEMENT TECHNOLOGY START #
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	cyber_robot_improvement_technology_1 = {
+
+		on_research_complete = {
+			custom_effect_tooltip = SRD_custom_effect_tooltip_cyber_robot_improvement_technology_1
+		}
+	
+		doctrine = no
+		research_cost = 1.5 
+		start_year = 1938
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { electronics computing_tech special_research_division_tech cyber_tech drone_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 75
+                y = 15
+            }
+        }
+		path = { leads_to_tech = cyber_robot_improvement_technology_2 research_cost_coeff = 1 }
+	}
+	cyber_robot_improvement_technology_2 = {
+
+		on_research_complete = {
+			custom_effect_tooltip = SRD_custom_effect_tooltip_cyber_robot_improvement_technology_2
+		}
+	
+		doctrine = no
+		research_cost = 2 
+		start_year = 1940
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { electronics computing_tech special_research_division_tech cyber_tech drone_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 75
+                y = 23
+            }
+        }
+		path = { leads_to_tech = cyber_robot_improvement_technology_3 research_cost_coeff = 1 }
+	}
+	cyber_robot_improvement_technology_3 = {
+
+		on_research_complete = {
+			custom_effect_tooltip = SRD_custom_effect_tooltip_cyber_robot_improvement_technology_3
+		}
+	
+		doctrine = no
+		research_cost = 2.5 
+		start_year = 1944
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { electronics computing_tech special_research_division_tech cyber_tech drone_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 75
+                y = 31
+            }
+        }
+	}
+	
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# FWT ROBOT IMPROVEMENT TECHNOLOGY START END #
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# FWT ROBOT SUPPORT DRONE TECHNOLOGY START #
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	cyber_robot_support_drone_technology_1 = {
+		doctrine = yes
+		research_cost = 2 
+		start_year = 1938
+        show_equipment_icon = no 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { support_tech special_research_division_tech cyber_tech drone_support_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 56
+                y = 15
+            }
+        }
+		path = { leads_to_tech = cyber_robot_support_drone_medic_technology_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_robot_support_drone_radio_technology_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_robot_support_drone_engineers_technology_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_robot_support_drone_reconnaissance_technology_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_robot_support_drone_logistic_technology_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_robot_support_drone_maintenance_technology_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_robot_hunter_drone_equipment_technology_1 research_cost_coeff = 1 }
+		
+		enable_subunits = { drone_support_unit }
+		
+		enable_equipments = { drone_support_equipment_1 }
+	}
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# FWT ROBOT HUNTER DRONE TECHNOLOGY START #
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	cyber_robot_hunter_drone_equipment_technology_1 = {
+		doctrine = no
+		research_cost = 2 
+		start_year = 1939
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { military_police_tech support_tech special_research_division_tech cyber_tech drone_support_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 66
+                y = 18
+            }
+        }
+		path = { leads_to_tech = cyber_robot_hunter_drone_improvement_technology_1 research_cost_coeff = 1 }
+		
+		enable_subunits = { hunter_drone_unit }
+		
+		enable_equipments = { drone_hunter_equipment_1 }
+	}
+	cyber_robot_hunter_drone_improvement_technology_1 = {
+	
+		resistance_target = -0.15			
+	
+		doctrine = no
+		research_cost = 1.5 
+		start_year = 1941
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { military_police_tech support_tech special_research_division_tech cyber_tech drone_support_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 66
+                y = 22
+            }
+        }
+		path = { leads_to_tech = cyber_robot_hunter_drone_improvement_technology_2 research_cost_coeff = 1 }
+	}
+	cyber_robot_hunter_drone_improvement_technology_2 = {
+	
+		resistance_target = -0.30
+	
+		doctrine = no
+		research_cost = 1.5 
+		start_year = 1943
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { military_police_tech support_tech special_research_division_tech cyber_tech drone_support_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 66
+                y = 26
+            }
+        }
+		path = { leads_to_tech = cyber_robot_hunter_drone_improvement_technology_3 research_cost_coeff = 1 }
+	}
+	cyber_robot_hunter_drone_improvement_technology_3 = {
+	
+		resistance_target = -0.15
+	
+		doctrine = no
+		research_cost = 1.5 
+		start_year = 1944
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { military_police_tech support_tech special_research_division_tech cyber_tech drone_support_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 66
+                y = 30
+            }
+        }
+	}
+	
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# FWT ROBOT HUNTER DRONE TECHNOLOGY END #
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# FWT ROBOT MEDIC SUPPORT DRONE IMPROVEMENT TECHNOLOGY START #
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	cyber_robot_support_drone_medic_technology_1 = {
+	
+		drone_support_unit = {
+			casualty_trickleback = 0.15
+			experience_loss_factor = -0.15
+		}
+
+		on_research_complete = { custom_effect_tooltip = SRD_custom_effect_tooltip_cybernetic_support_drone_cost_inrease_medic_1
+		hidden_effect = { add_ideas = cybernetic_support_drone_cost_inrease_medic_1 } }
+	
+		doctrine = no
+		research_cost = 1 
+		start_year = 1939
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { hospital_tech support_tech special_research_division_tech cyber_tech drone_support_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 47
+                y = 18
+            }
+        }
+		path = { leads_to_tech = cyber_robot_support_drone_medic_technology_2 research_cost_coeff = 1 }
+	}
+	cyber_robot_support_drone_medic_technology_2 = {
+	
+		drone_support_unit = {
+			casualty_trickleback = 0.15
+			experience_loss_factor = -0.15
+		}
+
+		on_research_complete = { custom_effect_tooltip = SRD_custom_effect_tooltip_cybernetic_support_drone_cost_inrease_medic_2
+		hidden_effect = { add_ideas = cybernetic_support_drone_cost_inrease_medic_2 } }
+	
+		doctrine = yes
+		research_cost = 1.5 
+		start_year = 1941
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { hospital_tech support_tech special_research_division_tech cyber_tech drone_support_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 47
+                y = 22
+            }
+        }
+		path = { leads_to_tech = cyber_robot_support_drone_medic_technology_3 research_cost_coeff = 1 }
+	}
+	cyber_robot_support_drone_medic_technology_3 = {
+	
+		drone_support_unit = {
+			casualty_trickleback = 0.15
+			experience_loss_factor = -0.15
+		}
+
+		on_research_complete = { custom_effect_tooltip = SRD_custom_effect_tooltip_cybernetic_support_drone_cost_inrease_medic_3
+		hidden_effect = { add_ideas = cybernetic_support_drone_cost_inrease_medic_3 } }
+			
+		doctrine = yes
+		research_cost = 1.5 
+		start_year = 1943
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { hospital_tech support_tech special_research_division_tech cyber_tech drone_support_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 47
+                y = 26
+            }
+        }
+	}
+	
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# FWT ROBOT MEDIC SUPPORT DRONE IMPROVEMENT TECHNOLOGY END #
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# FWT ROBOT RADIO SUPPORT DRONE IMPROVEMENT TECHNOLOGY START #
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	cyber_robot_support_drone_radio_technology_1 = {
+	
+		drone_support_unit = {
+			initiative = 0.20
+		}
+
+		on_research_complete = { custom_effect_tooltip = SRD_custom_effect_tooltip_cybernetic_support_drone_cost_inrease_radio_1
+		hidden_effect = { add_ideas = cybernetic_support_drone_cost_inrease_radio_1 } }
+	
+		doctrine = yes
+		research_cost = 1 
+		start_year = 1939
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { signal_company_tech support_tech special_research_division_tech cyber_tech drone_support_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 50
+                y = 18
+            }
+        }
+		path = { leads_to_tech = cyber_robot_support_drone_radio_technology_2 research_cost_coeff = 1 }
+	}
+	cyber_robot_support_drone_radio_technology_2 = {
+	
+		drone_support_unit = {
+			initiative = 0.20
+		}
+
+		on_research_complete = { custom_effect_tooltip = SRD_custom_effect_tooltip_cybernetic_support_drone_cost_inrease_radio_2
+		hidden_effect = { add_ideas = cybernetic_support_drone_cost_inrease_radio_2 } }
+	
+		doctrine = yes
+		research_cost = 1.5 
+		start_year = 1941
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { signal_company_tech support_tech special_research_division_tech cyber_tech drone_support_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 50
+                y = 22
+            }
+        }
+		path = { leads_to_tech = cyber_robot_support_drone_radio_technology_3 research_cost_coeff = 1 }
+	}
+	cyber_robot_support_drone_radio_technology_3 = {
+	
+		drone_support_unit = {
+			initiative = 0.20
+		}
+
+		on_research_complete = { custom_effect_tooltip = SRD_custom_effect_tooltip_cybernetic_support_drone_cost_inrease_radio_3
+		hidden_effect = { add_ideas = cybernetic_support_drone_cost_inrease_radio_3 } }
+	
+		doctrine = yes
+		research_cost = 1.5
+		start_year = 1943
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { signal_company_tech support_tech special_research_division_tech cyber_tech drone_support_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 50
+                y = 26
+            }
+        }
+	}
+	
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# FWT ROBOT RADIO SUPPORT DRONE IMPROVEMENT TECHNOLOGY END #
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# FWT ROBOT ENGINEERS SUPPORT DRONE IMPROVEMENT TECHNOLOGY START #
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	cyber_robot_support_drone_engineers_technology_1 = {
+	
+		drone_support_unit = {
+			entrenchment  = 4
+		}
+
+		on_research_complete = { custom_effect_tooltip = SRD_custom_effect_tooltip_cybernetic_support_drone_cost_inrease_engineers_1
+		hidden_effect = { add_ideas = cybernetic_support_drone_cost_inrease_engineers_1 } }
+	
+		doctrine = yes
+		research_cost = 1
+		start_year = 1939
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { engineers_tech support_tech special_research_division_tech cyber_tech drone_support_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 53
+                y = 18
+            }
+        }
+		path = { leads_to_tech = cyber_robot_support_drone_engineers_technology_2 research_cost_coeff = 1 }
+	}
+	cyber_robot_support_drone_engineers_technology_2 = {
+	
+		drone_support_unit = {
+			entrenchment  = 4
+		}
+
+		on_research_complete = { custom_effect_tooltip = SRD_custom_effect_tooltip_cybernetic_support_drone_cost_inrease_engineers_2
+		hidden_effect = { add_ideas = cybernetic_support_drone_cost_inrease_engineers_2 } }
+	
+		doctrine = yes
+		research_cost = 1.5 
+		start_year = 1941
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { engineers_tech support_tech special_research_division_tech cyber_tech drone_support_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 53
+                y = 22
+            }
+        }
+		path = { leads_to_tech = cyber_robot_support_drone_engineers_technology_3 research_cost_coeff = 1 }
+	}
+	cyber_robot_support_drone_engineers_technology_3 = {
+	
+		drone_support_unit = {
+			entrenchment  = 4
+		}
+
+		on_research_complete = { custom_effect_tooltip = SRD_custom_effect_tooltip_cybernetic_support_drone_cost_inrease_engineers_3
+		hidden_effect = { add_ideas = cybernetic_support_drone_cost_inrease_engineers_3 } }
+	
+		doctrine = yes
+		research_cost = 1.5 
+		start_year = 1943
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { engineers_tech support_tech special_research_division_tech cyber_tech drone_support_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 53
+                y = 26
+            }
+        }
+	}
+	
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# FWT ROBOT engineers SUPPORT DRONE IMPROVEMENT TECHNOLOGY END #
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# FWT ROBOT RECONNAISSANCE SUPPORT DRONE IMPROVEMENT TECHNOLOGY START #
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	cyber_robot_support_drone_reconnaissance_technology_1 = {
+	
+		drone_support_unit = {
+			recon = 3
+		}
+
+		on_research_complete = { custom_effect_tooltip = SRD_custom_effect_tooltip_cybernetic_support_drone_cost_inrease_reconnaissance_1
+		hidden_effect = { add_ideas = cybernetic_support_drone_cost_inrease_reconnaissance_1 } }
+	
+		doctrine = yes
+		research_cost = 1 
+		start_year = 1939
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { recon_tech support_tech special_research_division_tech cyber_tech drone_support_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 56
+                y = 18
+            }
+        }
+		path = { leads_to_tech = cyber_robot_support_drone_reconnaissance_technology_2 research_cost_coeff = 1 }
+	}
+	cyber_robot_support_drone_reconnaissance_technology_2 = {
+	
+		drone_support_unit = {
+			recon = 3
+		}
+
+		on_research_complete = { custom_effect_tooltip = SRD_custom_effect_tooltip_cybernetic_support_drone_cost_inrease_reconnaissance_2
+		hidden_effect = { add_ideas = cybernetic_support_drone_cost_inrease_reconnaissance_2 } }
+	
+		doctrine = yes
+		research_cost = 1.5 
+		start_year = 1941
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { recon_tech support_tech special_research_division_tech cyber_tech drone_support_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 56
+                y = 22
+            }
+        }
+		path = { leads_to_tech = cyber_robot_support_drone_reconnaissance_technology_3 research_cost_coeff = 1 }
+	}
+	cyber_robot_support_drone_reconnaissance_technology_3 = {
+	
+		drone_support_unit = {
+			recon = 3
+		}
+
+		on_research_complete = { custom_effect_tooltip = SRD_custom_effect_tooltip_cybernetic_support_drone_cost_inrease_reconnaissance_3
+		hidden_effect = { add_ideas = cybernetic_support_drone_cost_inrease_reconnaissance_3 } }
+	
+		doctrine = yes
+		research_cost = 1.5 
+		start_year = 1943
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { recon_tech support_tech special_research_division_tech cyber_tech drone_support_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 56
+                y = 26
+            }
+        }
+	}
+	
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# FWT ROBOT RECONNAISSANCE SUPPORT DRONE IMPROVEMENT TECHNOLOGY END #
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# FWT ROBOT LOGISTIC SUPPORT DRONE IMPROVEMENT TECHNOLOGY START #
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	cyber_robot_support_drone_logistic_technology_1 = {
+	
+		drone_support_unit = {
+			supply_consumption_factor = -0.15
+			fuel_consumption_factor = -0.1
+		}
+
+		on_research_complete = { custom_effect_tooltip = SRD_custom_effect_tooltip_cybernetic_support_drone_cost_inrease_logistic_1
+		hidden_effect = { add_ideas = cybernetic_support_drone_cost_inrease_logistic_1 } }
+	
+		doctrine = yes
+		research_cost = 1 
+		start_year = 1939
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { logistics_tech support_tech special_research_division_tech cyber_tech drone_support_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 59
+                y = 18
+            }
+        }
+		path = { leads_to_tech = cyber_robot_support_drone_logistic_technology_2 research_cost_coeff = 1 }
+	}
+	cyber_robot_support_drone_logistic_technology_2 = {
+	
+		drone_support_unit = {
+			supply_consumption_factor = -0.15
+			fuel_consumption_factor = -0.1
+		}
+
+		on_research_complete = { custom_effect_tooltip = SRD_custom_effect_tooltip_cybernetic_support_drone_cost_inrease_logistic_2
+		hidden_effect = { add_ideas = cybernetic_support_drone_cost_inrease_logistic_2 } }
+	
+		doctrine = yes
+		research_cost = 1.5 
+		start_year = 1941
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { logistics_tech support_tech special_research_division_tech cyber_tech drone_support_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 59
+                y = 22
+            }
+        }
+		path = { leads_to_tech = cyber_robot_support_drone_logistic_technology_3 research_cost_coeff = 1 }
+	}
+	cyber_robot_support_drone_logistic_technology_3 = {
+	
+		drone_support_unit = {
+			supply_consumption_factor = -0.15
+			fuel_consumption_factor = -0.1
+		}
+
+		on_research_complete = { custom_effect_tooltip = SRD_custom_effect_tooltip_cybernetic_support_drone_cost_inrease_logistic_3
+		hidden_effect = { add_ideas = cybernetic_support_drone_cost_inrease_logistic_3 } }
+	
+		doctrine = yes
+		research_cost = 1.5 
+		start_year = 1943
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { logistics_tech support_tech special_research_division_tech cyber_tech drone_support_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 59
+                y = 26
+            }
+        }
+	}
+	
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# FWT ROBOT LOGISTIC SUPPORT DRONE IMPROVEMENT TECHNOLOGY END #
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# FWT ROBOT MAINTENANCE SUPPORT DRONE IMPROVEMENT TECHNOLOGY START #
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	cyber_robot_support_drone_maintenance_technology_1 = {
+	
+		drone_support_unit = {
+			reliability_factor = 0.1
+			equipment_capture_factor = 0.05
+		}
+
+		on_research_complete = { custom_effect_tooltip = SRD_custom_effect_tooltip_cybernetic_support_drone_cost_inrease_maintenance_1
+		hidden_effect = { add_ideas = cybernetic_support_drone_cost_inrease_maintenance_1 } }
+	
+		doctrine = yes
+		research_cost = 1 
+		start_year = 1939
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { maintenance_company_tech support_tech special_research_division_tech cyber_tech drone_support_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 62
+                y = 18
+            }
+        }
+		path = { leads_to_tech = cyber_robot_support_drone_maintenance_technology_2 research_cost_coeff = 1 }
+	}
+	cyber_robot_support_drone_maintenance_technology_2 = {
+	
+		drone_support_unit = {
+			reliability_factor = 0.1
+			equipment_capture_factor = 0.05
+		}
+
+		on_research_complete = { custom_effect_tooltip = SRD_custom_effect_tooltip_cybernetic_support_drone_cost_inrease_maintenance_2
+		hidden_effect = { add_ideas = cybernetic_support_drone_cost_inrease_maintenance_2 } }
+	
+		doctrine = yes
+		research_cost = 1.5 
+		start_year = 1941
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { maintenance_company_tech support_tech special_research_division_tech cyber_tech drone_support_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 62
+                y = 22
+            }
+        }
+		path = { leads_to_tech = cyber_robot_support_drone_maintenance_technology_3 research_cost_coeff = 1 }
+	}
+	cyber_robot_support_drone_maintenance_technology_3 = {
+	
+		drone_support_unit = {
+			reliability_factor = 0.1
+			equipment_capture_factor = 0.05
+		}
+
+		on_research_complete = { custom_effect_tooltip = SRD_custom_effect_tooltip_cybernetic_support_drone_cost_inrease_maintenance_3
+			hidden_effect = { add_ideas = cybernetic_support_drone_cost_inrease_maintenance_3 } }
+	
+		doctrine = yes
+		research_cost = 1.5 
+		start_year = 1943
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { maintenance_company_tech support_tech special_research_division_tech cyber_tech drone_support_tech } 
+		
+		folder = { 
+				name = cyber_folder 
+				position = { 
+				x = 62
+                y = 26
+            }
+        }
+	}
+	
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# FWT ROBOT MAINTENANCE SUPPORT DRONE IMPROVEMENT TECHNOLOGY END #
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# FWT ROBOT SUPPORT DRONE TECHNOLOGY END #
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	## FWT ROBOT TECHNOLOGY END ##
+	
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	## FWT IMPROVE BUILDING START ##
+	
+	cyber_industry_improvement_technology_1 = {
+	
+		production_factory_max_efficiency_factor = 0.2
+	
+		#doctrine = no/yes
+		research_cost = 1 ## 1 is default research time ##
+		start_year = 1937
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { industry cyber_industry_tech cyber_tech special_research_division_tech }
+		
+		folder = { 
+			name = cyber_folder 
+				position = { 
+				x = 6
+                y = 12
+            }
+        }
+		
+		path = { leads_to_tech = cyber_building_improvement_technology_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_industry_improvement_technology_2 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_automation_improvement_technology_2 research_cost_coeff = 1 }
+		
+	}
+	
+	cyber_building_improvement_technology_1 = {
+	
+		local_resources_factor = 0.25
+		production_speed_buildings_factor = 0.25
+		conscription_factor = -0.10
+	
+		#doctrine = no/yes
+		research_cost = 2 ## 1 is default research time ##
+		start_year = 1938
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { construction_tech excavation_tech industry cyber_industry_tech cyber_tech special_research_division_tech }
+		
+		folder = { 
+			name = cyber_folder 
+				position = { 
+				x = 3
+                y = 15 
+            }
+        }
+		
+		path = { leads_to_tech = cyber_building_technology_2 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_building_technology_2_1 research_cost_coeff = 1 }
+		
+	}
+	cyber_building_technology_2_1 = {
+	
+		#doctrine = no/yes
+		research_cost = 1 ## 1 is default research time ##
+		start_year = 1939
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { excavation_tech industry cyber_industry_tech cyber_tech special_research_division_tech }
+		
+		folder = { 
+			name = cyber_folder 
+				position = { 
+				x = 1
+                y = 19
+            }
+        }
+		
+		on_research_complete = {
+			modify_building_resources = {
+				building = alloy_forge
+				resource = super_alloy
+				amount = 5
+			}
+		}
+		
+		enable_building = { building = alloy_forge level = 4 }
+
+		path = { leads_to_tech = cyber_building_improvement_technology_2 research_cost_coeff = 1 }
+	}
+	cyber_building_technology_2 = {
+	
+		#doctrine = no/yes
+		research_cost = 1 ## 1 is default research time ##
+		start_year = 1939
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { excavation_tech industry cyber_industry_tech cyber_tech special_research_division_tech }
+		
+		folder = { 
+			name = cyber_folder 
+				position = { 
+				x = 5
+                y = 19
+            }
+        }
+		
+		on_research_complete = {
+			modify_building_resources = {
+				building = reactor_assembler
+				resource = reactor_part
+				amount = 5
+			}
+		}
+		
+	enable_building = { building = reactor_assembler level = 4 }
+	
+	path = { leads_to_tech = cyber_building_improvement_technology_2 research_cost_coeff = 1 }	
+	}
+	cyber_building_improvement_technology_2 = {
+	
+		local_resources_factor = 0.25
+		production_speed_buildings_factor = 0.25
+		conscription_factor = -0.10
+	
+		#doctrine = no/yes
+		research_cost = 2 ## 1 is default research time ##
+		start_year = 1940
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { construction_tech excavation_tech industry cyber_industry_tech cyber_tech special_research_division_tech }
+		
+		folder = { 
+			name = cyber_folder 
+				position = { 
+				x = 3
+                y = 22
+            }
+        }
+		
+		path = { leads_to_tech = cyber_building_technology_3_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = cyber_building_technology_3 research_cost_coeff = 1 }
+		
+	}
+	cyber_building_technology_3_1 = {
+	
+		#doctrine = no/yes
+		research_cost = 1 ## 1 is default research time ##
+		start_year = 1942
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { excavation_tech industry cyber_industry_tech cyber_tech special_research_division_tech }
+		
+		folder = { 
+			name = cyber_folder 
+				position = { 
+				x = 1
+                y = 26
+            }
+        }
+		
+		on_research_complete = {
+			modify_building_resources = {
+				building = alloy_forge
+				resource = super_alloy
+				amount = 10
+			}
+		}
+		enable_building = { building = alloy_forge level = 5 }
+		
+		path = { leads_to_tech = cyber_building_improvement_technology_3 research_cost_coeff = 1 }
+	}
+	cyber_building_technology_3 = {
+	
+		#doctrine = no/yes
+		research_cost = 1 ## 1 is default research time ##
+		start_year = 1942
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { excavation_tech industry cyber_industry_tech cyber_tech special_research_division_tech }
+		
+		folder = { 
+			name = cyber_folder 
+				position = { 
+				x = 5
+                y = 26
+            }
+        }
+		
+		on_research_complete = {
+			modify_building_resources = {
+				building = reactor_assembler
+				resource = reactor_part
+				amount = 10
+			}
+		}
+	
+	enable_building = { building = reactor_assembler level = 5 }
+	
+	path = { leads_to_tech = cyber_building_improvement_technology_3 research_cost_coeff = 1 }
+	}
+	cyber_building_improvement_technology_3 = {
+	
+		local_resources_factor = 0.50
+		production_speed_buildings_factor = 0.25
+		conscription_factor = -0.1
+
+		#doctrine = no/yes
+		research_cost = 2 ## 1 is default research time ##
+		start_year = 1943
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { industry construction_tech excavation_tech cyber_industry_tech cyber_tech special_research_division_tech }
+		
+		folder = { 
+			name = cyber_folder 
+				position = { 
+				x = 3
+                y = 30
+            }
+        }
+	}
+	cyber_industry_improvement_technology_2 = {
+	
+		XOR = {
+			cyber_automation_improvement_technology_2
+		}
+	
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.20
+		conscription_factor = -0.15
+		consumer_goods_factor = -0.02
+	
+		#doctrine = no/yes
+		research_cost = 2 ## 1 is default research time ##
+		start_year = 1938
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { concentrated_industry_category industry cyber_industry_tech cyber_tech special_research_division_tech }
+		
+		folder = { 
+			name = cyber_folder 
+				position = { 
+				x = 9
+                y = 15
+            }
+        }
+		path = { leads_to_tech = cyber_industry_improvement_technology_3 research_cost_coeff = 1 }
+	}
+	cyber_industry_improvement_technology_3 = {
+	
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.20
+		conscription_factor = -0.15
+		consumer_goods_factor = -0.02
+	
+		#doctrine = no/yes
+		research_cost = 2 ## 1 is default research time ##
+		start_year = 1939
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { concentrated_industry_category industry cyber_industry_tech cyber_tech special_research_division_tech }
+		
+		folder = { 
+			name = cyber_folder 
+				position = { 
+				x = 9
+                y = 19
+            }
+        }
+		path = { leads_to_tech = cyber_industry_improvement_technology_4 research_cost_coeff = 1 }
+	}
+		cyber_industry_improvement_technology_4 = {
+		
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.20
+		conscription_factor = -0.15
+		consumer_goods_factor = -0.02
+	
+		#doctrine = no/yes
+		research_cost = 2 ## 1 is default research time ##
+		start_year = 1940
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { concentrated_industry_category industry cyber_industry_tech cyber_tech special_research_division_tech }
+		
+		folder = { 
+			name = cyber_folder 
+				position = { 
+				x = 9
+                y = 22
+            }
+        }
+		path = { leads_to_tech = cyber_industry_improvement_technology_5 research_cost_coeff = 1 }
+	}
+	cyber_industry_improvement_technology_5 = {
+	
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.20
+		conscription_factor = -0.15
+		consumer_goods_factor = -0.02
+	
+		#doctrine = no/yes
+		research_cost = 2 ## 1 is default research time ##
+		start_year = 1942
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { concentrated_industry_category industry cyber_industry_tech cyber_tech special_research_division_tech }
+		
+		folder = { 
+			name = cyber_folder 
+				position = { 
+				x = 9
+                y = 26
+            }
+        }
+		path = { leads_to_tech = cyber_industry_improvement_technology_6 research_cost_coeff = 1 }
+	}
+	cyber_industry_improvement_technology_6 = {
+	
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.1
+		global_building_slots_factor = 0.20
+		conscription_factor = -0.15
+		consumer_goods_factor = -0.02
+	
+		#doctrine = no/yes
+		research_cost = 2 ## 1 is default research time ##
+		start_year = 1943
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { concentrated_industry_category industry cyber_industry_tech cyber_tech special_research_division_tech }
+		
+		folder = { 
+			name = cyber_folder 
+				position = { 
+				x = 9
+                y = 30
+            }
+        }
+	}
+	cyber_automation_improvement_technology_2 = {
+	
+		XOR = {
+			cyber_industry_improvement_technology_2
+		}
+	
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
+		equipment_conversion_speed = 0.20
+		industry_air_damage_factor = -0.15
+		global_building_slots_factor = 0.2
+		conscription_factor = -0.15
+		consumer_goods_factor = -0.02
+	
+		#doctrine = no/yes
+		research_cost = 2 ## 1 is default research time ##
+		start_year = 1938
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { dispersed_industry_category industry cyber_industry_tech cyber_tech special_research_division_tech }
+		
+		folder = { 
+			name = cyber_folder 
+				position = { 
+				x = 12
+                y = 15
+            }
+        }
+		path = { leads_to_tech = cyber_automation_improvement_technology_3 research_cost_coeff = 1 }
+	}
+	cyber_automation_improvement_technology_3 = {
+	
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
+		equipment_conversion_speed = 0.20
+		industry_air_damage_factor = -0.15
+		global_building_slots_factor = 0.2
+		conscription_factor = -0.15
+		consumer_goods_factor = -0.02
+	
+		#doctrine = no/yes
+		research_cost = 2 ## 1 is default research time ##
+		start_year = 1939
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { dispersed_industry_category industry cyber_industry_tech cyber_tech special_research_division_tech }
+		
+		folder = { 
+			name = cyber_folder 
+				position = { 
+				x = 12
+                y = 19
+            }
+        }
+		path = { leads_to_tech = cyber_automation_improvement_technology_4 research_cost_coeff = 1 }
+	}
+	cyber_automation_improvement_technology_4 = {
+	
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
+		equipment_conversion_speed = 0.20
+		industry_air_damage_factor = -0.15
+		global_building_slots_factor = 0.2
+		conscription_factor = -0.15
+		consumer_goods_factor = -0.02
+	
+		#doctrine = no/yes
+		research_cost = 2 ## 1 is default research time ##
+		start_year = 1940
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { dispersed_industry_category industry cyber_industry_tech cyber_tech special_research_division_tech }
+		
+		folder = { 
+			name = cyber_folder 
+				position = { 
+				x = 12
+                y = 22
+            }
+        }
+		path = { leads_to_tech = cyber_automation_improvement_technology_5 research_cost_coeff = 1 }
+	}
+	cyber_automation_improvement_technology_5 = {
+	
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
+		equipment_conversion_speed = 0.20
+		industry_air_damage_factor = -0.15
+		global_building_slots_factor = 0.2
+		conscription_factor = -0.15
+		consumer_goods_factor = -0.02
+	
+		#doctrine = no/yes
+		research_cost = 2 ## 1 is default research time ##
+		start_year = 1942
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { dispersed_industry_category industry cyber_industry_tech cyber_tech special_research_division_tech }
+		
+		folder = { 
+			name = cyber_folder 
+				position = { 
+				x = 12
+                y = 26
+            }
+        }
+		path = { leads_to_tech = cyber_automation_improvement_technology_6 research_cost_coeff = 1 }
+	}
+	cyber_automation_improvement_technology_6 = {
+	
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
+		equipment_conversion_speed = 0.20
+		industry_air_damage_factor = -0.15
+		global_building_slots_factor = 0.2
+		conscription_factor = -0.15
+		consumer_goods_factor = -0.02
+	
+		#doctrine = no/yes
+		research_cost = 2 ## 1 is default research time ##
+		start_year = 1943
+        show_equipment_icon = yes 
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { dispersed_industry_category industry cyber_industry_tech cyber_tech special_research_division_tech }
+		
+		folder = { 
+			name = cyber_folder 
+				position = { 
+				x = 12
+                y = 30
+            }
+        }
+	}
+	
+	## SRD IMPROVE BUILDING END ##
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	### SRD CYBER TECHNOLOGY END ###
+	
+}

@@ -1,0 +1,571 @@
+holy_decision_2 = {
+	#-----------------------------------------------------------------------------------------------------------------------------------------------------
+	## SPELLS LV 1 START ##
+	#-----------------------------------------------------------------------------------------------------------------------------------------------------
+	holy_spell_unlock_1 = {
+		icon = decision_holy_spell_unlock_1
+		cost = 50
+		visible = {
+			#has_idea = heaven_gate_idea_1
+		}
+		available = {
+			#has_idea = heaven_gate_idea_1
+			capital_scope = {
+				has_resources_amount = {
+					resource = holy_crystal
+					amount > 6
+					state = capital
+				}
+			}
+		}
+		remove_effect = {
+			add_resource = {
+				type = holy_crystal
+				amount = -5
+				state = capital
+			}
+			add_ideas = holy_spell_unlock_1
+		}
+		modifier = {
+			civilian_factory_use = 5
+		}
+		days_remove = 30 #180
+		fire_only_once = yes
+	}
+	#-----------------------------------------------------------------------------------------------------------------------------------------------------
+	holy_spell_lv1_1 = { # Production spell lv 1
+		icon = holy_spell_1_1
+		cost = 25
+		visible = {
+			has_idea = holy_spell_unlock_1
+			NOT = {
+				has_idea = holy_spell_unlock_2
+				has_idea = holy_spell_unlock_3
+			}
+		}
+		available = {
+			capital_scope = {
+				has_resources_amount = {
+					resource = holy_crystal
+					amount > 6
+					state = capital
+				}
+			}
+			has_idea = holy_spell_unlock_1
+			NOT = {
+				has_idea = holy_spell_unlock_2
+				has_idea = holy_spell_unlock_3
+			}
+		}
+		remove_effect = {
+			add_resource = {
+				type = holy_crystal
+				amount = 5
+				state = capital
+			}
+		}
+		complete_effect = {
+			add_resource = {
+				type = holy_crystal
+				amount = -5
+				state = capital
+			}
+		}
+		modifier = {
+			industrial_capacity_factory = 0.5
+			industrial_capacity_dockyard = 0.5
+			political_power_gain = -0.25
+		}
+		days_remove = 30
+		fire_only_once = no
+	}
+	#-----------------------------------------------------------------------------------------------------------------------------------------------------
+	holy_spell_lv1_2 = { # Peace
+		icon = holy_spell_1_2
+		cost = 25
+		visible = {
+			has_idea = holy_spell_unlock_1
+			NOT = {
+				has_idea = holy_spell_unlock_2
+				has_idea = holy_spell_unlock_3
+			}
+		}
+		available = {
+			capital_scope = {
+				has_resources_amount = {
+					resource = holy_crystal
+					amount > 6
+					state = capital
+				}
+			}
+			has_idea = holy_spell_unlock_1
+			NOT = {
+				has_idea = holy_spell_unlock_2
+				has_idea = holy_spell_unlock_3
+			}
+		}
+		remove_effect = {
+			add_resource = {
+				type = holy_crystal
+				amount = 5
+				state = capital
+			}
+		}
+		complete_effect = {
+			add_resource = {
+				type = holy_crystal
+				amount = -5
+				state = capital
+			}
+		}
+		modifier = {
+			war_support_weekly = 0.01
+			stability_weekly = 0.01
+			political_power_gain = -0.25
+		}
+		days_remove = 30
+		fire_only_once = no
+	}
+	#-----------------------------------------------------------------------------------------------------------------------------------------------------
+	holy_spell_lv1_3 = { # Damage
+		icon = holy_spell_1_3
+		cost = 25
+		visible = {
+			has_idea = holy_spell_unlock_1
+			NOT = {
+				has_idea = holy_spell_unlock_2
+				has_idea = holy_spell_unlock_3
+			}
+		}
+		available = {
+			capital_scope = {
+				has_resources_amount = {
+					resource = holy_crystal
+					amount > 6
+					state = capital
+				}
+			}
+			has_idea = holy_spell_unlock_1
+		}
+		remove_effect = {
+			add_resource = {
+				type = holy_crystal
+				amount = 5
+				state = capital
+			}
+		}
+		complete_effect = {
+			add_resource = {
+				type = holy_crystal
+				amount = -5
+				state = capital
+			}
+		}
+		modifier = {
+			army_attack_factor = 0.15
+			army_defence_factor = 0.15
+			political_power_gain = -0.25
+		}
+		days_remove = 30
+		fire_only_once = no
+	}
+	#-----------------------------------------------------------------------------------------------------------------------------------------------------
+	holy_spell_lv1_4 = { # Peace
+		icon = holy_spell_1_4
+		cost = 25
+		visible = {
+			has_idea = holy_spell_unlock_1
+			NOT = {
+				has_idea = holy_spell_unlock_2
+				has_idea = holy_spell_unlock_3
+			}
+		}
+		available = {
+			capital_scope = {
+				has_resources_amount = {
+					resource = holy_crystal
+					amount > 6
+					state = capital
+				}
+			}
+			has_idea = holy_spell_unlock_1
+			NOT = {
+				has_idea = holy_spell_unlock_2
+				has_idea = holy_spell_unlock_3
+			}
+		}
+		remove_effect = {
+			add_resource = {
+				type = holy_crystal
+				amount = 5
+				state = capital
+			}
+		}
+		complete_effect = {
+			add_resource = {
+				type = holy_crystal
+				amount = -5
+				state = capital
+			}
+		}
+		modifier = {
+			resistance_target = -0.5
+			compliance_gain = 0.5
+			political_power_gain = -0.25
+		}
+		days_remove = 30
+		fire_only_once = no
+	}
+	#-----------------------------------------------------------------------------------------------------------------------------------------------------
+	holy_spell_lv1_5 = { # Damage
+		icon = holy_spell_1_5
+		cost = 25
+		visible = {
+			has_idea = holy_spell_unlock_1
+			NOT = {
+				has_idea = holy_spell_unlock_2
+				has_idea = holy_spell_unlock_3
+			}
+		}
+		available = {
+			capital_scope = {
+				has_resources_amount = {
+					resource = holy_crystal
+					amount > 6
+					state = capital
+				}
+			}
+			has_idea = holy_spell_unlock_1
+			NOT = {
+				has_idea = holy_spell_unlock_2
+				has_idea = holy_spell_unlock_3
+			}
+		}
+		remove_effect = {
+			add_resource = {
+				type = holy_crystal
+				amount = 5
+				state = capital
+			}
+		}
+		complete_effect = {
+			add_resource = {
+				type = holy_crystal
+				amount = -5
+				state = capital
+			}
+		}
+		modifier = {
+			weekly_manpower = 1000
+			training_time_factor = -0.5
+			political_power_gain = -0.25
+		}
+		days_remove = 36
+		fire_only_once = no
+	}
+	#-----------------------------------------------------------------------------------------------------------------------------------------------------
+	## SPEELS LV 2 START ##
+	#-----------------------------------------------------------------------------------------------------------------------------------------------------
+	holy_spell_unlock_2 = {
+		icon = decision_holy_spell_unlock_2
+		cost = 75
+		visible = {
+			has_idea = holy_spell_unlock_1
+		}
+		available = {
+			capital_scope = {
+				has_resources_amount = {
+					resource = holy_crystal
+					amount > 11
+					state = capital
+				}
+			}
+		}
+		remove_effect = {
+			add_resource = {
+				type = holy_crystal
+				amount = -10
+				state = capital
+			}
+			add_ideas = holy_spell_unlock_2
+		}
+		modifier = {
+			industrial_capacity_factory = 0.5
+			industrial_capacity_dockyard = 0.5
+			political_power_gain = -0.25
+		}
+		days_remove = 30 #180
+		fire_only_once = yes
+	}
+	#-----------------------------------------------------------------------------------------------------------------------------------------------------
+	holy_spell_lv2_1 = { # Production spell lv 1
+		icon = holy_spell_2_1
+		cost = 40
+		visible = {
+			has_idea = holy_spell_unlock_2
+		}
+		available = {
+			has_idea = holy_spell_unlock_2
+			capital_scope = {
+				has_resources_amount = {
+					resource = holy_crystal
+					amount > 6
+					state = capital
+				}
+			}
+		}
+		remove_effect = {
+			add_resource = {
+				type = holy_crystal
+				amount = 5
+				state = capital
+			}
+		}
+		complete_effect = {
+			add_resource = {
+				type = holy_crystal
+				amount = -5
+				state = capital
+			}
+		}
+		modifier = {
+			industrial_capacity_factory = 1
+			industrial_capacity_dockyard = 1
+		}
+		days_remove = 30
+		fire_only_once = no
+	}
+	#-----------------------------------------------------------------------------------------------------------------------------------------------------
+	holy_spell_lv2_2 = { # Peace
+		icon = holy_spell_2_2
+		cost = 40
+		visible = {
+			has_idea = holy_spell_unlock_2
+		}
+		available = {
+			has_idea = holy_spell_unlock_2
+			capital_scope = {
+				has_resources_amount = {
+					resource = holy_crystal
+					amount > 6
+					state = capital
+				}
+			}
+		}
+		remove_effect = {
+			add_resource = {
+				type = holy_crystal
+				amount = 5
+				state = capital
+			}
+		}
+		complete_effect = {
+			add_resource = {
+				type = holy_crystal
+				amount = -5
+				state = capital
+			}
+		}
+		modifier = {
+			war_support_weekly = 0.02
+			stability_weekly = 0.02
+			political_power_gain = -0.35
+		}
+		days_remove = 36
+		fire_only_once = no
+	}
+	#-----------------------------------------------------------------------------------------------------------------------------------------------------
+	holy_spell_lv2_3 = { # Damage
+		icon = holy_spell_2_3
+		cost = 40
+		visible = {
+			has_idea = holy_spell_unlock_2
+		}
+		available = {
+			has_idea = holy_spell_unlock_2
+			capital_scope = {
+				has_resources_amount = {
+					resource = holy_crystal
+					amount > 6
+					state = capital
+				}
+			}
+		}
+		remove_effect = {
+			add_resource = {
+				type = holy_crystal
+				amount = 5
+				state = capital
+			}
+		}
+		complete_effect = {
+			add_resource = {
+				type = holy_crystal
+				amount = -5
+				state = capital
+			}
+		}
+		modifier = {
+			army_attack_factor = 0.25
+			army_defence_factor = 0.25
+			political_power_gain = -0.35
+		}
+		days_remove = 30
+		fire_only_once = no
+	}
+	#-----------------------------------------------------------------------------------------------------------------------------------------------------
+	holy_spell_lv2_4 = { # Peace
+		icon = holy_spell_2_4
+		cost = 40
+		visible = {
+			has_idea = holy_spell_unlock_2
+		}
+		available = {
+			has_idea = holy_spell_unlock_2
+			capital_scope = {
+				has_resources_amount = {
+					resource = holy_crystal
+					amount > 6
+					state = capital
+				}
+			}
+		}
+		remove_effect = {
+			add_resource = {
+				type = holy_crystal
+				amount = 5
+				state = capital
+			}
+		}
+		complete_effect = {
+			add_resource = {
+				type = holy_crystal
+				amount = -5
+				state = capital
+			}
+		}
+		modifier = {
+			resistance_target = -0.75
+			compliance_gain = 1
+			political_power_gain = -0.35
+		}
+		days_remove = 30
+		fire_only_once = no
+	}
+	#-----------------------------------------------------------------------------------------------------------------------------------------------------
+	holy_spell_lv2_5 = { # Damage
+		icon = holy_spell_2_5
+		cost = 40
+		visible = {
+			has_idea = holy_spell_unlock_2
+		}
+		available = {
+			has_idea = holy_spell_unlock_2
+			capital_scope = {
+				has_resources_amount = {
+					resource = holy_crystal
+					amount > 6
+					state = capital
+				}
+			}
+		}
+		remove_effect = {
+			add_resource = {
+				type = holy_crystal
+				amount = 5
+				state = capital
+			}
+		}
+		complete_effect = {
+			add_resource = {
+				type = holy_crystal
+				amount = -5
+				state = capital
+			}
+		}
+		modifier = {
+			weekly_manpower = 2500
+			training_time_factor = -0.65
+			political_power_gain = -0.35
+		}
+		days_remove = 36
+		fire_only_once = no
+	}
+	#-----------------------------------------------------------------------------------------------------------------------------------------------------
+	## SPEELS LV 3 START ##
+	#-----------------------------------------------------------------------------------------------------------------------------------------------------
+	holy_spell_unlock_3 = {
+		icon = decision_holy_spell_unlock_3
+		cost = 100
+		visible = {
+			has_idea = holy_spell_unlock_2
+		}
+		available = {
+			has_idea = holy_spell_unlock_2
+			capital_scope = {
+				has_resources_amount = {
+					resource = holy_crystal
+					amount > 11
+					state = capital
+				}
+			}
+		}
+		remove_effect = {
+			add_resource = {
+				type = holy_crystal
+				amount = -10
+				state = capital
+			}
+			add_ideas = holy_spell_unlock_3
+		}
+		modifier = {
+			civilian_factory_use = 5
+		}
+		days_remove = 30 #180
+		fire_only_once = yes
+	}
+	#-----------------------------------------------------------------------------------------------------------------------------------------------------
+	holy_spell_lv3_1 = {
+		icon = holy_spell_3_1
+		cost = 40
+		visible = {
+			has_idea = holy_spell_unlock_3
+		}
+		available = {
+			has_war = yes
+			has_idea = holy_spell_unlock_3
+			capital_scope = {
+				has_resources_amount = {
+					resource = holy_crystal
+					amount > 21
+					state = capital
+				}
+			}
+		}
+		remove_effect = {
+			every_enemy_country = {
+				add_timed_idea = {
+				idea = holy_plague_idea
+				days = 60
+				}
+			}
+		}
+		complete_effect = {
+			add_resource = {
+				type = holy_crystal
+				amount = -20
+				state = capital
+			}
+		}
+		modifier = {
+			political_power_gain = -0.5
+		}
+		days_remove = 30
+		fire_only_once = no
+	}
+	#add_timed_idea = {
+	#	idea = holy_plague_idea
+	#	days = 60
+	#}
+	#-----------------------------------------------------------------------------------------------------------------------------------------------------
+}

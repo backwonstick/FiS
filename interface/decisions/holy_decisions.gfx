@@ -1,0 +1,86 @@
+spriteTypes = {
+	## holy portraits start ##
+
+	spriteType = { name = "GFX_holy_angel_general_1" textureFile = "gfx/portrait/holy_angel_general_1.dds" }
+
+	spriteType = { name = "GFX_holy_angel_general_2" textureFile = "gfx/portrait/holy_angel_general_2.dds" }
+
+	spriteType = { name = "GFX_holy_angel_general_3" textureFile = "gfx/portrait/holy_angel_general_3.dds" }
+
+	spriteType = { name = "GFX_holy_angel_general_4" textureFile = "gfx/portrait/holy_angel_general_4.dds" }
+
+	spriteType = { name = "GFX_holy_angel_general_5" textureFile = "gfx/portrait/holy_angel_general_5.dds" }
+
+	spriteType = { name = "GFX_holy_angel_general_6" textureFile = "gfx/portrait/holy_angel_general_6.dds" }
+
+	spriteType = { name = "GFX_holy_angel_general_7" textureFile = "gfx/portrait/holy_angel_general_7.dds" }
+
+	spriteType = { name = "GFX_holy_angel_general_8" textureFile = "gfx/portrait/holy_angel_general_8.dds" }
+	
+	spriteType = { name = "GFX_holy_angel_general_9" textureFile = "gfx/portrait/holy_angel_general_9.dds" }
+
+	spriteType = { name = "GFX_holy_angel_general_10" textureFile = "gfx/portrait/holy_angel_general_10.dds" }
+
+	spriteType = { name = "GFX_holy_angel_general_11" textureFile = "gfx/portrait/holy_angel_general_11.dds" }
+
+	## holy portraits end ##
+
+	## holy decisions category start ##
+
+	spriteType = { name = "GFX_decision_category_holy_decision_1" textureFile = "gfx/decisions/holy_decision_1.dds" }
+
+	spriteType = { name = "GFX_decision_category_holy_decision_2" textureFile = "gfx/decisions/holy_decision_2.dds" }
+
+	## holy decisions category end ##
+
+	## holy decisions 1 start ##
+
+	spriteType = { name = "GFX_decision_open_heaven_gate_1" textureFile = "gfx/decisions/open_heaven_gate_1.dds" }
+
+	spriteType = { name = "GFX_decision_holy_create_crystal_1" textureFile = "gfx/decisions/holy_create_crystal_1.dds" }
+
+	spriteType = { name = "GFX_decision_holy_activate_crystal_1" textureFile = "gfx/decisions/holy_create_crystal_1.dds" }
+
+	spriteType = { name = "GFX_decision_holy_upgrade_crystal_2" textureFile = "gfx/decisions/holy_create_crystal_2.dds" }
+
+	spriteType = { name = "GFX_decision_holy_upgrade_crystal_3" textureFile = "gfx/decisions/holy_create_crystal_2.dds" }
+
+	spriteType = { name = "GFX_decision_holy_activate_crystal_1_1" textureFile = "gfx/decisions/holy_create_crystal_1.dds" }
+
+	spriteType = { name = "GFX_decision_holy_general_summon_1" textureFile = "gfx/decisions/holy_general_summon_1.dds" }
+
+	spriteType = { name = "GFX_decision_summon_legion_1" textureFile = "gfx/decisions/holy_general_summon_1.dds" }
+
+	## IDEAS
+
+	spriteType = { name = "GFX_idea_heaven_gate_idea_1" textureFile = "gfx/ideas/heaven_gate_idea_1.dds" }
+
+	spriteType = { name = "GFX_idea_holy_plague_idea" textureFile = "gfx/ideas/holy_plague_idea.dds" }
+
+	## holy decisions 1 end ##
+
+
+	## holy decisions 2 start ##
+
+	spriteType = { name = "GFX_decision_holy_spell_unlock_1" textureFile = "gfx/decisions/holy_spell_unlock_1.dds" }
+
+	spriteType = { name = "GFX_decision_holy_spell_unlock_2" textureFile = "gfx/decisions/holy_spell_unlock_2.dds" }
+
+	spriteType = { name = "GFX_decision_holy_spell_unlock_3" textureFile = "gfx/decisions/holy_spell_unlock_3.dds" }
+
+	spriteType = { name = "GFX_decision_holy_spell_1_1" textureFile = "gfx/decisions/holy_spell_1.dds" }
+	spriteType = { name = "GFX_decision_holy_spell_1_2" textureFile = "gfx/decisions/holy_spell_1.dds" }
+	spriteType = { name = "GFX_decision_holy_spell_1_3" textureFile = "gfx/decisions/holy_spell_1.dds" }
+	spriteType = { name = "GFX_decision_holy_spell_1_4" textureFile = "gfx/decisions/holy_spell_1.dds" }
+	spriteType = { name = "GFX_decision_holy_spell_1_5" textureFile = "gfx/decisions/holy_spell_1.dds" }
+
+	spriteType = { name = "GFX_decision_holy_spell_2_1" textureFile = "gfx/decisions/holy_spell_2.dds" }
+	spriteType = { name = "GFX_decision_holy_spell_2_2" textureFile = "gfx/decisions/holy_spell_2.dds" }
+	spriteType = { name = "GFX_decision_holy_spell_2_3" textureFile = "gfx/decisions/holy_spell_2.dds" }
+	spriteType = { name = "GFX_decision_holy_spell_2_4" textureFile = "gfx/decisions/holy_spell_2.dds" }
+	spriteType = { name = "GFX_decision_holy_spell_2_5" textureFile = "gfx/decisions/holy_spell_2.dds" }
+
+	spriteType = { name = "GFX_decision_holy_spell_3_1" textureFile = "gfx/decisions/holy_spell_3.dds" }
+
+	## holy decisions 2 end ##
+}

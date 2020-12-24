@@ -1,0 +1,94 @@
+sub_units = {
+	mage_support_unit = {
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = yes
+		affects_speed = no
+		special_forces = yes
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_army
+			category_artillery
+			category_special_forces
+			category_special_research_division
+			category_holy_infantry
+			category_holy
+		}
+
+
+		combat_width = 0
+
+		need = {
+			mage_equipment_archetype = 30
+		}
+		manpower = 300
+		training_time = 150
+		max_organisation = 0
+		default_morale = 0.1
+		max_strength = 0.2
+		weight = 0.1
+		
+		supply_consumption = 0.16
+
+		# Support nerfs to combat abilities
+		defense = -0.4
+		breakthrough = -0.4
+		soft_attack = -0.4
+		hard_attack = -0.4
+
+
+		can_be_parachuted = yes
+	}
+	mage_unit = {
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 1198
+		ai_priority = 100
+		active = yes
+		special_forces = yes
+		
+		type = {
+			infantry
+			artillery
+		}
+
+		group = infantry
+		
+		categories = {
+			category_army
+			category_line_artillery
+			category_artillery
+			category_special_forces
+			category_special_research_division
+			category_holy_infantry
+			category_holy
+		}
+
+		combat_width = 3
+
+		manpower = 500
+		need = {
+			mage_equipment_archetype = 100
+		}
+		
+		max_strength = 0.6
+		max_organisation = 0
+		default_morale = 0.1
+		training_time = 150
+		weight = 0.5
+		supply_consumption = 0.2
+
+		#Line artillery bonuses
+		# soft_attack = 0.25
+	}
+}

@@ -1,0 +1,79 @@
+ideas = {
+	country = {
+		## SRD DIFFICULTY IDEAS START ##
+		SRD_difficulty_idea_1 = {
+			picture = SRD_difficulty_idea_1
+			modifier = {
+				army_defence_factor = 0.25
+				army_attack_factor = 0.25
+				research_speed_factor = 0.1
+				political_power_gain = 0.25
+				army_org_factor = 0.05
+				conscription = 0.01
+				training_time_army_factor = -0.25
+				army_morale_factor = 0.1
+			}
+			allowed_civil_war = { always = yes }
+			allowed = { has_war = yes }
+		}
+		SRD_difficulty_idea_2 = {
+			picture = SRD_difficulty_idea_2
+			modifier = {
+				army_defence_factor = 0.50
+				army_attack_factor = 0.50
+				research_speed_factor = 0.3
+				political_power_gain = 0.50
+				army_org_factor = 0.10
+				conscription = 0.02
+				training_time_army_factor = -0.50
+				army_morale_factor = 0.2
+			}
+			allowed_civil_war = { always = yes }
+			allowed = { has_war = yes }
+		}
+		SRD_difficulty_idea_3 = {
+			picture = SRD_difficulty_idea_3
+			modifier = {
+				army_defence_factor = 0.50
+				army_attack_factor = 0.75
+				research_speed_factor = 0.3
+				political_power_gain = 0.75
+				army_org_factor = 0.15
+				conscription = 0.03
+				training_time_army_factor = -0.75
+				army_morale_factor = 0.3
+			}
+			allowed_civil_war = { always = yes }
+			allowed = { has_war = yes }
+		}
+		SRD_difficulty_idea_4 = {
+			picture = SRD_difficulty_idea_4
+			modifier = {
+				army_defence_factor = 1
+				army_attack_factor = 1
+				research_speed_factor = 0.4
+				political_power_gain = 1
+				army_org_factor = 0.20
+				conscription = 0.05
+				training_time_army_factor = -0.90
+				army_morale_factor = 0.4
+			}
+			allowed_civil_war = { always = yes }
+			allowed = { has_war = yes }
+		}
+
+		## SRD DIFFICULTY IDEAS END ##
+	}
+	hidden_ideas = {
+		SRD_difficulty_picked_1 = {
+			picture = SRD_difficulty_idea_4
+			allowed_civil_war = { always = yes }
+			allowed = { has_war = yes }
+		}
+		SRD_difficulty_picked_2 = {
+			picture = SRD_difficulty_idea_4
+			allowed_civil_war = { always = yes }
+			allowed = { has_war = yes }
+		}
+	}
+}

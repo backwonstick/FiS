@@ -1,0 +1,164 @@
+equipments = {	
+	mech_air_equipment_archetype = {
+		year = 1933
+
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_strat_bomber_equipment			
+		is_buildable = no
+		type = { fighter interceptor cas }
+		group_by = archetype
+		sprite = medium_plane
+		air_map_icon_frame = 8
+		
+		interface_category = interface_category_air
+		
+		# Heavy fighter
+		interface_overview_category_index = 3
+
+		#STATS 
+		reliability = 0.8
+		maximum_speed = 650 					# F
+		air_attack = 46                         # F
+		air_defence = 15                        # F
+		air_range = 1700                        # F
+		air_agility = 65                        # F
+		air_superiority = 2                     # F
+		naval_strike_attack = 10					# F
+		naval_strike_targetting = 10			# F
+		air_ground_attack = 10
+		
+		build_cost_ic = 40
+		resources = {
+			#oil = 1			
+			super_alloy = 3
+			reactor_part = 2
+			rubber = 1
+		}
+		
+		manpower = 1
+		fuel_consumption = 0.26
+	}
+	mech_air_equipment_2 = {
+		year = 1940
+		is_convertable = yes
+		carrier_capable = yes
+
+		archetype = mech_air_equipment_archetype
+		priority = 100
+		
+		# build_cost_ic = 32
+	}
+	
+	mech_air_equipment_3 = {
+		year = 1942
+		is_convertable = yes
+		carrier_capable = yes
+
+		archetype = mech_air_equipment_archetype
+		parent = mech_air_equipment_2
+		priority = 100
+		
+		reliability = 0.8
+		maximum_speed = 700 					# F
+		air_attack = 54                         # F
+		air_defence = 18                        # F
+		air_range = 2000                        # F
+		air_agility = 80                        # F
+		air_superiority = 2                     # F
+		naval_strike_attack = 15					# F
+		naval_strike_targetting = 10			# F
+		air_ground_attack = 15
+		
+		build_cost_ic = 50
+		resources = {
+			#oil = 1			
+			super_alloy = 3
+			reactor_part = 2
+			rubber = 1
+		}
+	}
+	mech_air_equipment_4 = {
+		year = 1944
+		is_convertable = yes
+		carrier_capable = yes
+
+		archetype = mech_air_equipment_archetype
+		parent = mech_air_equipment_3
+		priority = 100
+		
+		reliability = 0.8
+		maximum_speed = 950 					# F
+		air_attack = 60                         # F
+		air_defence = 18                        # F
+		air_range = 2500                        # F
+		air_agility = 80                        # F
+		air_superiority = 2                     # F
+		naval_strike_attack = 25					# F
+		naval_strike_targetting = 12.5			# F
+		air_ground_attack = 20
+				
+		build_cost_ic = 55
+		resources = {
+			#oil = 1			
+			super_alloy = 3
+			reactor_part = 4
+			rubber = 1
+		}
+		
+		fuel_consumption = 0.10
+	}
+	
+	mech_giga_air_equipment_archetype = {
+		year = 1933
+
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_strat_bomber_equipment			
+		is_buildable = no
+		type = { cas strategic_bomber }
+		group_by = archetype
+		sprite = heavy_plane
+		air_map_icon_frame = 8
+		
+		interface_category = interface_category_air
+		
+		# Heavy fighter
+		interface_overview_category_index = 3
+
+		#STATS 
+		reliability = 0.8
+		maximum_speed = 650 					# F
+		air_attack = 61                         # F
+		air_defence = 60                       # F
+		air_range = 2000                        # F
+		air_agility = 60                        # F
+		air_superiority = 2                     # F
+		naval_strike_attack = 75					# F
+		naval_strike_targetting = 15			# F
+		air_ground_attack = 60
+		air_bombing = 200
+		
+		
+		build_cost_ic = 150
+		resources = {
+			#oil = 1			
+			super_alloy = 5
+			reactor_part = 5
+			rubber = 1
+		}
+		
+		manpower = 1
+		fuel_consumption = 0.50
+	}
+	mech_giga_air_equipment_1 = {
+		year = 1945
+		is_convertable = yes
+		carrier_capable = yes
+
+		archetype = mech_giga_air_equipment_archetype
+		priority = 100
+		
+		# build_cost_ic = 50
+	}
+}

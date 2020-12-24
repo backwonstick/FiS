@@ -1,0 +1,53 @@
+spriteTypes = {
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	 #### SAMPLE START ####
+	 
+	 #spriteType = {name = "GFX_<TECHNAME>_background_<NUMBER>" texturefile = "gfx/technology/background/<FOLDER>/<TECHNAME>_background_<NUMBER>.dds"}
+	 
+	 #spriteType = {name = "GFX_<TECHNAME>_background_<NUMBER>" texturefile = "gfx/technology/background/holy/<TECHNAME>_background_<NUMBER>.dds"}
+	 
+	 #### SAMPLE END ####
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	 ### HOLY BACKGROUND START ###
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	 ## HOLY BUILDING BACKGROUND START ##
+	 
+	spriteType = {name = "GFX_holy_infantry_background_1" texturefile = "gfx/technology/background/holy/holy_infantry_background_1.dds"}
+	
+	spriteType = {name = "GFX_holy_vehicle_background_1" texturefile = "gfx/technology/background/holy/holy_vehicle_background_1.dds"}
+	
+	spriteType = {name = "GFX_holy_cross_background_1" texturefile = "gfx/technology/background/holy/holy_cross_background_1.dds"}
+
+	spriteType = {name = "GFX_holy_heaven_gate_background_1" texturefile = "gfx/technology/background/holy/holy_heaven_gate_background_1.dds"}
+
+	spriteType = {name = "GFX_holy_heaven_gate_background_2" texturefile = "gfx/technology/background/holy/holy_heaven_gate_background_2.dds"}
+	
+	#spriteType = {name = "GFX_holy_background_4" texturefile = "gfx/technology/background/holy/holy_background_4.dds"}
+	
+	#spriteType = {name = "GFX_holy_background_5" texturefile = "gfx/technology/background/holy/holy_background_5.dds"}
+	
+	#spriteType = {name = "GFX_holy_background_6" texturefile = "gfx/technology/background/holy/holy_background_6.dds"}
+	 
+	 ## HOLY BUILDING BACKGROUND END ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	 ## HOLY BORDER BACKGROUND START ##
+	 
+	 
+	 ## HOLY BORDER BACKGROUND END ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	 ### HOLY BACKGROUND END ###
+	 
+	 ### CYBER BACKGROUND START ###
+	 
+	spriteType = {name = "GFX_cyber_mech_background_1" texturefile = "gfx/technology/background/cyber/cyber_mech_background_1.dds"}
+	
+	spriteType = {name = "GFX_cyber_industry_background_1" texturefile = "gfx/technology/background/cyber/cyber_industry_background_1.dds"}
+	
+	spriteType = {name = "GFX_cyber_cybernetic_background_1" texturefile = "gfx/technology/background/cyber/cyber_cybernetic_background_1.dds"}
+	
+	spriteType = {name = "GFX_cyber_drone_background_1" texturefile = "gfx/technology/background/cyber/cyber_drone_background_1.dds"}
+	
+	spriteType = {name = "GFX_cyber_robot_background_1" texturefile = "gfx/technology/background/cyber/cyber_robot_background_1.dds"}
+	 
+	 ### CYBER BACKGROUND END ###
+}

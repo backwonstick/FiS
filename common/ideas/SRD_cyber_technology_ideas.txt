@@ -1,0 +1,403 @@
+    ## HIDDEN IDEAS FOR CYBER TECHNOLOGY ##
+ideas = {
+    hidden_ideas = {
+
+        limit = {
+            name = "haha no"
+            picture = generic_political_advisor_arab_1
+            allowed = {
+				always = no
+            }
+        }
+        
+        #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+        ## MILITARY CYBERNETICS IDEA START ##
+        #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        cybernetic_military_1 = {
+            name = "Minor Military Cybernetics"
+            picture = generic_political_advisor_arab_1
+            allowed = {
+				always = no
+            }
+            modifier = {
+                # COST #
+                #consumer_goods_factor = 0.01   
+                # NAVY #
+                naval_hit_chance = 0.01 
+                air_weather_penalty = -0.01
+                air_night_penalty = -0.01
+                # ARMY
+                dig_in_speed = 0.01
+                attrition = -0.1
+                army_speed_factor = 0.01
+                army_attack_factor = 0.01
+                army_defence_factor = 0.01
+                invasion_preparation = -0.1
+                army_morale_factor = 0.01
+                army_org_factor = 0.01
+                planning_speed = 0.05
+                max_planning = 0.05
+                max_command_power = 10
+                command_power_gain = 0.05
+                resistance_target = -0.01
+            }
+        }
+
+        #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        cybernetic_military_2 = {
+            name = "Military Cybernetics"
+            picture = generic_political_advisor_arab_1
+            allowed = {
+				always = no
+			}
+            modifier = {
+                # COST #
+                #consumer_goods_factor = 0.01   
+                # NAVY #
+                naval_hit_chance = 0.03
+                air_weather_penalty = -0.03
+                air_night_penalty = -0.03
+                # ARMY
+                dig_in_speed = 0.03
+                attrition = -0.3
+                army_speed_factor = 0.03
+                army_attack_factor = 0.03
+                army_defence_factor = 0.03
+                invasion_preparation = -0.3
+                army_morale_factor = 0.03
+                army_org_factor = 0.03
+                planning_speed = 0.10
+                max_planning = 0.10
+                max_command_power = 20
+                command_power_gain = 0.10
+                resistance_target = -0.03
+            }
+        }
+
+        #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        cybernetic_military_3 = {
+            name = "Major Military Cybernetics"
+            picture = generic_political_advisor_arab_1
+            allowed = {
+				always = no
+			}
+            modifier = {
+                # COST #
+                #consumer_goods_factor = 0.01   
+                # NAVY #
+                naval_hit_chance = 0.05
+                air_weather_penalty = -0.05
+                air_night_penalty = -0.05
+                # ARMY
+                dig_in_speed = 0.05
+                attrition = -0.5
+                army_speed_factor = 0.05
+                army_attack_factor = 0.05
+                army_defence_factor = 0.05
+                invasion_preparation = -0.5
+                army_morale_factor = 0.05
+                army_org_factor = 0.05
+                planning_speed = 0.15
+                max_planning = 0.15
+                max_command_power = 30
+                command_power_gain = 0.15
+                resistance_target = -0.05
+            }
+        }
+
+        #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+        ## MILITARY CYBERNETICS IDEA END ##
+        #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+        ## CIVIALIAN CYBERNETICS IDEA START ##
+        #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        cybernetic_civilian_1 = {
+            name = "Minor Civilian Cybernetics"
+            picture = generic_political_advisor_arab_1
+            allowed = {
+				always = no
+			}
+            modifier = {
+                stability_factor = 0.05    
+                political_power_factor = 0.05
+                production_factory_max_efficiency_factor = 0.05
+                line_change_production_efficiency_factor = 0.05
+                production_factory_efficiency_gain_factor = 0.05
+                industry_repair_factor = 0.05
+                industrial_capacity_factory = 0.05
+                industrial_capacity_dockyard = 0.05
+                global_building_slots_factor = 0.01
+                research_speed_factor = 0.01
+            }
+        }
+
+        #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        cybernetic_civilian_2 = {
+            name = "Civilian Cybernetics"
+            picture = generic_political_advisor_arab_1
+            allowed = {
+				always = no
+			}
+            modifier = {
+                stability_factor = 0.08    
+                political_power_factor = 0.10
+                production_factory_max_efficiency_factor = 0.10
+                line_change_production_efficiency_factor = 0.10
+                production_factory_efficiency_gain_factor = 0.10
+                industry_repair_factor = 0.10
+                industrial_capacity_factory = 0.10
+                industrial_capacity_dockyard = 0.10
+                global_building_slots_factor = 0.03
+                research_speed_factor = 0.03  
+            }
+        }
+
+        #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        cybernetic_civilian_3 = {
+            name = "Major Civilian Cybernetics"
+            picture = generic_political_advisor_arab_1
+            allowed = {
+				always = no
+			}
+            modifier = {
+                stability_factor = 0.10   
+                political_power_factor = 0.15
+                production_factory_max_efficiency_factor = 0.15
+                line_change_production_efficiency_factor = 0.15
+                production_factory_efficiency_gain_factor = 0.15
+                industry_repair_factor = 0.15
+                industrial_capacity_factory = 0.15
+                industrial_capacity_dockyard = 0.15
+                global_building_slots_factor = 0.05
+                research_speed_factor = 0.05    
+            }
+        }
+
+        #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+        ## CIVILIAN CYBERNETICS IDEA END ##
+        #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+        ## ESPIONAGE CYBERNETICS IDEA START ##
+        #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        cybernetic_espionage_1 = {
+            name = "Minor Spy Cybernetics"
+            picture = generic_political_advisor_arab_1
+            allowed = {
+				always = no
+			}
+            modifier = {
+                resistance_target = -0.15
+                encryption = 0.5
+                decryption = 0.5
+            }
+        }
+
+        #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        cybernetic_espionage_2 = {
+            name = "Spy Cybernetics"
+            picture = generic_political_advisor_arab_1
+            allowed = {
+				always = no
+			}
+            modifier = {
+                resistance_target = -0.25
+                encryption = 1
+                decryption = 1
+            }
+        }
+
+        #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        cybernetic_espionage_3 = {
+            name = "Major Spy Cybernetics"
+            picture = generic_political_advisor_arab_1
+            allowed = {
+				always = no
+			}
+            modifier = {
+                resistance_target = -0.35
+                encryption = 1.5
+                decryption = 1.5
+            }
+        }
+
+        #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+        ## ESPIONAGE CYBERNETICS IDEA END ##
+        #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+        ## ESPIONAGE DLC CYBERNETICS IDEA START ##
+        #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        cybernetic_espionage_DLC_1 = {
+            name = "Minor Spy Cybernetics "
+            picture = generic_political_advisor_arab_1
+            allowed = {
+				always = no
+			}
+            modifier = {
+                resistance_target = -0.05
+                intel_network_gain = 0.05
+                intel_network_gain_factor = 0.05
+                own_operative_detection_chance_factor = -0.05
+                root_out_resistance_effectiveness_factor = 0.05
+                intel_from_operatives_factor = 0.05
+                intelligence_agency_defense = 1
+                crypto_strength = 1
+				decryption_power = 10
+            }
+        }
+
+        #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        cybernetic_espionage_DLC_2 = {
+            name = "Spy Cybernetics"
+            picture = generic_political_advisor_arab_1
+            allowed = {
+				always = no
+			}
+            modifier = {
+                resistance_target = -0.1
+                intel_network_gain = 0.1
+                intel_network_gain_factor = 0.1
+                own_operative_detection_chance_factor = -0.1
+                root_out_resistance_effectiveness_factor = 0.1
+                intel_from_operatives_factor = 0.1
+                intelligence_agency_defense = 1.5
+                crypto_strength = 2
+				decryption_power = 20
+            }
+        }
+
+        #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        cybernetic_espionage_DLC_3 = {
+            name = "Major Spy Cybernetics"
+            picture = generic_political_advisor_arab_1
+            allowed = {
+				always = no
+			}
+            modifier = {
+                resistance_target = -0.15
+                intel_network_gain = 0.15
+                intel_network_gain_factor = 0.15
+                own_operative_detection_chance_factor = -0.15
+                root_out_resistance_effectiveness_factor = 0.15
+                intel_from_operatives_factor = 0.15
+                intelligence_agency_defense = 2
+                crypto_strength = 3
+				decryption_power = 30
+            }
+        }
+
+        cyber_spy_1 = {
+            name = "Drone Spy"
+            picture = generic_political_advisor_arab_1
+            allowed = {
+				always = no
+			}
+            modifier = {
+                operative_slot = 1
+            }
+        }
+
+
+
+        #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+        ## ESPIONAGE CYBERNETICS IDEA END ##
+        #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+        ## TECHNOLOGY COST INCREASE IDEA START ##
+        #---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+        cybernetic_mech_improvement_cost_increase_1 = { name = "Big Camouflage Nets" picture = generic_political_advisor_arab_1 
+        allowed = { always = no }
+        equipment_bonus = { mech_land_equipment_archetype = { build_cost_ic = 0.05 instant = yes } } }
+        cybernetic_mech_improvement_cost_increase_2 = { name = "Auxiliary Flamethrowers" picture = generic_political_advisor_arab_1 
+        allowed = { always = no }
+        equipment_bonus = { mech_land_equipment_archetype = { build_cost_ic = 0.05 instant = yes } } }
+        cybernetic_mech_improvement_cost_increase_3 = { name = "Combat Grapling Hooks" picture = generic_political_advisor_arab_1 
+        allowed = { always = no }
+        equipment_bonus = { mech_land_equipment_archetype = { build_cost_ic = 0.05 instant = yes } } }
+        cybernetic_mech_improvement_cost_increase_4 = { name = "Hovercraft Platforms" picture = generic_political_advisor_arab_1 
+        allowed = { always = no }
+        equipment_bonus = { mech_land_equipment_archetype = { build_cost_ic = 0.10 instant = yes } } }
+
+        #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        cybernetic_support_drone_cost_inrease_medic_1 = { name = "Medical Modules For Support Drones 2" picture = generic_political_advisor_arab_1 
+        allowed = { always = no }
+        equipment_bonus = { drone_support_equipment_archetype = { build_cost_ic = 0.15 instant = yes } } }
+        cybernetic_support_drone_cost_inrease_medic_2 = { name = "Medical Modules For Support Drones 2" picture = generic_political_advisor_arab_1 
+        allowed = { always = no }
+        equipment_bonus = { drone_support_equipment_archetype = { build_cost_ic = 0.15 instant = yes } } }
+        cybernetic_support_drone_cost_inrease_medic_3 = { name = "Medical Modules For Support Drones 3" picture = generic_political_advisor_arab_1 
+        allowed = { always = no }
+        equipment_bonus = { drone_support_equipment_archetype = { build_cost_ic = 0.25 instant = yes } } }
+
+        #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        cybernetic_support_drone_cost_inrease_radio_1 = { name = "Radio Modules For Support Drones 1" picture = generic_political_advisor_arab_1 
+        allowed = { always = no }
+        equipment_bonus = { drone_support_equipment_archetype = { build_cost_ic = 0.15 instant = yes } } }
+        cybernetic_support_drone_cost_inrease_radio_2 = { name = "Radio Modules For Support Drones 2" picture = generic_political_advisor_arab_1 
+        allowed = { always = no }
+        equipment_bonus = { drone_support_equipment_archetype = { build_cost_ic = 0.15 instant = yes } } }
+        cybernetic_support_drone_cost_inrease_radio_3 = { name = "Radio Modules For Support Drones 3" picture = generic_political_advisor_arab_1 
+        allowed = { always = no }
+        equipment_bonus = { drone_support_equipment_archetype = { build_cost_ic = 0.25 instant = yes } } }
+
+        #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        cybernetic_support_drone_cost_inrease_engineers_1 = { name = "Enginners Modules For Support Drones 1" picture = generic_political_advisor_arab_1 
+        allowed = { always = no }
+        equipment_bonus = { drone_support_equipment_archetype = { build_cost_ic = 0.15 instant = yes } } }
+        cybernetic_support_drone_cost_inrease_engineers_2 = { name = "Enginners Radio Modules For Support Drones 2" picture = generic_political_advisor_arab_1 
+        allowed = { always = no }
+        equipment_bonus = { drone_support_equipment_archetype = { build_cost_ic = 0.15 instant = yes } } }
+        cybernetic_support_drone_cost_inrease_engineers_3 = { name = "Enginners Radio Modules For Support Drones 3" picture = generic_political_advisor_arab_1 
+        allowed = { always = no }
+        equipment_bonus = { drone_support_equipment_archetype = { build_cost_ic = 0.25 instant = yes } } }
+
+        #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        cybernetic_support_drone_cost_inrease_reconnaissance_1 = { name = "Scout Modules For Support Drones 1" picture = generic_political_advisor_arab_1 
+        allowed = { always = no }
+        equipment_bonus = { drone_support_equipment_archetype = { build_cost_ic = 0.15 instant = yes } } }
+        cybernetic_support_drone_cost_inrease_reconnaissance_2 = { name = "Scout Modules For Support Drones 2" picture = generic_political_advisor_arab_1 
+        allowed = { always = no }
+        equipment_bonus = { drone_support_equipment_archetype = { build_cost_ic = 0.15 instant = yes } } }
+        cybernetic_support_drone_cost_inrease_reconnaissance_3 = { name = "Scout Modules For Support Drones 3" picture = generic_political_advisor_arab_1 
+        allowed = { always = no }
+        equipment_bonus = { drone_support_equipment_archetype = { build_cost_ic = 0.25 instant = yes } } }
+
+        #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        cybernetic_support_drone_cost_inrease_logistic_1 = { name = "Logistic Modules For Support Drones 1" picture = generic_political_advisor_arab_1 
+        allowed = { always = no }
+        equipment_bonus = { drone_support_equipment_archetype = { build_cost_ic = 0.15 instant = yes } } }
+        cybernetic_support_drone_cost_inrease_logistic_2 = { name = "Logistic Modules For Support Drones 2" picture = generic_political_advisor_arab_1 
+        allowed = { always = no }
+        equipment_bonus = { drone_support_equipment_archetype = { build_cost_ic = 0.15 instant = yes } } }
+        cybernetic_support_drone_cost_inrease_logistic_3 = { name = "Logistic Modules For Support Drones 3" picture = generic_political_advisor_arab_1 
+        allowed = { always = no }
+        equipment_bonus = { drone_support_equipment_archetype = { build_cost_ic = 0.25 instant = yes } } }
+
+        #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        cybernetic_support_drone_cost_inrease_maintenance_1 = { name = "Maintenance Modules For Support Drones 1" picture = generic_political_advisor_arab_1 
+        allowed = { always = no }
+        equipment_bonus = { drone_support_equipment_archetype = { build_cost_ic = 0.15 instant = yes } } }
+        cybernetic_support_drone_cost_inrease_maintenance_2 = { name = "Maintenance Modules For Support Drones 2" picture = generic_political_advisor_arab_1 
+        allowed = { always = no }
+        equipment_bonus = { drone_support_equipment_archetype = { build_cost_ic = 0.15 instant = yes } } }
+        cybernetic_support_drone_cost_inrease_maintenance_3 = { name = "Maintenance Modules For Support Drones 3" picture = generic_political_advisor_arab_1 
+        allowed = { always = no }
+        equipment_bonus = { drone_support_equipment_archetype = { build_cost_ic = 0.25 instant = yes } } }
+
+        #----------------------------------------------------------------------------------------------------------------------------------------------------------------
+    }
+}

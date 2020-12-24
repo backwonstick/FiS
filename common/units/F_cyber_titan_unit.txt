@@ -1,0 +1,73 @@
+sub_units = {
+
+	cyber_titan_unit = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 2503
+		ai_priority = 2503
+		active = no
+		training_time = 300
+		
+		manpower = 50
+		max_organisation = 100
+		default_morale = 0.3
+		max_strength = 100
+		weight = 3
+		
+		supply_consumption = 2
+
+		
+		suppression = 100.0	
+
+		type = {
+			armor
+		}
+		
+		group = armor
+		
+		categories = {
+			category_tanks
+			category_front_line
+			category_all_armor
+			category_army
+			category_cybernetic
+			category_cybernetic
+		}
+
+		forest = {
+			movement = -0.9
+		}
+		hills = {
+		    attack = -0.3
+			movement = -0.9
+		}
+		mountain = 	{
+		    attack = -0.4
+			movement = -1.0
+		}
+		jungle = {
+			movement = -0.9
+		}
+		marsh = {
+			movement = -0.9
+		}
+		urban = {
+			defence = -0.2
+		}
+		river = { 
+			movement = -0.9
+		}
+		amphibious = { 
+			attack = -1.0
+		}
+		fort = {
+			attack = 1.0
+		}
+
+		combat_width = 4
+
+		need = {
+			cyber_titan_equipment_1 = 1
+		}
+	}
+}

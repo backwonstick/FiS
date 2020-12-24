@@ -1,0 +1,85 @@
+add_namespace = SRD
+country_event = {
+	id = SRD.1
+	title = "Welcome"
+	desc = "Welcome to Special Research Division. Do you want to make your game more atrificial difficult? When yes, choose one down below."
+	mean_time_to_happen = {
+		days = 0
+	}
+	trigger = {
+		is_ai = no
+		NOT = {
+			has_idea = SRD_difficulty_picked_1
+		}
+	}
+	option = {
+		name = "Im fine"
+		add_ideas = SRD_difficulty_picked_1
+	}
+	option = {
+		name = "Lv1"
+		add_ideas = SRD_difficulty_picked_1
+		every_country = {
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				add_ideas = SRD_difficulty_idea_1
+			}
+		}
+	}
+	option = {
+		name = "Lv2"
+		add_ideas = SRD_difficulty_picked_1
+		every_country = {
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				add_ideas = SRD_difficulty_idea_2
+			}
+		}
+	}
+	option = {
+		name = "Page 2"
+		country_event = { id = SRD.2 }
+	}
+}
+country_event = {
+	id = SRD.2
+	title = "Page 2"
+	desc = "Choose one of the 2 Levels or go back to page 1"
+	is_triggered_only = yes
+	option = {
+		name = "Im fine"
+		add_ideas = SRD_difficulty_picked_1
+	}
+	option = {
+		name = "Lv3"
+		add_ideas = SRD_difficulty_picked_1
+		every_country = {
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				add_ideas = SRD_difficulty_idea_3
+			}
+		}
+	}
+	option = {
+		name = "Lv4"
+		add_ideas = SRD_difficulty_picked_1
+		every_country = {
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				add_ideas = SRD_difficulty_idea_4
+			}
+		}
+	}
+	option = {
+		name = "Page 1"
+		country_event = { id = SRD.1 }
+	}
+}

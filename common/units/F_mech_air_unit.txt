@@ -1,0 +1,18 @@
+sub_units = {
+	mech_air_unit = {
+		sprite = medium_plane
+		priority = 1
+		active = yes
+		type = { fighter cas }
+		need = { mech_air_equipment_2 = 1 }
+		categories = { category_fighter }
+	}
+	giga_mech_air_unit = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = { cas strategic_bomber }
+		need = { mech_giga_air_equipment_1 = 1 }
+		categories = { category_strat_bomber category_cas }
+	}
+}

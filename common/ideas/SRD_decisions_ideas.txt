@@ -1,0 +1,127 @@
+ideas = {
+	country = {
+		## CYBER DECISIONS IDEAS START ##
+		cyber_drone_factory_workers_1 = {
+			picture = cyber_drone_factory_workers_1
+			modifier = {
+				conscription_factor = 0.10
+				stability_factor = -0.05
+			}
+		}
+		cyber_drone_factory_workers_2 = {
+			picture = cyber_drone_factory_workers_2
+			modifier = {
+				conscription_factor = 0.25
+				stability_factor = -0.07
+			}
+		}
+		cyber_drone_factory_workers_3 = {
+			picture = cyber_drone_factory_workers_3
+			modifier = {
+				conscription_factor = 0.50
+				stability_factor = -0.10
+			}
+		}
+		cyber_drone_factory_workers_4 = {
+			picture = gfx_cyber_drone_factory_workers_4
+			modifier = {
+				conscription_factor = 0.75
+				stability_factor = -0.12
+			}
+		}
+		cyber_drone_factory_workers_5 = {
+			picture = cyber_drone_factory_workers_5
+			modifier = {
+				conscription_factor = 1
+				stability_factor = -0.15
+			}
+		}
+		## CYBER DECISIONS IDEAS END ##
+
+		## HOLY DECISIONS IDEAS START ##
+		heaven_gate_idea_1 = {
+			name = "Gates to Heaven"
+			picture = holy_heaven_gate_idea_1
+			modifier = {
+				political_power_factor = 0.20
+				stability_factor = 0.10
+			}
+		}
+		holy_plague_idea = {
+			name = "10 Great Plagues"
+			picture = holy_plague_idea
+			modifier = {
+				stability_weekly = -0.01
+				war_support_weekly = -0.01
+				stability_factor = -0.10
+				war_support_factor = -0.10
+				consumer_goods_factor = 0.25
+				defence = -0.25
+				offence = -0.25
+				attrition = 0.1
+				industrial_capacity_factory = -0.25
+				industrial_capacity_dockyard = -0.25
+				MONTHLY_POPULATION = -1
+			}
+		}
+		## HOLY DECISIONS IDEAS END ##
+	}
+	hidden_ideas = {
+		holy_spell_unlock_1 = {
+            name = "Unlock Spell lv 1"
+            picture = generic_political_advisor_arab_1
+            allowed = {
+				always = no
+            }
+		}
+		holy_spell_unlock_2 = {
+            name = "Unlock Spell lv 2"
+            picture = generic_political_advisor_arab_1
+            allowed = {
+				always = no
+            }
+		}
+		holy_spell_unlock_3 = {
+            name = "Unlock Spell lv 3"
+            picture = generic_political_advisor_arab_1
+            allowed = {
+				always = no
+            }
+		}
+		holy_crystal_on = {
+			name = "Harvesting Crystals on"
+            picture = generic_political_advisor_arab_1
+            allowed = {
+				always = no
+            }
+		}
+		holy_crystal_off = {
+			name = "Harvesting Crystals off"
+            picture = generic_political_advisor_arab_1
+            allowed = {
+				always = no
+            }
+		}
+		holy_crystal_upgrade_1 = {
+			name = "Crystal Updarade 1"
+            picture = generic_political_advisor_arab_1
+            allowed = {
+				always = no
+            }
+		}
+		holy_crystal_upgrade_2 = {
+			name = "Crystal Updarade 2"
+            picture = generic_political_advisor_arab_1
+            allowed = {
+				always = no
+            }
+		}
+		holy_crystal_upgrade_3 = {
+			name = "Crystal Updarade 3"
+            picture = generic_political_advisor_arab_1
+            allowed = {
+				always = no
+            }
+		}
+	}
+}

@@ -1,0 +1,74 @@
+spriteTypes = {
+
+	 ## HOLY MOBILE UNITS START##
+	 # NAMES: knight_cavalery_unit , organ_unit , angel_suit_unit #
+	 # SAMPLE START #
+	 
+	 #spriteType = { name = "GFX_unit_<UNITNAME>_icon_medium"								texturefile = "gfx/units/mobile/<FOLDERNAME>/<UNITNAME>_icon.dds" noOfFrames = 2}
+	 
+	 #spriteType = { name = "GFX_unit_<UNITNAME>_icon_medium_white"								texturefile = "gfx/units/mobile/<FOLDERNAME>/onmap_<UNITNAME>_icon.dds" noOfFrames = 2}
+	 
+	 #spriteType = { name = "GFX_nato_unit_<UNITNAME>_icon_small"								texturefile = "gfx/units/mobile/<FOLDERNAME>/nato_<UNITNAME>_icon.dds" legacy_lazy_load = no}
+	 
+	 #spriteType = { name = "GFX_unit_<UNITNAME>_icon_small"								texturefile = "gfx/units/mobile/<FOLDERNAME>/<UNITNAME>_icon_small.dds" noOfFrames = 2 legacy_lazy_load = no}
+	 
+	 # SAMPLE END #
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	 ## HOLY MOBILE UNITS END ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	 ## CYBER MOBILE UNITS START ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	 # DRONE MOTORIZED UNIT START #
+	 
+	spriteType = { name = "GFX_unit_drone_motorized_unit_icon_medium"								texturefile = "gfx/units/mobile/dronemotorized/drone_motorized_unit_icon.dds" noOfFrames = 2}
+	 
+	spriteType = { name = "GFX_unit_drone_motorized_unit_icon_medium_white"								texturefile = "gfx/units/mobile/dronemotorized/onmap_drone_motorized_unit_icon.dds" noOfFrames = 2}
+	 
+	spriteType = { name = "GFX_nato_unit_drone_motorized_unit_icon_small"								texturefile = "gfx/units/mobile/dronemotorized/nato_drone_motorized_unit_icon.dds" legacy_lazy_load = no}
+	 
+	spriteType = { name = "GFX_unit_drone_motorized_unit_icon_small"								texturefile = "gfx/units/mobile/dronemotorized/drone_motorized_unit_icon_small.dds" noOfFrames = 2 legacy_lazy_load = no} 
+	 
+	 # DRONE MOTORIZED UNIT END #
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	 # DRONE MECHANIZED UNIT START #
+	 
+	spriteType = { name = "GFX_unit_drone_mechanized_unit_icon_medium"								texturefile = "gfx/units/mobile/dronemechanized/drone_mechanized_unit_icon.dds" noOfFrames = 2}
+	 
+	spriteType = { name = "GFX_unit_drone_mechanized_unit_icon_medium_white"								texturefile = "gfx/units/mobile/dronemechanized/onmap_drone_mechanized_unit_icon.dds" noOfFrames = 2}
+	 
+	spriteType = { name = "GFX_nato_unit_drone_mechanized_unit_icon_small"								texturefile = "gfx/units/mobile/dronemechanized/nato_drone_mechanized_unit_icon.dds" legacy_lazy_load = no}
+	 
+	spriteType = { name = "GFX_unit_drone_mechanized_unit_icon_small"								texturefile = "gfx/units/mobile/dronemechanized/drone_mechanized_unit_icon_small.dds" noOfFrames = 2 legacy_lazy_load = no} 
+	 
+	 # DRONE MECHANIZED UNIT END #
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	 # HUNTER DRONE UNIT START #
+	 
+	spriteType = { name = "GFX_unit_hunter_drone_unit_icon_medium"								texturefile = "gfx/units/mobile/hunterdrone/hunter_drone_unit_icon.dds" noOfFrames = 2}
+	 
+	spriteType = { name = "GFX_unit_hunter_drone_unit_icon_medium_white"								texturefile = "gfx/units/mobile/hunterdrone/onmap_hunter_drone_unit_icon.dds" noOfFrames = 2}
+	 
+	spriteType = { name = "GFX_nato_unit_hunter_drone_unit_icon_small"								texturefile = "gfx/units/mobile/hunterdrone/nato_hunter_drone_unit_icon.dds" legacy_lazy_load = no}
+	 
+	spriteType = { name = "GFX_unit_hunter_drone_unit_icon_small"								texturefile = "gfx/units/mobile/hunterdrone/hunter_drone_unit_icon_small.dds" noOfFrames = 2 legacy_lazy_load = no}
+	 
+	 # HUNTER DRONE UNIT END #
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	 # MECH INFANTRY UNIT START #
+	 
+	spriteType = { name = "GFX_unit_cyber_soldier_unit_icon_medium"								texturefile = "gfx/units/mobile/cybersoldier/cyber_soldier_unit_icon.dds" noOfFrames = 2}
+	 
+	spriteType = { name = "GFX_unit_cyber_soldier_unit_icon_medium_white"								texturefile = "gfx/units/mobile/cybersoldier/onmap_cyber_soldier_unit_icon.dds" noOfFrames = 2}
+	 
+	spriteType = { name = "GFX_nato_unit_cyber_soldier_unit_icon_small"								texturefile = "gfx/units/mobile/cybersoldier/nato_cyber_soldier_unit_icon.dds" legacy_lazy_load = no}
+	 
+	spriteType = { name = "GFX_unit_cyber_soldier_unit_icon_small"								texturefile = "gfx/units/mobile/cybersoldier/cyber_soldier_unit_icon_small.dds" noOfFrames = 2 legacy_lazy_load = no}
+	 
+	 # MECH INFANTRY UNIT END #
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	 ## CYBER MOBILE UNITS END ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+}

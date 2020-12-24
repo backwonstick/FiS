@@ -1,0 +1,194 @@
+sub_units = {
+
+	church_tank_unit = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 2503
+		ai_priority = 2503
+		active = no
+		training_time = 250
+		special_forces = yes
+
+		type = {
+			armor
+		}
+		
+		group = armor
+		
+		categories = {
+			category_tanks
+			category_front_line
+			category_all_armor
+			category_army
+		}
+
+		forest = {
+		    attack = -0.20
+			movement = -0.20
+		}
+		hills = {
+		    attack = -0.20
+		}
+		mountain = 	{
+		    attack = -0.5
+		}
+		jungle = {
+		    attack = -0.6
+			movement = -0.4
+		}
+		marsh = {
+		    attack = -0.4 
+			movement = -0.2
+		}
+		urban = {
+			attack = 0.1
+			defence = 0.5
+		}
+		river = { 
+			attack = -0.4 
+			movement = -0.4
+		}
+		amphibious = { 
+			attack = -0.9
+		}
+		fort = {
+			attack = 0.1
+		}
+
+		combat_width = 4
+
+		need = {
+			church_tank_equipment_archetype = 30
+		}
+
+		manpower = 500
+		max_organisation = 10
+		default_morale = 0.3
+		max_strength = 2
+		weight = 1.5
+		
+		supply_consumption = 0.5
+
+		
+		suppression = 1.5	
+	}
+	
+	walking_cathedral_unit = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 2503
+		ai_priority = 2503
+		active = no
+		training_time = 300
+		special_forces = yes
+		
+		manpower = 50
+		max_organisation = 100
+		default_morale = 0.3
+		max_strength = 100
+		weight = 3
+		
+		supply_consumption = 2
+
+		
+		suppression = 100.0	
+
+		type = {
+			armor
+		}
+		
+		group = armor
+		
+		categories = {
+			category_tanks
+			category_front_line
+			category_all_armor
+			category_army
+			category_cybernetic
+			category_cybernetic
+		}
+
+		forest = {
+			movement = -0.9
+		}
+		hills = {
+		    attack = -0.3
+			movement = -0.9
+		}
+		mountain = 	{
+		    attack = -0.4
+			movement = -1.0
+		}
+		jungle = {
+			movement = -0.9
+		}
+		marsh = {
+			movement = -0.9
+		}
+		urban = {
+			defence = -0.2
+		}
+		river = { 
+			movement = -0.9
+		}
+		amphibious = { 
+			attack = -1.0
+		}
+		fort = {
+			attack = 1.0
+		}
+
+		combat_width = 4
+
+		need = {
+			walking_cathedral_equipment_archetype = 1
+		}
+	}
+	church_tank_opression_unit = {
+		sprite = heavy_armor
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+			active = no
+				affects_speed = no
+		
+				type = {
+					infantry
+					support
+				}
+				
+				group = support
+				
+				categories = {
+					category_support_battalions
+					category_army
+				}
+		
+			
+				combat_width = 0
+			
+				#Size Definitions
+				max_strength = 1
+				max_organisation = 0	
+				default_morale = 0.3
+				manpower = 500
+				training_time = 180
+		
+				#Misc Abilities
+				weight = 0.1
+				supply_consumption = 0.02
+				can_be_parachuted = yes
+				
+				# Important Ability
+				suppression_factor = 1
+		
+				essential = {
+					church_tank_opression_equipment_archetype
+				}
+				
+				need = {
+					church_tank_opression_equipment_archetype = 5
+				}
+		
+			}
+		}

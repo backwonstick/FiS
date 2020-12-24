@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_FWT_START"
+		texturefile = "gfx/event/FWT_event.dds"
+	}
+}

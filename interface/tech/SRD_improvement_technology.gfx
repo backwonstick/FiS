@@ -1,0 +1,194 @@
+spriteTypes = {
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#### SAMPLE START ####
+	 
+	 #spriteType = {name = "GFX_<TECHNAME>_improvement_technology_<NUMBER>_medium" texturefile = "gfx/technology/improvement/<FOLDER>/<TECHNAME>_improvement_technology_<NUMBER>.dds"}
+	 
+	#### SAMPLE END ####
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### HOLY IMPROVEMENTS START ###
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	## MAGE IMPROVEMENTS START ##
+	 
+	spriteType = {name = "GFX_holy_mage_improvement_technology_1_medium" texturefile = "gfx/technology/improvement/holy/holy_mage_improvement_technology_1.dds"}
+	
+	spriteType = {name = "GFX_holy_mage_improvement_technology_2_medium" texturefile = "gfx/technology/improvement/holy/holy_mage_improvement_technology_1.dds"}
+	 
+	## MAGE IMPROVEMENTS END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	## KNIGHT IMPROVEMENTS START ##
+	 
+	spriteType = { name = "GFX_holy_knight_improvement_technology_1_medium" texturefile = "gfx/technology/improvement/holy/holy_knight_improvement_technology_1.dds"}
+
+	spriteType = { name = "GFX_holy_knight_improvement_technology_1_1_medium" texturefile = "gfx/technology/improvement/holy/holy_knight_improvement_technology_1_1.dds"}
+
+	spriteType = { name = "GFX_holy_knight_cavelry_technology_1_medium" texturefile = "gfx/technology/improvement/holy/holy_knight_cavelry_technology_1.dds"}
+
+	spriteType = { name = "GFX_holy_knight_improvement_technology_2_medium" texturefile = "gfx/technology/improvement/holy/holy_knight_improvement_technology_2.dds"}
+	 
+	## KNIGHT IMPROVEMENTS END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	## PRIEST IMPROVEMENTS START ##
+	 
+	spriteType = { name = "GFX_holy_priest_battle_improvement_technology_1_medium" texturefile = "gfx/technology/improvement/holy/holy_priest_battle_improvement_technology_1.dds"}
+
+	spriteType = { name = "GFX_holy_priest_battle_improvement_technology_2_medium" texturefile = "gfx/technology/improvement/holy/holy_priest_battle_improvement_technology_2.dds"}
+
+	spriteType = { name = "GFX_holy_priest_battle_improvement_technology_3_medium" texturefile = "gfx/technology/improvement/holy/holy_priest_battle_improvement_technology_3.dds"}
+
+	spriteType = { name = "GFX_holy_priest_heal_improvement_technology_1_medium" texturefile = "gfx/technology/improvement/holy/holy_priest_heal_improvement_technology_1.dds"}	
+
+	spriteType = { name = "GFX_holy_priest_heal_improvement_technology_2_medium" texturefile = "gfx/technology/improvement/holy/holy_priest_heal_improvement_technology_2.dds"}	
+	
+	spriteType = { name = "GFX_holy_priest_heal_improvement_technology_3_medium" texturefile = "gfx/technology/improvement/holy/holy_priest_heal_improvement_technology_3.dds"}	
+	 
+	## PRIEST IMPROVEMENTS END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	## STORMCRUSADER IMPROVEMETNS START ##
+	 
+	spriteType = { name = "GFX_holy_stormcrusader_improvement_technology_1_medium" texturefile = "gfx/technology/improvement/holy/holy_stormcrusader_improvement_technology_1.dds"}
+
+	spriteType = { name = "GFX_holy_stormcrusader_improvement_technology_2_medium" texturefile = "gfx/technology/improvement/holy/holy_stormcrusader_improvement_technology_2.dds"}	
+	 
+	spriteType = { name = "GFX_holy_stormcrusader_tank_improvement_technology_1" texturefile = "gfx/technology/improvement/holy/holy_stormcrusader_improvement_technology_1.dds"}	
+	## STORMCRUSADER IMPROVEMENTS END ##
+    #-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	## CHURCH TANK IMPROVEMENTS START ##
+	 
+	spriteType = { name = "GFX_holy_church_tank_improvement_technology_1_medium" texturefile = "gfx/technology/improvement/holy/holy_church_tank_improvement_technology_1.dds"}
+
+	spriteType = { name = "GFX_holy_church_tank_improvement_technology_2_medium" texturefile = "gfx/technology/improvement/holy/holy_church_tank_improvement_technology_2.dds"}	
+	 
+	## CHURCH TANK IMPROVEMENTS END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	### HOLY IMPROVEMENTS END ###
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------		 
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------		 
+### BIO IMPROVEMENTS START ###
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	### BIO IMPROVEMENTS END ###
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+### CYBER IMPROVEMENTS START ###
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	## CYBER MECH IMRPOVEMENTS START ##
+	 
+	spriteType = { name = "GFX_cyber_mech_doctrine_technology_1_medium" texturefile = "gfx/technology/improvement/cyber/cyber_mech_doctrine_technology_1.dds"}	
+
+	spriteType = { name = "GFX_cyber_mech_improvement_technology_1_medium" texturefile = "gfx/technology/improvement/cyber/cyber_mech_improvement_technology_1.dds"}
+
+	spriteType = { name = "GFX_cyber_mech_improvement_technology_2_medium" texturefile = "gfx/technology/improvement/cyber/cyber_mech_improvement_technology_2.dds"}
+
+	spriteType = { name = "GFX_cyber_mech_improvement_technology_3_medium" texturefile = "gfx/technology/improvement/cyber/cyber_mech_improvement_technology_3.dds"}
+
+	spriteType = { name = "GFX_cyber_mech_improvement_technology_4_medium" texturefile = "gfx/technology/improvement/cyber/cyber_mech_improvement_technology_4.dds"}
+	 
+	## CYBER MECH IMPROVEMENTS END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	## CYBER CYBERNETIC IMPROVEMENTS START ##
+	 
+	spriteType = { name = "GFX_cyber_cybernetic_techpriest_improvement_technology_1_medium" texturefile = "gfx/technology/improvement/cyber/cyber_cybernetic_techpriest_improvement_technology_1.dds"}	
+
+	spriteType = { name = "GFX_cyber_cybernetic_techpriest_improvement_technology_2_medium" texturefile = "gfx/technology/improvement/cyber/cyber_cybernetic_techpriest_improvement_technology_2.dds"}
+	
+	spriteType = { name = "GFX_cyber_cybernetic_techpriest_improvement_technology_3_medium" texturefile = "gfx/technology/improvement/cyber/cyber_cybernetic_techpriest_improvement_technology_3.dds"}
+	
+	spriteType = { name = "GFX_cyber_cybernetic_improvement_technology_1_medium" texturefile = "gfx/technology/improvement/cyber/cyber_cybernetic_improvement_technology_1.dds"}	
+	
+	spriteType = { name = "GFX_cyber_cybernetic_improvement_technology_2_medium" texturefile = "gfx/technology/improvement/cyber/cyber_cybernetic_improvement_technology_2.dds"}	
+	
+	spriteType = { name = "GFX_cyber_cybernetic_improvement_technology_3_medium" texturefile = "gfx/technology/improvement/cyber/cyber_cybernetic_improvement_technology_3.dds"}		
+	
+	spriteType = { name = "GFX_cyber_robot_hunter_drone_improvement_technology_1_medium" texturefile = "gfx/technology/improvement/cyber/cyber_robot_hunter_drone_improvement_technology_1.dds"}	
+	
+	spriteType = { name = "GFX_cyber_robot_hunter_drone_improvement_technology_2_medium" texturefile = "gfx/technology/improvement/cyber/cyber_robot_hunter_drone_improvement_technology_2.dds"}	
+	
+	spriteType = { name = "GFX_cyber_robot_hunter_drone_improvement_technology_3_medium" texturefile = "gfx/technology/improvement/cyber/cyber_robot_hunter_drone_improvement_technology_3.dds"}	
+
+	## CYBER CYBERNETIC IMRPOVEMENTS END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	## CYBER ROBOT IMPROVEMENTS START ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	## CYBER DRONE SUPPORT IMPROVEMENTS START ##
+	# CYBER DRONE SUPPORT MEDIC START #
+	 
+	spriteType = { name = "GFX_cyber_robot_support_drone_medic_technology_1_medium" texturefile = "gfx/technology/improvement/cyber/cyber_robot_support_drone_medic_technology_1.dds"}	
+	
+	spriteType = { name = "GFX_cyber_robot_support_drone_medic_technology_2_medium" texturefile = "gfx/technology/improvement/cyber/cyber_robot_support_drone_medic_technology_2.dds"}	
+	
+	spriteType = { name = "GFX_cyber_robot_support_drone_medic_technology_3_medium" texturefile = "gfx/technology/improvement/cyber/cyber_robot_support_drone_medic_technology_3.dds"}
+	
+	# CYBER DRONE SUPPORT RADIO START #
+
+	spriteType = { name = "GFX_cyber_robot_support_drone_radio_technology_1_medium" texturefile = "gfx/technology/improvement/cyber/cyber_robot_support_drone_radio_technology_1.dds"}	
+	
+	spriteType = { name = "GFX_cyber_robot_support_drone_radio_technology_2_medium" texturefile = "gfx/technology/improvement/cyber/cyber_robot_support_drone_radio_technology_2.dds"}	
+	
+	spriteType = { name = "GFX_cyber_robot_support_drone_radio_technology_3_medium" texturefile = "gfx/technology/improvement/cyber/cyber_robot_support_drone_radio_technology_3.dds"}
+	 
+	# CYBER DRONE SUPPORT ENGINNERS START #
+
+	spriteType = { name = "GFX_cyber_robot_support_drone_engineers_technology_1_medium" texturefile = "gfx/technology/improvement/cyber/cyber_robot_support_drone_engineers_technology_1.dds"}	
+	
+	spriteType = { name = "GFX_cyber_robot_support_drone_engineers_technology_2_medium" texturefile = "gfx/technology/improvement/cyber/cyber_robot_support_drone_engineers_technology_2.dds"}	
+	
+	spriteType = { name = "GFX_cyber_robot_support_drone_engineers_technology_3_medium" texturefile = "gfx/technology/improvement/cyber/cyber_robot_support_drone_engineers_technology_3.dds"}
+	 
+	# CYBER DRONE SUPPORT  RECONAISSANCE START #
+
+	spriteType = { name = "GFX_cyber_robot_support_drone_reconnaissance_technology_1_medium" texturefile = "gfx/technology/improvement/cyber/cyber_robot_support_drone_reconnaissance_technology_1.dds"}	
+	
+	spriteType = { name = "GFX_cyber_robot_support_drone_reconnaissance_technology_2_medium" texturefile = "gfx/technology/improvement/cyber/cyber_robot_support_drone_reconnaissance_technology_2.dds"}	
+	
+	spriteType = { name = "GFX_cyber_robot_support_drone_reconnaissance_technology_3_medium" texturefile = "gfx/technology/improvement/cyber/cyber_robot_support_drone_reconnaissance_technology_3.dds"}
+	 
+	# CYBER DRONE SUPPORT LOGISTIC START #
+
+	spriteType = { name = "GFX_cyber_robot_support_drone_logistic_technology_1_medium" texturefile = "gfx/technology/improvement/cyber/cyber_robot_support_drone_logistic_technology_1.dds"}	
+	
+	spriteType = { name = "GFX_cyber_robot_support_drone_logistic_technology_2_medium" texturefile = "gfx/technology/improvement/cyber/cyber_robot_support_drone_logistic_technology_2.dds"}	
+	
+	spriteType = { name = "GFX_cyber_robot_support_drone_logistic_technology_3_medium" texturefile = "gfx/technology/improvement/cyber/cyber_robot_support_drone_logistic_technology_3.dds"}
+	 
+	# CYBER DRONE SUPPORT MAINTENCANCE START #
+	 
+	spriteType = { name = "GFX_cyber_robot_support_drone_maintenance_technology_1_medium" texturefile = "gfx/technology/improvement/cyber/cyber_robot_support_drone_maintenance_technology_1.dds"}	
+	
+	spriteType = { name = "GFX_cyber_robot_support_drone_maintenance_technology_2_medium" texturefile = "gfx/technology/improvement/cyber/cyber_robot_support_drone_maintenance_technology_2.dds"}	
+	
+	spriteType = { name = "GFX_cyber_robot_support_drone_maintenance_technology_3_medium" texturefile = "gfx/technology/improvement/cyber/cyber_robot_support_drone_maintenance_technology_3.dds"}
+
+	## CYBER DRONE SUPPORT IMPROVEMENTS END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	## CYBER TANK IMPROVEMENTS START ##
+	 
+	spriteType = { name = "GFX_cyber_robot_tank_drone_improvement_technology_1_medium" texturefile = "gfx/technology/improvement/cyber/cyber_robot_tank_drone_improvement_technology_1.dds"}	
+	
+	spriteType = { name = "GFX_cyber_robot_tank_drone_improvement_technology_2_medium" texturefile = "gfx/technology/improvement/cyber/cyber_robot_tank_drone_improvement_technology_2.dds"}
+	 
+	## CYBER TANK IMPROVEMENTS END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	## CYBER DRONE INFANTRY IMPROVEMENTS START ##
+	 
+	spriteType = { name = "GFX_cyber_robot_infantry_drone_improvement_technology_1_medium" texturefile = "gfx/technology/improvement/cyber/cyber_robot_infantry_drone_improvement_technology_1.dds"}	
+	
+	spriteType = { name = "GFX_cyber_robot_infantry_drone_improvement_technology_2_medium" texturefile = "gfx/technology/improvement/cyber/cyber_robot_infantry_drone_improvement_technology_2.dds"}
+	 
+	## CYBER DRONE INFANTRY IMPROVEMENTS END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	## CYBER DRONE GUN IMRPOVEMENTS START ##
+	
+	spriteType = { name = "GFX_cyber_robot_gun_drone_improvement_technology_1_medium" texturefile = "gfx/technology/improvement/cyber/cyber_robot_gun_drone_improvement_technology_1.dds"}	
+	
+	spriteType = { name = "GFX_cyber_robot_gun_drone_improvement_technology_2_medium" texturefile = "gfx/technology/improvement/cyber/cyber_robot_gun_drone_improvement_technology_2.dds"}
+	
+	## CYBER DRONE GUN IMPROVEMENTS END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	## CYBER ROBOT IMPROVEMENTS END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	### CYBER IMPROVEMENTS END ###
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+}

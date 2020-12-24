@@ -1,0 +1,52 @@
+spriteTypes = {
+
+	 ## HOLY SUPPORT UNITS START##
+	 # NAMES: organ_support_unit , choir_support_unit #
+	 # SAMPLE START #
+	 
+	 #spriteType = { name = "GFX_unit_<UNITNAME>_icon_medium"								texturefile = "gfx/units/support/<FOLDERNAME>/<UNITNAME>_icon.dds" noOfFrames = 2}
+	 
+	 #spriteType = { name = "GFX_unit_<UNITNAME>_icon_medium_white"								texturefile = "gfx/units/support/<FOLDERNAME>/onmap_<UNITNAME>_icon.dds" noOfFrames = 2}
+	 
+	 #spriteType = { name = "GFX_nato_unit_<UNITNAME>_icon_small"								texturefile = "gfx/units/support/<FOLDERNAME>/nato_<UNITNAME>_icon.dds" legacy_lazy_load = no}
+	 
+	 #spriteType = { name = "GFX_unit_<UNITNAME>_icon_small"								texturefile = "gfx/units/support/<FOLDERNAME>/<UNITNAME>_icon_small.dds" noOfFrames = 2 legacy_lazy_load = no}
+
+	 # SAMPLE END #
+	#------------------------------------------------------------------------------------------------------------------------------------------
+	 ## CYBER SUPPORT UNIT START ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------		 
+	 # CYBER MEDIC UNIT START #
+	
+	spriteType = { name = "GFX_unit_cyber_medic_unit_icon_medium" texturefile = "gfx/units/support/cybermedic/cyber_medic_unit_icon.dds" noOfFrames = 2}
+	
+	 # CYBER MEDIC UNIT END #
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------		 
+	 # TECHPRIEST UNIT START #
+
+	spriteType = { name = "GFX_unit_techpriest_unit_icon_medium" texturefile = "gfx/units/support/techpriest/techpriest_unit_icon.dds" noOfFrames = 2}
+	 
+	 # TECHPRIEST UNIT END #
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------		 
+	 # DRONE GUN SUPPORT UNIT START #
+	 
+	spriteType = { name = "GFX_unit_drone_gun_support_unit_icon_medium"	texturefile = "gfx/units/support/dronegunsupport/support_unit_art_icon.dds" noOfFrames = 2}
+	 
+	 # DRONE GUN SUPPORT UNIT END #
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------		 
+	 # DRONE SUPPORT UNIT START #
+
+	spriteType = { name = "GFX_unit_drone_support_unit_icon_medium"	texturefile = "gfx/units/support/dronesupport/drone_support_unit_icon.dds" noOfFrames = 2}
+
+	 # DRONE SUPPORT UNIT END #
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------		 	 
+	 # MECH HEAVY SUPPORT UNIT START #
+
+	spriteType = { name = "GFX_unit_mech_anti_tank_unit_icon_medium" texturefile = "gfx/units/support/mechantitank/mech_anti_tank_unit_icon.dds" noOfFrames = 2}
+
+	 # MECH HEAVY SUPPORT UNIT END #
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	 ## CYBER SUPPORT UNIT END ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
+}

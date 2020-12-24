@@ -1,0 +1,251 @@
+spriteTypes = {
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#### SAMPLE START ####
+	 
+	#spriteType = {name = "GFX_<TECHNAME>_technology_<NUMBER>_medium" texturefile = "gfx/technology/equipment/<FOLDER>/<TECHNAME>_technology_<NUMBER>.dds"}
+	 
+	#### SAMPLE END ####
+#--------------------------------------------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### HOLY EQUIPMENT START ###
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	## MAGES EQUIPMENT START ##
+	 
+	spriteType = {name = "GFX_holy_mage_technology_1_medium" texturefile = "gfx/technology/equipment/holy/holy_mage_technology_1.dds"}
+
+	spriteType = {name = "GFX_holy_mage_technology_2_medium" texturefile = "gfx/technology/equipment/holy/holy_mage_technology_2.dds"}
+
+	spriteType = {name = "GFX_holy_mage_technology_3_medium" texturefile = "gfx/technology/equipment/holy/holy_mage_technology_3.dds"}	
+	 
+	## MAGES EQUIPMENT END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	## CHURCH TANK EQUIPMENT START ##
+	 
+	spriteType = {name = "GFX_holy_church_tank_technology_1_medium" texturefile = "gfx/technology/equipment/holy/holy_church_tank_technology_1.dds"}
+
+	spriteType = {name = "GFX_holy_church_tank_technology_2_medium" texturefile = "gfx/technology/equipment/holy/holy_church_tank_technology_2.dds"}
+
+	spriteType = {name = "GFX_holy_church_tank_technology_3_medium" texturefile = "gfx/technology/equipment/holy/holy_church_tank_technology_3.dds"}
+	
+	spriteType = {name = "GFX_holy_walking_cathedral_technology_1_medium" texturefile = "gfx/technology/equipment/holy/holy_walking_cathedral_technology_1.dds"}
+
+	spriteType = {name = "GFX_holy_church_tank_opression_technology_1_medium" texturefile = "gfx/technology/equipment/holy/holy_church_tank_opression_technology_1.dds"}	
+	 
+	## CHURCH TANK EQUIPMENT END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	## WALKING CATHEDRAL EQUIPMENT START ##
+	 
+	spriteType = {name = "GFX_walking_cathedral_technology_1_medium" texturefile = "gfx/technology/equipment/holy/walking_cathedral_technology_1.dds"}	 
+	 
+	## WALKING CATHEDRAL EQUIPMENT END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	## KNIGHT EQUIPMENT START ##
+	 
+	spriteType = {name = "GFX_holy_knight_technology_1_medium" texturefile = "gfx/technology/equipment/holy/holy_knight_technology_1.dds"}
+	
+	spriteType = {name = "GFX_holy_knight_technology_2_medium" texturefile = "gfx/technology/equipment/holy/holy_knight_technology_2.dds"}
+
+	spriteType = {name = "GFX_holy_knight_technology_3_medium" texturefile = "gfx/technology/equipment/holy/holy_knight_technology_3.dds"}
+
+	spriteType = {name = "GFX_holy_angel_warrior_technology_1_medium" texturefile = "gfx/technology/equipment/holy/holy_angel_warrior_technology_1.dds"}
+	 
+	## KNIGHT EQUIPMENT END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	## SAINT EQUIPMENT START ##
+	 
+	spriteType = {name = "GFX_holy_saint_technology_1_medium" texturefile = "gfx/technology/equipment/holy/holy_saint_technology_1.dds"}
+
+	spriteType = {name = "GFX_holy_griffin_technology_1_medium" texturefile = "gfx/technology/equipment/holy/holy_griffin_technology_1.dds"}
+	 
+	spriteType = {name = "GFX_holy_angel_technology_1_medium" texturefile = "gfx/technology/equipment/holy/holy_angel_technology_1.dds"}
+
+	## SAINT EQUIPMENT END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	## PRIEST EQUIPMENT START ##
+	 
+	spriteType = {name = "GFX_holy_priest_technology_1_medium" texturefile = "gfx/technology/equipment/holy/holy_priest_technology_1.dds"}
+	 
+	## PRIEST EQUIPMENT END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	## STORMCRUSADER EQUIPMENT START ##
+	 
+	spriteType = {name = "GFX_holy_stormcrusader_technology_1_medium" texturefile = "gfx/technology/equipment/holy/holy_stormcrusader_technology_1.dds"}
+	
+	spriteType = {name = "GFX_holy_stormcrusader_technology_2_medium" texturefile = "gfx/technology/equipment/holy/holy_stormcrusader_technology_2.dds"}
+
+	spriteType = {name = "GFX_holy_stormcrusader_technology_3_medium" texturefile = "gfx/technology/equipment/holy/holy_stormcrusader_technology_3.dds"}
+
+	spriteType = {name = "GFX_holy_stormcrusader_tank_technology_1_medium" texturefile = "gfx/technology/equipment/holy/holy_stormcrusader_tank_technology_1.dds"}
+	
+	spriteType = {name = "GFX_holy_stormcrusader_tank_technology_2_medium" texturefile = "gfx/technology/equipment/holy/holy_stormcrusader_tank_technology_2.dds"}
+
+	spriteType = {name = "GFX_holy_stormcrusader_tank_technology_3_medium" texturefile = "gfx/technology/equipment/holy/holy_stormcrusader_tank_technology_3.dds"}
+	 
+	## STORMCRUSADER EQUIPMENT END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	## ORGAN EQUIPMENT START ##
+	 
+	spriteType = {name = "GFX_organ_technology_1_medium" texturefile = "gfx/technology/equipment/holy/organ_technology_1.dds"}
+	
+	spriteType = {name = "GFX_organ_technology_2_medium" texturefile = "gfx/technology/equipment/holy/organ_technology_2.dds"}
+	 
+	## ORGAN EQUIPMENT END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	## CHERUB EQUIPMENT START ##
+	 
+	spriteType = {name = "GFX_cherub_technology_1_medium" texturefile = "gfx/technology/equipment/holy/cherub_technology_1.dds"}
+	
+	spriteType = {name = "GFX_cherub_technology_2_sub_medium" texturefile = "gfx/technology/equipment/holy/cherub_technology_2.dds"}
+	 
+	## CHERUB EQUIPMENT END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------
+	## HOLY FIGHTER EQUIPMENT START ##
+
+	spriteType = {name = "GFX_holy_fighter_technology_1_medium" texturefile = "gfx/technology/equipment/holy/holy_fighter_technology_1.dds"}
+	
+	spriteType = {name = "GFX_holy_fighter_technology_2_medium" texturefile = "gfx/technology/equipment/holy/holy_fighter_technology_2.dds"}
+
+	spriteType = {name = "GFX_holy_fighter_technology_3_medium" texturefile = "gfx/technology/equipment/holy/holy_fighter_technology_3.dds"}
+
+	## HOLY FIGHTER EQUIPMENT END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------
+	## GUNSHIP EQUIPMENT START ##
+
+	spriteType = {name = "GFX_holy_gunship_technology_1_medium" texturefile = "gfx/technology/equipment/holy/holy_gunship_technology_1.dds"}
+	
+	spriteType = {name = "GFX_holy_gunship_technology_2_medium" texturefile = "gfx/technology/equipment/holy/holy_gunship_technology_2.dds"}
+
+	spriteType = {name = "GFX_holy_gunship_technology_3_medium" texturefile = "gfx/technology/equipment/holy/holy_gunship_technology_3.dds"}
+
+	## GUNSHIP EQUIPMENT END ## 
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------
+	### HOLY EQUIPMENT END ###
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+### BIO EQUIPMENT START ###
+	 
+	### BIO EQUIPMENT END ###
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+### CYBER EQUIPMENT START ###
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	## CYBER MECH EQUIPMENT START ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	## CYBER MECH AIR EQUIPMENT START ##
+	 
+	spriteType = {name = "GFX_cyber_mech_air_technology_1_medium" texturefile = "gfx/technology/equipment/cyber/cyber_mech_air_technology_2.dds"}
+	
+	spriteType = {name = "GFX_cyber_mech_air_technology_2_medium" texturefile = "gfx/technology/equipment/cyber/cyber_mech_air_technology_3.dds"}
+	
+	spriteType = {name = "GFX_cyber_mech_air_technology_3_medium" texturefile = "gfx/technology/equipment/cyber/cyber_mech_air_technology_4.dds"}
+	 
+	## CYBER MECH AIR EQUIPMENT END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	## CYBER MECH LAND EQUIPMENT + MECH ANTI TANK EQUIPMENT START ##
+	 
+	spriteType = {name = "GFX_cyber_mech_technology_1_medium" texturefile = "gfx/technology/equipment/cyber/cyber_mech_technology_1.dds"}
+	
+	spriteType = {name = "GFX_cyber_mech_technology_2_medium" texturefile = "gfx/technology/equipment/cyber/cyber_mech_technology_2.dds"}
+	
+	spriteType = {name = "GFX_cyber_mech_technology_3_medium" texturefile = "gfx/technology/equipment/cyber/cyber_mech_technology_3.dds"}
+	
+	spriteType = {name = "GFX_cyber_mech_technology_4_medium" texturefile = "gfx/technology/equipment/cyber/cyber_mech_technology_4.dds"}
+	
+	spriteType = {name = "GFX_cyber_mech_giga_technology_1_medium" texturefile = "gfx/technology/equipment/cyber/cyber_mech_giga_technology_1.dds"}
+
+	spriteType = {name = "GFX_cyber_mech_anti_tank_technology_2_medium" texturefile = "gfx/technology/equipment/cyber/cyber_mech_anti_tank_technology_2.dds"}
+	
+	spriteType = {name = "GFX_cyber_mech_anti_tank_technology_3_medium" texturefile = "gfx/technology/equipment/cyber/cyber_mech_anti_tank_technology_3.dds"}
+	
+	spriteType = {name = "GFX_cyber_mech_anti_tank_technology_4_medium" texturefile = "gfx/technology/equipment/cyber/cyber_mech_anti_tank_technology_4.dds"}
+	 
+	## CYBER MECH LAND EQUIPMENT END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	## CYBER MECH INFANTRY EQUIPMENT START ##
+
+	spriteType = {name = "GFX_cyber_mech_infantry_technology_1_medium" texturefile = "gfx/technology/equipment/cyber/cyber_mech_infantry_technology_1.dds"}
+	
+	spriteType = {name = "GFX_cyber_mech_infantry_technology_2_medium" texturefile = "gfx/technology/equipment/cyber/cyber_mech_infantry_technology_2.dds"}
+	 
+	## CYBER MECH INFANTRY EQUIPMENT END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	## CYBER MECH EQUIPMENT END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	## CYBER CYBERNETIC EQUIPMENT START ##
+	
+	spriteType = {name = "GFX_cyber_cybernetic_equipment_technology_1_medium" texturefile = "gfx/technology/equipment/cyber/cyber_cybernetic_equipment_technology_1.dds"} ## CYBER MEDIC HERE ##
+	
+	spriteType = {name = "GFX_cyber_cybernetic_techpriest_technology_1_medium" texturefile = "gfx/technology/equipment/cyber/cyber_cybernetic_techpriest_technology_1.dds"}
+	
+	spriteType = {name = "GFX_cyber_cybernetic_titan_technology_1_medium" texturefile = "gfx/technology/equipment/cyber/cyber_cybernetic_titan_technology_1.dds"}
+	spriteType = {name = "GFX_cyber_cybernetic_titan_DLC_technology_1_medium" texturefile = "gfx/technology/equipment/cyber/cyber_cybernetic_titan_DLC_technology_1.dds"}
+
+	spriteType = {name = "GFX_cyber_cybernetic_soldier_technology_1_medium" texturefile = "gfx/technology/equipment/cyber/cyber_cybernetic_soldier_technology_1.dds"}
+	spriteType = {name = "GFX_cyber_cybernetic_soldier_DLC_technology_1_medium" texturefile = "gfx/technology/equipment/cyber/cyber_cybernetic_soldier_DLC_technology_1.dds"}
+
+	## CYBER CYBERNETIC EQUIPMENT END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	## CYBER ROBOT EQUIPMENT START ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	## CYBER ROBOT DRONE TANK EQUIPMENT START ##
+	 
+	spriteType = {name = "GFX_cyber_robot_tank_drone_equipment_technology_1_medium" texturefile = "gfx/technology/equipment/cyber/cyber_robot_tank_drone_equipment_technology_1.dds"}
+	
+	spriteType = {name = "GFX_cyber_robot_tank_drone_equipment_technology_2_medium" texturefile = "gfx/technology/equipment/cyber/cyber_robot_tank_drone_equipment_technology_2.dds"}
+	
+	spriteType = {name = "GFX_cyber_robot_tank_drone_equipment_technology_3_medium" texturefile = "gfx/technology/equipment/cyber/cyber_robot_tank_drone_equipment_technology_3.dds"}
+	 
+	## CYBER ROBOT DRONE TANK EQUIPMENT END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	## CYBER ROBOT DRONE AIR EQUIPMENT START ##
+	 
+	spriteType = {name = "GFX_cyber_robot_bomber_drone_equipment_technology_1_medium" texturefile = "gfx/technology/equipment/cyber/cyber_robot_bomber_drone_equipment_technology_1.dds"}
+	
+	spriteType = {name = "GFX_cyber_robot_bomber_drone_equipment_technology_2_medium" texturefile = "gfx/technology/equipment/cyber/cyber_robot_bomber_drone_equipment_technology_2.dds"} 
+	
+	spriteType = {name = "GFX_cyber_robot_bomber_drone_equipment_technology_3_medium" texturefile = "gfx/technology/equipment/cyber/cyber_robot_bomber_drone_equipment_technology_3.dds"} 
+	
+	spriteType = {name = "GFX_cyber_robot_fighter_drone_equipment_technology_1_medium" texturefile = "gfx/technology/equipment/cyber/cyber_robot_fighter_drone_equipment_technology_1.dds"}
+	
+	spriteType = {name = "GFX_cyber_robot_fighter_drone_equipment_technology_2_medium" texturefile = "gfx/technology/equipment/cyber/cyber_robot_fighter_drone_equipment_technology_2.dds"}
+
+	spriteType = {name = "GFX_cyber_robot_fighter_drone_equipment_technology_3_medium" texturefile = "gfx/technology/equipment/cyber/cyber_robot_fighter_drone_equipment_technology_3.dds"} 	
+	
+	spriteType = {name = "GFX_cyber_robot_mothership_drone_equipment_technology_1_medium" texturefile = "gfx/technology/equipment/cyber/cyber_robot_mothership_drone_equipment_technology_1.dds"}
+	 
+	## CYBER ROBOT DRONE AIR EQUIPMENT END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	## CYBER ROBOT DRONE GUN EQUIPMENT START ##
+	 
+	spriteType = {name = "GFX_cyber_robot_gun_drone_equipment_technology_1_medium" texturefile = "gfx/technology/equipment/cyber/cyber_robot_gun_drone_equipment_technology_1.dds"}
+	
+	spriteType = {name = "GFX_cyber_robot_gun_drone_equipment_technology_2_medium" texturefile = "gfx/technology/equipment/cyber/cyber_robot_gun_drone_equipment_technology_2.dds"}	 
+	
+	spriteType = {name = "GFX_cyber_robot_gun_drone_equipment_technology_3_medium" texturefile = "gfx/technology/equipment/cyber/cyber_robot_gun_drone_equipment_technology_3.dds"}	 
+	 
+	## CYBER ROBOT DRONE GUN EQUIPMENT END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	## CYBER ROBOT DRONE INFANTRY EQUIOMENT START ##
+	 
+	spriteType = {name = "GFX_cyber_robot_infantry_drone_equipment_technology_1_medium" texturefile = "gfx/technology/equipment/cyber/cyber_robot_infantry_drone_equipment_technology_1.dds"}
+	
+	spriteType = {name = "GFX_cyber_robot_infantry_drone_equipment_technology_2_medium" texturefile = "gfx/technology/equipment/cyber/cyber_robot_infantry_drone_equipment_technology_2.dds"}	
+
+	spriteType = {name = "GFX_cyber_robot_infantry_drone_equipment_technology_3_medium" texturefile = "gfx/technology/equipment/cyber/cyber_robot_infantry_drone_equipment_technology_3.dds"}	 	
+	 
+	## CYBER ROBOT DRONE INFANTRY EQUIOMENT END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	## CYBER ROBOT DRONE SUPPORT EQUIPMENT START ##
+	 
+	spriteType = {name = "GFX_cyber_robot_support_drone_technology_1_medium" texturefile = "gfx/technology/equipment/cyber/cyber_robot_support_drone_technology_1.dds"}
+	
+	spriteType = {name = "GFX_cyber_robot_hunter_drone_equipment_technology_1_medium" texturefile = "gfx/technology/equipment/cyber/cyber_robot_hunter_drone_equipment_technology_1.dds"}	 
+	 
+	## CYBER ROBOT DRONE SUPPORT EQUIPMENT END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	## CYBER ROBOT EQUIPMENT END ##
+	#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	### CYBER EQUIPMENT END ###
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+}

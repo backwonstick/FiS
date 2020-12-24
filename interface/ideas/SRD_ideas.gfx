@@ -1,0 +1,18 @@
+spriteTypes = {
+	## SRD DIFFICULTY IDEAS START ##
+
+	spriteType = { name = "GFX_idea_SRD_difficulty_idea_1" textureFile = "gfx/ideas/SRD_difficulty_idea_1.dds" }
+
+	spriteType = { name = "GFX_idea_SRD_difficulty_idea_2" textureFile = "gfx/ideas/SRD_difficulty_idea_2.dds" }
+
+	spriteType = { name = "GFX_idea_SRD_difficulty_idea_3" textureFile = "gfx/ideas/SRD_difficulty_idea_3.dds" }
+
+	spriteType = { name = "GFX_idea_SRD_difficulty_idea_4" textureFile = "gfx/ideas/SRD_difficulty_idea_4.dds" }
+
+	## SRD DIFFICULTY IDEAS END ##
+
+	## SRD DECISIONS IDEAS START ##
+
+
+	## SRD DECISIONS IDEAS END ##
+}

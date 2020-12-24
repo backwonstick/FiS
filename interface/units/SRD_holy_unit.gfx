@@ -1,0 +1,106 @@
+spriteTypes = {
+#-----------------------------------------------------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------------------------------------------
+## HOLY INFANTRY UNIT START ##
+	#-----------------------------------------------------------------------------------------------------------------------------------------------
+	## KNIGHT UNIT START ##
+	spriteType = { name = "GFX_unit_knight_unit_icon_medium" textureFile = "gfx/units/holy/knight/knight_unit_icon.dds" noOfFrames = 2 } ## <unitname>_icon.dds
+
+	spriteType = { name = "GFX_unit_knight_unit_icon_medium_white" textureFile = "gfx/units/holy/knight/onmap_knight_unit_icon.dds" noOfFrames = 2 } ## onmap_unit_<unitname>_icon.dds
+
+	spriteType = { name = "GFX_unit_knight_unit_icon_icon_small" textureFile = "gfx/units/holy/knight/unit_knight_unit_small_icon.dds" noOfFrames = 2 } ## unit_<unitname>_icon_small.dds
+	## KNIGHT UNIT END ##
+	#-----------------------------------------------------------------------------------------------------------------------------------------------
+	## MAGE UNIT START ##
+	spriteType = { name = "GFX_unit_mage_unit_icon_medium" textureFile = "gfx/units/holy/mage/mage_unit_icon.dds" noOfFrames = 2 } ## <unitname>_icon.dds
+
+	spriteType = { name = "GFX_unit_mage_unit_icon_medium_white" textureFile = "gfx/units/holy/mage/onmap_mage_unit_icon.dds" noOfFrames = 2 } ## onmap_unit_<unitname>_icon.dds
+
+	spriteType = { name = "GFX_unit_mage_unit_icon_icon_small" textureFile = "gfx/units/holy/mage/unit_mage_unit_small_icon.dds" noOfFrames = 2 } ## unit_<unitname>_icon_small.dds
+	## MAGE UNIT END ##
+	#-----------------------------------------------------------------------------------------------------------------------------------------------
+	## LEGION UNIT START ##
+	spriteType = { name = "GFX_unit_legion_unit_icon_medium" textureFile = "gfx/units/holy/legion/legion_unit_icon.dds" noOfFrames = 2 } ## <unitname>_icon.dds
+
+	spriteType = { name = "GFX_unit_legion_unit_icon_medium_white" textureFile = "gfx/units/holy/legion/onmap_legion_unit_icon.dds" noOfFrames = 2 } ## onmap_unit_<unitname>_icon.dds
+
+	spriteType = { name = "GFX_unit_legion_unit_icon_icon_small" textureFile = "gfx/units/holy/legion/unit_legion_unit_small_icon.dds" noOfFrames = 2 } ## unit_<unitname>_icon_small.dds
+	## LEGION UNIT END ##
+	#-----------------------------------------------------------------------------------------------------------------------------------------------
+	## HOLY INFANTRY UNIT END ##
+#-----------------------------------------------------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------------------------------------------
+## HOLY ARMOR UNIT START ##
+	#-----------------------------------------------------------------------------------------------------------------------------------------------
+	## CHURCH TANK UNIT START ##
+	spriteType = { name = "GFX_unit_church_tank_unit_icon_medium" textureFile = "gfx/units/holy/churchtank/church_tank_unit_icon.dds" noOfFrames = 2 } ## <unitname>_icon.dds
+
+	spriteType = { name = "GFX_unit_church_tank_unit_icon_medium_white" textureFile = "gfx/units/holy/churchtank/onmap_church_tank_unit_icon.dds" noOfFrames = 2 } ## onmap_unit_<unitname>_icon.dds
+
+	spriteType = { name = "GFX_unit_church_tank_unit_icon_icon_small" textureFile = "gfx/units/holy/churchtank/unit_church_tank_unit_small_icon.dds" noOfFrames = 2 } ## unit_<unitname>_icon_small.dds
+	## CHURCH TANK UNIT END ##
+	#-----------------------------------------------------------------------------------------------------------------------------------------------
+	## WALKING CHATEDRAL UNIT START ##
+	spriteType = { name = "GFX_unit_walking_cathedral_unit_icon_medium" textureFile = "gfx/units/holy/walkingcathedral/walking_cathedral_unit_icon.dds" noOfFrames = 2 } ## <unitname>_icon.dds
+
+	spriteType = { name = "GFX_unit_walking_cathedral_unit_icon_medium_white" textureFile = "gfx/units/holy/walkingcathedral/onmap_walking_cathedral_unit_icon.dds" noOfFrames = 2 } ## onmap_unit_<unitname>_icon.dds
+
+	spriteType = { name = "GFX_unit_walking_cathedral_unit_icon_small" textureFile = "gfx/units/holy/walkingcathedral/unit_walking_cathedral_unit_small_icon.dds" noOfFrames = 2 } ## unit_<unitname>_icon_small.dds
+	## WALKING CHATHEDRAL UNIT END ##
+	#-----------------------------------------------------------------------------------------------------------------------------------------------
+	## GRIFFIN UNIT START ##
+	spriteType = { name = "GFX_unit_griffin_unit_icon_medium" textureFile = "gfx/units/holy/griffin/griffin_unit_icon.dds" noOfFrames = 2 } ## <unitname>_icon.dds
+
+	spriteType = { name = "GFX_unit_griffin_unit_icon_medium_white" textureFile = "gfx/units/holy/griffin/onmap_griffin_unit_icon.dds" noOfFrames = 2 } ## onmap_unit_<unitname>_icon.dds
+
+	spriteType = { name = "GFX_unit_griffin_unit_icon_small" textureFile = "gfx/units/holy/griffin/unit_griffin_unit_small_icon.dds" noOfFrames = 2 } ## unit_<unitname>_icon_small.dds
+	## GRIFFIN UNIT END ##
+	#-----------------------------------------------------------------------------------------------------------------------------------------------
+	## HOLY ARMOR UNIT END ##
+#-----------------------------------------------------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------------------------------------------
+## HOLY MOBILE UNIT START ##
+	#-----------------------------------------------------------------------------------------------------------------------------------------------
+	## STORMCRUSADER UNIT START ##
+	spriteType = { name = "GFX_unit_stormcrusader_unit_icon_medium" textureFile = "gfx/units/holy/stormcrusader/stormcrusader_unit_icon.dds" noOfFrames = 2 } ## <unitname>_icon.dds
+
+	spriteType = { name = "GFX_unit_stormcrusader_unit_icon_medium_white" textureFile = "gfx/units/holy/stormcrusader/onmap_stormcrusader_unit_icon.dds" noOfFrames = 2 } ## onmap_unit_<unitname>_icon.dds
+
+	spriteType = { name = "GFX_unit_stormcrusader_unit_icon_icon_small" textureFile = "gfx/units/holy/stormcrusader/unit_stormcrusader_unit_small_icon.dds" noOfFrames = 2 } ## unit_<unitname>_icon_small.dds
+	## STORMCURSADER UNIT END ##
+	#-----------------------------------------------------------------------------------------------------------------------------------------------
+	## ANGEL SUIT UNIT START ##
+	spriteType = { name = "GFX_unit_angel_suit_unit_icon_medium" textureFile = "gfx/units/holy/angelsuit/angel_suit_unit_icon.dds" noOfFrames = 2 } ## <unitname>_icon.dds
+
+	spriteType = { name = "GFX_unit_angel_suit_unit_icon_medium_white" textureFile = "gfx/units/holy/angelsuit/onmap_angel_suit_unit_icon.dds" noOfFrames = 2 } ## onmap_unit_<unitname>_icon.dds
+
+	spriteType = { name = "GFX_unit_angel_suit_unit_icon_icon_small" textureFile = "gfx/units/holy/angelsuit/unit_angel_suit_unit_small_icon.dds" noOfFrames = 2 } ## unit_<unitname>_icon_small.dds
+	## ANGEL SUIT UNIT END ##
+	#-----------------------------------------------------------------------------------------------------------------------------------------------
+	## KNIGHT CAVALERY UNIT START ##
+	spriteType = { name = "GFX_unit_knight_cavalery_unit_icon_medium" textureFile = "gfx/units/holy/knightcavalery/knight_cavalery_unit_icon.dds" noOfFrames = 2 } ## <unitname>_icon.dds
+
+	spriteType = { name = "GFX_unit_knight_cavalery_unit_icon_medium_white" textureFile = "gfx/units/holy/knightcavalery/onmap_knight_cavalery_unit_icon.dds" noOfFrames = 2 } ## onmap_unit_<unitname>_icon.dds
+
+	spriteType = { name = "GFX_unit_knight_cavalery_unit_icon_icon_small" textureFile = "gfx/units/holy/knightcavalery/unit_knight_cavalery_unit_small_icon.dds" noOfFrames = 2 } ## unit_<unitname>_icon_small.dds
+	## KNIGHT CAVALERY UNIT END ##
+	#-----------------------------------------------------------------------------------------------------------------------------------------------
+	## HOLY MOBILE UNIT END ##
+#-----------------------------------------------------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------------------------------------------
+## HOLY SUPPORT UNIT START ##
+	#-----------------------------------------------------------------------------------------------------------------------------------------------
+	## SAINT SUPPORT UNIT START ##
+	spriteType = { name = "GFX_unit_saint_unit_icon_medium" textureFile = "gfx/units/holy/saint/saint_unit_icon.dds" noOfFrames = 2 } ## <unitname>_icon.dds
+	## MAGE SUPPORT UNIT START ##
+	spriteType = { name = "GFX_unit_mage_support_unit_icon_medium" textureFile = "gfx/units/holy/magesupport/mage_support_unit_icon.dds" noOfFrames = 2 } ## <unitname>_icon.dds
+	## PRIEST SUPPORT UNIT START ##
+	spriteType = { name = "GFX_unit_priest_unit_icon_medium" textureFile = "gfx/units/holy/priest/priest_unit_icon.dds" noOfFrames = 2 } ## <unitname>_icon.dds
+	#-----------------------------------------------------------------------------------------------------------------------------------------------
+	## OPRESSION CHURCH UNIT START ##
+	spriteType = { name = "GFX_unit_church_tank_opression_unit_icon_medium" textureFile = "gfx/units/holy/opressionchurch/opression_church_unit_icon.dds" noOfFrames = 2 } ## <unitname>_icon.dds
+	#-----------------------------------------------------------------------------------------------------------------------------------------------
+	## HOLY SUPPORT UNIT END ##
+#-----------------------------------------------------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------------------------------------------
+}

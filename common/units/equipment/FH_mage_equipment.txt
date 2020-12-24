@@ -1,0 +1,102 @@
+equipments = {
+	mage_equipment_archetype = {
+		year = 1934
+
+		is_archetype = yes
+		picture = archetype_artillery_equipment		
+		type = {
+			artillery
+			infantry #adding infantry type
+			#motorized #Removing motorized type
+			anti_tank
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+
+		#Misc Abilities
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 10
+		breakthrough = 6
+		hardness = 0
+		armor_value = 0
+
+		#Offensive Abilities
+		soft_attack = 25
+		hard_attack = 2
+		ap_attack = 75
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 4
+		
+		build_cost_ic = 1.5
+		resources = {
+			prayer = 2
+			tungsten = 1
+			steel = 2
+		}
+	}
+	mage_equipment_1 = {
+		year = 1939
+
+		archetype = mage_equipment_archetype
+		priority = 50
+		visual_level = 1
+
+		defense = 15
+		breakthrough = 7
+		soft_attack = 30
+		ap_attack = 75
+		
+		build_cost_ic = 1.5
+		resources = {
+			prayer = 2
+			tungsten = 1
+			steel = 2
+		}
+	}
+	mage_equipment_2 = {
+		year = 1942
+
+		archetype = mage_equipment_archetype
+		parent = mage_equipment_1
+		priority = 50
+		visual_level = 2
+		
+		defense = 18
+		breakthrough = 8
+		soft_attack = 34
+		ap_attack = 88
+
+		build_cost_ic = 2
+		resources = {
+			prayer = 3
+			tungsten = 1
+			steel = 3
+		}
+	}
+	mage_equipment_3 = {
+		year = 1942
+
+		archetype = mage_equipment_archetype
+		parent = mage_equipment_2
+		priority = 50
+		visual_level = 2
+		
+		defense = 23
+		breakthrough = 12
+		soft_attack = 40
+		ap_attack = 108
+
+		build_cost_ic = 2.5
+		resources = {
+			holy_crystal = 1
+			prayer = 3
+			tungsten = 1
+			steel = 3
+		}
+	}
+}

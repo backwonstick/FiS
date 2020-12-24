@@ -1,0 +1,128 @@
+sub_units = {
+
+	drone_gun_support_unit = {
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = yes
+		affects_speed = no
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_army
+			category_artillery
+		}
+
+
+		combat_width = 0
+
+		transport = drone_gun_equipment_archetype
+
+		need = {
+			drone_gun_equipment_1 = 12
+		}
+		manpower = 1
+		training_time = 30
+		max_organisation = 0
+		default_morale = 0.1
+		max_strength = 0.2
+		weight = 0.1
+		
+		supply_consumption = 0.16
+
+		# Support nerfs to combat abilities
+		defense = -0.4
+		breakthrough = -0.4
+		soft_attack = -0.4
+		hard_attack = -0.4
+
+
+		can_be_parachuted = yes
+	}
+	
+	drone_gun_unit = {
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 1198
+		ai_priority = 100
+		active = yes
+		
+		type = {
+			infantry
+			artillery
+		}
+
+		group = infantry
+		
+		categories = {
+			category_army
+			category_line_artillery
+			category_artillery
+			category_drone
+			category_cyber
+		}
+
+		transport = drone_gun_equipment_archetype
+
+		combat_width = 3
+
+		manpower = 1
+		need = {
+			drone_gun_equipment_1 = 36
+		}
+		
+		max_strength = 0.6
+		max_organisation = 0
+		default_morale = 0.1
+		training_time = 30
+		weight = 0.4
+		supply_consumption = 0.2
+
+		#Line artillery bonuses
+		# soft_attack = 0.25
+		
+		forest = {
+			attack = -0.2
+			movement = -0.2
+		}
+
+		hills = {
+			movement = -0.05
+		}
+
+		mountain = {
+			movement = -0.2
+		}
+
+		jungle = {
+			attack = -0.25
+			movement = -0.2
+		}
+
+		marsh = {
+			attack = -0.2
+			movement = -0.3
+		}
+
+		fort = {
+			attack = 0.1
+		}
+
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+
+		amphibious = {
+			attack = -0.4
+		}
+	}
+}

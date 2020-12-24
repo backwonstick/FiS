@@ -1,0 +1,66 @@
+leader_traits = {
+	SRD_drone_general_trait_1 = { 
+		type = land
+		trait_type = status_trait
+		modifier = {
+			planning_speed = 0.30
+			max_planning = 0.25
+			wounded_chance_factor = -1
+		}
+
+		non_shared_modifier = {
+			experience_gain_factor = -0.25
+			promote_cost_factor = 100
+		}
+	}
+	SRD_drone_general_trait_2 = { 
+		type = land
+		trait_type = status_trait
+		modifier = {
+			planning_speed = 0.30
+			max_planning = 0.25
+			wounded_chance_factor = -1
+		}
+
+		non_shared_modifier = {
+			experience_gain_factor = -0.25
+		}
+	}
+	SRD_drone_general_trait_3 = { 
+		type = land
+		trait_type = status_trait
+		modifier = {
+			defence = 0.1
+			wounded_chance_factor = -1
+		}
+
+		corps_commander_modifier = {
+			max_commander_army_size = 48
+		}
+	}
+	SRD_drone_general_trait_4 = { 
+		type = land
+		trait_type = status_trait
+		modifier = {
+			offence = 0.1
+			planning_speed = 0.50
+			max_planning = 0.25
+			wounded_chance_factor = -1
+		}
+	}
+		holy_general_trait_1 = {
+		type = land
+		trait_type = status_trait
+	
+		modifier = {
+			offence = 0.2
+			planning_speed = 0.50
+			max_planning = 0.25
+			wounded_chance_factor = -1
+			defence = 0.2
+		}
+		corps_commander_modifier = {
+			max_commander_army_size = -12
+		}
+	}
+}

@@ -1,0 +1,51 @@
+sub_units = {
+	techpriest_unit = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = no
+		
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_army
+			category_cyber
+			category_cybernetic
+		}
+	
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 1
+		max_organisation = 20	
+		default_morale = 0.3
+		manpower = 100
+		training_time = 120
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.03
+		can_be_parachuted = yes
+		
+		# Important Ability
+		reliability_factor = 0.30
+		entrenchment = 5
+		
+		essential = {
+			techpriest_equipment_1
+		}
+		
+		need = {
+			techpriest_equipment_1 = 25
+		}
+
+	}
+}

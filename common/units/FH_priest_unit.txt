@@ -1,0 +1,52 @@
+sub_units = {
+	priest_unit = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = no
+		special_forces = yes
+		
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_army
+			category_cyber
+			category_cybernetic
+		}
+	
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 10
+		max_organisation = 200 # TEST	
+		default_morale = 0.3
+		manpower = 100
+		training_time = 150
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.03
+		can_be_parachuted = yes
+		
+		# Important Ability
+		experience_loss_factor = -0.10
+		casualty_trickleback = 0.10
+		initiative = 0.20
+		breakthrough = 0.10
+
+
+		
+		need = {
+			priest_equipment_archetype = 25
+		}
+
+	}
+}

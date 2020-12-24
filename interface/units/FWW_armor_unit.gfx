@@ -1,0 +1,77 @@
+spriteTypes = {
+
+	 ## HOLY ARMOR UNITS START ##
+	 # NAMES: mobile_church_unit , walking_cathedral_unit #
+	 # SAMPLE START #
+	 
+	 #spriteType = { name = "GFX_unit_<UNITNAME>_icon_medium"								texturefile = "gfx/units/armor/<FOLDERNAME>/<UNITNAME>_icon.dds" noOfFrames = 2}
+	 
+	 #spriteType = { name = "GFX_unit_<UNITNAME>_icon_medium_white"								texturefile = "gfx/units/armor/<FOLDERNAME>/onmap_<UNITNAME>_icon.dds" noOfFrames = 2}
+	 
+	 #spriteType = { name = "GFX_nato_unit_<UNITNAME>_icon_small"								texturefile = "gfx/units/armor/<FOLDERNAME>/nato_<UNITNAME>_icon.dds" legacy_lazy_load = no}
+	 
+	 #spriteType = { name = "GFX_unit_<UNITNAME>_icon_small"								texturefile = "gfx/units/armor/<FOLDERNAME>/<UNITNAME>_icon_small.dds" noOfFrames = 2 legacy_lazy_load = no}
+	 
+	 # SAMPLE END #
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	 ## HOLY ARMOR UNITS END ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	 ## CYBER ARMOR UNITS START ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	 # CYBER TITAN UNIT START #
+	
+	spriteType = { name = "GFX_unit_cyber_titan_unit_icon_medium"								texturefile = "gfx/units/armor/cybertitan/cyber_titan_unit_icon.dds" noOfFrames = 2}
+	
+	spriteType = { name = "GFX_unit_cyber_titan_unit_icon_medium_white"								texturefile = "gfx/units/armor/cybertitan/onmap_cyber_titan_unit_icon.dds" noOfFrames = 2}
+	 
+	spriteType = { name = "GFX_nato_unit_cyber_titan_unit_icon_small"								texturefile = "gfx/units/armor/cybertitan/nato_cyber_titan_unit_icon.dds" legacy_lazy_load = no}
+	 
+	spriteType = { name = "GFX_unit_cyber_titan_unit_icon_small"								texturefile = "gfx/units/armor/cybertitan/cyber_titan_unit_icon_small.dds" noOfFrames = 2 legacy_lazy_load = no}
+	
+	 # CYBER TITAN UNIT END #
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	 # DRONE TANK UNIT START #
+	
+	spriteType = { name = "GFX_unit_drone_tank_unit_icon_medium"								texturefile = "gfx/units/armor/dronetank/drone_tank_unit_icon.dds" noOfFrames = 2}
+	 
+	spriteType = { name = "GFX_unit_drone_tank_unit_icon_medium_white"								texturefile = "gfx/units/armor/dronetank/onmap_drone_tank_unit_icon.dds" noOfFrames = 2}
+	 
+	spriteType = { name = "GFX_nato_unit_drone_tank_unit_icon_small"								texturefile = "gfx/units/armor/dronetank/nato_drone_tank_unit_icon.dds" legacy_lazy_load = no}
+	 
+	spriteType = { name = "GFX_unit_drone_tank_unit_icon_small"								texturefile = "gfx/units/armor/dronetank/drone_tank_unit_icon_small.dds" noOfFrames = 2 legacy_lazy_load = no}
+	
+	 # DRONE TANK UNIT END #
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	 # MECH LAND UNIT START #
+	
+	spriteType = { name = "GFX_unit_mech_land_unit_icon_medium"								texturefile = "gfx/units/armor/mechland/mech_land_unit_icon.dds" noOfFrames = 2}
+	 
+	spriteType = { name = "GFX_unit_mech_land_unit_icon_medium_white"								texturefile = "gfx/units/armor/mechland/onmap_mech_land_unit_icon.dds" noOfFrames = 2}
+	 
+	spriteType = { name = "GFX_nato_unit_mech_land_unit_icon_small"								texturefile = "gfx/units/armor/mechland/nato_mech_land_unit_icon.dds" legacy_lazy_load = no}
+	 
+	spriteType = { name = "GFX_unit_mech_land_unit_icon_small"								texturefile = "gfx/units/armor/mechland/mech_land_unit_icon_small.dds" noOfFrames = 2 legacy_lazy_load = no}
+	
+	 # MECH LAND UNIT END #
+#------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 	
+	 # MECH GIGA UNIT START #
+
+	 spriteType = { name = "GFX_unit_giga_mech_unit_icon_medium"								texturefile = "gfx/units/armor/gigamech/giga_mech_unit_icon.dds" noOfFrames = 2}
+	 
+	 spriteType = { name = "GFX_unit_giga_mech_unit_icon_medium_white"								texturefile = "gfx/units/armor/gigamech/onmap_giga_mech_unit_icon.dds" noOfFrames = 2}
+	  
+	 spriteType = { name = "GFX_nato_giga_mech_unit_unit_icon_small"								texturefile = "gfx/units/armor/gigamech/nato_giga_mech_unit_icon.dds" legacy_lazy_load = no}
+	  
+	 spriteType = { name = "GFX_unit_giga_mech_unit_icon_small"								texturefile = "gfx/units/armor/gigamech/giga_mech_unit_icon_small.dds" noOfFrames = 2 legacy_lazy_load = no}
+
+	 # MECH GIGA UNIT END #
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	 ## CYBER ARMOR UNITS END ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	 ## BIO ARMOR UNITS START ##
+	 
+	 ## BIO ARMOR UNITS END ##
+}

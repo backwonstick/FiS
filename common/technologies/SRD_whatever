@@ -1,0 +1,32 @@
+technologies = {	
+    SRD_whatever_1 = {
+
+		on_research_complete = {
+			add_research_slot = 1
+		}		
+	
+		#doctrine = no/yes
+		research_cost = 99999
+		start_year = 99999
+        show_equipment_icon = no
+		
+		ai_will_do = { factor = 0 }
+		
+		categories = { holy_tech special_research_division_tech computing_tech electronics } 
+		
+		folder = { 
+			name = holy_folder 
+			position = { 
+				x = 9999
+				y = 9999
+			}
+        }
+        folder = { 
+			name = cyber_folder 
+			position = { 
+				x = 9999
+                y = 9999
+            }
+        }
+	}
+}

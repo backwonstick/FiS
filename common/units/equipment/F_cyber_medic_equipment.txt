@@ -1,0 +1,33 @@
+equipments = {
+
+	cyber_medic_equipment_archetype = {
+		year = 1918
+
+		is_archetype = yes
+		picture = archetype_support_equipment
+		is_buildable = no
+		type = {
+			infantry
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		reliability = 0.8
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 20
+		resources = {
+			super_alloy = 2
+		}
+	}
+
+	cyber_medic_equipment_1 = {
+		year = 1918
+
+		archetype = cyber_medic_equipment_archetype
+		priority = 20	
+	}
+}

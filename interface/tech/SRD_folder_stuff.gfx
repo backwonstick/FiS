@@ -1,0 +1,252 @@
+spriteTypes = {
+
+	 #### IMPORTANT TEST ####
+	spriteType = {
+		name = "GFX_technology_folder_test_1"
+		textureFile = "gfx//technology//folder//technology_folder_test_1.dds"
+	}	
+	spriteType = {
+		name = "GFX_SRD_tiled_plain_bg2"
+		textureFile = "gfx//technology//folder//SRD_tiled_plain_bg2.dds"
+	}
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	 ### HOLY FOLDER START ###
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	 ## HOLY IMPORTANT STUFF START ##
+	 
+	spriteType = {
+		name = "GFX_technology_holy_folder_small_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//tech_doctrine_unavailable_item_bg.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_technology_holy_folder_small_available_item_bg"
+		textureFile = "gfx//interface//techtree//tech_doctrine_available_item_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_technology_holy_folder_small_researched_item_bg"
+		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_technology_holy_folder_small_branch_item_bg"
+		textureFile = "gfx/interface/techtree/tech_doctrine_branch_item_bg.dds"
+	}	
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_holy_folder_small_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	
+	## IMPORTANT SUFF END ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 	
+	## HOLY BUTTOM START ##
+	
+	spriteType = {
+		name = "GFX_holy_folder_tab"
+		textureFile = "gfx//technology//folder//holy_folder_button.dds"
+		noOfFrames = 2		
+	}
+	
+	## HOLY BUTTOM END ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 	
+	## HOLY SUBTECH ICON START ##
+	
+	spriteType = {
+		name = "GFX_subtech_holy"
+		textureFile = "gfx//technology//folder//subtech_holy.dds"
+	}
+	
+	## HOLY SUBTECH ICON END ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 
+	### HOLY FOLDER END ###
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	### CYBER FOLDER START ###
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
+	## CYBER IMPORTANT STUFF START ##
+	
+	spriteType = {
+		name = "GFX_technology_cyber_folder_small_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//tech_doctrine_unavailable_item_bg.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_technology_cyber_folder_small_available_item_bg"
+		textureFile = "gfx//interface//techtree//tech_doctrine_available_item_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_technology_cyber_folder_small_researched_item_bg"
+		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_technology_cyber_folder_small_branch_item_bg"
+		textureFile = "gfx/interface/techtree/tech_doctrine_branch_item_bg.dds"
+	}	
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_cyber_folder_small_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	
+	## CYBER IMPORTANT STUFF END ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
+	## CYBER BUTTOM START ##
+	
+	spriteType = {
+		name = "GFX_cyber_folder_tab"
+		textureFile = "gfx//technology//folder//cyber_folder_button.dds"
+		noOfFrames = 2		
+	}
+	
+	## CYBER BUTTOM END 
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
+	## CYBER SUBTECH ICON START 
+
+	spriteType = {
+		name = "GFX_subtech_cyber"
+		textureFile = "gfx//technology//folder//subtech_cyber.dds"
+	}
+	
+	## CYBER SUBTECH ICON END ##
+	### CYBER FOLDER END ###
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	### BIO FOLDER START ###
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	## BIO IMPORTANT STUFF START ##
+	
+	spriteType = {
+		name = "GFX_technology_bio_folder_small_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//tech_doctrine_unavailable_item_bg.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_technology_bio_folder_small_available_item_bg"
+		textureFile = "gfx//interface//techtree//tech_doctrine_available_item_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_technology_bio_folder_small_researched_item_bg"
+		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_technology_bio_folder_small_branch_item_bg"
+		textureFile = "gfx/interface/techtree/tech_doctrine_branch_item_bg.dds"
+	}	
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_bio_folder_small_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	
+	## BIO IMPORTANT STUFF END ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	## BIO BUTTOM START ##
+	
+	spriteType = {
+		name = "GFX_bio_folder_tab"
+		textureFile = "gfx//technology//folder//bio_folder_button.dds"
+		noOfFrames = 2		
+	}
+	
+	## BIO BUTTON END ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	## BIO SUBTECH ICON START ##
+	
+	spriteType = {
+		name = "GFX_subtech_bio"
+		textureFile = "gfx//technology//folder//subtech_bio.dds"
+	}
+	
+	## BIO SUBTECH ICON END ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	### BIO FOLDER END ###
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	### WUNDER FOLDER START ###
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	## WUNDER IMPORTANT STUFF START ##
+	
+	spriteType = {
+		name = "GFX_technology_wunder_folder_small_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//tech_doctrine_unavailable_item_bg.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_technology_wunder_folder_small_available_item_bg"
+		textureFile = "gfx//interface//techtree//tech_doctrine_available_item_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_technology_wunder_folder_small_researched_item_bg"
+		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_technology_wunder_folder_small_branch_item_bg"
+		textureFile = "gfx/interface/techtree/tech_doctrine_branch_item_bg.dds"
+	}	
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_wunder_folder_small_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	
+	## WUNDER IMPORTANT STUFF END ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	## WUNDER BUTTOM START ##
+	
+	spriteType = {
+		name = "GFX_wunder_folder_tab"
+		textureFile = "gfx//technology//folder//wunder_folder_button.dds"
+		noOfFrames = 2		
+	}
+	
+	## WUNDER BUTTON END ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	## WUNDER SUBTECH ICON START ##
+	
+	spriteType = {
+		name = "GFX_subtech_wunder"
+		textureFile = "gfx//technology//folder//subtech_wunder.dds"
+	}
+	
+	## WUNDER SUBTECH ICON END ##
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	### WUNDER FOLDER END ###
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+}

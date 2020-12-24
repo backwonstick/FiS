@@ -1,0 +1,35 @@
+holy_legion_name = {
+	name = "Holy Legion"
+	
+	division_types = { legion_unit }
+	
+	can_use = { has_tech = knight_technology_1 }
+	
+	fallback_name = "%s. Holy Legio"
+	
+	ordered = {
+	1 = "I. Holy Legio Sabina"
+	2 = "II. Holy Legio Cyreniaca"
+	3 = "III. Holy Legio Gallica"
+	4 = "IV. Holy Legio Scythica"
+	5 = "V. Holy Legio Alaudae"
+	6 = "VI. Holy Legio Ferrata"
+	7 = "VII. Holy Legio Victrix"
+	8 = "VIII. Holy Legio Claudia Pia Fidelis"
+	9 = "IX. Holy Legio Augusta"
+	10 = "X. Holy Legio Sol"
+	11 = "XI. Holy Legio Lux"
+	12 = "XII. Holy Legio Deus"
+	13 = "XIII. Holy Legio Classica"
+	14 = "XIV. Holy Legio Libyca"
+	15 = "XV. Holy Legio Claudia"
+	16 = "XVI. Holy Legio Rapax"
+	17 = "XVII. Holy Legio Ulpia"
+	18 = "XVIII. Holy Legio Deiotariana"
+	19 = "%s. Holy Legio"
+	20 = "%s. Holy Legio"
+	21 = "%s. Holy Legio"
+	22 = "%s. Holy Legio"
+	}
+}
+	

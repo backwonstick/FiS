@@ -1,0 +1,462 @@
+holy_decision_1 = {
+	#-------------------------------------------------------------------------------------------------------------------------------------------------
+	## HOLY CRYSTAL IDEA START ##
+	holy_create_crystal_1 = {
+		icon = decision_holy_create_crystal_1
+		cost = 0
+		visible = {
+			hidden_trigger = {
+				has_tech = holy_heaven_gate_technology_1
+				has_idea = holy_crystal_mining_1_1_1
+			}
+	    }
+		available = {
+			hidden_trigger = {
+				active = no 
+				has_idea = holy_crystal_mining_1_1_1
+			}
+		}
+		#complete_effect = {
+		#	add_ideas = cyber_drone_factory_workers_1
+		#}
+		remove_effect = {
+			if = {
+				limit = {
+					has_idea = holy_crystal_on
+					NOT = {
+						has_idea = holy_crystal_upgrade_2
+						has_idea = holy_crystal_upgrade_3
+					}
+				}
+				custom_effect_tooltip = tooltip_holy_create_crystal_1
+			}
+			if = {
+				limit = {
+					has_idea = holy_crystal_upgrade_2
+					has_idea = holy_crystal_on
+					NOT = {
+						has_idea = holy_crystal_upgrade_3
+					}
+				}
+				custom_effect_tooltip = tooltip_holy_create_crystal_2
+			}
+			if = {
+				limit = {
+					has_idea = holy_crystal_upgrade_3
+					has_idea = holy_crystal_upgrade_2
+					has_idea = holy_crystal_on
+				}
+				custom_effect_tooltip = tooltip_holy_create_crystal_3
+			}
+			hidden_effect = {
+				if = {
+					limit = {
+						has_idea = holy_crystal_on
+						NOT = {
+							has_idea = holy_crystal_upgrade_2
+							has_idea = holy_crystal_upgrade_3
+						}
+					}
+					activate_decision = holy_create_crystal_1	
+					add_resource = {
+						type = holy_crystal
+						amount = 5
+						state = capital
+					}
+					else = {
+						add_political_power = 1
+					}
+				}
+				if = {
+					limit = {
+						has_idea = holy_crystal_upgrade_2
+						has_idea = holy_crystal_on
+						NOT = {
+							has_idea = holy_crystal_upgrade_3
+						}
+					}
+					activate_decision = holy_create_crystal_1	
+					add_resource = {
+						type = holy_crystal
+						amount = 10
+						state = capital
+					}
+					else = {
+						add_political_power = 1
+					}
+				}
+				if = {
+					limit = {
+						has_idea = holy_crystal_upgrade_2
+						has_idea = holy_crystal_upgrade_3
+						has_idea = holy_crystal_on
+					}
+					activate_decision = holy_create_crystal_1	
+					add_resource = {
+						type = holy_crystal
+						amount = 20
+						state = capital
+					}
+					else = {
+						add_political_power = 1
+					}
+				}
+			}
+		}
+		modifier = {
+			consumer_goods_factor = 0.05
+		}
+		days_remove = 30 #30
+		fire_only_once = no
+	}
+	#-----------------------------------------------------------------------------------------------------------------------------------------------------
+	holy_activate_crystal_1 = { # START MINING
+		icon = decision_holy_activate_crystal_1
+		cost = 10
+		visible = {
+			hidden_trigger = {
+				has_tech = holy_heaven_gate_technology_1
+				NOT = {
+					has_idea = holy_crystal_on
+				}
+			}
+	    }
+		available = {
+			hidden_trigger = {
+				has_tech = holy_heaven_gate_technology_1
+				NOT = {
+					has_idea = holy_crystal_on
+				}
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = tooltip_holy_activate_crystal_1
+			hidden_effect = {
+				add_ideas = holy_crystal_on
+				activate_decision = holy_create_crystal_1	
+				remove_ideas = holy_crystal_off
+			}
+		}
+		fire_only_once = no
+	}
+	holy_activate_crystal_1_1 = { #DEACTIVATE
+		icon = decision_holy_activate_crystal_1_1
+		cost = 10
+		visible = {
+			hidden_trigger = {
+				has_tech = holy_heaven_gate_technology_1
+				has_idea = holy_crystal_on
+				NOT = {
+					has_idea = holy_crystal_off
+				}
+			}
+	    }
+		available = {
+			hidden_trigger = {
+				has_tech = holy_heaven_gate_technology_1
+				has_idea = holy_crystal_on
+				NOT = {
+					has_idea = holy_crystal_off
+				}
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = tooltip_holy_activate_crystal_1_1
+			hidden_effect = {
+				add_ideas = holy_crystal_off
+				remove_decision = holy_create_crystal_1
+				remove_ideas = holy_crystal_on
+			}
+		}
+		fire_only_once = no
+	}
+	#-----------------------------------------------------------------------------------------------------------------------------------------------------
+	holy_upgrade_crystal_2 = { #UPGRADE
+		icon = decision_holy_upgrade_crystal_2
+		cost = 50
+		visible = {
+			hidden_trigger = {
+				has_tech = holy_heaven_gate_technology_1
+				NOT = {
+					has_idea = holy_crystal_on
+				}
+			}
+	    }
+		available = {
+			capital_scope = {
+				has_resources_amount = {
+					resource = holy_crystal
+					amount > 11
+					state = capital
+				}
+			}
+			hidden_trigger = {
+				has_tech = holy_heaven_gate_technology_1
+				NOT = {
+					has_idea = holy_crystal_on
+				}
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = tooltip_holy_upgrade_crystal_2
+			add_resource = {
+				type = holy_crystal
+				amount = -10
+				state = capital
+			}
+			hidden_effect = {
+				add_ideas = holy_crystal_upgrade_2
+			#	add_ideas = holy_crystal_mining_2_2
+			#	add_ideas = holy_crystal_mining_1_1
+			#	add_ideas = holy_crystal_mining_1
+			#	remove_ideas = holy_crystal_mining_1_1_1
+			#	add_ideas = holy_crystal_mining_3_3_3
+			}
+		}
+		fire_only_once = yes
+	}
+	#-----------------------------------------------------------------------------------------------------------------------------------------------------
+	holy_upgrade_crystal_3 = { #UPGRADE
+		icon = decision_holy_upgrade_crystal_3 
+		cost = 75
+		visible = {
+			hidden_trigger = {
+				has_tech = holy_heaven_gate_technology_1
+				NOT = {
+					has_idea = holy_crystal_on
+					has_idea = holy_crystal_upgrade_2
+				}
+			}
+	    }
+		available = {
+			capital_scope = {
+				has_resources_amount = {
+					resource = holy_crystal
+					amount > 21
+					state = capital
+				}
+			}
+			hidden_trigger = {
+				has_tech = holy_heaven_gate_technology_1
+				NOT = {
+					has_idea = holy_crystal_on
+				}
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = tooltip_holy_upgrade_crystal_3
+			add_resource = {
+				type = holy_crystal
+				amount = -20
+				state = capital
+			}
+			hidden_effect = {
+				add_ideas = holy_crystal_upgrade_3
+			#	add_ideas = holy_crystal_mining_2_2
+			#	add_ideas = holy_crystal_mining_1_1
+			#	add_ideas = holy_crystal_mining_1
+			#	remove_ideas = holy_crystal_mining_1_1_1
+			#	add_ideas = holy_crystal_mining_3_3_3
+			}
+		}
+		fire_only_once = yes
+	}
+	#-----------------------------------------------------------------------------------------------------------------------------------------------------
+	## HOLY CRYSTAL IDEA END ##
+	open_heaven_gate_1 = {
+		icon = decision_open_heaven_gate_1
+		cost = 25
+		visible = {
+			has_tech = holy_starting_technology_1
+	    }
+		available = {
+			count_trigger = {
+				amount = 3
+				has_tech = holy_stormcrusader_improvement_technology_2
+				has_tech = holy_mage_improvement_technology_2
+				has_tech = holy_knight_improvement_technology_2
+				has_tech = holy_church_tank_improvement_technology_2
+				has_tech = holy_gunship_technology_2
+				has_tech = holy_fighter_technology_2
+			}
+			date > 1941.01.01
+		}
+		
+		#complete_effect = {
+		#	add_ideas = cyber_drone_factory_workers_1
+		#}
+		remove_effect = {
+			set_technology = {
+				holy_heaven_gate_technology_1 = 1
+			}
+			add_ideas = heaven_gate_idea_1
+			
+		}
+		modifier = {
+			civilian_factory_use = 5
+		}
+		days_remove = 30 #180
+		fire_only_once = no
+	}
+	holy_general_summon_1 = { # MASS GENERAL
+	icon = decision_holy_general_summon_1
+	cost = 25
+	#visible = {
+	#	has_tech = cyber_robot_improvement_technology_2
+	#}
+	available = {
+		capital_scope = {
+			has_resources_amount = {
+				resource = holy_crystal
+				amount > 6
+				state = capital
+			}
+		}
+		has_ideas = heaven_gate_idea_1
+	}
+	remove_effect = {
+		add_resource = {
+			type = holy_crystal
+			amount = -5
+			state = capital
+		}
+		custom_effect_tooltip = tooltip_holy_general_summon_1
+			hidden_effect = {
+				random_list = {
+					10 = {
+						create_corps_commander = {
+							name = "Angel General -Matheus-"
+							gfx = "GFX_holy_angel_general_1"
+							traits = { holy_general_trait_1 }
+							skill = 5
+							attack_skill = 5
+							defense_skill = 5
+							planning_skill = 5
+							logistics_skill = 5
+						}
+					}
+					10 = {
+						create_corps_commander = {
+							name = "Angel General -Abraham-"
+							gfx = "GFX_holy_angel_general_2"
+							traits = { holy_general_trait_1 }
+							skill = 5
+							attack_skill = 5
+							defense_skill = 5
+							planning_skill = 5
+							logistics_skill = 5
+						}
+					}
+					10 = {
+						create_corps_commander = {
+							name = "Angel General -Gabriel-"
+							gfx = "GFX_holy_angel_general_3"
+							traits = { holy_general_trait_1 }
+							skill = 5
+							attack_skill = 5
+							defense_skill = 5
+							planning_skill = 5
+							logistics_skill = 5
+						}
+					}
+					10 = {
+						create_corps_commander = {
+							name = "Angel General -Mary-"
+							gfx = "GFX_holy_angel_general_4"
+							traits = { holy_general_trait_1 }
+							skill = 5
+							attack_skill = 5
+							defense_skill = 5
+							planning_skill = 5
+							logistics_skill = 5
+						}
+					}
+					10 = {
+						create_corps_commander = {
+							name = "Angel General -Elizabeth-"
+							gfx = "GFX_holy_angel_general_5"
+							traits = { holy_general_trait_1 }
+						skill = 5
+							attack_skill = 5
+							defense_skill = 5
+							planning_skill = 5
+							logistics_skill = 5
+						}
+					}
+					10 = {
+						create_corps_commander = {
+							name = "Angel General -Rebecca-"
+							gfx = "GFX_holy_angel_general_6"
+							traits = { holy_general_trait_1 }
+							skill = 5
+							attack_skill = 5
+							defense_skill = 5
+							planning_skill = 5
+							logistics_skill = 5
+						}
+					}
+						10 = {
+						create_corps_commander = {
+							name = "Angel General -Noah-"
+							gfx = "GFX_holy_angel_general_7"
+							traits = { holy_general_trait_1 }
+							skill = 5
+							attack_skill = 5
+							defense_skill = 5
+							planning_skill = 5
+							logistics_skill = 5
+						}
+					}
+					10 = {
+						create_corps_commander = {
+							name = "Angel General -Lucas-"
+							gfx = "GFX_holy_angel_general_8"
+							traits = { holy_general_trait_1 }
+							skill = 5
+							attack_skill = 5
+							defense_skill = 5
+							planning_skill = 5
+							logistics_skill = 5
+						}
+					}
+					10 = {
+						create_corps_commander = {
+							name = "Angel General -Rachel-"
+							gfx = "GFX_holy_angel_general_9"
+							traits = { holy_general_trait_1 }
+							skill = 5
+							attack_skill = 5
+							defense_skill = 5
+							planning_skill = 5
+							logistics_skill = 5
+						}
+					}
+					10 = {
+						create_corps_commander = {
+							name = "Angel General -Moses-"
+							gfx = "GFX_holy_angel_general_10"
+							traits = { holy_general_trait_1 }
+							skill = 5
+							attack_skill = 5
+							defense_skill = 5
+							planning_skill = 5
+							logistics_skill = 5
+						}
+					}
+					10 = {
+						create_corps_commander = {
+							name = "Angel General -Zacharias-"
+							gfx = "GFX_holy_angel_general_11"
+							traits = { holy_general_trait_1 }
+							skill = 5
+							attack_skill = 5
+							defense_skill = 5
+							planning_skill = 5
+							logistics_skill = 5
+						}
+					}
+				}
+			}
+		}
+	}
+}

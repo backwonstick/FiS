@@ -1,0 +1,15 @@
+spriteTypes = {
+	## SRD CYBER GENERAL TRAITS START ##
+
+	spriteType = { name = "GFX_trait_SRD_drone_general_trait_1" textureFile = "gfx/traits/SRD_drone_general_trait_1.dds" }
+
+	spriteType = { name = "GFX_trait_SRD_drone_general_trait_2" textureFile = "gfx/traits/SRD_drone_general_trait_2.dds" }
+
+	spriteType = { name = "GFX_trait_SRD_drone_general_trait_3" textureFile = "gfx/traits/SRD_drone_general_trait_3.dds" }
+
+	spriteType = { name = "GFX_trait_SRD_drone_general_trait_4" textureFile = "gfx/traits/SRD_drone_general_trait_4.dds" }
+
+	spriteType = { name = "GFX_trait_holy_general_trait_1" textureFile = "gfx/traits/holy_general_trait_1.dds" }
+
+	## SRD CYBER GENERAL TRAITS END ##
+}

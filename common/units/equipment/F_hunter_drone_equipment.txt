@@ -1,0 +1,51 @@
+equipments = {
+
+	drone_hunter_equipment_archetype = {
+		year = 1918
+
+		is_archetype = yes
+		picture = archetype_support_equipment
+		is_buildable = no
+		type = {
+			infantry
+			motorized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		reliability = 0.8
+		
+		#Misc Abilities
+		maximum_speed 	= 0
+
+		#Defensive Abilities
+		defense 		= 5
+		breakthrough 	= 28
+		hardness 		= 0.70
+		armor_value 	= 20
+		#recon 			= 2
+
+		#Offensive Abilities
+		soft_attack 	= 16
+		hard_attack 	= 8
+		ap_attack 		= 36
+		air_attack 		= 0		
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 10
+		resources = {
+			super_alloy = 1
+			reactor_part = 1
+		}
+	}
+
+	drone_hunter_equipment_1 = {
+		year = 1918
+
+		archetype = drone_hunter_equipment_archetype
+		priority = 20	
+	}
+}

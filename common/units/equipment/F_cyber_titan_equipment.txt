@@ -1,0 +1,67 @@
+equipments = {
+
+	cyber_titan_equipment_archetype = {
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_mobile_church_equipment
+		is_buildable = no
+		active = no
+		type = armor
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+		
+		upgrades = {
+			tank_reliability_upgrade
+			tank_engine_upgrade
+			tank_armor_upgrade
+			tank_gun_upgrade
+		}
+		
+		#Misc Abilities
+		maximum_speed = 2
+		reliability = 5
+
+		#Defensive Abilities
+		defense = 100
+		breakthrough = 500
+		hardness = 1
+		armor_value = 400
+
+		#Offensive Abilities
+		soft_attack = 200
+		hard_attack = 400
+		ap_attack = 401
+		air_attack = 20
+
+		#Space taken in convoy
+		lend_lease_cost = 100
+		
+		build_cost_ic = 1000
+		resources = {
+			#oil = 1
+			super_alloy = 10
+			chromium = 4
+			reactor_part = 8
+		}
+		
+		fuel_consumption = 1
+	}
+	
+	cyber_titan_equipment_1 = {
+		year = 1945
+		archetype = cyber_titan_equipment_archetype	
+		priority = 100
+		visual_level = 1
+		is_convertable = no
+		active = no
+	}
+	cyber_titan_DLC_equipment_1 = {
+		year = 1945
+		archetype = cyber_titan_equipment_archetype	
+		priority = 100
+		visual_level = 1
+		is_convertable = no
+		active = no
+	}
+}

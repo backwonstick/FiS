@@ -1,0 +1,49 @@
+spriteTypes = {
+	## CYBER DRONE FACTORY IDEAS START ##
+
+	spriteType = { name = "GFX_idea_cyber_drone_factory_workers_1" textureFile = "gfx/ideas/cyber_drone_factory_workers_1.dds" }
+
+	spriteType = { name = "GFX_idea_cyber_drone_factory_workers_2" textureFile = "gfx/ideas/cyber_drone_factory_workers_2.dds" }
+
+	spriteType = { name = "GFX_idea_cyber_drone_factory_workers_3" textureFile = "gfx/ideas/cyber_drone_factory_workers_3.dds" }
+
+	spriteType = { name = "GFX_idea_cyber_drone_factory_workers_4" textureFile = "gfx/ideas/cyber_drone_factory_workers_4.dds" }
+
+	spriteType = { name = "GFX_idea_cyber_drone_factory_workers_5" textureFile = "gfx/ideas/cyber_drone_factory_workers_5.dds" }
+
+	## CYBER GENERAL PORTRAIT START ##
+
+	spriteType = { name = "GFX_holy_angel_general_1" textureFile = "gfx/portrait/SRD_articficial_general_picture_01.dds" }
+
+	spriteType = { name = "GFX_SRD_articficial_general_picture_02" textureFile = "gfx/portrait/SRD_articficial_general_picture_02.dds" }
+	
+	spriteType = { name = "GFX_SRD_articficial_general_picture_03" textureFile = "gfx/portrait/SRD_articficial_general_picture_03.dds" }
+
+	spriteType = { name = "GFX_SRD_articficial_general_picture_04" textureFile = "gfx/portrait/SRD_articficial_general_picture_04.dds" }
+
+	spriteType = { name = "GFX_SRD_articficial_general_picture_05" textureFile = "gfx/portrait/SRD_articficial_general_picture_05.dds" }
+
+	spriteType = { name = "GFX_SRD_articficial_general_picture_06" textureFile = "gfx/portrait/SRD_articficial_general_picture_06.dds" }
+
+	##------------------------------------------------------------------------------------------------------------------------------------------
+
+	spriteType = { name = "GFX_decision_category_cyber_decision" textureFile = "gfx/decisions/cyber_decision.dds" }
+
+	spriteType = { name = "GFX_decision_cyber_drone_workforce_decision_1" textureFile = "gfx/decisions/decision_generic_construction.dds" }
+
+	spriteType = { name = "GFX_decision_cyber_drone_workforce_decision_2" textureFile = "gfx/decisions/decision_generic_construction.dds" }
+
+	spriteType = { name = "GFX_decision_cyber_drone_workforce_decision_3" textureFile = "gfx/decisions/decision_generic_construction.dds" }
+
+	spriteType = { name = "GFX_decision_cyber_drone_workforce_decision_4" textureFile = "gfx/decisions/decision_generic_construction.dds" }
+
+	spriteType = { name = "GFX_decision_cyber_drone_workforce_decision_5" textureFile = "gfx/decisions/decision_generic_construction.dds" }
+
+	spriteType = { name = "GFX_decision_cyber_drone_general_decision_1" textureFile = "gfx/decisions/decision_generic_army_support.dds" }
+
+	spriteType = { name = "GFX_decision_cyber_drone_general_decision_2" textureFile = "gfx/decisions/decision_generic_army_support.dds" }
+
+	spriteType = { name = "GFX_decision_cyber_drone_marchal_decision_3" textureFile = "gfx/decisions/decision_generic_army_support.dds" }
+
+	spriteType = { name = "GFX_decision_cyber_drone_spy_decision_1" textureFile = "gfx/decisions/decision_recruit_operative.dds" }
+}
