@@ -1,0 +1,64 @@
+focus_tree = {
+	id = FIS_SMV
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SMV
+		}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 50
+		y = 2000
+	}
+	focus = {
+		id = SMV_FIRST
+		icon = GFX_goal_unknown
+		x = 18
+		y = 0
+		cost = 2
+	}
+	focus = {
+		id = SMV_ARMY
+		icon = GFX_goal_unknown
+		x = 16
+		y = 1
+		prerequisite = {
+			focus = SMV_FIRST
+		}
+	}
+	focus = {
+		id = SMV_INDURSTRY
+		icon = GFX_goal_unknown
+		x = 20
+		y = 1
+		prerequisite = {
+			focus = SMV_FIRST
+		}
+	}
+	focus = {
+		id = SMV_SPECOPS
+		icon = GFX_goal_unknown
+		x = 15
+		y = 2
+		prerequisite = {
+			focus = SMV_ARMY
+		}
+		mutually_exclusive = {
+			focus = SMV_MANPOWER
+		}
+	}
+	focus = {
+		id = SMV_MANPOWER
+		icon = GFX_goal_unknown
+		x = 17
+		y = 2
+		prerequisite = {
+			focus = SMV_ARMY
+		}
+		mutually_exclusive = {
+			foucus = SMV_SPECOPS
+		}
+	}
+}

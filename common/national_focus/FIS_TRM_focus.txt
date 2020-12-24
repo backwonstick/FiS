@@ -1,0 +1,52 @@
+focus_tree = {
+	id = FIS_TRM
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TRM
+		}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 50
+		y = 2000
+	}
+		focus = {
+			id = TRM_FIRST
+			icon = GFX_goal_unknown
+			x = 8
+			y = 0
+			cost = 2
+		}		
+		focus = {
+			id = TRM_REFUGEE_PORBLEM
+			icon = GFX_goal_unknown
+			x = 6
+			y = 1
+			cost = 2
+			prerequisite = {
+				focus = TRM_FIRST
+			}
+		}
+		focus = {
+			id = TRM_REPUBIC_ARMY
+			icon = GFX_goal_unknown
+			x = 8
+			y = 1
+			cost = 2
+			prerequisite = {
+				focus = TRM_FIRST
+			}
+		}
+		focus = {
+			id = TRM_STATS_OF_INDURSTRY
+			icon = GFX_goal_unknown
+			x = 10
+			y = 1
+			cost = 2
+			prerequisite = {
+				focus = TRM_FIRST
+			}
+		}
+}	
