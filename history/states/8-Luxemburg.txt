@@ -19,11 +19,11 @@ state={
 		}
 		add_core_of = LUX
 		add_core_of = BEL
-		1941.6.22 = {
+		#1941.6.22 = {
 			controller = GER
 
 		}
-		1945.1.1 = {
+		#1945.1.1 = {
 			controller = LUX
 
 		}
